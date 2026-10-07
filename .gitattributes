@@ -1,0 +1,5 @@
+# Keep uploaded input bytes intact and recognize its original CRLF line endings.
+ora_analysis/input/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Excel outputs must never undergo text line-ending conversion.
+*.xlsx -text

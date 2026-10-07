@@ -1,0 +1,53 @@
+{
+  "input_rows": 28092,
+  "input_sha256": "31d894d4869e370312c78109349b740718b67a9ec65c6f413846d90742efb184",
+  "all_recovered_unique_genes": 1366,
+  "concordant": 51,
+  "discordant": 23,
+  "concordant_up": 34,
+  "concordant_down": 17,
+  "direction_matrix_A_rows_B_columns": {
+    "up_up": 34,
+    "up_down": 12,
+    "down_up": 11,
+    "down_down": 17
+  },
+  "overlap_classes": {
+    "observed_B_only": 829,
+    "observed_A_only": 463,
+    "same_direction": 51,
+    "opposite_direction": 23
+  },
+  "concordant_annotation_rows": 2410,
+  "primary_evidence_rows": 111,
+  "shared_significant_terms": {
+    "('GO', 'up')": 38,
+    "('KEGG', 'up')": 4
+  },
+  "numeric_validation": [
+    {
+      "dataset": "GSE245658_hippocampus_808nm",
+      "direction": "down",
+      "max_abs_p_difference": 0.0,
+      "max_abs_BH_difference": 2.220446049250313e-16
+    },
+    {
+      "dataset": "GSE245658_hippocampus_808nm",
+      "direction": "up",
+      "max_abs_p_difference": 0.0,
+      "max_abs_BH_difference": 1.1102230246251565e-16
+    },
+    {
+      "dataset": "GSE325653_prefrontal_1064nm",
+      "direction": "down",
+      "max_abs_p_difference": 0.0,
+      "max_abs_BH_difference": 1.1102230246251565e-16
+    },
+    {
+      "dataset": "GSE325653_prefrontal_1064nm",
+      "direction": "up",
+      "max_abs_p_difference": 0.0,
+      "max_abs_BH_difference": 2.220446049250313e-16
+    }
+  ]
+}

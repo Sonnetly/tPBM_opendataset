@@ -1,0 +1,13 @@
+# Local environments and temporary runtime files. Analysis artifacts stay tracked.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Actual local credentials; sample configuration can be tracked.
+.env
+.env.*
+!.env.example

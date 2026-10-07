@@ -1,0 +1,10 @@
+﻿definition,source,direction,count,genes
+genes_in_any_significant_ORA_term_in_each_dataset,GO+KEGG,up,22,Atp2b3;Bcl7a;Btbd3;Btbd9;Cacna1c;Dlgap1;Epha4;Faah;Grid1;Grin2a;Grm2;Irs1;Kcnj6;Map2k6;Ptpn3;Ryr2;Shisa7;Slitrk3;Stra6;Tnr;Trpc5;Zeb2
+genes_in_any_significant_ORA_term_in_each_dataset,GO+KEGG,down,4,Adipor2;Cdkn1c;Penk;Sap30
+genes_in_any_significant_ORA_term_in_each_dataset,GO,up,20,Atp2b3;Bcl7a;Btbd3;Btbd9;Cacna1c;Dlgap1;Epha4;Grid1;Grin2a;Grm2;Irs1;Kcnj6;Ptpn3;Ryr2;Shisa7;Slitrk3;Stra6;Tnr;Trpc5;Zeb2
+genes_in_any_significant_ORA_term_in_each_dataset,GO,down,4,Adipor2;Cdkn1c;Penk;Sap30
+genes_in_any_significant_ORA_term_in_each_dataset,KEGG,up,9,Atp2b3;Cacna1c;Dlgap1;Faah;Grin2a;Grm2;Kcnj6;Ryr2;Slitrk3
+genes_in_any_significant_ORA_term_in_each_dataset,KEGG,down,0,
+all_ORA_hits_without_term_FDR_filter,GO+KEGG,up,34,Arsb;Atp2b3;Bcl7a;Btbd3;Btbd9;Cacna1c;Ccbe1;Cd276;Cdk14;Dlgap1;Epha4;Faah;Grid1;Grin2a;Grm2;Hsd11b1;Irs1;Kcnj6;Map2k6;Npnt;Pcdh19;Proz;Ptpn3;Ryr2;Samd12;Shisa7;Slitrk3;Sphkap;Stra6;Stxbp6;Tnr;Trpc5;Wnt9a;Zeb2
+all_ORA_hits_without_term_FDR_filter,GO+KEGG,down,17,Adipor2;Arid5b;Arpp21;Cdkn1c;Chrm4;Ecel1;Gimap6;Gjb6;Ier5;Ifitm2;Mrps6;Nupr1;Penk;S100a10;Sap30;Slc10a4;Sorbs3
+manual_ion_channel_and_calcium_transport_subset,functional_annotation,up,7,Atp2b3;Cacna1c;Grid1;Grin2a;Kcnj6;Ryr2;Trpc5

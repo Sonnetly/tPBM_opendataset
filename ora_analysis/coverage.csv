@@ -1,0 +1,5 @@
+﻿dataset,direction,declared_DEG_count,recoverable_gene_count,unrecoverable_gene_count,recovered_percent,ORA_rows,ORA_FDR_lt_005_rows,background_gene_count
+GSE245658_hippocampus_808nm,down,292,259,33,88.7,6904,108,14655
+GSE245658_hippocampus_808nm,up,354,278,76,78.53,6904,101,14655
+GSE325653_prefrontal_1064nm,down,527,484,43,91.84,7142,63,15640
+GSE325653_prefrontal_1064nm,up,471,419,52,88.96,7142,149,15640
