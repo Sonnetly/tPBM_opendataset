@@ -1,0 +1,6 @@
+﻿theme_manual_summary,GO_term_count,shared_gene_union_count,shared_gene_union,core_panel_genes_in_theme,GO_ids
+시냅스 조직화·구조,6,7,Dlgap1;Epha4;Grid1;Grin2a;Shisa7;Slitrk3;Tnr,Grin2a,GO:0050808;GO:0050803;GO:0050807;GO:0099173;GO:0099084;GO:0099174
+시냅스 신호·가소성,6,10,Bcl7a;Cacna1c;Dlgap1;Epha4;Grid1;Grin2a;Grm2;Shisa7;Slitrk3;Tnr,Cacna1c;Grin2a;Grm2,GO:0099537;GO:0007268;GO:0098916;GO:0048167;GO:0099536;GO:0051966
+이온채널·수송·막전위,14,10,Atp2b3;Cacna1c;Grid1;Grin2a;Grm2;Kcnj6;Ptpn3;Ryr2;Shisa7;Trpc5,Atp2b3;Cacna1c;Grin2a;Grm2;Kcnj6;Ryr2,GO:0022836;GO:0022832;GO:0005216;GO:0046873;GO:0005244;GO:0022843;GO:0043270;GO:0099505;GO:0005261;GO:0060078;GO:0022898;GO:0034765;GO:0008066;GO:0016247
+신경 형태·축삭 발달,9,6,Btbd3;Epha4;Slitrk3;Tnr;Trpc5;Zeb2,,GO:0048667;GO:0061564;GO:0007409;GO:0007411;GO:0097485;GO:0060560;GO:1990138;GO:0050770;GO:0048588
+인지·학습·행동,3,9,Bcl7a;Btbd9;Cacna1c;Epha4;Grin2a;Grm2;Shisa7;Stra6;Tnr,Cacna1c;Grin2a;Grm2,GO:0050890;GO:0007611;GO:0030534

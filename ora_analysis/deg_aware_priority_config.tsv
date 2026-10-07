@@ -1,0 +1,18 @@
+gene	priority_group	decision_reason_ko
+Grm2	A_first_8	피질 log2FC와 FDR가 기존 기능 후보 중 강하고 공통 up 및 glutamatergic 근거가 있어 우선 유지
+Ryr2	A_first_8	공통 up이며 피질 FDR가 0.01 미만인 칼슘 신호 후보
+Trpc5	A_first_8	공통 up이며 피질 효과 크기와 FDR가 Kcnj6보다 뒷받침되어 이온채널 검증 우선순위를 올림
+Atp2b3	A_first_8	공통 up이며 피질 FDR가 0.01 미만으로 칼슘 수송·항상성 축을 대표
+Cacna1c	A_first_8	피질 gene FDR 근거는 다른 1차 후보보다 약하지만 전압 의존성 칼슘채널이라는 핵심 기능을 대표하도록 유지
+Grin2a	A_first_8	공통 up이며 NMDA/글루탐산·칼슘 축을 대표하므로 첫 기전 패널에 포함; FDR와 효과 크기는 검증 순서의 참고값으로 제공
+Mrps6	A_first_8	공통 down이며 피질 gene FDR가 낮아 미토콘드리아 번역 가설의 우선 후보로 유지; 미토 기능 감소를 뜻하지 않음
+Penk	A_first_8	두 PBM 비교에서 방향이 일치하고 피질 감소 폭이 커서 qPCR 방향 검증의 우선 후보로 포함
+Bcs1l	B_cortex_mito_extra	피질 DEG 표의 up과 gene FDR를 근거로 미토콘드리아 호흡사슬 조립 가설의 추가 후보로 제안; 해마 PBM FDR05 표에는 없음
+Ppargc1a	B_cortex_mito_extra	피질 DEG 표의 up과 gene FDR를 근거로 미토콘드리아 조절 가설의 추가 후보로 제안; 해마 PBM FDR05 표에는 없음
+Kcnj6	B_mechanism_extension	피질 FDR가 약 0.049라 효과 크기·유의성 근거를 반영해 첫 패널보다 확장 검증에 배치
+Slitrk3	B_mechanism_extension	공통 up의 시냅스/GABA 기능을 추가로 검증할 후보
+Shisa7	B_mechanism_extension	공통 up의 시냅스/GABA 조절 가설을 보완하되 피질 효과가 작고 FDR 약 0.036임을 함께 고려
+Dlgap1	B_mechanism_extension	공통 up이고 피질 FDR는 낮지만 약 12% 증가인 작은 효과여서 시냅스 구조 검증 확장에 배치
+Per2	C_clock_time_controlled	피질에서 유의한 감소가 강하지만 일주기/ZT·자극 후 시간 통제하에 별도 가설로 검증
+Cry2	C_clock_time_controlled	피질 감소는 유의하나 해마 PBM에서는 증가함; 모델·파장 차이로 영역 특이성을 단정하지 않음
+Tmem40	D_new_unannotated_overlap	원본 DEG 표에서 새로 확인되는 공통 down; 효과는 크지만 제공된 KEGG/GO 기능 근거가 없어 탐색 후보로 분류

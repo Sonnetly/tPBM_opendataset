@@ -1,0 +1,44 @@
+{
+  "input_sha256": "31d894d4869e370312c78109349b740718b67a9ec65c6f413846d90742efb184",
+  "shared_significant_up_GO_terms": 38,
+  "BP_terms": 29,
+  "MF_terms": 9,
+  "terms_with_shared_hit_genes": 37,
+  "terms_without_shared_hit_genes": 1,
+  "shared_hit_genes_in_common_up_GO": 19,
+  "core_cortical_priority_panel": [
+    "Cacna1c",
+    "Grin2a",
+    "Atp2b3",
+    "Kcnj6",
+    "Ryr2",
+    "Grm2",
+    "Ppargc1a",
+    "Mrps6"
+  ],
+  "proposed_candidate_count": 27,
+  "core_panel_common_up_genes": [
+    "Cacna1c",
+    "Grin2a",
+    "Atp2b3",
+    "Kcnj6",
+    "Ryr2",
+    "Grm2"
+  ],
+  "core_panel_other_genes": [
+    "Ppargc1a",
+    "Mrps6"
+  ],
+  "cortex_mito_related_ORA_name_match_count": 186,
+  "cortex_mito_related_ORA_significant_count": 0,
+  "core_panel_shared_term_coverage_descriptive": 25,
+  "primary_evidence_rows": 61,
+  "family_counts_descriptive": {
+    "시냅스 조직화·구조": 6,
+    "시냅스 신호·가소성": 6,
+    "이온채널·수송·막전위": 14,
+    "신경 형태·축삭 발달": 9,
+    "인지·학습·행동": 3
+  },
+  "not_a_gene_level_statistical_ranking": true
+}

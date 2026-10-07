@@ -1,0 +1,29 @@
+﻿shared_up_genes,term_count,GO_ids,GO_names
+Dlgap1;Epha4;Grin2a;Shisa7;Slitrk3;Tnr,1,GO:0050808,synapse organization
+Cacna1c;Grid1;Grin2a;Kcnj6;Ryr2,1,GO:0022836,gated channel activity
+Btbd3;Epha4;Slitrk3;Zeb2,1,GO:0048667,cell morphogenesis involved in neuron differentiation
+Epha4;Slitrk3;Zeb2,2,GO:0061564;GO:0007409,axon development;axonogenesis
+Epha4;Grid1;Slitrk3,2,GO:0050803;GO:0050807,regulation of synapse structure or activity;regulation of synapse organization
+Cacna1c;Grin2a;Kcnj6,3,GO:0022832;GO:0005244;GO:0022843,voltage-gated channel activity;voltage-gated monoatomic ion channel activity;voltage-gated monoatomic cation channel activity
+Cacna1c;Grid1;Grin2a;Kcnj6;Ryr2;Trpc5,1,GO:0005216,monoatomic ion channel activity
+Atp2b3;Cacna1c;Grin2a;Kcnj6;Ryr2;Trpc5,1,GO:0046873,metal ion transmembrane transporter activity
+Bcl7a;Btbd9;Cacna1c;Grin2a;Shisa7;Stra6;Tnr,1,GO:0050890,cognition
+Cacna1c;Dlgap1;Grid1;Grin2a;Slitrk3,4,GO:0099537;GO:0007268;GO:0098916;GO:0099536,trans-synaptic signaling;chemical synaptic transmission;anterograde trans-synaptic signaling;synaptic signaling
+Btbd9;Cacna1c;Grin2a;Shisa7;Stra6;Tnr,1,GO:0007611,learning or memory
+Bcl7a;Epha4;Grid1;Grin2a;Grm2;Shisa7;Tnr,1,GO:0048167,regulation of synaptic plasticity
+Epha4,2,GO:0007411;GO:0097485,axon guidance;neuron projection guidance
+Cacna1c,1,GO:0043270,positive regulation of monoatomic ion transport
+Dlgap1;Grin2a;Shisa7;Slitrk3,1,GO:0099173,postsynapse organization
+Dlgap1;Slitrk3,1,GO:0099084,postsynaptic specialization organization
+Grin2a;Kcnj6,1,GO:0099505,regulation of presynaptic membrane potential
+Cacna1c;Grin2a;Kcnj6;Ryr2;Trpc5,1,GO:0005261,monoatomic cation channel activity
+Grid1;Grin2a,1,GO:0060078,regulation of postsynaptic membrane potential
+Zeb2,2,GO:0060560;GO:0048588,developmental growth involved in morphogenesis;developmental cell growth
+Grin2a;Shisa7,1,GO:0022898,regulation of transmembrane transporter activity
+Cacna1c;Grin2a;Ptpn3;Ryr2,1,GO:0034765,regulation of monoatomic ion transmembrane transport
+Grin2a;Grm2;Tnr,1,GO:0051966,"regulation of synaptic transmission, glutamatergic"
+Epha4;Tnr;Trpc5;Zeb2,1,GO:0050770,regulation of axonogenesis
+Grid1;Grin2a;Grm2,1,GO:0008066,glutamate receptor activity
+Slitrk3,1,GO:0099174,regulation of presynapse organization
+Btbd9;Cacna1c;Epha4;Grm2,1,GO:0030534,adult behavior
+Grm2;Ptpn3,1,GO:0016247,channel regulator activity

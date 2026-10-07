@@ -1,0 +1,33 @@
+{
+  "source_sha256": "919719f2ee940ed5f236f684a24eed688598600cd196921baaf24b53cc325759",
+  "source_rows": 5651,
+  "selected_A_PBM_rows": 657,
+  "selected_A_valid_unique_symbols": 651,
+  "selected_A_pathway_eligible_rows": 646,
+  "selected_B_PBM_rows": 998,
+  "selected_B_unique_symbols": 998,
+  "same_direction_symbols": 52,
+  "same_up": 34,
+  "same_down": 18,
+  "opposite_direction_symbols": 23,
+  "all_selected_symbol_union": 1574,
+  "new_same_direction_symbols": [
+    "Tmem40"
+  ],
+  "ORA_declared_counts_and_visible_hits_match": true,
+  "cortex_first_panel": [
+    "Grm2",
+    "Ryr2",
+    "Trpc5",
+    "Atp2b3",
+    "Cacna1c",
+    "Grin2a",
+    "Mrps6",
+    "Penk"
+  ],
+  "target_experiment_from_user": "B6 cortex after tPBM; source DEG statistics are from disease/hypoxia models",
+  "candidate_count": 28,
+  "GO_shared_hit_gene_count": 19,
+  "GO_gene_pair_rows": 131,
+  "no_new_DE_or_ORA_test": true
+}

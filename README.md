@@ -2,6 +2,10 @@
 
 [ORA 분석 보고서](ORA_analysis_report_ko.md)와 [전체 분석 파일·재실행 방법](ora_analysis/README.md)을 함께 보관한다. 코드, 기능 매핑, 원본 입력, CSV/Excel 결과는 `ora_analysis/`에 있다.
 
+**최신 DEG FDR·log2FC 반영 결과:** [cortex qPCR 후보 재평가](ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md). 기존 ORA에서 복원한 공통 51개에 원본 DEG의 Tmem40 공통 down이 추가되어, 제공된 두 PBM 비교의 같은 방향 overlap은 52개다.
+
+[qPCR 후보 요약 Markdown](qPCR_candidate_summary_ko.md)에는 1차 8개·미토콘드리아 확장 10개 패널과 참고 CSV 링크를 모았다.
+
 ## GitHub 반영
 
 Codex에게 **“커밋하고 푸쉬해 줘”**라고 요청하면 `AGENTS.md`의 규칙에 따라 현재까지 누적된 프로젝트 변경 전체를 반영한다. 파일을 생성할 때부터 저장소 안에 저장하도록 같은 지침에 기록했다.

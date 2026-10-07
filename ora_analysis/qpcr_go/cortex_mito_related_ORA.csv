@@ -1,0 +1,187 @@
+﻿dataset,direction,source,set_id,set_name,go_aspect,k,set_size_tested_in_background,n_DEG_in_contrast,n_background_genes,expected,fold_enrichment,pval,padj_BH_full_catalog,hits,input_csv_row
+GSE325653_prefrontal_1064nm,down,GO,GO:1901028,regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway,biological_process,2,21,527,15640,0.7076,2.8264,0.156565714799572,0.8756400431468623,Gsk3a;Ier3,15079
+GSE325653_prefrontal_1064nm,down,GO,GO:0048311,mitochondrion distribution,biological_process,2,24,527,15640,0.8087,2.4731,0.19303854839619097,0.9587491743015271,Ogt;Tspan4,15239
+GSE325653_prefrontal_1064nm,down,GO,GO:0046902,regulation of mitochondrial membrane permeability,biological_process,3,52,527,15640,1.7522,1.7122,0.25531176167508834,1.0,Gsk3a;Ier3;Stat3,15493
+GSE325653_prefrontal_1064nm,down,GO,GO:1903147,negative regulation of autophagy of mitochondrion,biological_process,1,10,527,15640,0.337,2.9677,0.2902657805107407,1.0,Pptc7,15683
+GSE325653_prefrontal_1064nm,down,GO,GO:0051901,positive regulation of mitochondrial depolarization,biological_process,1,11,527,15640,0.3707,2.6979,0.3141960385830912,1.0,Rack1,15876
+GSE325653_prefrontal_1064nm,down,GO,GO:0090140,regulation of mitochondrial fission,biological_process,2,35,527,15640,1.1793,1.6959,0.33104952125183595,1.0,Inf2;Ralbp1,15936
+GSE325653_prefrontal_1064nm,down,GO,GO:0048312,intracellular distribution of mitochondria,biological_process,1,12,527,15640,0.4043,2.4731,0.3373209146254938,1.0,Ogt,16045
+GSE325653_prefrontal_1064nm,down,GO,GO:1901029,negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway,biological_process,1,13,527,15640,0.438,2.2829,0.3596674642794715,1.0,Ier3,16172
+GSE325653_prefrontal_1064nm,down,GO,GO:0010821,regulation of mitochondrion organization,biological_process,5,118,527,15640,3.9761,1.2575,0.3663470468810492,1.0,Gpx1;Gsk3a;Ier3;Inf2;Ralbp1,16218
+GSE325653_prefrontal_1064nm,down,GO,GO:0051646,mitochondrion localization,biological_process,3,64,527,15640,2.1565,1.3911,0.3663784947862533,1.0,Ogt;Trak2;Tspan4,16226
+GSE325653_prefrontal_1064nm,down,GO,GO:0051654,establishment of mitochondrion localization,biological_process,2,39,527,15640,1.3141,1.5219,0.38018964494447627,1.0,Trak2;Tspan4,16273
+GSE325653_prefrontal_1064nm,down,GO,GO:1901857,positive regulation of cellular respiration,biological_process,1,15,527,15640,0.5054,1.9785,0.4021293012434835,1.0,Nupr1,16406
+GSE325653_prefrontal_1064nm,down,GO,GO:0043457,regulation of cellular respiration,biological_process,2,43,527,15640,1.4489,1.3803,0.42774325952911507,1.0,Cbfa2t3;Nupr1,16593
+GSE325653_prefrontal_1064nm,down,GO,GO:1903146,regulation of autophagy of mitochondrion,biological_process,2,44,527,15640,1.4826,1.349,0.4393338305877519,1.0,Gsk3a;Pptc7,16621
+GSE325653_prefrontal_1064nm,down,GO,GO:0035795,negative regulation of mitochondrial membrane permeability,biological_process,1,17,527,15640,0.5728,1.7457,0.44178038966537053,1.0,Ier3,16664
+GSE325653_prefrontal_1064nm,down,GO,GO:0090201,negative regulation of release of cytochrome c from mitochondria,biological_process,1,19,527,15640,0.6402,1.562,0.4788064559504823,1.0,Gpx1,16826
+GSE325653_prefrontal_1064nm,down,GO,GO:0002082,regulation of oxidative phosphorylation,biological_process,1,20,527,15640,0.6739,1.4839,0.49638977313338356,1.0,Nupr1,16920
+GSE325653_prefrontal_1064nm,down,GO,GO:0051900,regulation of mitochondrial depolarization,biological_process,1,22,527,15640,0.7413,1.349,0.5297999673825289,1.0,Rack1,17074
+GSE325653_prefrontal_1064nm,down,GO,GO:0030150,protein import into mitochondrial matrix,biological_process,1,22,527,15640,0.7413,1.349,0.5297999673825289,1.0,Timm44,17076
+GSE325653_prefrontal_1064nm,down,GO,GO:0051881,regulation of mitochondrial membrane potential,biological_process,3,85,527,15640,2.8641,1.0474,0.5496979904942287,1.0,Adora2a;Rack1;Tspan4,17180
+GSE325653_prefrontal_1064nm,down,GO,GO:0090141,positive regulation of mitochondrial fission,biological_process,1,24,527,15640,0.8087,1.2366,0.5609976096077047,1.0,Ralbp1,17211
+GSE325653_prefrontal_1064nm,down,GO,GO:0035794,positive regulation of mitochondrial membrane permeability,biological_process,1,24,527,15640,0.8087,1.2366,0.5609976096077047,1.0,Gsk3a,17238
+GSE325653_prefrontal_1064nm,down,GO,GO:0170036,import into the mitochondrion,biological_process,1,28,527,15640,0.9435,1.0599,0.6173306408878411,1.0,Timm44,17466
+GSE325653_prefrontal_1064nm,down,GO,GO:0047497,mitochondrion transport along microtubule,biological_process,1,30,527,15640,1.0109,0.9892,0.6427302377773052,1.0,Trak2,17604
+GSE325653_prefrontal_1064nm,down,GO,GO:0034643,"establishment of mitochondrion localization, microtubule-mediated",biological_process,1,30,527,15640,1.0109,0.9892,0.6427302377773052,1.0,Trak2,17605
+GSE325653_prefrontal_1064nm,down,GO,GO:0000422,autophagy of mitochondrion,biological_process,2,72,527,15640,2.4261,0.8244,0.7031233030284318,1.0,Ogt;Pptc7,17825
+GSE325653_prefrontal_1064nm,down,GO,GO:7770058,mitochondrial protein import pathway,biological_process,1,38,527,15640,1.2804,0.781,0.7285763680370416,1.0,Timm44,17916
+GSE325653_prefrontal_1064nm,down,GO,GO:0090199,regulation of release of cytochrome c from mitochondria,biological_process,1,43,527,15640,1.4489,0.6902,0.7714279302545132,1.0,Gpx1,18057
+GSE325653_prefrontal_1064nm,down,GO,GO:1990542,mitochondrial transmembrane transport,biological_process,1,44,527,15640,1.4826,0.6745,0.7791510488514147,1.0,Timm44,18068
+GSE325653_prefrontal_1064nm,down,GO,GO:0070585,protein localization to mitochondrion,biological_process,1,71,527,15640,2.3924,0.418,0.9127680274949922,1.0,Timm44,18486
+GSE325653_prefrontal_1064nm,down,GO,GO:0006839,mitochondrial transport,biological_process,1,74,527,15640,2.4935,0.401,0.9213303246756852,1.0,Timm44,18505
+GSE325653_prefrontal_1064nm,down,GO,GO:0045333,cellular respiration,biological_process,3,197,527,15640,6.638,0.4519,0.9642019869174425,1.0,Coq10b;Eno1;Pfkfb3,18593
+GSE325653_prefrontal_1064nm,down,GO,GO:0032543,mitochondrial translation,biological_process,1,100,527,15640,3.3696,0.2968,0.9678944939004535,1.0,Mrps6,18608
+GSE325653_prefrontal_1064nm,down,GO,GO:7770126,mitochondrial protein biosynthetic process,biological_process,1,101,527,15640,3.4033,0.2938,0.9689832713595565,1.0,Mrps6,18612
+GSE325653_prefrontal_1064nm,down,GO,GO:0140053,mitochondrial gene expression,biological_process,1,138,527,15640,4.65,0.2151,0.9913599829472147,1.0,Mrps6,18664
+GSE325653_prefrontal_1064nm,down,GO,GO:0007005,mitochondrion organization,biological_process,3,348,527,15640,11.7261,0.2558,0.9994807373383306,1.0,Ctcf;Gimap6;Hmgcl,18682
+GSE325653_prefrontal_1064nm,down,KEGG,mmu00190,Oxidative phosphorylation,,0,114,527,15640,3.8413,0.0,1.0,1.0,,18692
+GSE325653_prefrontal_1064nm,down,GO,GO:1903599,positive regulation of autophagy of mitochondrion,biological_process,0,27,527,15640,0.9098,0.0,1.0,1.0,,18904
+GSE325653_prefrontal_1064nm,down,GO,GO:0140978,mitochondrial large ribosomal subunit binding,molecular_function,0,10,527,15640,0.337,0.0,1.0,1.0,,18974
+GSE325653_prefrontal_1064nm,down,GO,GO:0032981,mitochondrial respiratory chain complex I assembly,biological_process,0,34,527,15640,1.1457,0.0,1.0,1.0,,18983
+GSE325653_prefrontal_1064nm,down,GO,GO:0033108,mitochondrial respiratory chain complex assembly,biological_process,0,92,527,15640,3.1,0.0,1.0,1.0,,19002
+GSE325653_prefrontal_1064nm,down,GO,GO:0070129,regulation of mitochondrial translation,biological_process,0,25,527,15640,0.8424,0.0,1.0,1.0,,19006
+GSE325653_prefrontal_1064nm,down,GO,GO:0070131,positive regulation of mitochondrial translation,biological_process,0,18,527,15640,0.6065,0.0,1.0,1.0,,19007
+GSE325653_prefrontal_1064nm,down,GO,GO:0062125,regulation of mitochondrial gene expression,biological_process,0,36,527,15640,1.213,0.0,1.0,1.0,,19009
+GSE325653_prefrontal_1064nm,down,GO,GO:1902775,mitochondrial large ribosomal subunit assembly,biological_process,0,17,527,15640,0.5728,0.0,1.0,1.0,,19011
+GSE325653_prefrontal_1064nm,down,GO,GO:0061668,mitochondrial ribosome assembly,biological_process,0,28,527,15640,0.9435,0.0,1.0,1.0,,19012
+GSE325653_prefrontal_1064nm,down,GO,GO:0097177,mitochondrial ribosome binding,molecular_function,0,17,527,15640,0.5728,0.0,1.0,1.0,,19018
+GSE325653_prefrontal_1064nm,down,GO,GO:0000266,mitochondrial fission,biological_process,0,20,527,15640,0.6739,0.0,1.0,1.0,,19020
+GSE325653_prefrontal_1064nm,down,GO,GO:0022900,electron transport chain,biological_process,0,81,527,15640,2.7293,0.0,1.0,1.0,,19239
+GSE325653_prefrontal_1064nm,down,GO,GO:0090646,mitochondrial tRNA processing,biological_process,0,14,527,15640,0.4717,0.0,1.0,1.0,,19343
+GSE325653_prefrontal_1064nm,down,GO,GO:0070900,mitochondrial tRNA modification,biological_process,0,11,527,15640,0.3707,0.0,1.0,1.0,,19361
+GSE325653_prefrontal_1064nm,down,GO,GO:0000959,mitochondrial RNA metabolic process,biological_process,0,45,527,15640,1.5163,0.0,1.0,1.0,,19382
+GSE325653_prefrontal_1064nm,down,GO,GO:0000963,mitochondrial RNA processing,biological_process,0,27,527,15640,0.9098,0.0,1.0,1.0,,19384
+GSE325653_prefrontal_1064nm,down,GO,GO:1900864,mitochondrial RNA modification,biological_process,0,14,527,15640,0.4717,0.0,1.0,1.0,,19401
+GSE325653_prefrontal_1064nm,down,GO,GO:0042773,ATP synthesis coupled electron transport,biological_process,0,57,527,15640,1.9207,0.0,1.0,1.0,,19408
+GSE325653_prefrontal_1064nm,down,GO,GO:0042775,mitochondrial ATP synthesis coupled electron transport,biological_process,0,57,527,15640,1.9207,0.0,1.0,1.0,,19409
+GSE325653_prefrontal_1064nm,down,GO,GO:1903108,regulation of mitochondrial transcription,biological_process,0,10,527,15640,0.337,0.0,1.0,1.0,,19430
+GSE325653_prefrontal_1064nm,down,GO,GO:0006123,"mitochondrial electron transport, cytochrome c to oxygen",biological_process,0,15,527,15640,0.5054,0.0,1.0,1.0,,19445
+GSE325653_prefrontal_1064nm,down,GO,GO:0006119,oxidative phosphorylation,biological_process,0,84,527,15640,2.8304,0.0,1.0,1.0,,19446
+GSE325653_prefrontal_1064nm,down,GO,GO:0019646,aerobic electron transport chain,biological_process,0,51,527,15640,1.7185,0.0,1.0,1.0,,19463
+GSE325653_prefrontal_1064nm,down,GO,GO:0022904,respiratory electron transport chain,biological_process,0,74,527,15640,2.4935,0.0,1.0,1.0,,19467
+GSE325653_prefrontal_1064nm,down,GO,GO:0051560,mitochondrial calcium ion homeostasis,biological_process,0,26,527,15640,0.8761,0.0,1.0,1.0,,19673
+GSE325653_prefrontal_1064nm,down,GO,GO:0006390,mitochondrial transcription,biological_process,0,11,527,15640,0.3707,0.0,1.0,1.0,,19677
+GSE325653_prefrontal_1064nm,down,GO,GO:0051204,protein insertion into mitochondrial membrane,biological_process,0,15,527,15640,0.5054,0.0,1.0,1.0,,19684
+GSE325653_prefrontal_1064nm,down,GO,GO:0007006,mitochondrial membrane organization,biological_process,0,56,527,15640,1.887,0.0,1.0,1.0,,19718
+GSE325653_prefrontal_1064nm,down,GO,GO:0033617,mitochondrial respiratory chain complex IV assembly,biological_process,0,26,527,15640,0.8761,0.0,1.0,1.0,,19738
+GSE325653_prefrontal_1064nm,down,GO,GO:0006851,mitochondrial calcium ion transmembrane transport,biological_process,0,24,527,15640,0.8087,0.0,1.0,1.0,,19744
+GSE325653_prefrontal_1064nm,down,GO,GO:0008535,respiratory chain complex IV assembly,biological_process,0,29,527,15640,0.9772,0.0,1.0,1.0,,19771
+GSE325653_prefrontal_1064nm,down,GO,GO:0051561,positive regulation of mitochondrial calcium ion concentration,biological_process,0,11,527,15640,0.3707,0.0,1.0,1.0,,19935
+GSE325653_prefrontal_1064nm,down,GO,GO:0007007,inner mitochondrial membrane organization,biological_process,0,37,527,15640,1.2467,0.0,1.0,1.0,,20085
+GSE325653_prefrontal_1064nm,down,GO,GO:0042776,proton motive force-driven mitochondrial ATP synthesis,biological_process,0,43,527,15640,1.4489,0.0,1.0,1.0,,20107
+GSE325653_prefrontal_1064nm,down,GO,GO:0008637,apoptotic mitochondrial changes,biological_process,0,65,527,15640,2.1902,0.0,1.0,1.0,,20111
+GSE325653_prefrontal_1064nm,down,GO,GO:1902686,mitochondrial outer membrane permeabilization involved in programmed cell death,biological_process,0,13,527,15640,0.438,0.0,1.0,1.0,,20168
+GSE325653_prefrontal_1064nm,down,GO,GO:1902108,regulation of mitochondrial membrane permeability involved in apoptotic process,biological_process,0,18,527,15640,0.6065,0.0,1.0,1.0,,20183
+GSE325653_prefrontal_1064nm,down,GO,GO:1902110,positive regulation of mitochondrial membrane permeability involved in apoptotic process,biological_process,0,11,527,15640,0.3707,0.0,1.0,1.0,,20184
+GSE325653_prefrontal_1064nm,down,GO,GO:0032042,mitochondrial DNA metabolic process,biological_process,0,20,527,15640,0.6739,0.0,1.0,1.0,,20192
+GSE325653_prefrontal_1064nm,down,GO,GO:0019896,axonal transport of mitochondrion,biological_process,0,22,527,15640,0.7413,0.0,1.0,1.0,,20211
+GSE325653_prefrontal_1064nm,down,GO,GO:0090200,positive regulation of release of cytochrome c from mitochondria,biological_process,0,24,527,15640,0.8087,0.0,1.0,1.0,,20240
+GSE325653_prefrontal_1064nm,down,GO,GO:0008053,mitochondrial fusion,biological_process,0,24,527,15640,0.8087,0.0,1.0,1.0,,20264
+GSE325653_prefrontal_1064nm,down,GO,GO:0001836,release of cytochrome c from mitochondria,biological_process,0,22,527,15640,0.7413,0.0,1.0,1.0,,20267
+GSE325653_prefrontal_1064nm,down,GO,GO:0006120,"mitochondrial electron transport, NADH to ubiquinone",biological_process,0,21,527,15640,0.7076,0.0,1.0,1.0,,20277
+GSE325653_prefrontal_1064nm,down,GO,GO:0043653,mitochondrial fragmentation involved in apoptotic process,biological_process,0,13,527,15640,0.438,0.0,1.0,1.0,,20417
+GSE325653_prefrontal_1064nm,down,GO,GO:0010635,regulation of mitochondrial fusion,biological_process,0,16,527,15640,0.5391,0.0,1.0,1.0,,20504
+GSE325653_prefrontal_1064nm,down,GO,GO:0010917,negative regulation of mitochondrial membrane potential,biological_process,0,13,527,15640,0.438,0.0,1.0,1.0,,20515
+GSE325653_prefrontal_1064nm,down,GO,GO:0006264,mitochondrial DNA replication,biological_process,0,12,527,15640,0.4043,0.0,1.0,1.0,,20527
+GSE325653_prefrontal_1064nm,down,GO,GO:0006122,"mitochondrial electron transport, ubiquinol to cytochrome c",biological_process,0,10,527,15640,0.337,0.0,1.0,1.0,,20718
+GSE325653_prefrontal_1064nm,down,GO,GO:0010918,positive regulation of mitochondrial membrane potential,biological_process,0,14,527,15640,0.4717,0.0,1.0,1.0,,20747
+GSE325653_prefrontal_1064nm,down,GO,GO:0034982,mitochondrial protein processing,biological_process,0,10,527,15640,0.337,0.0,1.0,1.0,,20748
+GSE325653_prefrontal_1064nm,down,GO,GO:0017062,respiratory chain complex III assembly,biological_process,0,13,527,15640,0.438,0.0,1.0,1.0,,20764
+GSE325653_prefrontal_1064nm,down,GO,GO:0036444,calcium import into the mitochondrion,biological_process,0,16,527,15640,0.5391,0.0,1.0,1.0,,20825
+GSE325653_prefrontal_1064nm,down,GO,GO:0097250,mitochondrial respirasome assembly,biological_process,0,11,527,15640,0.3707,0.0,1.0,1.0,,20841
+GSE325653_prefrontal_1064nm,down,GO,GO:0034551,mitochondrial respiratory chain complex III assembly,biological_process,0,13,527,15640,0.438,0.0,1.0,1.0,,20858
+GSE325653_prefrontal_1064nm,down,GO,GO:0045039,protein insertion into mitochondrial inner membrane,biological_process,0,10,527,15640,0.337,0.0,1.0,1.0,,20915
+GSE325653_prefrontal_1064nm,up,GO,GO:0017062,respiratory chain complex III assembly,biological_process,2,13,471,15640,0.3915,5.1086,0.05669156390764556,0.4914468591306382,Bcs1l;Lyrm7,21773
+GSE325653_prefrontal_1064nm,up,GO,GO:0034551,mitochondrial respiratory chain complex III assembly,biological_process,2,13,471,15640,0.3915,5.1086,0.05669156390764556,0.4914468591306382,Bcs1l;Lyrm7,21774
+GSE325653_prefrontal_1064nm,up,GO,GO:0010918,positive regulation of mitochondrial membrane potential,biological_process,2,14,471,15640,0.4216,4.7437,0.06485491734568655,0.5208486227809448,Mapt;Nnt,21836
+GSE325653_prefrontal_1064nm,up,GO,GO:0090140,regulation of mitochondrial fission,biological_process,3,35,471,15640,1.054,2.8462,0.08745530472962992,0.6042585321963799,Ddhd2;Mapt;Ppargc1a,21977
+GSE325653_prefrontal_1064nm,up,GO,GO:1902108,regulation of mitochondrial membrane permeability involved in apoptotic process,biological_process,2,18,471,15640,0.5421,3.6895,0.10086399421979185,0.6495677607914819,Camk2a;Ppm1k,22054
+GSE325653_prefrontal_1064nm,up,GO,GO:0033617,mitochondrial respiratory chain complex IV assembly,biological_process,2,26,471,15640,0.783,2.5543,0.18380078600474567,0.8757206228458263,Bcs1l;Pnkd,22441
+GSE325653_prefrontal_1064nm,up,GO,GO:0008535,respiratory chain complex IV assembly,biological_process,2,29,471,15640,0.8733,2.2901,0.21697916970776193,0.9437668879737123,Bcs1l;Pnkd,22586
+GSE325653_prefrontal_1064nm,up,GO,GO:0047497,mitochondrion transport along microtubule,biological_process,2,30,471,15640,0.9035,2.2137,0.22815981493222087,0.9711069119463179,Mapt;Nefh,22627
+GSE325653_prefrontal_1064nm,up,GO,GO:0034643,"establishment of mitochondrion localization, microtubule-mediated",biological_process,2,30,471,15640,0.9035,2.2137,0.22815981493222087,0.9711069119463179,Mapt;Nefh,22628
+GSE325653_prefrontal_1064nm,up,GO,GO:0051561,positive regulation of mitochondrial calcium ion concentration,biological_process,1,11,471,15640,0.3313,3.0187,0.2857096452602177,0.995318892018597,Grin2a,22945
+GSE325653_prefrontal_1064nm,up,GO,GO:0051901,positive regulation of mitochondrial depolarization,biological_process,1,11,471,15640,0.3313,3.0187,0.2857096452602177,0.995318892018597,Oga,22980
+GSE325653_prefrontal_1064nm,up,GO,GO:0048312,intracellular distribution of mitochondria,biological_process,1,12,471,15640,0.3614,2.7672,0.3072357030427013,0.9978088365876427,Mapt,23140
+GSE325653_prefrontal_1064nm,up,GO,GO:0008637,apoptotic mitochondrial changes,biological_process,3,65,471,15640,1.9575,1.5326,0.3115759073858001,1.0,Camk2a;Erbb4;Ppm1k,23163
+GSE325653_prefrontal_1064nm,up,GO,GO:0043653,mitochondrial fragmentation involved in apoptotic process,biological_process,1,13,471,15640,0.3915,2.5543,0.32811438130395615,1.0,Erbb4,23253
+GSE325653_prefrontal_1064nm,up,GO,GO:0010917,negative regulation of mitochondrial membrane potential,biological_process,1,13,471,15640,0.3915,2.5543,0.32811438130395615,1.0,Mapt,23258
+GSE325653_prefrontal_1064nm,up,GO,GO:0051654,establishment of mitochondrion localization,biological_process,2,39,471,15640,1.1745,1.7029,0.3291504767795355,1.0,Mapt;Nefh,23292
+GSE325653_prefrontal_1064nm,up,GO,GO:0051204,protein insertion into mitochondrial membrane,biological_process,1,15,471,15640,0.4517,2.2137,0.3680067343819791,1.0,Bcs1l,23465
+GSE325653_prefrontal_1064nm,up,GO,GO:1990542,mitochondrial transmembrane transport,biological_process,2,44,471,15640,1.3251,1.5094,0.3839204518060904,1.0,Sfxn5;Tomm34,23540
+GSE325653_prefrontal_1064nm,up,GO,GO:0046902,regulation of mitochondrial membrane permeability,biological_process,2,52,471,15640,1.566,1.2772,0.46713745390455647,1.0,Camk2a;Ppm1k,23985
+GSE325653_prefrontal_1064nm,up,GO,GO:0051881,regulation of mitochondrial membrane potential,biological_process,3,85,471,15640,2.5598,1.172,0.4739656845846166,1.0,Mapt;Nnt;Oga,23997
+GSE325653_prefrontal_1064nm,up,GO,GO:0019896,axonal transport of mitochondrion,biological_process,1,22,471,15640,0.6625,1.5094,0.4899120054710422,1.0,Nefh,24105
+GSE325653_prefrontal_1064nm,up,GO,GO:0051900,regulation of mitochondrial depolarization,biological_process,1,22,471,15640,0.6625,1.5094,0.4899120054710422,1.0,Oga,24112
+GSE325653_prefrontal_1064nm,up,GO,GO:0030150,protein import into mitochondrial matrix,biological_process,1,22,471,15640,0.6625,1.5094,0.4899120054710422,1.0,Tomm34,24113
+GSE325653_prefrontal_1064nm,up,GO,GO:0090141,positive regulation of mitochondrial fission,biological_process,1,24,471,15640,0.7228,1.3836,0.5202150164436136,1.0,Ddhd2,24230
+GSE325653_prefrontal_1064nm,up,GO,GO:0048311,mitochondrion distribution,biological_process,1,24,471,15640,0.7228,1.3836,0.5202150164436136,1.0,Mapt,24253
+GSE325653_prefrontal_1064nm,up,GO,GO:0033108,mitochondrial respiratory chain complex assembly,biological_process,3,92,471,15640,2.7706,1.0828,0.5268730398066891,1.0,Bcs1l;Lyrm7;Pnkd,24288
+GSE325653_prefrontal_1064nm,up,GO,GO:0051560,mitochondrial calcium ion homeostasis,biological_process,1,26,471,15640,0.783,1.2772,0.5487213984394257,1.0,Grin2a,24378
+GSE325653_prefrontal_1064nm,up,GO,GO:1903599,positive regulation of autophagy of mitochondrion,biological_process,1,27,471,15640,0.8131,1.2298,0.5623343241045358,1.0,Atg7,24420
+GSE325653_prefrontal_1064nm,up,GO,GO:0170036,import into the mitochondrion,biological_process,1,28,471,15640,0.8432,1.1859,0.5755374582457496,1.0,Tomm34,24492
+GSE325653_prefrontal_1064nm,up,GO,GO:0051646,mitochondrion localization,biological_process,2,64,471,15640,1.9274,1.0377,0.5784791432396142,1.0,Mapt;Nefh,24525
+GSE325653_prefrontal_1064nm,up,GO,GO:0007005,mitochondrion organization,biological_process,10,348,471,15640,10.4801,0.9542,0.6051519336319129,1.0,Atg7;Bcs1l;Camk2a;Cxadr;Edn1;Erbb4;Lyrm7;Pnkd;Ppargc1a;Ppm1k,24635
+GSE325653_prefrontal_1064nm,up,GO,GO:0070585,protein localization to mitochondrion,biological_process,2,71,471,15640,2.1382,0.9354,0.6351311173425619,1.0,Bcs1l;Tomm34,24733
+GSE325653_prefrontal_1064nm,up,GO,GO:0000422,autophagy of mitochondrion,biological_process,2,72,471,15640,2.1683,0.9224,0.6427195738592391,1.0,Atg7;Spata33,24775
+GSE325653_prefrontal_1064nm,up,GO,GO:0032981,mitochondrial respiratory chain complex I assembly,biological_process,1,34,471,15640,1.0239,0.9766,0.6468148068116346,1.0,Bcs1l,24785
+GSE325653_prefrontal_1064nm,up,GO,GO:0006839,mitochondrial transport,biological_process,2,74,471,15640,2.2285,0.8975,0.6575222658506836,1.0,Sfxn5;Tomm34,24846
+GSE325653_prefrontal_1064nm,up,GO,GO:0007007,inner mitochondrial membrane organization,biological_process,1,37,471,15640,1.1143,0.8975,0.6778394501346547,1.0,Bcs1l,24918
+GSE325653_prefrontal_1064nm,up,GO,GO:7770058,mitochondrial protein import pathway,biological_process,1,38,471,15640,1.1444,0.8738,0.6875643504093825,1.0,Tomm34,24940
+GSE325653_prefrontal_1064nm,up,GO,GO:0010821,regulation of mitochondrion organization,biological_process,3,118,471,15640,3.5536,0.8442,0.6942940932785506,1.0,Ddhd2;Mapt;Ppargc1a,24955
+GSE325653_prefrontal_1064nm,up,GO,GO:1903146,regulation of autophagy of mitochondrion,biological_process,1,44,471,15640,1.3251,0.7547,0.7400608299586869,1.0,Atg7,25079
+GSE325653_prefrontal_1064nm,up,GO,GO:0007006,mitochondrial membrane organization,biological_process,1,56,471,15640,1.6864,0.593,0.8201127639925884,1.0,Bcs1l,25344
+GSE325653_prefrontal_1064nm,up,GO,GO:0045333,cellular respiration,biological_process,4,197,471,15640,5.9327,0.6742,0.8484945944814106,1.0,Bcl7a;Hspa12a;Lyrm7;Ppargc1a,25431
+GSE325653_prefrontal_1064nm,up,GO,GO:0022904,respiratory electron transport chain,biological_process,1,74,471,15640,2.2285,0.4487,0.8964956181237623,1.0,Ppargc1a,25540
+GSE325653_prefrontal_1064nm,up,GO,GO:0022900,electron transport chain,biological_process,1,81,471,15640,2.4393,0.4099,0.9165294859563277,1.0,Ppargc1a,25571
+GSE325653_prefrontal_1064nm,up,GO,GO:0032543,mitochondrial translation,biological_process,1,100,471,15640,3.0115,0.3321,0.9534699129869573,1.0,Mrrf,25635
+GSE325653_prefrontal_1064nm,up,GO,GO:7770126,mitochondrial protein biosynthetic process,biological_process,1,101,471,15640,3.0416,0.3288,0.9548801878249974,1.0,Mrrf,25638
+GSE325653_prefrontal_1064nm,up,GO,GO:0140053,mitochondrial gene expression,biological_process,1,138,471,15640,4.1559,0.2406,0.9855725798602087,1.0,Mrrf,25693
+GSE325653_prefrontal_1064nm,up,KEGG,mmu00190,Oxidative phosphorylation,,0,114,471,15640,3.4331,0.0,1.0,1.0,,25738
+GSE325653_prefrontal_1064nm,up,GO,GO:0043457,regulation of cellular respiration,biological_process,0,43,471,15640,1.2949,0.0,1.0,1.0,,25886
+GSE325653_prefrontal_1064nm,up,GO,GO:1901857,positive regulation of cellular respiration,biological_process,0,15,471,15640,0.4517,0.0,1.0,1.0,,25905
+GSE325653_prefrontal_1064nm,up,GO,GO:0140978,mitochondrial large ribosomal subunit binding,molecular_function,0,10,471,15640,0.3012,0.0,1.0,1.0,,26020
+GSE325653_prefrontal_1064nm,up,GO,GO:0070129,regulation of mitochondrial translation,biological_process,0,25,471,15640,0.7529,0.0,1.0,1.0,,26047
+GSE325653_prefrontal_1064nm,up,GO,GO:0070131,positive regulation of mitochondrial translation,biological_process,0,18,471,15640,0.5421,0.0,1.0,1.0,,26048
+GSE325653_prefrontal_1064nm,up,GO,GO:0062125,regulation of mitochondrial gene expression,biological_process,0,36,471,15640,1.0841,0.0,1.0,1.0,,26050
+GSE325653_prefrontal_1064nm,up,GO,GO:1902775,mitochondrial large ribosomal subunit assembly,biological_process,0,17,471,15640,0.512,0.0,1.0,1.0,,26052
+GSE325653_prefrontal_1064nm,up,GO,GO:0061668,mitochondrial ribosome assembly,biological_process,0,28,471,15640,0.8432,0.0,1.0,1.0,,26053
+GSE325653_prefrontal_1064nm,up,GO,GO:0097177,mitochondrial ribosome binding,molecular_function,0,17,471,15640,0.512,0.0,1.0,1.0,,26057
+GSE325653_prefrontal_1064nm,up,GO,GO:0000266,mitochondrial fission,biological_process,0,20,471,15640,0.6023,0.0,1.0,1.0,,26061
+GSE325653_prefrontal_1064nm,up,GO,GO:0090646,mitochondrial tRNA processing,biological_process,0,14,471,15640,0.4216,0.0,1.0,1.0,,26367
+GSE325653_prefrontal_1064nm,up,GO,GO:0070900,mitochondrial tRNA modification,biological_process,0,11,471,15640,0.3313,0.0,1.0,1.0,,26387
+GSE325653_prefrontal_1064nm,up,GO,GO:0000959,mitochondrial RNA metabolic process,biological_process,0,45,471,15640,1.3552,0.0,1.0,1.0,,26414
+GSE325653_prefrontal_1064nm,up,GO,GO:0000963,mitochondrial RNA processing,biological_process,0,27,471,15640,0.8131,0.0,1.0,1.0,,26417
+GSE325653_prefrontal_1064nm,up,GO,GO:1900864,mitochondrial RNA modification,biological_process,0,14,471,15640,0.4216,0.0,1.0,1.0,,26430
+GSE325653_prefrontal_1064nm,up,GO,GO:0042773,ATP synthesis coupled electron transport,biological_process,0,57,471,15640,1.7166,0.0,1.0,1.0,,26434
+GSE325653_prefrontal_1064nm,up,GO,GO:0042775,mitochondrial ATP synthesis coupled electron transport,biological_process,0,57,471,15640,1.7166,0.0,1.0,1.0,,26435
+GSE325653_prefrontal_1064nm,up,GO,GO:1903108,regulation of mitochondrial transcription,biological_process,0,10,471,15640,0.3012,0.0,1.0,1.0,,26449
+GSE325653_prefrontal_1064nm,up,GO,GO:0006123,"mitochondrial electron transport, cytochrome c to oxygen",biological_process,0,15,471,15640,0.4517,0.0,1.0,1.0,,26487
+GSE325653_prefrontal_1064nm,up,GO,GO:0006119,oxidative phosphorylation,biological_process,0,84,471,15640,2.5297,0.0,1.0,1.0,,26488
+GSE325653_prefrontal_1064nm,up,GO,GO:0019646,aerobic electron transport chain,biological_process,0,51,471,15640,1.5359,0.0,1.0,1.0,,26511
+GSE325653_prefrontal_1064nm,up,GO,GO:0006390,mitochondrial transcription,biological_process,0,11,471,15640,0.3313,0.0,1.0,1.0,,26697
+GSE325653_prefrontal_1064nm,up,GO,GO:0006851,mitochondrial calcium ion transmembrane transport,biological_process,0,24,471,15640,0.7228,0.0,1.0,1.0,,26775
+GSE325653_prefrontal_1064nm,up,GO,GO:0042776,proton motive force-driven mitochondrial ATP synthesis,biological_process,0,43,471,15640,1.2949,0.0,1.0,1.0,,27163
+GSE325653_prefrontal_1064nm,up,GO,GO:0035794,positive regulation of mitochondrial membrane permeability,biological_process,0,24,471,15640,0.7228,0.0,1.0,1.0,,27192
+GSE325653_prefrontal_1064nm,up,GO,GO:0035795,negative regulation of mitochondrial membrane permeability,biological_process,0,17,471,15640,0.512,0.0,1.0,1.0,,27193
+GSE325653_prefrontal_1064nm,up,GO,GO:1902686,mitochondrial outer membrane permeabilization involved in programmed cell death,biological_process,0,13,471,15640,0.3915,0.0,1.0,1.0,,27215
+GSE325653_prefrontal_1064nm,up,GO,GO:1902110,positive regulation of mitochondrial membrane permeability involved in apoptotic process,biological_process,0,11,471,15640,0.3313,0.0,1.0,1.0,,27226
+GSE325653_prefrontal_1064nm,up,GO,GO:0032042,mitochondrial DNA metabolic process,biological_process,0,20,471,15640,0.6023,0.0,1.0,1.0,,27232
+GSE325653_prefrontal_1064nm,up,GO,GO:0090199,regulation of release of cytochrome c from mitochondria,biological_process,0,43,471,15640,1.2949,0.0,1.0,1.0,,27269
+GSE325653_prefrontal_1064nm,up,GO,GO:0090201,negative regulation of release of cytochrome c from mitochondria,biological_process,0,19,471,15640,0.5722,0.0,1.0,1.0,,27277
+GSE325653_prefrontal_1064nm,up,GO,GO:0090200,positive regulation of release of cytochrome c from mitochondria,biological_process,0,24,471,15640,0.7228,0.0,1.0,1.0,,27278
+GSE325653_prefrontal_1064nm,up,GO,GO:1901028,regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway,biological_process,0,21,471,15640,0.6324,0.0,1.0,1.0,,27300
+GSE325653_prefrontal_1064nm,up,GO,GO:1901029,negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway,biological_process,0,13,471,15640,0.3915,0.0,1.0,1.0,,27301
+GSE325653_prefrontal_1064nm,up,GO,GO:0008053,mitochondrial fusion,biological_process,0,24,471,15640,0.7228,0.0,1.0,1.0,,27316
+GSE325653_prefrontal_1064nm,up,GO,GO:0001836,release of cytochrome c from mitochondria,biological_process,0,22,471,15640,0.6625,0.0,1.0,1.0,,27318
+GSE325653_prefrontal_1064nm,up,GO,GO:0006120,"mitochondrial electron transport, NADH to ubiquinone",biological_process,0,21,471,15640,0.6324,0.0,1.0,1.0,,27332
+GSE325653_prefrontal_1064nm,up,GO,GO:0010635,regulation of mitochondrial fusion,biological_process,0,16,471,15640,0.4818,0.0,1.0,1.0,,27583
+GSE325653_prefrontal_1064nm,up,GO,GO:0006264,mitochondrial DNA replication,biological_process,0,12,471,15640,0.3614,0.0,1.0,1.0,,27607
+GSE325653_prefrontal_1064nm,up,GO,GO:0002082,regulation of oxidative phosphorylation,biological_process,0,20,471,15640,0.6023,0.0,1.0,1.0,,27729
+GSE325653_prefrontal_1064nm,up,GO,GO:1903147,negative regulation of autophagy of mitochondrion,biological_process,0,10,471,15640,0.3012,0.0,1.0,1.0,,27772
+GSE325653_prefrontal_1064nm,up,GO,GO:0006122,"mitochondrial electron transport, ubiquinol to cytochrome c",biological_process,0,10,471,15640,0.3012,0.0,1.0,1.0,,27836
+GSE325653_prefrontal_1064nm,up,GO,GO:0034982,mitochondrial protein processing,biological_process,0,10,471,15640,0.3012,0.0,1.0,1.0,,27864
+GSE325653_prefrontal_1064nm,up,GO,GO:0036444,calcium import into the mitochondrion,biological_process,0,16,471,15640,0.4818,0.0,1.0,1.0,,27952
+GSE325653_prefrontal_1064nm,up,GO,GO:0097250,mitochondrial respirasome assembly,biological_process,0,11,471,15640,0.3313,0.0,1.0,1.0,,27970
+GSE325653_prefrontal_1064nm,up,GO,GO:0045039,protein insertion into mitochondrial inner membrane,biological_process,0,10,471,15640,0.3012,0.0,1.0,1.0,,28047
