@@ -1,0 +1,12 @@
+{
+  "tested_at_UTC": "2026-10-11T13:03:51Z",
+  "status": "network_access_blocked",
+  "actual_analysis_computed": false,
+  "request": "Read-only HTTPS HEAD official S3 manifest",
+  "official_required_host": "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
+  "response": "HTTP 403 CONNECT tunnel failed (environment outbound proxy)",
+  "sandbox_escalation_result": "Same proxy CONNECT 403; automatic approval review did not reject the action",
+  "required_resolution": "Enable the official Allen S3 hostname in environment outbound network settings, save configuration, and retry in a runtime using it.",
+  "TLS_verification": "kept enabled",
+  "credentials_required": false
+}

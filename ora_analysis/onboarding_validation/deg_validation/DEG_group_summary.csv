@@ -1,0 +1,10 @@
+﻿dataset,tissue,contrast,DEG_rows,up_rows,down_rows,pathway_eligible_rows,unique_valid_symbols
+GSE245658,hippocampus,Disease effect: 5xFAD vs WT,1909,1220,689,1853,1864
+GSE245658,hippocampus,PBM effect: 5xFAD+light vs 5xFAD,657,360,297,646,651
+GSE245658,hippocampus,PBM-treated 5xFAD vs WT,966,717,249,921,936
+GSE245658,meningeal lymphatic endothelial cell,Disease effect: 5xFAD vs WT,146,90,56,143,144
+GSE245658,meningeal lymphatic endothelial cell,PBM effect: 5xFAD+light vs 5xFAD,167,27,140,164,167
+GSE245658,meningeal lymphatic endothelial cell,PBM-treated 5xFAD vs WT,308,89,219,301,306
+GSE245658,meninges,PBM effect: 5xFAD+light vs 5xFAD,72,20,52,69,72
+GSE245658,meninges,PBM-treated 5xFAD vs WT,428,137,291,399,412
+GSE325653,prefrontal cortex,PBM effect: hypobaric hypoxia + PBM vs hypobaric hypoxia,998,471,527,998,998

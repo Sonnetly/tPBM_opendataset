@@ -1,0 +1,14 @@
+{
+  "cell_id": "sample_name",
+  "region": "region_label",
+  "class": "class_label",
+  "subclass": "subclass_label",
+  "cluster": "cluster_label",
+  "donor": "donor_name",
+  "chemistry": "chemistry",
+  "genotype": "genotype_label",
+  "sex": "sex_label",
+  "age": "age",
+  "facs": "facs_gate",
+  "batch": "library_id"
+}

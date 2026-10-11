@@ -1,0 +1,110 @@
+{
+  "status": "passed_repository_import_validation",
+  "verified_at_UTC": "2026-10-11T13:24:01.708621+00:00",
+  "repository_directory": "allen_mop_visp",
+  "python_version": "3.12.14",
+  "scope": "Repository import, portable rerun and synthetic code checks only; actual Allen cell composition and expression remain pending.",
+  "PBM": {
+    "commands": [
+      {
+        "command": "python src/build_pbm_panels.py",
+        "iteration": 1,
+        "exit_code": 0
+      },
+      {
+        "command": "python src/build_pbm_panels.py",
+        "iteration": 2,
+        "exit_code": 0
+      }
+    ],
+    "two_successive_output_hashes_identical": true,
+    "scientific_outputs_match_original": true,
+    "report_only_intended_wording_changed": true,
+    "validated_outputs": {
+      "ORA_DEG_alignment.csv": "ecf132edf5993d83be355f567ac35286f35bbf343f13bf694af54facb1e3e31e",
+      "all_selected_symbol_union.csv": "cf5cba2f27528287174f09498cb013a0753a60791b99ac9b4b6a80a46a43a1f5",
+      "common_GO_gene_pairs.csv": "4026ed3b060d3ac0ad34add2507013bc59c9558d7787bfb92784247dfb9cdbb4",
+      "common_GO_hit19.csv": "5ffc4b232265eb53acd90cdcb6851e000392777604d570db2f0280f9e13442cf",
+      "common_down18.csv": "b1a29eb78794696f048dc357a64761035614515b30af69cd75e9107585d63238",
+      "common_up34.csv": "3cb7195684a643229ab29b00dc77fe4ce7a975546b372158f078d2ee53d2de7d",
+      "common_up_GO_38.csv": "501249749527cf19324c2adde0fa0b6bc0b147fa22bfd05d9ffd580eefa35638",
+      "duplicate_placeholder_audit.csv": "adcf895b02cc59acd7a47de9b2c05e3b52a0f980bb8edef015d73fd04e9a1ac4",
+      "exploration_genes62.csv": "0c7ed6caaab0d8ea06d226e4d88686e42292c50dff07a5a4139c7a0d4ce75a57",
+      "opposite_direction23.csv": "0af52593f907c6dc7d17884dc46ff3530e35507c4a72af1170e32b77894ba5ac",
+      "panel22.csv": "505ef1c231c8330919b820e13fa277a4798a9ff770f1fe6e14466b4059b9ee1e",
+      "same_direction_52.csv": "d7e1e479dbd011666941c31ba8b152ed988f606b97f7493a1209cbe6ec206d1f",
+      "gene_group_manifest.json": "6d12ac5f6ec8c73654dd1506d2bda869b935e1e4e1112f713cf2a68b69f069e6",
+      "validation_summary.json": "09922187d0c5846832db098b1fa9a35892f6d5292fa1c6bf60274e4730d79679",
+      "PBM_bridge_report_ko.md": "869273d071bd9b6de23f8aa1a8ef70ffe7da850e8f40e887f7a73b91afff6bf1"
+    },
+    "checks_passed": 279
+  },
+  "coverage": {
+    "command": "python src/audit_gene_coverage.py",
+    "exit_code": 0,
+    "executed_at_UTC": "2026-10-11T13:23:26.938966+00:00",
+    "outputs_match_original": true,
+    "output_file_count": 5,
+    "regional_expression_comparison": "not_run"
+  },
+  "merfish_synthetic": {
+    "command": "python src/merfish/test_merfish_synthetic.py",
+    "exit_code": 0,
+    "executed_at_UTC": "2026-10-11T13:23:14.862536+00:00",
+    "recorded_output": "....\n----------------------------------------------------------------------\nRan 4 tests in 2.651s\n\nOK\n",
+    "actual_allen_data": false
+  },
+  "rnaseq_synthetic": {
+    "command": "python src/rnaseq/check_pipeline.py",
+    "exit_code": 0,
+    "executed_at_UTC": "2026-10-11T13:23:23.121335+00:00",
+    "recorded_output": "PASS: exact ROI, full-library normalization, detection, unavailable gene, shared-cluster weighting, raw-count guard, taxonomy guard and explicit pending exit\n",
+    "actual_allen_data": false,
+    "fixtures": "TemporaryDirectory only"
+  },
+  "missing_actual_inputs": [
+    {
+      "command": "python src/merfish/run_merfish.py",
+      "exit_code": 2,
+      "status_file": "results/merfish/readiness_report.json",
+      "status": "pending",
+      "actual_allen_analysis": false
+    },
+    {
+      "command": "python src/rnaseq/analyze_expression.py",
+      "exit_code": 2,
+      "status_file": "results/rnaseq/status.json",
+      "status": "pending_external_data",
+      "actual_allen_analysis": false
+    }
+  ],
+  "xlsx_readback": {
+    "passed": true,
+    "sheet_row_counts": {
+      "READ_ME": 7,
+      "panel22": 22,
+      "same_direction_52": 52,
+      "common_up34": 34,
+      "common_down18": 18,
+      "common_up_GO_38": 38,
+      "common_GO_hit19": 19,
+      "common_GO_gene_pairs": 131,
+      "exploration_genes62": 62,
+      "ORA_DEG_alignment": 4,
+      "duplicate_placeholder_audit": 8
+    }
+  },
+  "source_sha256": {
+    "src/audit_gene_coverage.py": "d4426e5bf5e3212afb855bc597659a99808230ebecb2401438030012028ab3e0",
+    "src/build_pbm_panels.py": "b2c669414742f71d05b7bf889e975cfb2810fc7b03476f7b63f53278abc1e8fd",
+    "src/merfish/run_merfish.py": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64",
+    "src/merfish/test_merfish_synthetic.py": "4fad05a6b7b82669f39ab12debdfea3453ccb87804d0984e23560379a744b8f3",
+    "src/package_project.py": "b88f5eac34c18322da884dfa952c0fb37a93beace034556928d56fa620fac690",
+    "src/rnaseq/analyze_expression.py": "ac308f5d8b815fc71e0d320cd12fe1787fd2c082b35f429d070b807fec3dc66c",
+    "src/rnaseq/check_pipeline.py": "f7da30628aa8247b2e3d1dc01da62c308b59a8ac1fd3bc95bc9cd9260631dc64",
+    "src/rnaseq/discover_downloads.py": "a74424120238cde16957a426e273c18969aadb879e73aecf418f0cf37bac11cf"
+  },
+  "actual_Allen_composition_computed": false,
+  "actual_Allen_expression_computed": false,
+  "historical_evidence_scope": "Original preserved input-integrity tamper rejection is recorded in PBM reproducibility_validation.json; this import validation did not repeat that historical mutation test."
+}

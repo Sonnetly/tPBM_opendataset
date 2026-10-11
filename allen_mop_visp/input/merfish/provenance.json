@@ -1,0 +1,17 @@
+{
+  "dataset": "MERFISH-C57BL6J-638850",
+  "status": "official metadata manifest snapshot acquired; actual cell data not acquired",
+  "source_repository": "https://github.com/AllenInstitute/abc_atlas_access",
+  "source_commit": "b16ee223d3466a57b30066973413ccc948c2e983",
+  "source_file": "tests/abc_atlas_cache/resources/manifest.json",
+  "retrieval_method": "read-only HTTPS Git proxy, git clone --depth 1",
+  "source_manifest_version": "20250531",
+  "sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
+  "official_S3_release_manifest": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/releases/20250531/manifest.json",
+  "actual_study_cells_read": false,
+  "notes": [
+    "This file is the SDK test-resource copy of a published manifest, not simulated expression data.",
+    "The live official S3 manifest will be fetched before automatic large downloads.",
+    "Published artifact MD5 and size will be verified unchanged before any actual analysis."
+  ]
+}

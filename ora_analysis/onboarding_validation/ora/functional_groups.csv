@@ -1,0 +1,15 @@
+﻿direction,functional_group,gene_count,genes
+up,ECM·접착·혈관·면역,5,Ccbe1;Cd276;Npnt;Pcdh19;Proz
+up,대사·호르몬·MAPK,3,Hsd11b1;Irs1;Map2k6
+up,분해·영양소 수송,2,Arsb;Stra6
+up,수면·일주기·기억,1,Btbd9
+up,시냅스 전달·조직화,6,Dlgap1;Faah;Grm2;Shisa7;Slitrk3;Stxbp6
+up,신경 연결·발달,4,Btbd3;Epha4;Tnr;Zeb2
+up,신호 조절 단백질,3,Ptpn3;Samd12;Sphkap
+up,염색질·Wnt·세포주기,3,Bcl7a;Cdk14;Wnt9a
+up,이온채널·칼슘 수송,7,Atp2b3;Cacna1c;Grid1;Grin2a;Kcnj6;Ryr2;Trpc5
+down,대사·미토콘드리아,2,Adipor2;Mrps6
+down,스트레스·면역·자가포식,4,Gimap6;Ier5;Ifitm2;Nupr1
+down,신경전달·세포 간 연결,5,Chrm4;Ecel1;Gjb6;Penk;Slc10a4
+down,전사·RNA·세포주기,4,Arid5b;Arpp21;Cdkn1c;Sap30
+down,접착·세포골격,2,S100a10;Sorbs3

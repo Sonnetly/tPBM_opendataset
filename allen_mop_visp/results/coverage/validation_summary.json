@@ -1,0 +1,61 @@
+{
+  "status": "completed_measured_panel_audit",
+  "regional_expression_comparison": "not_run",
+  "results": {
+    "B6J": {
+      "panel_size": 500,
+      "panel22_measured": [
+        "Penk"
+      ],
+      "exploration62_measured": [
+        "Ccbe1",
+        "Ecel1",
+        "Epha4",
+        "Npnt",
+        "Penk",
+        "Stxbp6",
+        "Zeb2"
+      ]
+    },
+    "B6N_Zhuang1": {
+      "panel_size": 1122,
+      "panel22_measured": [
+        "Adora1",
+        "Adora2a",
+        "Penk",
+        "Trpc5"
+      ],
+      "exploration62_measured": [
+        "Adora1",
+        "Adora2a",
+        "Ccbe1",
+        "Cdkn1c",
+        "Ecel1",
+        "Epha4",
+        "Npnt",
+        "Penk",
+        "Slc10a4",
+        "Stxbp6",
+        "Trpc5",
+        "Zeb2"
+      ]
+    }
+  },
+  "sources": {
+    "B6J": {
+      "relative_file": "input/coverage/B6J_gene_list.html",
+      "sha256": "d7ea1f126d31266142da655ff9f07f21740ded826bf5da71b6760bb21631cb19"
+    },
+    "B6N_Zhuang1": {
+      "relative_file": "input/coverage/B6N_Zhuang1_gene_list.html",
+      "sha256": "26f459a4d2bc560d64114ed2ab098c6542ed9c5be63568c4b6d32b9a04b3c6c8"
+    }
+  },
+  "official_source_repository": "https://github.com/AllenInstitute/abc_atlas_access",
+  "source_commit": "b16ee223d3466a57b30066973413ccc948c2e983",
+  "source_paths": [
+    "docs/gene_lists/MERFISH-C57BL6J-638850/gene_list.html",
+    "docs/gene_lists/Zhuang-ABCA-1/gene_list.html"
+  ],
+  "interpretation": "Panel absence means unmeasured; no zeros are imputed."
+}

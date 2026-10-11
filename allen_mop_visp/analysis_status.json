@@ -1,0 +1,64 @@
+{
+  "status": "partial_analysis_external_data_blocker",
+  "PBM_bridge": {
+    "status": "passed",
+    "checks_passed": 279,
+    "panel": 22,
+    "common52_up_down": [
+      34,
+      18
+    ],
+    "GO_terms": 38,
+    "common_GO_genes": 19,
+    "screening_union": 62
+  },
+  "official_measured_panel_audit": {
+    "status": "completed",
+    "B6J_core_measured": [
+      "Penk"
+    ],
+    "B6J_exploration_measured_count": 7,
+    "B6N_core_measured": [
+      "Adora1",
+      "Adora2a",
+      "Penk",
+      "Trpc5"
+    ],
+    "B6N_exploration_measured_count": 12
+  },
+  "MERFISH_actual_composition": {
+    "status": "pending",
+    "executed": false,
+    "reason": "official input downloads blocked by outbound proxy"
+  },
+  "CTX_HPF_actual_expression": {
+    "status": "pending",
+    "executed": false,
+    "reason": "metadata and expression matrix inaccessible; exact artifact not established"
+  },
+  "pseudobulk_animal_tests": {
+    "status": "not_run",
+    "reason": "independent biological units and batch design unverified"
+  },
+  "local_ROI": {
+    "status": "deferred",
+    "reason": "V1 AP approximate; CCF registration and optical footprint not validated"
+  },
+  "code_validation": {
+    "merfish_synthetic_tests": {
+      "passed": 4,
+      "actual_allen_data": false
+    },
+    "rnaseq_pipeline_fixtures": {
+      "status": "passed_independent_review_execution",
+      "actual_allen_data": false
+    },
+    "PBM_reproducibility": "two_successive_runs_identical_tables_report_manifest",
+    "dependency_check": "passed"
+  },
+  "physical_file_location": "/workspace/tPBM_opendataset/allen_mop_visp",
+  "requested_windows_destination": "G:\\내 드라이브\\0. Research\\2026\\openRNAseq_PBM\\Allen Dataset_M1_V1",
+  "windows_destination_written": false,
+  "original_cloud_work_folder": "/workspace/Allen Dataset_M1_V1",
+  "git_workflow": "User requested repository import and commit/push; actual Git state is recorded by Git history and remote verification, not by this analytical snapshot."
+}

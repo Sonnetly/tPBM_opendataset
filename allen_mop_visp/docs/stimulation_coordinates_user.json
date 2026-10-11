@@ -1,0 +1,25 @@
+{
+  "source": "current user message",
+  "units": "mm",
+  "reference_frame": {
+    "AP_ML": "bregma",
+    "DV": "brain surface"
+  },
+  "M1": {
+    "AP": 1.34,
+    "ML": 2.46,
+    "DV": 0,
+    "certainty": "user-confirmed values and reference; CCF registration not performed"
+  },
+  "V1": {
+    "AP": -2.3,
+    "ML": 2.46,
+    "DV": 0,
+    "certainty": "AP explicitly uncertain in user reply"
+  },
+  "fiber": {
+    "reported_size_um": 400,
+    "meaning": "core diameter, confirmed by user"
+  },
+  "local_roi_status": "deferred; V1 AP approximate, skull-to-CCF transform and optical footprint not validated; do not directly substitute bregma coordinates into CCF"
+}

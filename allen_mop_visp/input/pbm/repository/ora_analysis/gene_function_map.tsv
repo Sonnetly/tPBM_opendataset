@@ -1,0 +1,52 @@
+gene	functional_group	interpretation_ko	evidence_ids
+Atp2b3	이온채널·칼슘 수송	칼슘 수송 및 세포 내 칼슘 항상성; 채널과 구분되는 칼슘 펌프	mmu04020;GO:0006874
+Cacna1c	이온채널·칼슘 수송	전압 의존성 이온채널; 칼슘 신호 및 glutamatergic synapse	GO:0005244;mmu04020;mmu04724
+Grid1	이온채널·칼슘 수송	글루탐산 수용체/채널 관련 주석 및 시냅스 가소성 조절	GO:0008066;GO:0005216;GO:0048167
+Grin2a	이온채널·칼슘 수송	글루탐산 수용체; 칼슘 신호 및 glutamatergic synapse	GO:0008066;mmu04020;mmu04724
+Kcnj6	이온채널·칼슘 수송	칼륨 수송; 시냅스 막전위 및 endocannabinoid 관련 경로	GO:0006813;GO:0099505;mmu04723
+Ryr2	이온채널·칼슘 수송	칼슘 신호 및 circadian entrainment 관련 이온채널	GO:0005216;mmu04020;mmu04713
+Trpc5	이온채널·칼슘 수송	칼슘 수송 및 축삭 유도 관련 이온채널	GO:0006816;GO:0005216;mmu04360
+Dlgap1	시냅스 전달·조직화	글루탐산성 시냅스 및 postsynaptic density 조직화	mmu04724;GO:0097106
+Grm2	시냅스 전달·조직화	G protein 결합 글루탐산 수용체 신호 및 adenylate cyclase 억제 관련 GO	mmu04724;GO:0007216;GO:0007193
+Faah	시냅스 전달·조직화	역행성 endocannabinoid 신호 경로 및 지방산 분해	mmu04723;GO:0009062
+Shisa7	시냅스 전달·조직화	GABA 신호, 수용체 군집화 및 시냅스 조직화	GO:0007214;GO:0043113;GO:0050808
+Slitrk3	시냅스 전달·조직화	GABA성 시냅스 전달 및 시냅스 조립	GO:0051932;GO:0007416;mmu04514
+Stxbp6	시냅스 전달·조직화	소포 융합 및 SNARE 복합체 조립	GO:0006906;GO:0035493
+Epha4	신경 연결·발달	축삭 유도 및 시냅스 구조/활성 조절	mmu04360;GO:0050803
+Btbd3	신경 연결·발달	수상돌기 형태 형성 및 신경 분화 관련 세포 형태 형성	GO:0048813;GO:0048667
+Tnr	신경 연결·발달	ECM-수용체 상호작용, 신경세포 접착 및 시냅스 가소성 조절	mmu04512;GO:0007158;GO:0048167
+Zeb2	신경 연결·발달	축삭 형성 및 신경 분화 관련 세포 형태 형성	GO:0007409;GO:0048667
+Bcl7a	염색질·Wnt·세포주기	ATP 의존성 염색질 재구성과 시냅스 가소성 조절	mmu03082;GO:0048167
+Cdk14	염색질·Wnt·세포주기	canonical Wnt 신호 조절 및 세포주기 G2/M 전환	GO:0060828;GO:0000086
+Wnt9a	염색질·Wnt·세포주기	Wnt 신호 경로	mmu04310;GO:0016055
+Btbd9	수면·일주기·기억	수면, 일주기 리듬 및 기억 관련 GO	GO:0030431;GO:0007623;GO:0007613
+Irs1	대사·호르몬·MAPK	인슐린, PI3K-Akt 및 AMPK 신호 경로	mmu04910;mmu04151;mmu04152
+Map2k6	대사·호르몬·MAPK	MAPK 및 TNF 신호 경로	mmu04010;mmu04668
+Hsd11b1	대사·호르몬·MAPK	스테로이드 호르몬 생합성 및 glucocorticoid 대사	mmu00140;GO:0008211
+Ptpn3	신호 조절 단백질	단백질 tyrosine phosphatase 및 이온채널 조절 기능	GO:0004725;GO:0099106
+Samd12	신호 조절 단백질	수용체 tyrosine kinase 신호 관련 GO; 이 파일의 기능 근거가 제한적	GO:0007169
+Sphkap	신호 조절 단백질	protein kinase A 결합; 이 파일에서는 MF 주석만 확인됨	GO:0051018
+Npnt	ECM·접착·혈관·면역	ECM-수용체 및 integrin 신호; 세포-기질 접착	mmu04512;mmu04518;GO:0007160
+Pcdh19	ECM·접착·혈관·면역	cadherin 신호 및 동종 세포 간 접착	mmu04519;GO:0007156
+Ccbe1	ECM·접착·혈관·면역	림프관 형성 및 혈관 형성	GO:0001946;GO:0001525
+Cd276	ECM·접착·혈관·면역	세포접착분자 경로 및 면역반응 조절 관련 GO	mmu04514;GO:0002764
+Proz	ECM·접착·혈관·면역	혈액 응고 및 지혈	GO:0007596;GO:0007599
+Arsb	분해·영양소 수송	glycosaminoglycan 분해 및 lysosome 관련 경로	mmu00531;mmu04142
+Stra6	분해·영양소 수송	비타민 수송 및 막 수송체 활성	GO:0051180;GO:0090482
+Chrm4	신경전달·세포 간 연결	콜린성 시냅스 및 adenylate cyclase 억제형 GPCR 신호	mmu04725;GO:0007193
+Penk	신경전달·세포 간 연결	신경펩타이드 신호 및 neuroactive ligand-receptor interaction	GO:0007218;mmu04080
+Ecel1	신경전달·세포 간 연결	신경펩타이드 신호 및 단백질 processing	GO:0007218;GO:0016485
+Slc10a4	신경전달·세포 간 연결	신경전달물질 수송 조절 및 나트륨 수송	GO:0051588;GO:0006814
+Gjb6	신경전달·세포 간 연결	전기적 coupling에 의한 세포 간 통신 및 세포 접합	GO:0010644;GO:0007043
+Adipor2	대사·미토콘드리아	adipocytokine 및 AMPK 신호 경로	mmu04920;mmu04152
+Mrps6	대사·미토콘드리아	리보솜 및 미토콘드리아 번역	mmu03010;GO:0032543
+Arid5b	전사·RNA·세포주기	DNA 기반 전사 및 RNA polymerase II 전사 개시	GO:0006351;GO:0006367
+Arpp21	전사·RNA·세포주기	mRNA 및 mRNA 3'-UTR 결합	GO:0003730;GO:0003729
+Cdkn1c	전사·RNA·세포주기	세포주기 및 세포주기 과정의 음성 조절	mmu04110;GO:0010948
+Sap30	전사·RNA·세포주기	전사 corepressor 활성	GO:0003714
+Gimap6	스트레스·면역·자가포식	자가포식 및 macroautophagy	GO:0006914;GO:0016236
+Ier5	스트레스·면역·자가포식	열에 대한 세포 반응	GO:0034605
+Ifitm2	스트레스·면역·자가포식	I형 및 II형 인터페론 반응	GO:0034340;GO:0034341
+Nupr1	스트레스·면역·자가포식	산화적 인산화 조절 및 DNA 손상 반응성 intrinsic apoptosis 관련 GO	GO:0002082;GO:0008630
+S100a10	접착·세포골격	세포-기질 접착 및 plasminogen 활성화 조절	GO:0001954;GO:0010755
+Sorbs3	접착·세포골격	세포-기질 접착 및 actin stress fiber 조립 조절	GO:0031589;GO:0051496

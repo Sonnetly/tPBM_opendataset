@@ -1,0 +1,5 @@
+﻿dataset,tissue,direction,ORA_declared_DEG_count,eligible_DEG_rows,ORA_hit_symbol_count,all_hits_with_correct_DEG_direction
+GSE245658,hippocampus,up,354,354,278,True
+GSE245658,hippocampus,down,292,292,259,True
+GSE325653,cortex,up,471,471,419,True
+GSE325653,cortex,down,527,527,484,True

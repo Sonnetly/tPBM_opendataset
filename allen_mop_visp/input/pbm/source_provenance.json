@@ -1,0 +1,158 @@
+{
+  "repository": "https://github.com/Sonnetly/tPBM_opendataset",
+  "git_commit": "e430e8d2d2827ccdd222e8828d77227e937b6f1b",
+  "source_branch": "work",
+  "imported_at_utc": "2026-10-11T13:07:18.538129+00:00",
+  "source_tracked_status": "",
+  "source_existing_untracked_files_preserved": [
+    "?? ora_analysis/onboarding_validation/deg_validation/DEG_aware_qPCR_and_overlap.xlsx",
+    "?? ora_analysis/onboarding_validation/deg_validation/DEG_aware_qPCR_report_ko.md",
+    "?? ora_analysis/onboarding_validation/deg_validation/DEG_group_summary.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/ORA_DEG_alignment.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/all_selected_symbol_union.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/candidate_cortex_FDR_sort.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/common_up_GO_38.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/common_up_GO_with_gene_stats.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/duplicate_symbols_audit.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/new_unannotated_overlap.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/opposite_direction_23.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/placeholder_symbols_audit.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/qPCR_candidates_with_DEG.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/same_direction_52.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/selected_cortex_PBM.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/selected_hippocampus_PBM.csv",
+    "?? ora_analysis/onboarding_validation/deg_validation/validation_summary.json",
+    "?? ora_analysis/onboarding_validation/ora/ORA_analysis_report_ko.md",
+    "?? ora_analysis/onboarding_validation/ora/ORA_direction_overlap_analysis.xlsx",
+    "?? ora_analysis/onboarding_validation/ora/all_concordant_annotations.csv",
+    "?? ora_analysis/onboarding_validation/ora/all_recovered_genes.csv",
+    "?? ora_analysis/onboarding_validation/ora/concordant_51.csv",
+    "?? ora_analysis/onboarding_validation/ora/coverage.csv",
+    "?? ora_analysis/onboarding_validation/ora/discordant_23.csv",
+    "?? ora_analysis/onboarding_validation/ora/functional_groups.csv",
+    "?? ora_analysis/onboarding_validation/ora/overlap_definitions.csv",
+    "?? ora_analysis/onboarding_validation/ora/primary_evidence.csv",
+    "?? ora_analysis/onboarding_validation/ora/shared_significant_ORA.csv",
+    "?? ora_analysis/onboarding_validation/ora/validation_summary.json",
+    "?? ora_analysis/onboarding_validation/qpcr_go/GO_theme_summary.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/candidate_and_concordant_evidence.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/common_up_GO_BP.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/common_up_GO_MF.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/common_up_GO_genes_19.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/common_up_GO_significant.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/cortex_mito_related_ORA.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/primary_candidate_evidence.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/qPCR_priority_and_common_up_GO.xlsx",
+    "?? ora_analysis/onboarding_validation/qpcr_go/qPCR_priority_and_common_up_GO_report_ko.md",
+    "?? ora_analysis/onboarding_validation/qpcr_go/qpcr_candidates.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/same_shared_hit_sets.csv",
+    "?? ora_analysis/onboarding_validation/qpcr_go/validation_summary.json"
+  ],
+  "source_repository_unchanged_during_import": true,
+  "files": [
+    {
+      "source_repository_path": "ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv",
+      "preserved_path": "repository/ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv",
+      "sha256": "919719f2ee940ed5f236f684a24eed688598600cd196921baaf24b53cc325759",
+      "bytes": 1414511,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv",
+      "preserved_path": "repository/ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv",
+      "sha256": "31d894d4869e370312c78109349b740718b67a9ec65c6f413846d90742efb184",
+      "bytes": 4618375,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/same_direction_52.csv",
+      "preserved_path": "repository/ora_analysis/deg_validation/same_direction_52.csv",
+      "sha256": "5ae94d9f7ccb7089104274f62680e1c23dcc8397317c6e340e73d90a21692c4b",
+      "bytes": 12353,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/same_direction_52.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/common_up_GO_38.csv",
+      "preserved_path": "repository/ora_analysis/deg_validation/common_up_GO_38.csv",
+      "sha256": "4468cbab8ce6fce5d59cd62dd63aa2b94eb72cec61c4c4d73dd94affa03cdd3b",
+      "bytes": 20124,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/common_up_GO_38.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/common_up_GO_with_gene_stats.csv",
+      "preserved_path": "repository/ora_analysis/deg_validation/common_up_GO_with_gene_stats.csv",
+      "sha256": "c094ea5d43f8e14e09281fde03d43501cd6213d01ef4bce6eed4e153e1610bc7",
+      "bytes": 21495,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/common_up_GO_with_gene_stats.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/DEG_group_summary.csv",
+      "preserved_path": "repository/ora_analysis/deg_validation/DEG_group_summary.csv",
+      "sha256": "16b006b54a652ad690b07544199b44a953bd64f11dab22f2ea7534dfa2cd90a5",
+      "bytes": 829,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/DEG_group_summary.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/validation_summary.json",
+      "preserved_path": "repository/ora_analysis/deg_validation/validation_summary.json",
+      "sha256": "c186fbfdc924137e940de5728551bf9ca3b37a37f2ecbc4bc67551c7962240ba",
+      "bytes": 908,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/validation_summary.json"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md",
+      "preserved_path": "repository/ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md",
+      "sha256": "f03f242e7890bfe70037721abd4e0b4f87856a7d7f3371c48af9c8fc76abb545",
+      "bytes": 11303,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md"
+    },
+    {
+      "source_repository_path": "ora_analysis/qpcr_candidate_config.tsv",
+      "preserved_path": "repository/ora_analysis/qpcr_candidate_config.tsv",
+      "sha256": "236fa9498e58365fa6f773845220fb0f6f4ca0dc4a28e318f1725b65323d2b00",
+      "bytes": 5362,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/qpcr_candidate_config.tsv"
+    },
+    {
+      "source_repository_path": "ora_analysis/deg_aware_priority_config.tsv",
+      "preserved_path": "repository/ora_analysis/deg_aware_priority_config.tsv",
+      "sha256": "ba2096272680904aa4bc80355bb14aa9232591d871cbb45ea41472c6f3141941",
+      "bytes": 2473,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/deg_aware_priority_config.tsv"
+    },
+    {
+      "source_repository_path": "ora_analysis/gene_function_map.tsv",
+      "preserved_path": "repository/ora_analysis/gene_function_map.tsv",
+      "sha256": "aed17872db79d6f44af46c131c886b7654c6694871d8daaa0e317f03161583f9",
+      "bytes": 5690,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/gene_function_map.tsv"
+    },
+    {
+      "source_repository_path": "ora_analysis/concordant_51.csv",
+      "preserved_path": "repository/ora_analysis/concordant_51.csv",
+      "sha256": "dc979717545a8a618e2c56c21d32b4ff770797bc767f919fc6583cf5534016dd",
+      "bytes": 34435,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/concordant_51.csv"
+    },
+    {
+      "source_repository_path": "ora_analysis/analyze_deg_and_reprioritize.py",
+      "preserved_path": "repository/ora_analysis/analyze_deg_and_reprioritize.py",
+      "sha256": "50ed5030f1d07e3ca8767e3eb744eb1d559846b5970c92649315d5eb3d95b6c2",
+      "bytes": 25577,
+      "matches_git_commit_content": true,
+      "source_url": "https://github.com/Sonnetly/tPBM_opendataset/blob/e430e8d2d2827ccdd222e8828d77227e937b6f1b/ora_analysis/analyze_deg_and_reprioritize.py"
+    }
+  ]
+}

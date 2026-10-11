@@ -1,0 +1,19 @@
+{
+  "draft_status": "saved",
+  "runtime_access": "blocked_https_proxy_connect_403",
+  "requires_publish": true,
+  "custom_allowed_domains_saved": [
+    "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
+    "alleninstitute.github.io",
+    "brain-map.org",
+    "portal.brain-map.org",
+    "celltypes.brain-map.org",
+    "api.brain-map.org",
+    "ftp.ncbi.nlm.nih.gov",
+    "www.ncbi.nlm.nih.gov",
+    "pmc.ncbi.nlm.nih.gov"
+  ],
+  "existing_package_manager_preset": "preserved",
+  "new_credentials_required": false,
+  "draft_save_does_not_apply_runtime_access": true
+}

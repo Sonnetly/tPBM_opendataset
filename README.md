@@ -6,6 +6,10 @@
 
 [qPCR 후보 요약 Markdown](qPCR_candidate_summary_ko.md)에는 1차 8개·미토콘드리아 확장 10개 패널과 참고 CSV 링크를 모았다.
 
+## Allen MOp–VISp 분석
+
+[분석 파일과 재실행 방법](allen_mop_visp/README_ko.md), [진행 보고서](allen_mop_visp/analysis_report_ko.md), [PBM 후보 연결 Excel](allen_mop_visp/results/pbm/PBM_panel22_and_gene_sets.xlsx)은 `allen_mop_visp/`에 있다. 기존 PBM 후보 연결과 공식 실측 패널 확인을 완료했으며, 실제 Allen 지역별 세포 구성·발현 비교는 원본 다운로드 접근 문제로 보류 중이다.
+
 ## GitHub 반영
 
 Codex에게 **“커밋하고 푸쉬해 줘”**라고 요청하면 `AGENTS.md`의 규칙에 따라 현재까지 누적된 프로젝트 변경 전체를 반영한다. 파일을 생성할 때부터 저장소 안에 저장하도록 같은 지침에 기록했다.

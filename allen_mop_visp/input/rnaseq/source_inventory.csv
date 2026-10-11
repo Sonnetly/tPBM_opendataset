@@ -1,0 +1,6 @@
+source_id,role,url,verification_status
+Allen_CTX_HPF_10x,official_download_entry,https://brain-map.org/our-research/cell-types-taxonomies/cell-types-database-rna-seq-data/mouse-whole-cortex-and-hippocampus-10x,referenced_in_plan_HTTP_proxy_CONNECT_403
+Allen_CTX_HPF_SMARTseq,optional_low_detection_followup,https://brain-map.org/our-research/cell-types-taxonomies/cell-types-database-rna-seq-data/mouse-whole-cortex-and-hippocampus-smart-seq,referenced_in_plan_not_retrieved
+MOp_GEO_sample,planned_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629156,referenced_in_plan_HTTP_proxy_CONNECT_403
+VISp_GEO_sample,planned_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629158,referenced_in_plan_not_retrieved
+Yao_Cell_2021,source_publication,https://pmc.ncbi.nlm.nih.gov/articles/PMC8195859/,referenced_in_plan_not_retrieved

@@ -1,0 +1,357 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 85,
+    "sha256": "863287b7a002f8b21e7d118d7e6c298390a01e53bd91475c33f7599da5594b05"
+  },
+  {
+    "path": "README_ko.md",
+    "bytes": 6812,
+    "sha256": "6cfbb0ff4a2d90024e3bcbd8d058169c8b50cd987f0312fc8ab3b65fa2892a23"
+  },
+  {
+    "path": "analysis_report_ko.md",
+    "bytes": 6459,
+    "sha256": "9ad56ffa258caace5d5b05050238bce92710ef817208c2e1ed2214a8a9f099e5"
+  },
+  {
+    "path": "analysis_status.json",
+    "bytes": 2000,
+    "sha256": "10996da905d5591ee4f4948f645cc39f8cf0d3eaaad716d60d152f37bc697528"
+  },
+  {
+    "path": "docs/MOp_VISp_Allen_analysis_plan_ko.md",
+    "bytes": 23403,
+    "sha256": "c1d7101e339c463155ae61fbeac25c57b4748bde3d4064dd23d2ac3afc9d9ff0"
+  },
+  {
+    "path": "docs/RNAseq_analysis_ko.md",
+    "bytes": 6980,
+    "sha256": "d397d454f8b4c7bae3b29865d5474a14e1514c2cea59e661e85ff075a984782a"
+  },
+  {
+    "path": "docs/file_management_ko.md",
+    "bytes": 1727,
+    "sha256": "14ae69dc10c512b059e7b890bd8e4e9690e0445c3f8546a07fc6b3666a8af42d"
+  },
+  {
+    "path": "docs/migration_provenance.json",
+    "bytes": 12477,
+    "sha256": "eb20610220974dfe0342b4010c40f4d0fb8f4eabc0d03f9ba323dcc1913957d8"
+  },
+  {
+    "path": "docs/network_requirements.json",
+    "bytes": 570,
+    "sha256": "f1078a2f388f5ec4f12c9ba92890f76d3f688c158f9f9cd0be47b654ff21b44a"
+  },
+  {
+    "path": "docs/stimulation_coordinates_user.json",
+    "bytes": 663,
+    "sha256": "af1ec3570d2595eb5e2d6542e01fc85cb2c167c19b0ff607f6804f60bc2943da"
+  },
+  {
+    "path": "input/coverage/B6J_description.md",
+    "bytes": 2849,
+    "sha256": "aa9807ec717ec20bbdd1a04dffe41f5a80ed63a5706e6acc2b932c5e95415783"
+  },
+  {
+    "path": "input/coverage/B6J_gene_list.html",
+    "bytes": 172701,
+    "sha256": "d7ea1f126d31266142da655ff9f07f21740ded826bf5da71b6760bb21631cb19"
+  },
+  {
+    "path": "input/coverage/B6N_Zhuang1_description.md",
+    "bytes": 4375,
+    "sha256": "00ef8b982b39893928fe6bb872bf1d9fa8bfa227f377fa725a4e981ec8958e4a"
+  },
+  {
+    "path": "input/coverage/B6N_Zhuang1_gene_list.html",
+    "bytes": 348843,
+    "sha256": "26f459a4d2bc560d64114ed2ab098c6542ed9c5be63568c4b6d32b9a04b3c6c8"
+  },
+  {
+    "path": "input/merfish/official_sdk_manifest_snapshot.json",
+    "bytes": 253138,
+    "sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478"
+  },
+  {
+    "path": "input/merfish/provenance.json",
+    "bytes": 995,
+    "sha256": "8751ff82dc35a70d7b8c8a6bf7df51e026d5eee588b04164f32848759d1fdf10"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/analyze_deg_and_reprioritize.py",
+    "bytes": 25577,
+    "sha256": "50ed5030f1d07e3ca8767e3eb744eb1d559846b5970c92649315d5eb3d95b6c2"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/concordant_51.csv",
+    "bytes": 34435,
+    "sha256": "dc979717545a8a618e2c56c21d32b4ff770797bc767f919fc6583cf5534016dd"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_aware_priority_config.tsv",
+    "bytes": 2473,
+    "sha256": "ba2096272680904aa4bc80355bb14aa9232591d871cbb45ea41472c6f3141941"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md",
+    "bytes": 11303,
+    "sha256": "f03f242e7890bfe70037721abd4e0b4f87856a7d7f3371c48af9c8fc76abb545"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/DEG_group_summary.csv",
+    "bytes": 829,
+    "sha256": "16b006b54a652ad690b07544199b44a953bd64f11dab22f2ea7534dfa2cd90a5"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/common_up_GO_38.csv",
+    "bytes": 20124,
+    "sha256": "4468cbab8ce6fce5d59cd62dd63aa2b94eb72cec61c4c4d73dd94affa03cdd3b"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/common_up_GO_with_gene_stats.csv",
+    "bytes": 21495,
+    "sha256": "c094ea5d43f8e14e09281fde03d43501cd6213d01ef4bce6eed4e153e1610bc7"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/same_direction_52.csv",
+    "bytes": 12353,
+    "sha256": "5ae94d9f7ccb7089104274f62680e1c23dcc8397317c6e340e73d90a21692c4b"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/deg_validation/validation_summary.json",
+    "bytes": 908,
+    "sha256": "c186fbfdc924137e940de5728551bf9ca3b37a37f2ecbc4bc67551c7962240ba"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/gene_function_map.tsv",
+    "bytes": 5690,
+    "sha256": "aed17872db79d6f44af46c131c886b7654c6694871d8daaa0e317f03161583f9"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv",
+    "bytes": 1414511,
+    "sha256": "919719f2ee940ed5f236f684a24eed688598600cd196921baaf24b53cc325759"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv",
+    "bytes": 4618375,
+    "sha256": "31d894d4869e370312c78109349b740718b67a9ec65c6f413846d90742efb184"
+  },
+  {
+    "path": "input/pbm/repository/ora_analysis/qpcr_candidate_config.tsv",
+    "bytes": 5362,
+    "sha256": "236fa9498e58365fa6f773845220fb0f6f4ca0dc4a28e318f1725b65323d2b00"
+  },
+  {
+    "path": "input/pbm/source_provenance.json",
+    "bytes": 10103,
+    "sha256": "9884ccb6de65d52cb99ddb9418e55e2e7725acda143a47543bb9e2dfb531e881"
+  },
+  {
+    "path": "input/rnaseq/schema_map.example.json",
+    "bytes": 318,
+    "sha256": "526da32e0fd0da0335df1ce8649d3418753a56fcdea5ee835d0eb02263d73a95"
+  },
+  {
+    "path": "input/rnaseq/source_inventory.csv",
+    "bytes": 869,
+    "sha256": "4411ade3f00c2774147bee26732e7e4cf6e2fc9864531654b907c7877c250042"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 122,
+    "sha256": "7330373599328c323bd79f1fee4a0de8e29f8cf0be9bacfed1e73f39d7e15d5a"
+  },
+  {
+    "path": "results/coverage/B6J_measured_gene_list.csv",
+    "bytes": 46996,
+    "sha256": "677e321aaa5d41558a679688be839f45ea1ccd0c0473587719badf8857addf17"
+  },
+  {
+    "path": "results/coverage/B6N_Zhuang1_measured_gene_list.csv",
+    "bytes": 84680,
+    "sha256": "35f91e623d049ccfda2fc1827b1067a5d1be8af1370e9f1ebbaeccda6bbc37b9"
+  },
+  {
+    "path": "results/coverage/exploration62_measurement_coverage.csv",
+    "bytes": 16341,
+    "sha256": "7c8165dbc6f94cd0b9103766a3d5ef11ed86cee93618c5873dc13d500f123086"
+  },
+  {
+    "path": "results/coverage/panel22_measurement_coverage.csv",
+    "bytes": 7305,
+    "sha256": "1239aefbc34b8535b1f836e0663477653edaea7f17585a300c7232e79299a38b"
+  },
+  {
+    "path": "results/coverage/validation_summary.json",
+    "bytes": 1503,
+    "sha256": "333a006ca50cc431e5d7244371de2db6e5e494ddd1ffbc25b401f0118669bd6f"
+  },
+  {
+    "path": "results/merfish/network_acquisition_status.json",
+    "bytes": 678,
+    "sha256": "50db4b5c906431f04d3082644307fb75ee361aa65569aca0091febc78e903bab"
+  },
+  {
+    "path": "results/merfish/readiness_report.json",
+    "bytes": 3683,
+    "sha256": "3c44a48a5377a21ffa8bcb52985e0f3f4c1cb0cb2cd830fa40736f18ae959eb0"
+  },
+  {
+    "path": "results/merfish/test_validation.json",
+    "bytes": 2043,
+    "sha256": "f5062b6f04d8525d041d4a387ba8b23b14a5ddb67d7bd0bc0ec2ffb791f9b89a"
+  },
+  {
+    "path": "results/pbm/ORA_DEG_alignment.csv",
+    "bytes": 288,
+    "sha256": "ecf132edf5993d83be355f567ac35286f35bbf343f13bf694af54facb1e3e31e"
+  },
+  {
+    "path": "results/pbm/PBM_bridge_report_ko.md",
+    "bytes": 3273,
+    "sha256": "869273d071bd9b6de23f8aa1a8ef70ffe7da850e8f40e887f7a73b91afff6bf1"
+  },
+  {
+    "path": "results/pbm/PBM_panel22_and_gene_sets.xlsx",
+    "bytes": 63427,
+    "sha256": "822633835b8781793f28517066bfda02422afa95ad563c2d544553ad821a68f3"
+  },
+  {
+    "path": "results/pbm/all_selected_symbol_union.csv",
+    "bytes": 262131,
+    "sha256": "cf5cba2f27528287174f09498cb013a0753a60791b99ac9b4b6a80a46a43a1f5"
+  },
+  {
+    "path": "results/pbm/common_GO_gene_pairs.csv",
+    "bytes": 19011,
+    "sha256": "4026ed3b060d3ac0ad34add2507013bc59c9558d7787bfb92784247dfb9cdbb4"
+  },
+  {
+    "path": "results/pbm/common_GO_hit19.csv",
+    "bytes": 4377,
+    "sha256": "5ffc4b232265eb53acd90cdcb6851e000392777604d570db2f0280f9e13442cf"
+  },
+  {
+    "path": "results/pbm/common_down18.csv",
+    "bytes": 4352,
+    "sha256": "b1a29eb78794696f048dc357a64761035614515b30af69cd75e9107585d63238"
+  },
+  {
+    "path": "results/pbm/common_up34.csv",
+    "bytes": 7598,
+    "sha256": "3cb7195684a643229ab29b00dc77fe4ce7a975546b372158f078d2ee53d2de7d"
+  },
+  {
+    "path": "results/pbm/common_up_GO_38.csv",
+    "bytes": 16594,
+    "sha256": "501249749527cf19324c2adde0fa0b6bc0b147fa22bfd05d9ffd580eefa35638"
+  },
+  {
+    "path": "results/pbm/duplicate_placeholder_audit.csv",
+    "bytes": 2262,
+    "sha256": "adcf895b02cc59acd7a47de9b2c05e3b52a0f980bb8edef015d73fd04e9a1ac4"
+  },
+  {
+    "path": "results/pbm/exploration_genes62.csv",
+    "bytes": 13914,
+    "sha256": "0c7ed6caaab0d8ea06d226e4d88686e42292c50dff07a5a4139c7a0d4ce75a57"
+  },
+  {
+    "path": "results/pbm/gene_group_manifest.json",
+    "bytes": 3516,
+    "sha256": "6d12ac5f6ec8c73654dd1506d2bda869b935e1e4e1112f713cf2a68b69f069e6"
+  },
+  {
+    "path": "results/pbm/opposite_direction23.csv",
+    "bytes": 5439,
+    "sha256": "0af52593f907c6dc7d17884dc46ff3530e35507c4a72af1170e32b77894ba5ac"
+  },
+  {
+    "path": "results/pbm/panel22.csv",
+    "bytes": 6397,
+    "sha256": "505ef1c231c8330919b820e13fa277a4798a9ff770f1fe6e14466b4059b9ee1e"
+  },
+  {
+    "path": "results/pbm/reproducibility_validation.json",
+    "bytes": 2648,
+    "sha256": "57a53426c1e21dbe060603ea1324290a75d6851db615198035ca9b9b0e41c1f7"
+  },
+  {
+    "path": "results/pbm/same_direction_52.csv",
+    "bytes": 11488,
+    "sha256": "d7e1e479dbd011666941c31ba8b152ed988f606b97f7493a1209cbe6ec206d1f"
+  },
+  {
+    "path": "results/pbm/validation_summary.json",
+    "bytes": 34666,
+    "sha256": "09922187d0c5846832db098b1fa9a35892f6d5292fa1c6bf60274e4730d79679"
+  },
+  {
+    "path": "results/rnaseq/status.json",
+    "bytes": 472,
+    "sha256": "fd83bed38330522b342bf95e0840fdb7daa6ef70b30cc46b52f6208a27019f28"
+  },
+  {
+    "path": "results/validation/repository_import_validation.json",
+    "bytes": 5351,
+    "sha256": "1f4f8eacc2475eabcdafa190099761a3d9e77a4580a4e3a4ae0c7035ffea0a7c"
+  },
+  {
+    "path": "results/validation/rnaseq_code_validation.json",
+    "bytes": 1562,
+    "sha256": "13e13a2f22189f42db0d249646fe424d69068db2d9de17c3fa8fee1c374c1bb7"
+  },
+  {
+    "path": "setup_windows.ps1",
+    "bytes": 503,
+    "sha256": "b0f54ea5947fa83a0f06731a04a6bb9c228a911b2aa0ad0249fc3803fa06305e"
+  },
+  {
+    "path": "src/audit_gene_coverage.py",
+    "bytes": 3557,
+    "sha256": "d4426e5bf5e3212afb855bc597659a99808230ebecb2401438030012028ab3e0"
+  },
+  {
+    "path": "src/build_pbm_panels.py",
+    "bytes": 28767,
+    "sha256": "b2c669414742f71d05b7bf889e975cfb2810fc7b03476f7b63f53278abc1e8fd"
+  },
+  {
+    "path": "src/merfish/README.md",
+    "bytes": 7069,
+    "sha256": "de39ea1270bd84ced1c80588d2c210d323b9492220d025c09b309ec9d11ecb95"
+  },
+  {
+    "path": "src/merfish/run_merfish.py",
+    "bytes": 27613,
+    "sha256": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64"
+  },
+  {
+    "path": "src/merfish/test_merfish_synthetic.py",
+    "bytes": 6881,
+    "sha256": "4fad05a6b7b82669f39ab12debdfea3453ccb87804d0984e23560379a744b8f3"
+  },
+  {
+    "path": "src/package_project.py",
+    "bytes": 2218,
+    "sha256": "b88f5eac34c18322da884dfa952c0fb37a93beace034556928d56fa620fac690"
+  },
+  {
+    "path": "src/rnaseq/analyze_expression.py",
+    "bytes": 23824,
+    "sha256": "ac308f5d8b815fc71e0d320cd12fe1787fd2c082b35f429d070b807fec3dc66c"
+  },
+  {
+    "path": "src/rnaseq/check_pipeline.py",
+    "bytes": 7374,
+    "sha256": "f7da30628aa8247b2e3d1dc01da62c308b59a8ac1fd3bc95bc9cd9260631dc64"
+  },
+  {
+    "path": "src/rnaseq/discover_downloads.py",
+    "bytes": 3553,
+    "sha256": "a74424120238cde16957a426e273c18969aadb879e73aecf418f0cf37bac11cf"
+  }
+]

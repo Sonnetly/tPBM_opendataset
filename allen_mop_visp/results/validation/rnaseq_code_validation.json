@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "command": "python src/rnaseq/check_pipeline.py",
+  "fixtures": "TemporaryDirectory only; no synthetic biological output in project results",
+  "checks": [
+    "exact MOp/VISp selection; broad VIS excluded",
+    "confirmed full-transcriptome library normalization",
+    "external full-library denominator; zero target expression allowed",
+    "detection fractions include zero cells",
+    "unavailable genes remain unavailable",
+    "only known shared clusters enter equal cluster standardization",
+    "raw-count integer/nonnegative/positive-library guards",
+    "complete class/subclass required",
+    "unknown annotation labels canonicalized",
+    "missing input exit 2 and pending_external_data",
+    "failed run status does not retain complete flag"
+  ],
+  "biological_validation": false,
+  "actual_RNAseq_metadata_downloaded": false,
+  "actual_RNAseq_expression_downloaded": false,
+  "output": "PASS: exact ROI, full-library normalization, detection, unavailable gene, shared-cluster weighting, raw-count guard, taxonomy guard and explicit pending exit",
+  "repository_import_validation": {
+    "status": "passed",
+    "verified_at_UTC": "2026-10-11T13:24:01.708621+00:00",
+    "command": "python src/rnaseq/check_pipeline.py",
+    "exit_code": 0,
+    "actual_allen_data": false,
+    "source_sha256": {
+      "src/rnaseq/analyze_expression.py": "ac308f5d8b815fc71e0d320cd12fe1787fd2c082b35f429d070b807fec3dc66c",
+      "src/rnaseq/check_pipeline.py": "f7da30628aa8247b2e3d1dc01da62c308b59a8ac1fd3bc95bc9cd9260631dc64"
+    }
+  }
+}

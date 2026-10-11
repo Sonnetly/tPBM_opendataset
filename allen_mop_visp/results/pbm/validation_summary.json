@@ -1,0 +1,1515 @@
+{
+  "status": "passed",
+  "source_git_commit": "e430e8d2d2827ccdd222e8828d77227e937b6f1b",
+  "source_hashes_verified": true,
+  "raw_DEG_rows": 5651,
+  "raw_ORA_rows": 28092,
+  "selected_hippocampus_rows": 657,
+  "selected_cortex_rows": 998,
+  "same_direction_symbols": 52,
+  "same_up": 34,
+  "same_down": 18,
+  "opposite_direction_symbols": 23,
+  "shared_up_GO_terms": 38,
+  "common_GO_hit_genes": 19,
+  "GO_gene_pairs": 131,
+  "panel_genes": 22,
+  "combined_screening_genes": 62,
+  "adenosine_genes_absent_from_both_selected_tables": [
+    "Entpd1",
+    "Slc29a1",
+    "Slc29a2",
+    "Adk",
+    "Ada",
+    "Adora1"
+  ],
+  "source_repository_files_modified": false,
+  "no_new_DE_or_ORA_test": true,
+  "Allen_regional_differences_calculated": false,
+  "planned_scope": {
+    "primary_Atlas_screening_panel": 22,
+    "exploratory_same_direction_panel": 52,
+    "inference": "Candidates only; Atlas regional effects require actual Allen measurements"
+  },
+  "observed_source_counts": {
+    "same_direction": 52,
+    "common_up": 34,
+    "common_down": 18,
+    "GO_terms": 38,
+    "actual_common_GO_hits": 19
+  },
+  "table_counts": {
+    "panel22": {
+      "rows": 22,
+      "distinct_gene_symbols": 22,
+      "distinct_GO_terms": null
+    },
+    "same_direction_52": {
+      "rows": 52,
+      "distinct_gene_symbols": 52,
+      "distinct_GO_terms": null
+    },
+    "common_up34": {
+      "rows": 34,
+      "distinct_gene_symbols": 34,
+      "distinct_GO_terms": null
+    },
+    "common_down18": {
+      "rows": 18,
+      "distinct_gene_symbols": 18,
+      "distinct_GO_terms": null
+    },
+    "opposite_direction23": {
+      "rows": 23,
+      "distinct_gene_symbols": 23,
+      "distinct_GO_terms": null
+    },
+    "common_up_GO_38": {
+      "rows": 38,
+      "distinct_gene_symbols": null,
+      "distinct_GO_terms": 38
+    },
+    "common_GO_hit19": {
+      "rows": 19,
+      "distinct_gene_symbols": 19,
+      "distinct_GO_terms": null
+    },
+    "common_GO_gene_pairs": {
+      "rows": 131,
+      "distinct_gene_symbols": 19,
+      "distinct_GO_terms": 37
+    },
+    "exploration_genes62": {
+      "rows": 62,
+      "distinct_gene_symbols": 62,
+      "distinct_GO_terms": null
+    },
+    "all_selected_symbol_union": {
+      "rows": 1574,
+      "distinct_gene_symbols": 1574,
+      "distinct_GO_terms": null
+    },
+    "duplicate_placeholder_audit": {
+      "rows": 8,
+      "distinct_gene_symbols": 3,
+      "distinct_GO_terms": null
+    },
+    "ORA_DEG_alignment": {
+      "rows": 4,
+      "distinct_gene_symbols": null,
+      "distinct_GO_terms": null
+    }
+  },
+  "checks_passed": 279,
+  "checks": [
+    {
+      "name": "source_hash:ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/same_direction_52.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/common_up_GO_38.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/common_up_GO_with_gene_stats.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/DEG_group_summary.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/validation_summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/qpcr_candidate_config.tsv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/deg_aware_priority_config.tsv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/gene_function_map.tsv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/concordant_51.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_hash:ora_analysis/analyze_deg_and_reprioritize.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite_DEG:log2FC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite_DEG:pvalue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite_DEG:FDR_padj",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite_DEG:baseMean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_DEG_rows_5651",
+      "passed": true,
+      "detail": 5651
+    },
+    {
+      "name": "imported_FDR05_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "log2FC_direction_consistent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pathway_eligibility_parsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "correct_PBM_contrasts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "correct_wavelengths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "valid_unique_symbols",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_directions_consistent:hippocampus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_directions_consistent:cortex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_direction_overlap_52",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "common_up34_down18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "opposite_direction_overlap23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_ambiguous_shared_symbols",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same52_matches_committed_baseline_genes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same52_matches_committed_statistics:hippocampus_log2FC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same52_matches_committed_statistics:hippocampus_FDR_padj",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same52_matches_committed_statistics:cortex_log2FC",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same52_matches_committed_statistics:cortex_FDR_padj",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full_DEG_adds_Tmem40_to_ORA51",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_ORA_rows28092",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_ORA_keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ORA_input_alignment:hippocampus:up",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ORA_input_alignment:hippocampus:down",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ORA_input_alignment:cortex:up",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ORA_input_alignment:cortex:down",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0005216",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Ryr2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005216:Trpc5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0005244",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005244:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005244:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005244:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0005261",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005261:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005261:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005261:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005261:Ryr2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0005261:Trpc5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0007268",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007268:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007268:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007268:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007268:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007268:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0007409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007409:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007409:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007409:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0007411",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007411:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0007611",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Btbd9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Stra6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0007611:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0008066",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0008066:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0008066:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0008066:Grm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0016247",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0016247:Grm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0016247:Ptpn3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0022832",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022832:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022832:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022832:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0022836",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022836:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022836:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022836:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022836:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022836:Ryr2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0022843",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022843:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022843:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022843:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0022898",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022898:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0022898:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0030534",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0030534:Btbd9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0030534:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0030534:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0030534:Grm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0034765",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0034765:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0034765:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0034765:Ptpn3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0034765:Ryr2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0043270",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0043270:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0046873",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Atp2b3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Ryr2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0046873:Trpc5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0048167",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Bcl7a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Grm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048167:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0048588",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048588:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0048667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048667:Btbd3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048667:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048667:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0048667:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0050770",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050770:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050770:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050770:Trpc5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050770:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0050803",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050803:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050803:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050803:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0050807",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050807:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050807:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050807:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0050808",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050808:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0050890",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Bcl7a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Btbd9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Stra6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0050890:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0051966",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0051966:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0051966:Grm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0051966:Tnr",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0060078",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0060078:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0060078:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0060560",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0060560:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0061564",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0061564:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0061564:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0061564:Zeb2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0097485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0097485:Epha4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0098916",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0098916:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0098916:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0098916:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0098916:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0098916:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099084",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099084:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099084:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099173",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099173:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099173:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099173:Shisa7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099173:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099174",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099174:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099505",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099505:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099505:Kcnj6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099536",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099536:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099536:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099536:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099536:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099536:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:0099537",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099537:Cacna1c",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099537:Dlgap1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099537:Grid1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099537:Grin2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_hit_is_common_up:GO:0099537:Slitrk3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_label_alignment:GO:1990138",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shared_up_GO38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_BP29_MF9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_shared_hits19_pairs131",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_one_term_without_shared_hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO38_matches_committed_baseline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0005216",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0005244",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0005261",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0007268",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0007409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0007411",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0007611",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0008066",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0016247",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0022832",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0022836",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0022843",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0022898",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0030534",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0034765",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0043270",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0046873",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0048167",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0048588",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0048667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0050770",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0050803",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0050807",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0050808",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0050890",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0051966",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0060078",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0060560",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0061564",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0097485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0098916",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099084",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099173",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099174",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099505",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099536",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:0099537",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GO_statistics_and_hits_match_baseline:GO:1990138",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "panel22_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "panel22_no_ambiguous_symbol_statistics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "panel_axis_sizes_8_8_4_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cortex_adenosine_candidate:Nt5e",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cortex_adenosine_candidate:Adora2a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_adenosine_candidates_unobserved_in_FDR05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing_values_are_not_zero_effect",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "combined_screening_genes62",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:panel22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:panel22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:same_direction_52",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:same_direction_52",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:common_up34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:common_up34",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:common_down18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:common_down18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:common_up_GO_38",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:common_GO_hit19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:common_GO_hit19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:common_GO_gene_pairs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:common_GO_gene_pairs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:exploration_genes62",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_gene_identity:exploration_genes62",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:ORA_DEG_alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excel_row_count:duplicate_placeholder_audit",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "output_sha256": {
+    "ORA_DEG_alignment.csv": "ecf132edf5993d83be355f567ac35286f35bbf343f13bf694af54facb1e3e31e",
+    "all_selected_symbol_union.csv": "cf5cba2f27528287174f09498cb013a0753a60791b99ac9b4b6a80a46a43a1f5",
+    "common_GO_gene_pairs.csv": "4026ed3b060d3ac0ad34add2507013bc59c9558d7787bfb92784247dfb9cdbb4",
+    "common_GO_hit19.csv": "5ffc4b232265eb53acd90cdcb6851e000392777604d570db2f0280f9e13442cf",
+    "common_down18.csv": "b1a29eb78794696f048dc357a64761035614515b30af69cd75e9107585d63238",
+    "common_up34.csv": "3cb7195684a643229ab29b00dc77fe4ce7a975546b372158f078d2ee53d2de7d",
+    "common_up_GO_38.csv": "501249749527cf19324c2adde0fa0b6bc0b147fa22bfd05d9ffd580eefa35638",
+    "duplicate_placeholder_audit.csv": "adcf895b02cc59acd7a47de9b2c05e3b52a0f980bb8edef015d73fd04e9a1ac4",
+    "exploration_genes62.csv": "0c7ed6caaab0d8ea06d226e4d88686e42292c50dff07a5a4139c7a0d4ce75a57",
+    "opposite_direction23.csv": "0af52593f907c6dc7d17884dc46ff3530e35507c4a72af1170e32b77894ba5ac",
+    "panel22.csv": "505ef1c231c8330919b820e13fa277a4798a9ff770f1fe6e14466b4059b9ee1e",
+    "same_direction_52.csv": "d7e1e479dbd011666941c31ba8b152ed988f606b97f7493a1209cbe6ec206d1f"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "pending_external_data",
+  "executed": false,
+  "missing": [
+    "CTX-HPF MOp/VISp cell metadata",
+    "cell-level expression matrix and documented scale"
+  ],
+  "not_generated": [
+    "RNA-seq region expression differences",
+    "animal-level P values"
+  ],
+  "next_command": "python src/rnaseq/analyze_expression.py --metadata input/rnaseq/cell_metadata.csv --h5ad input/rnaseq/ctx_hpf.h5ad --value-kind raw_counts --full-transcriptome-counts-confirmed"
+}
