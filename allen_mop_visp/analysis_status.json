@@ -1,5 +1,5 @@
 {
-  "status": "partial_analysis_external_data_blocker",
+  "status": "atlas_expression_composition_and_NREM_related_projection_descriptive_analysis_completed",
   "PBM_bridge": {
     "status": "passed",
     "checks_passed": 279,
@@ -27,18 +27,40 @@
     "B6N_exploration_measured_count": 12
   },
   "MERFISH_actual_composition": {
-    "status": "pending",
-    "executed": false,
-    "reason": "official input downloads blocked by outbound proxy"
+    "status": "composition_completed",
+    "executed": true,
+    "actual_allen_data": true,
+    "n_MOp": 83976,
+    "n_VISp": 61884,
+    "n_animals": 1,
+    "genotype": "WT C57BL/6J male",
+    "verified_source_files": 5,
+    "source_bytes": 1571075446,
+    "publisher_MD5_verified": true,
+    "counts_and_denominators_verified": true,
+    "report": "results/merfish/composition_report_ko.md"
   },
   "CTX_HPF_actual_expression": {
-    "status": "pending",
-    "executed": false,
-    "reason": "metadata and expression matrix inaccessible; exact artifact not established"
+    "status": "descriptive_expression_complete",
+    "executed": true,
+    "actual_allen_data": true,
+    "n_MOp": 123727,
+    "n_VISp": 29763,
+    "n_candidates_present": 62,
+    "core_candidates": 22,
+    "source": "official GEO GSE185862 10x_v2 raw-count archive",
+    "expression_matrix_bytes": 5716426072,
+    "normalization": "log1p(CP10k); exact full 31053-gene counts denominator preserved in metadata",
+    "genotype": "male Snap25-IRES2-Cre;Ai14, C57BL/6J reporter background; not WT",
+    "selected_donors_MOp": 3,
+    "selected_donors_VISp": 3,
+    "matched_age": "P58, 1 MOp donor and 2 VISp donors",
+    "broader_exploratory_cohort": "P57-59, reported separately; not exact age matched",
+    "independent_review": "results/validation/actual_atlas_scientific_review.json"
   },
   "pseudobulk_animal_tests": {
     "status": "not_run",
-    "reason": "independent biological units and batch design unverified"
+    "reason": "region completely confounded with library-preparation date; same-ROI pooling independence unestablished; matched-age P58 does not remove batch confounding"
   },
   "local_ROI": {
     "status": "deferred",
@@ -54,11 +76,77 @@
       "actual_allen_data": false
     },
     "PBM_reproducibility": "two_successive_runs_identical_tables_report_manifest",
-    "dependency_check": "passed"
+    "dependency_check": "passed",
+    "actual_atlas_independent_review": "passed; see results/validation/actual_atlas_scientific_review.json",
+    "new_download_extraction_checks": "7 checks passed; results/validation/actual_download_code_validation.json",
+    "RNAseq_postprocessing": "passed; rare missing shared-cluster direction changes left unavailable; per-row n included in plots; see results/validation/rnaseq_postprocessing_validation.json",
+    "SMARTseq_actual_validation": "passed; results/validation/smartseq_actual_data_validation.json",
+    "connectivity_actual_data_independent_review": "passed; 1101 checks; results/validation/connectivity_actual_data_review.json"
   },
   "physical_file_location": "/workspace/tPBM_opendataset/allen_mop_visp",
   "requested_windows_destination": "G:\\내 드라이브\\0. Research\\2026\\openRNAseq_PBM\\Allen Dataset_M1_V1",
   "windows_destination_written": false,
   "original_cloud_work_folder": "/workspace/Allen Dataset_M1_V1",
-  "git_workflow": "User requested repository import and commit/push; actual Git state is recorded by Git history and remote verification, not by this analytical snapshot."
+  "git_workflow": "Analysis files are maintained in the repository and included in user-requested commits/pushes. Exact commit and remote state are recorded by Git history and remote verification, not this analytical snapshot.",
+  "updated_at_UTC": "2026-10-11T14:41:33.452263+00:00",
+  "MERFISH_Penk_spatial_expression": {
+    "status": "not_run_optional_matrix_not_downloaded",
+    "reason": "metadata composition completed; broad candidate expression computed with RNA-seq; MERFISH measurement coverage is not actual spatial expression"
+  },
+  "SMARTseq_supplementary_expression": {
+    "status": "complete_descriptive_supplement",
+    "actual_allen_data": true,
+    "n_MOp": 6588,
+    "n_VISp": 15572,
+    "n_candidates_measured": 62,
+    "source_matrix_bytes": 3585764160,
+    "normalization": "log1p(exon read CPM); full 45768-gene exon library denominator",
+    "shared_known_metadata_strata": 67,
+    "display_n10_strata": 38,
+    "display_n_MOp": 2110,
+    "display_n_VISp": 1871,
+    "same_dissection_layer_display_strata": 22,
+    "identical_metadata_crosscheck_with_10x_strata": 0,
+    "scope": "separate reporter/genotype/sex/age/FACS strata; no WT; not direct replication of 10x direction; no animal P/FDR",
+    "independent_actual_data_review": "passed; all selected candidate counts and summaries independently matched; results/validation/actual_atlas_scientific_review.json"
+  },
+  "download_network_status": "ABC S3 and official GEO archive succeeded in actual runtime; legacy Allen CTX-HPF S3 remains blocked; saved draft domains do not imply runtime application",
+  "integrated_workbook": "results/MOp_VISp_Allen_comparison.xlsx",
+  "Allen_connectivity_projection": {
+    "status": "actual_projection_analysis_completed",
+    "actual_allen_data": true,
+    "selected_experiments": 168,
+    "WT_experiments_MOp": 8,
+    "WT_experiments_VISp": 33,
+    "Cre_experiments_MOp": 23,
+    "Cre_experiments_VISp": 104,
+    "mapped_targets": 7,
+    "unmapped_targets": [
+      "PZ"
+    ],
+    "expected_and_observed_target_hemisphere_records": 3528,
+    "primary_metric": "bilateral normalized_projection_volume = target segmented projection signal volume / whole injection signal volume",
+    "sensitivity_scopes": [
+      "source-only annotated injection structures",
+      "exact P56 injection age",
+      "source-parent injection signal fraction >= 0.8",
+      "P56 and source-parent injection signal fraction >= 0.8"
+    ],
+    "P56_and_fraction_0_8_MOp_experiments": 4,
+    "P56_and_fraction_0_8_VISp_experiments": 10,
+    "P56_and_fraction_0_8_ZI_median_NPV_MOp": 0.268411345827341,
+    "P56_and_fraction_0_8_ZI_median_NPV_VISp": 0.0480304810583189,
+    "animal_inference_P_FDR_computed": false,
+    "scope": "descriptive axonal signal; not postsynaptic cell identity, synapse, functional monosynaptic coupling, NREM promotion or PBM response",
+    "independent_review": "results/validation/connectivity_actual_data_review.json",
+    "functional_target_definition": "docs/NREM_projection_target_definition_ko.md",
+    "report": "results/connectivity/NREM_projection_report_ko.md",
+    "workbook": "results/connectivity/MOp_VISp_NREM_projection.xlsx",
+    "actual_data_validation_checks_passed": 1101
+  },
+  "molecular_downstream_pathway": {
+    "status": "methods_proposed_not_calculated",
+    "reason": "preserved expression subsets contain 62 selected genes; full gene universe or complete prespecified modules required",
+    "plan": "docs/downstream_pathway_analysis_options_ko.md"
+  }
 }

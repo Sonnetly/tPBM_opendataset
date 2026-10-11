@@ -9,4 +9,13 @@ allen_mop_visp/input/** -text whitespace=blank-at-eol,blank-at-eof,space-before-
 allen_mop_visp/docs/MOp_VISp_Allen_analysis_plan_ko.md -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 # These official HTML snapshots contain trailing indentation and blank final lines.
 allen_mop_visp/input/coverage/*_gene_list.html -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+# Preserve official AllenSDK reference snapshots, including their whitespace.
+allen_mop_visp/input/connectivity/official_mouse_connectivity_api.py -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+allen_mop_visp/input/connectivity/official_unionizes.rst -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+# GEO readme and Allen download-page snapshots retain their original bytes.
+allen_mop_visp/input/rnaseq/GSE185862_CTX_HPF_2021_10x_readme.txt -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+allen_mop_visp/input/rnaseq/smartseq/GSE185862_CTX_HPF_2021_SS_readme.txt -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+allen_mop_visp/input/rnaseq/official_10x_download_page.html -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+# Matplotlib SVG path commands contain generated trailing spaces.
+allen_mop_visp/figures/**/*.svg -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.zip -text

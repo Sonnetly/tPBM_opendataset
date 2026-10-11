@@ -1,0 +1,8 @@
+{
+  "official_download_page": "retrieved_and_verified_HTML_title_and_CTX_HPF_links",
+  "GEO_normal_HTML_sample_pages": "HTTP 200 body was reCAPTCHA, rejected and disposable HTML removed",
+  "official_GEO_SOFT_export": "requested exact accession records successfully retrieved using documented targ=self&form=text&view=full route",
+  "Allen_legacy_S3": "HEAD and escalated GET proxy CONNECT403; no TLS changes",
+  "actual_source_route": "Official GEO GSE185862 HTTPS archive reachable; metadata, XLSX donor records and counts obtained",
+  "tls_verification": "preserved"
+}

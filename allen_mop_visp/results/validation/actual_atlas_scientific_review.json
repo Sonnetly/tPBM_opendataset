@@ -1,0 +1,726 @@
+{
+  "reviewed_at_UTC": "2026-10-11T14:02:36.478122+00:00",
+  "status": "passed_independent_actual_data_review",
+  "scope": "Actual B6J MERFISH composition, CTX-HPF 10x primary/exploratory candidate expression and separately analyzed SMART-seq supplement; numerical validation does not establish animal-level causality or PBM response.",
+  "review_method": "Independent read-only source projections, exact cell/gene identity checks, raw-count spot checks and complete numerical summary recomputation; only this review record was created by the reviewer.",
+  "merfish": {
+    "dataset": "MERFISH-C57BL6J-638850",
+    "status": "composition_completed",
+    "independent_animals": 1,
+    "donor": "C57BL6J-638850",
+    "genotype": "wt/wt",
+    "sex": "M",
+    "selected_cells": 145860,
+    "region_cells": {
+      "MOp": 83976,
+      "VISp": 61884
+    },
+    "QC_annotation_exclusions": 0,
+    "missing_annotation": 0,
+    "missing_CCF_coordinates": 0,
+    "unknown_anatomical_layers": 0,
+    "source_projection_checks": {
+      "reconstructed_all_rows": 3739961,
+      "annotation_all_rows": 3938808,
+      "exact_CCF_MOp_VISp_selected_ID_set_matches_output": true,
+      "region_and_parcellation_substructure_match_source": true,
+      "reconstructed_xyz_match_source": true,
+      "all_selected_class_subclass_NT_donor_sex_genotype_cluster_alias_section_match_source": true
+    },
+    "composition_checks": {
+      "tables": 32,
+      "rows": 51396,
+      "all_counts_match_independent_QC_or_neuron_or_GABA_reaggregation": true,
+      "all_group_count_sums_equal_corresponding_denominators": true,
+      "all_fractions_sum_one": true,
+      "all_fractions_equal_count_over_denominator": true,
+      "all_percentage_points_differences_are_MOp_minus_VISp": true,
+      "all_independent_animal_fields_equal_one": true
+    },
+    "official_input_integrity": [
+      {
+        "name": "annotation",
+        "relative_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850/20241115/views/cell_metadata_with_cluster_annotation.csv",
+        "bytes": 1018613800,
+        "published_MD5": "b4cddf29d092d5cb29f73af1cc156f7a",
+        "independently_rehashed_MD5_matches": true
+      },
+      {
+        "name": "reconstructed",
+        "relative_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850-CCF/20231215/reconstructed_coordinates.csv",
+        "bytes": 256489776,
+        "published_MD5": "125ecd204740b1fbccb3fb361bb63a07",
+        "independently_rehashed_MD5_matches": true
+      },
+      {
+        "name": "ccf",
+        "relative_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850-CCF/20231215/ccf_coordinates.csv",
+        "bytes": 295901193,
+        "published_MD5": "23628a884aa65616fa2f9d898c30e9ba",
+        "independently_rehashed_MD5_matches": true
+      },
+      {
+        "name": "parcellation",
+        "relative_path": "input/merfish/cache/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv",
+        "bytes": 22261,
+        "published_MD5": "3e415e67f7089192bbce62bf9aac7bd1",
+        "independently_rehashed_MD5_matches": true
+      },
+      {
+        "name": "gene",
+        "relative_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850/20241115/gene.csv",
+        "bytes": 48416,
+        "published_MD5": "d9cee1242bc13374b5e2beeea827de3e",
+        "independently_rehashed_MD5_matches": true
+      }
+    ],
+    "mapping_review": "Raw Other non-neuronal classes/subclasses and rare atypical neuron labels are retained; no automatic reassignment or deletion. MOp lacks an anatomical CCF L4 label; this is not absence of L4/5 transcriptomic cells or zero gene expression."
+  },
+  "rnaseq": {
+    "status": "descriptive_expression_complete",
+    "source_dataset": "GEO GSE185862 CTX-HPF 10x_v2",
+    "matrix_counts_orientation": "31053 genes x 1169320 cell columns, identified by exact gene/sample-axis lengths; source data/shape reversed orientation explicitly recorded by extractor",
+    "source_gene_identifiers_unique": true,
+    "source_cell_identifiers_unique": true,
+    "source_metadata_cells": 1169213,
+    "source_matrix_cell_names_without_metadata": 107,
+    "selected_cells_missing_from_matrix": 0,
+    "selected_cells": 153490,
+    "region_cells": {
+      "MOp": 123727,
+      "VISp": 29763
+    },
+    "candidate_genes_requested": 62,
+    "candidate_genes_measured": 62,
+    "each_candidate_maps_exactly_once": true,
+    "all_selected_H5AD_obs_names_equal_metadata_and_raw_source_column_IDs": true,
+    "all_H5AD_full_library_counts_equal_metadata_full_library_counts": true,
+    "source_raw_spot_checks": {
+      "n_cells": 8,
+      "covers": "one cell per all six donor labels plus subset boundary/middle cells",
+      "full_gene_denominator_features": 31053,
+      "raw_full_gene_totals": [
+        17234,
+        13715,
+        15231,
+        8581,
+        7900,
+        8021,
+        3662,
+        21300
+      ],
+      "all_source_totals_exactly_match_saved_full_library_counts": true,
+      "all_62_raw_candidate_values_exactly_match_extracted_transpose": true
+    },
+    "condition_checks": {
+      "sex": "M",
+      "genotype": "Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "FACS": "RFP-positive",
+      "chemistry": "10x_v2 verified in both official MOp/VISp SOFT protocols",
+      "genetic_background": "C57BL/6J background transgenic reporter; not WT",
+      "age_source": "same donor IDs in original XLSX have unique P57/P58/P59 age",
+      "pool_ID": "unknown; no independent animal/pool inference made",
+      "all_saved_conditions_match_documented_source": true
+    },
+    "normalization": "Natural log1p(raw gene count / exact sum of all 31053 source-gene counts * 10000); candidate-only sums are not used.",
+    "complete_summary_recomputation": {
+      "subclass_gene_rows": 5704,
+      "cluster_gene_rows": 47430,
+      "all_cell_counts_raw_detection_fractions_and_mean_normalized_expressions_match_independent_recomputation": true,
+      "numeric_tolerance": 1e-12,
+      "P58_comparable_subclass_gene_rows": 1364,
+      "nonoverlapping_regions_have_NaN_difference_and_NaN_missing_counts_not_zero": true,
+      "P58_shared_cluster_gene_rows": 10540,
+      "P58_shared_clusters": 170,
+      "P58_equal_cluster_standardized_subclass_gene_rows": 1302,
+      "P58_equal_cluster_standardized_subclasses": 21,
+      "shared_cluster_means_counts_and_equal_weights_match_recomputation": true
+    },
+    "region_age_batch_cell_counts": [
+      {
+        "region": "MOp",
+        "age": "P57",
+        "library_preparation_date": "171026",
+        "cells": 79898
+      },
+      {
+        "region": "MOp",
+        "age": "P58",
+        "library_preparation_date": "171026",
+        "cells": 43829
+      },
+      {
+        "region": "VISp",
+        "age": "P58",
+        "library_preparation_date": "180115",
+        "cells": 16822
+      },
+      {
+        "region": "VISp",
+        "age": "P59",
+        "library_preparation_date": "171120",
+        "cells": 12941
+      }
+    ],
+    "P58_non_neuronal_sample_counts": {
+      "Astro": {
+        "MOp": 125,
+        "VISp": 59
+      },
+      "Endo": {
+        "MOp": 30,
+        "VISp": 30
+      },
+      "Micro-PVM": {
+        "MOp": 21,
+        "VISp": 18
+      },
+      "Oligo": {
+        "MOp": 150,
+        "VISp": 99
+      },
+      "SMC-Peri": {
+        "MOp": 11,
+        "VISp": 9
+      },
+      "VLMC": {
+        "MOp": 3,
+        "VISp": 1
+      }
+    },
+    "source_matrix_integrity": {
+      "relative_path": "input/rnaseq/raw/GSE185862_expression_matrix_10x.hdf5",
+      "bytes": 5716426072,
+      "download_stream_SHA256": "1ec6e788edfde84a875121762b651931a39f731dc35da1db3089fa82211c2163",
+      "publisher_checksum_available": false,
+      "review_repeated_full_file_SHA256": false,
+      "review_integrity_evidence": "Existing HTTPS byte-count/SHA256 acquisition record retained; independent source spot checks performed without rehashing the massive matrix."
+    },
+    "all_source_metadata_IDs_unique_and_present_in_matrix": true,
+    "exploratory_P57_P59_cohort_review": {
+      "status": "passed",
+      "not_exact_age_matched": true,
+      "summary_gene_rows": 2976,
+      "all_cell_counts_recorded_donor_numbers_ages_preparation_dates_mean_log_CP10k_mean_linear_CP10k_detection_fractions_match_independent_recomputation": true,
+      "shared_clusters": 180,
+      "shared_cluster_gene_rows": 11160,
+      "standardized_subclass_gene_rows": 1364,
+      "standardized_subclasses": 22,
+      "all_shared_cluster_means_and_identical_equal_weights_match_recomputation": true,
+      "outputs_and_status_explicitly_mark_age_unmatched_and_date_confounded": true
+    },
+    "missing_shared_cluster_direction_flags": {
+      "status": "resolved_and_verified",
+      "affected_subclass": "P58 VLMC",
+      "gene_rows": 62,
+      "initial_issue": "NaN shared-cluster estimates were erroneously marked as direction changes by comparison of numpy.sign values.",
+      "final_behavior": "Comparison availability is false and direction-change flags remain NA for unavailable shared-cluster estimates; no fabricated reversal."
+    }
+  },
+  "scientific_caveats": [
+    "MERFISH is a single WT male B6J brain; sampled-cell proportions are not independent animal statistics, absolute tissue cell counts or density.",
+    "RNA-seq is RFP-sorted transgenic reporter sampling, not a tissue composition estimate or WT-only atlas.",
+    "Even exact-age P58 contrasts retain completely confounded region and library-preparation dates; they are descriptive differences and cannot isolate a regional biological effect.",
+    "Independent biological pool identity is unestablished; no cell/section/hemisphere pseudoreplication or animal-level P values are permitted.",
+    "Rare non-neuronal strata, including P58 VLMC 3 versus 1 cell, must be interpreted as sparse reporter-selected observations.",
+    "Mean differences are natural log1p CP10k-scale differences, not model-derived log2 fold changes.",
+    "PBM source effects, baseline atlas differences and adenosine flux/sleep threshold remain separate interpretations; local stimulation ROI requires validated CCF mapping/optical footprint.",
+    "SMART-seq matched metadata strata use read CPM and remain separate from 10x UMI measurements; normalization and weight definitions are recorded separately.",
+    "SMART-seq shared displayed strata have exact ages P53/P54/P55/P56/P59, with no exact metadata intersection to the primary P58 10x comparison; assay replication is not established.",
+    "SMART-seq n >= 10 is a display filter, not evidence of statistical power or animal-level inference."
+  ],
+  "reviewed_file_SHA256": {
+    "results/merfish/composition_depth_group_gaba_within_gaba.csv": {
+      "bytes": 3118,
+      "sha256": "cc817cf6e44180fd2a26f47fcbbf5196ae95b41051cb8e97f7b7a301d2727321"
+    },
+    "results/merfish/composition_depth_group_major.csv": {
+      "bytes": 5579,
+      "sha256": "3b5404881c26e6fbb6d03c04a11fa9596882e01d6133dacf640c3946af51539d"
+    },
+    "results/merfish/composition_depth_group_subclass_all_cells.csv": {
+      "bytes": 28475,
+      "sha256": "77394d62a0dc9f89dc9d8b1c0d77b3facb7ee3a7cb85c1df5ff2fc06493efabd"
+    },
+    "results/merfish/composition_depth_group_subclass_neurons.csv": {
+      "bytes": 18553,
+      "sha256": "5e3d1d6cb8d6404a227e907fa23af5d0ee23e0894f6e55895fee0b852b8f854b"
+    },
+    "results/merfish/composition_hemisphere_gaba_within_gaba.csv": {
+      "bytes": 2489,
+      "sha256": "11427b2fc1af6478201a93a00ccddf2c50c960bb8d37bc5d949f118864468f0b"
+    },
+    "results/merfish/composition_hemisphere_major.csv": {
+      "bytes": 4365,
+      "sha256": "fb17c785dda7782b22430a46b39d67bfd1f3923876194f0bdb2ff556065ccddc"
+    },
+    "results/merfish/composition_hemisphere_subclass_all_cells.csv": {
+      "bytes": 23167,
+      "sha256": "fbbb596737341d9f753d76fcc49af3032dabd412966f40dcd79d60f88ce2c2dd"
+    },
+    "results/merfish/composition_hemisphere_subclass_neurons.csv": {
+      "bytes": 15241,
+      "sha256": "726c4e8fc554817d4aca8c0cccc85e51c04252b7d2df9916730a60e8405da122"
+    },
+    "results/merfish/composition_layer_gaba_within_gaba.csv": {
+      "bytes": 6129,
+      "sha256": "1d1f37529fc6ce4325b2db55173bb2f2a134181fc630cc2a5c181f1b758f1fd5"
+    },
+    "results/merfish/composition_layer_hemisphere_gaba_within_gaba.csv": {
+      "bytes": 12893,
+      "sha256": "bfe6165741e6694aea96d64b3d0f8e73308c2678c2f6518fe20527fb5373615d"
+    },
+    "results/merfish/composition_layer_hemisphere_major.csv": {
+      "bytes": 23457,
+      "sha256": "14592ef0d3d30046244e413d1f853288f67ca477542effff892e96b95b20c284"
+    },
+    "results/merfish/composition_layer_hemisphere_section_gaba_within_gaba.csv": {
+      "bytes": 141734,
+      "sha256": "798adff279babbfd42cb3d6dfbd184db90973f992117f845b4a71016d6075bc7"
+    },
+    "results/merfish/composition_layer_hemisphere_section_major.csv": {
+      "bytes": 285115,
+      "sha256": "0714624c8f1a2df56956dfe0bffdb0312cee2fbdf74cdefc5417864f22c9bf2f"
+    },
+    "results/merfish/composition_layer_hemisphere_section_subclass_all_cells.csv": {
+      "bytes": 1442722,
+      "sha256": "8dfa208ec904cfd37647804638c2b113d3257af3a3fcf04f753ee463f6529622"
+    },
+    "results/merfish/composition_layer_hemisphere_section_subclass_neurons.csv": {
+      "bytes": 935793,
+      "sha256": "952c955993ebc97ab13e81fcfd86acda60eaf6bccb2a32eccc0c1a1120d05ff5"
+    },
+    "results/merfish/composition_layer_hemisphere_subclass_all_cells.csv": {
+      "bytes": 117185,
+      "sha256": "72ee6a415f64351acd7f17dbc7440f2af8838e69e12ffa8f7f2615218559786c"
+    },
+    "results/merfish/composition_layer_hemisphere_subclass_neurons.csv": {
+      "bytes": 75243,
+      "sha256": "fbd93554224a977cc85128a6ed842f6674e2cddf70cf790f5277a8fff7173b9d"
+    },
+    "results/merfish/composition_layer_major.csv": {
+      "bytes": 11391,
+      "sha256": "c0ce89261b3c4df9d91e3641ce566f959f87e71e60511dd624abfaa00af021c7"
+    },
+    "results/merfish/composition_layer_section_gaba_within_gaba.csv": {
+      "bytes": 81300,
+      "sha256": "848a29de72e5fdf2ebd216d7c0c5379cfbd56e676d11da7ce4230597c96df4d0"
+    },
+    "results/merfish/composition_layer_section_major.csv": {
+      "bytes": 160113,
+      "sha256": "5be0b11517540f9798e22ef3324c8d80d40a0fbaca41d6688acfb25ef6603d7d"
+    },
+    "results/merfish/composition_layer_section_subclass_all_cells.csv": {
+      "bytes": 801697,
+      "sha256": "34965d65c31c8d4f7ad890d93ae961858ca12de4e5149af16d23c74730b8206d"
+    },
+    "results/merfish/composition_layer_section_subclass_neurons.csv": {
+      "bytes": 519147,
+      "sha256": "df4c15149e3263c805b5f5ab181dc52d609474363851361c6b61139e7b191346"
+    },
+    "results/merfish/composition_layer_subclass_all_cells.csv": {
+      "bytes": 56749,
+      "sha256": "1350968b97d36b434a4b339170909c835f8158a960925fca4ed2279f18cc1fad"
+    },
+    "results/merfish/composition_layer_subclass_neurons.csv": {
+      "bytes": 36319,
+      "sha256": "8ffcb69127f03e289da57b403e701fe654543199481e7f13e9b9cae96792d2ca"
+    },
+    "results/merfish/composition_region_gaba_within_gaba.csv": {
+      "bytes": 1230,
+      "sha256": "03127c64dd308d87ded0f87068349f904024b7619c64da7baff2769f270dd6e8"
+    },
+    "results/merfish/composition_region_major.csv": {
+      "bytes": 2126,
+      "sha256": "10b68b99d66777458c11bc1da446f56f01bea6ae79bf6ae267974498e665b6e3"
+    },
+    "results/merfish/composition_region_subclass_all_cells.csv": {
+      "bytes": 11403,
+      "sha256": "b8e0b843fe786ed97f4dcae8244023e274aa96b3c1c69827e5c143957d270f30"
+    },
+    "results/merfish/composition_region_subclass_neurons.csv": {
+      "bytes": 7516,
+      "sha256": "14aa909b3219dabb539aec672967d1265e83f760a6d4c3f832d449d90293505f"
+    },
+    "results/merfish/composition_section_gaba_within_gaba.csv": {
+      "bytes": 19194,
+      "sha256": "8caae1b7685493174945f9efc8c50ece471fa12f03fb177b96b35207bd34cad0"
+    },
+    "results/merfish/composition_section_major.csv": {
+      "bytes": 35848,
+      "sha256": "8ac4d6e0b1121464fc23d6ce2202934da740cd6ea4875054fb3920ca2d6bd9d7"
+    },
+    "results/merfish/composition_section_subclass_all_cells.csv": {
+      "bytes": 182093,
+      "sha256": "be2bbad27bd7bdd65fefe80725d60d5e362312d205eb6212d9059e236a9ab7a0"
+    },
+    "results/merfish/composition_section_subclass_neurons.csv": {
+      "bytes": 118872,
+      "sha256": "bf50cc9c738f01d3444f3ae89edfbeced058d3aca74aa1d6881aecc6ce1d6ce6"
+    },
+    "src/merfish/run_merfish.py": {
+      "bytes": 27635,
+      "sha256": "f266e26a527eb3e34ba951dd134e67e974234348205d1cde82052deae0d7ff72"
+    },
+    "src/rnaseq/extract_geo_subset.py": {
+      "bytes": 11412,
+      "sha256": "ec5622fbce434532d4ec462efc40fd71b3bb701a5dd6c2ecca000f0bdb323e14"
+    },
+    "src/rnaseq/analyze_expression.py": {
+      "bytes": 23955,
+      "sha256": "13cb5664f9e5caad6c2020b0cec0fedafde7f9fc11a3ebd75b50525ecb385f74"
+    },
+    "input/rnaseq/subset_manifest.json": {
+      "bytes": 1356,
+      "sha256": "8efe2be1c9d484f6a7db665a441ae9b3aa5a72af11d293919045b26ac5791641"
+    },
+    "input/rnaseq/selected_cell_metadata.csv.gz": {
+      "bytes": 2463625,
+      "sha256": "2b01185439bf93fd4e2049c19c0770d33213e7407ed2a19b4b24a14f178cf9b1"
+    },
+    "input/rnaseq/ctx_hpf_mop_visp_candidate_counts.h5ad": {
+      "bytes": 15217069,
+      "sha256": "08dc8826d6c45544038157eab7b77e44eb0cc7f1432296f26e5275743505a1a0"
+    },
+    "input/rnaseq/selected_original_metadata.csv.gz": {
+      "bytes": 1250591,
+      "sha256": "07856ab1efd1591825dcab32d35e45e9bb676328ec6daf4e1235efcf1b4f74fc"
+    },
+    "input/rnaseq/GSM5629156.soft.txt": {
+      "bytes": 8115,
+      "sha256": "c474b19e5dc6edc26328f45232e0746f04de350203344af5b86e8167c0c53fcb"
+    },
+    "input/rnaseq/GSM5629158.soft.txt": {
+      "bytes": 8118,
+      "sha256": "bb2e6b8bf014fb2b6e6bcb7d2f6c95168f4a6ece8d425d106afc1045faf61b0d"
+    },
+    "docs/stimulation_coordinates_user.json": {
+      "bytes": 663,
+      "sha256": "af1ec3570d2595eb5e2d6542e01fc85cb2c167c19b0ff607f6804f60bc2943da"
+    },
+    "results/merfish/selected_cells_raw_labels_and_coordinates.csv.gz": {
+      "bytes": 12520676,
+      "sha256": "9d0956abbbaa9152a6ea6341772df00613b1e6fc45d617e278df7d7f7aec0771"
+    },
+    "results/merfish/raw_label_display_group_mapping.csv": {
+      "bytes": 5810,
+      "sha256": "a4fcd47ee77db7ec30beb0f59b84b1e587316b25141b7232be8090abdb5993ba"
+    },
+    "results/merfish/readiness_report.json": {
+      "bytes": 3931,
+      "sha256": "b365723526f6450e445fbbc6b2c0d9d62de048dadba9c397de2e593c72b7cf28"
+    },
+    "results/merfish/regional_descriptive_difference_major.csv": {
+      "bytes": 923,
+      "sha256": "087f3f7786c4894f04eed83829b233bd0b6e678350b341983c4c544244b5f480"
+    },
+    "results/merfish/regional_descriptive_difference_gaba_family.csv": {
+      "bytes": 547,
+      "sha256": "f1eb025818b36c8ffa407f2b562df637a56fb6ba237aec92a695d51298b77b98"
+    },
+    "results/merfish/regional_descriptive_difference_neuron_subclass.csv": {
+      "bytes": 3314,
+      "sha256": "a7930f17f9fdf833030a1066ac485ab3957297543111416b87ec230737fc2824"
+    },
+    "results/rnaseq/status.json": {
+      "bytes": 1256,
+      "sha256": "71eb47da40aedff2a7e8e43b361016a1e1c63f0e1afd64c0892c27dfd6a2ba28"
+    },
+    "results/rnaseq/region_subclass_gene_summary.csv": {
+      "bytes": 1170307,
+      "sha256": "fd2299a5f1dea2dc37ad9f5ea9814a8f9b4dde2a31f0d08caa8524f91db70a42"
+    },
+    "results/rnaseq/within_subclass_region_difference.csv": {
+      "bytes": 1440243,
+      "sha256": "217d760b32936478d5912c20177a3f98b9672d3b3e3398b43efaf44b22769525"
+    },
+    "results/rnaseq/region_cluster_gene_summary.csv": {
+      "bytes": 5792520,
+      "sha256": "3f5b678545646f86ab389107bec7e47c88519065f4816e7d0bdf6ddb7ac4a80a"
+    },
+    "results/rnaseq/shared_cluster_region_difference.csv": {
+      "bytes": 1696976,
+      "sha256": "b5287f3b2fdb6055e9b06601f28dfd549e1de2a6fadac7e3fc4228707b6d1b07"
+    },
+    "results/rnaseq/shared_cluster_standardized_difference.csv": {
+      "bytes": 288531,
+      "sha256": "e18a6d86c907c435d3171f462ed89dad37109edcdec4f900bab2cb6c6c8759c0"
+    },
+    "src/rnaseq/cohort_screening.py": {
+      "bytes": 9183,
+      "sha256": "77ba2cd02e11574c29e6925e52b647a9a90259d5f0f7ec12da13d0b3ba027915"
+    },
+    "src/rnaseq/summarize_findings.py": {
+      "bytes": 6164,
+      "sha256": "93c095f45fbf56dbebddfa40a5bc5261826fcfe09c5033446cfce19d77f4815a"
+    },
+    "src/rnaseq/smartseq_extract.py": {
+      "bytes": 8375,
+      "sha256": "f670fe5a0b7acc716c9b76236d26de4322beae703b83e600c2f04d1a6ad3b15f"
+    },
+    "src/rnaseq/smartseq_analyze.py": {
+      "bytes": 14710,
+      "sha256": "42c0ad2a18179c0ffbafc0bcbd2eee354919cb2fbfeeefa2d7aa00511ebc6b80"
+    },
+    "input/rnaseq/smartseq/subset_manifest.json": {
+      "bytes": 1242,
+      "sha256": "26f93897b3644b1e8cffeadec63c3ecdca4c346fd33c8d4bca72229313b87eab"
+    },
+    "input/rnaseq/smartseq/source_manifest.json": {
+      "bytes": 3482,
+      "sha256": "82d865402be22c5530075ee20fbbb741ceadcc976f9fb12b1da46c3a0c0433e3"
+    },
+    "input/rnaseq/smartseq/selected_cell_metadata.csv.gz": {
+      "bytes": 756769,
+      "sha256": "a1f48660c50ce5440929da741e99391174947215846ab7e811afeab8a4b84d0d"
+    },
+    "input/rnaseq/smartseq/mop_visp_candidate_exon_counts.h5ad": {
+      "bytes": 6798895,
+      "sha256": "669c3517a392e599abf31aec3de9753c34ec99fecfcf9cb9d0c81050bee436d7"
+    },
+    "input/rnaseq/smartseq/donor_age_map.csv": {
+      "bytes": 3384,
+      "sha256": "8b58b42520c87b4ad08a7483fd090a5ae8d68e0108e74b60e413bab0527c1e30"
+    },
+    "input/rnaseq/smartseq/official_protocol_manifest.json": {
+      "bytes": 1163,
+      "sha256": "31c9c55e09a377bd721bd267a581fa99ad4d14937eef7e643f742b9152f226d2"
+    },
+    "input/rnaseq/smartseq/GSM5629176_protocol_excerpt.soft.txt": {
+      "bytes": 6960,
+      "sha256": "c71813d82ea9f2258e425072fa7bf73af2d76848e9d7f7bc80f55897cf67f7c5"
+    },
+    "input/rnaseq/smartseq/GSM5629189_protocol_excerpt.soft.txt": {
+      "bytes": 6959,
+      "sha256": "ea01376098050a534026ddf8b4cdcf23eed9fa13e3878373ea3d11ddff425571"
+    },
+    "analysis_report_ko.md": {
+      "bytes": 10949,
+      "sha256": "3ea90d4b1f504a8f927151db1b69e9592a1a64eb760a114f8b78debe98263a80"
+    },
+    "results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv": {
+      "bytes": 884686,
+      "sha256": "9d252e139976a79932e70e5e67783a0c1f6fb7102d613444634c687d5d167559"
+    },
+    "results/rnaseq/exploratory_cohort_shared_cluster_region_difference.csv": {
+      "bytes": 1790718,
+      "sha256": "544d5972c9b460a948827f94ce46f586ccbf896ace05c612c5f3b4dbcc1e057f"
+    },
+    "results/rnaseq/exploratory_cohort_shared_cluster_standardized_difference.csv": {
+      "bytes": 353493,
+      "sha256": "0a5a0fb48dca0c8183af24964305cad4eae2a9a74a190e1f159f5318cbf80109"
+    },
+    "results/rnaseq/exploratory_cohort_within_subclass_region_difference.csv": {
+      "bytes": 1010119,
+      "sha256": "0340ca96d5f07c20ff8c4ee6e28f851fbd971c99883f6448c095c92d5600d192"
+    },
+    "results/rnaseq/all62_P58_cohort_cluster_sensitivity.csv": {
+      "bytes": 549084,
+      "sha256": "4ed975a7be7869f74f43aae0b8a85a14a326bae2f92755979b416a475be12dc5"
+    },
+    "results/rnaseq/panel22_P58_cohort_cluster_sensitivity.csv": {
+      "bytes": 195712,
+      "sha256": "7bfeebfae1d42bd1522166dc6ab4129d0c301ee15a00d82b7d0921f23e57d1e2"
+    },
+    "results/rnaseq/smartseq/all_metadata_region_class_counts.csv": {
+      "bytes": 1518,
+      "sha256": "a3229d54108fe4ed86c35cbdea6f0eae37c2358fe824e136be7347c06ba4f8c4"
+    },
+    "results/rnaseq/smartseq/all_selected_metadata_counts.csv": {
+      "bytes": 134935,
+      "sha256": "97cbd35cdd940b7c8ce1bd244f3d9894172f10179b09f44a7203be0c4f72ebae"
+    },
+    "results/rnaseq/smartseq/all_selected_region_gene_summary_audit_only.csv": {
+      "bytes": 19365,
+      "sha256": "213d03dc99f49e0a73ec9da8ed25fcc735472525249edd84b87987c4af57c3cb"
+    },
+    "results/rnaseq/smartseq/batch_region_stratum_counts.csv": {
+      "bytes": 186114,
+      "sha256": "ffca247c609907380f75f1b16bcaa0ada5024085c832af3591b57d8b6182fa43"
+    },
+    "results/rnaseq/smartseq/displayed_batch_region_stratum_counts.csv": {
+      "bytes": 20602,
+      "sha256": "77137cf625395720fae093ee709ab88bab84aa585753c4d539f07379ecd3225f"
+    },
+    "results/rnaseq/smartseq/displayed_donor_region_stratum_counts.csv": {
+      "bytes": 8042,
+      "sha256": "b410ce2a7642d84d034598db995a3b8735a74692bcb280f5a14e675c81a65a37"
+    },
+    "results/rnaseq/smartseq/displayed_stratum_key.csv": {
+      "bytes": 3603,
+      "sha256": "0310f3917b290e881ed49d7d943200c3f378b01ae1bb0cf18b40018b1b0ddac8"
+    },
+    "results/rnaseq/smartseq/donor_region_stratum_counts.csv": {
+      "bytes": 111563,
+      "sha256": "bf64c81a20fef96027540015294cc8504db669c020263816ff16f726cf52ae71"
+    },
+    "results/rnaseq/smartseq/exact_metadata_10x_direction_crosscheck.csv": {
+      "bytes": 1008,
+      "sha256": "24b9e817f4928eb35e3a54b45c11651b5c356ed28cb86ca65337aa304529dbab"
+    },
+    "results/rnaseq/smartseq/gene_direction_concordance_summary.csv": {
+      "bytes": 190,
+      "sha256": "476a9401ce7ee5fee901d9ed48c45fde71c67edc35fcba3cd43906227ce87871"
+    },
+    "results/rnaseq/smartseq/missing_age_candidate_detection_audit.csv": {
+      "bytes": 376739,
+      "sha256": "550060ea13030dbcca4f7421c87e3aefb2a0a19856cc2b8b0e6929806a2854ab"
+    },
+    "results/rnaseq/smartseq/panel22_direction_sensitivity_audit.csv": {
+      "bytes": 1825,
+      "sha256": "cc0104c37f51e4a488b46169713384e40de8860a9f2cee915f7ce47bfa6dfd5a"
+    },
+    "results/rnaseq/smartseq/same_dissection_layer_region_difference_min10.csv": {
+      "bytes": 669600,
+      "sha256": "526afeece1b13097464fc9dbe10a57c7670dff2025ad8211da3dbcd9b05ea4c8"
+    },
+    "results/rnaseq/smartseq/shared_cluster_standardized_difference_min10.csv": {
+      "bytes": 475246,
+      "sha256": "3cc20e5372e394758cc233d97ad91f989d724a0d1e1cd8d356f3d2aa9fe074ff"
+    },
+    "results/rnaseq/smartseq/shared_cluster_standardized_difference_unfiltered.csv": {
+      "bytes": 1030208,
+      "sha256": "6cf9729bb4add8a4ba1db9e340e596c3acbf313acc85b43fe3de7ed45adaed8d"
+    },
+    "results/rnaseq/smartseq/shared_strata_region_difference_min10.csv": {
+      "bytes": 1145487,
+      "sha256": "dc67788065075860401e60d5b2dd67b27a9ae47f4f263177ad18ee804231868f"
+    },
+    "results/rnaseq/smartseq/shared_strata_region_difference_unfiltered.csv": {
+      "bytes": 1950577,
+      "sha256": "b264296c5767ec1dc9a0943c71c0ebfbd3c0cfae2e43cd179751abd836ba1dd1"
+    },
+    "results/rnaseq/smartseq/all_selected_region_subclass_gene_summary.csv.gz": {
+      "bytes": 1544817,
+      "sha256": "f337cca25c6bde9f2610bcd22ede5a6691a08126ad4a70d4c8123a8e83393824"
+    },
+    "results/rnaseq/smartseq/same_dissection_layer_region_difference_unfiltered.csv.gz": {
+      "bytes": 2007373,
+      "sha256": "fa1b8d7b805a7e3e0f851960fd777f3cb31c25174f2c146dc9b4952525e0e1fa"
+    },
+    "results/rnaseq/smartseq/shared_cluster_region_difference_unfiltered.csv.gz": {
+      "bytes": 4353506,
+      "sha256": "d642a2020f79c2132f59704e5df1d512d5fdab1c03cf4b0874bf95f38ee7914e"
+    },
+    "results/rnaseq/smartseq/strict_region_cluster_gene_summary.csv.gz": {
+      "bytes": 4111328,
+      "sha256": "57cfad3a33e476a087f38ff3ed0ea7d97290572b7205eefa136926b4cdeede09"
+    },
+    "results/rnaseq/smartseq/strict_region_subclass_gene_summary.csv.gz": {
+      "bytes": 1198762,
+      "sha256": "1ef904dd7130e899b06d0f3171be79b28b754a340fa2b3e6dbe54e7cdb921b66"
+    },
+    "results/rnaseq/smartseq/within_subclass_region_difference_unfiltered.csv.gz": {
+      "bytes": 1310038,
+      "sha256": "f21d28fbb9b5146b0028228360f3eadf173e1c4955160fa5ab0a24c5f100477f"
+    },
+    "results/rnaseq/smartseq/status.json": {
+      "bytes": 1805,
+      "sha256": "101074b0be6224988e4de002c1e691b709b0ee34cd92cc1d7267424f3396285c"
+    }
+  },
+  "smartseq_supplement": {
+    "status": "complete_descriptive_supplement",
+    "source_dataset": "GEO GSE185862 CTX-HPF SMART-seq v4",
+    "source_unit": "Integer-valued exon-aligned uniquely mapped read counts, PCR duplicates removed per official processing; not UMI, FPKM or TPM.",
+    "source_matrix_cells": 73363,
+    "source_metadata_cells": 73347,
+    "source_features": 45768,
+    "unique_source_gene_and_cell_identifiers": true,
+    "all_source_metadata_IDs_present_in_source_matrix": true,
+    "matrix_names_without_metadata": 16,
+    "selected_cells": 22160,
+    "region_cells": {
+      "MOp": 6588,
+      "VISp": 15572
+    },
+    "candidate_genes_measured": 62,
+    "all_selected_raw_metadata_fields_match_source": true,
+    "all_selected_cell_IDs_match_source_rows": true,
+    "all_22160_by_62_raw_candidate_values_independently_rechecked_from_source_exon_CSC_and_exactly_equal_subset": true,
+    "all_selected_saved_full_exon_libraries_exactly_equal_source_declared_full_totals": true,
+    "independent_transposed_full_exon_and_candidate_spot_checks": {
+      "cells": 16,
+      "all_45768_source_features_in_denominator": true,
+      "full_gene_totals": [
+        1021475,
+        1406350,
+        1806524,
+        2409717,
+        1913002,
+        2298083,
+        1985457,
+        2496819,
+        1854045,
+        2977324,
+        2112954,
+        2155936,
+        2439286,
+        896699,
+        506621,
+        754321
+      ],
+      "full_library_sums_and_62_candidate_values_exactly_match_saved_values": true
+    },
+    "normalization": "Mean per-cell natural log1p(exon reads / full 45768-feature exon library * 1e6). Separate read CP10k columns are retained for potential direction checks; neither assay is pooled with 10x.",
+    "metadata_matching": {
+      "keys": [
+        "class",
+        "subclass",
+        "genotype",
+        "sex",
+        "exact_postnatal_age",
+        "FACS"
+      ],
+      "donor_age_map_unique_recorded_donor_IDs": 223,
+      "donor_age_original_and_canonical_exact_Pday_values_independently_verified": true,
+      "missing_age_cells": 2077,
+      "cells_with_recorded_injection": 1641,
+      "strict_known_metadata_no_recorded_injection_cells": 18662,
+      "shared_metadata_strata_unfiltered": 67,
+      "shared_metadata_strata_min10_display": 38,
+      "display_cells": {
+        "MOp": 2110,
+        "VISp": 1871
+      },
+      "display_ages": [
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P59"
+      ],
+      "minimum_10_cells_per_region_only_display_filter": true,
+      "no_WT_inference": "B6J background reporter/transgenic strata retained; not a WT-only comparison.",
+      "same_dissection_layer_strata_min10_display": 22,
+      "same_layer_display_labels": [
+        "L1",
+        "L2/3",
+        "L5",
+        "L6"
+      ]
+    },
+    "complete_numerical_recomputation": {
+      "all_selected_subclass_gene_rows": 62496,
+      "strict_subclass_gene_rows": 47802,
+      "strict_cluster_gene_rows": 194432,
+      "all_raw_read_sums_mean_logCPM_mean_logCP10k_detection_fractions_and_cell_counts_match_independent_recomputation": true,
+      "missing_region_measurements_remain_NaN_not_zero": true,
+      "shared_cluster_gene_rows": 9486,
+      "standardized_stratum_gene_rows": 3286,
+      "all_shared_cluster_weighted_means_detection_fractions_differences_and_counts_match_recomputation": true,
+      "weighting": "Pooled counts over clusters shared in each stratum, identical weights in both regions; differs from the 10x equal-cluster exploratory weighting.",
+      "numeric_tolerance": 1e-12
+    },
+    "exact_metadata_10x_crosscheck_rows": 0,
+    "exact_metadata_cross_assay_replication_claim_allowed": false,
+    "source_integrity": {
+      "relative_path": "input/rnaseq/raw/GSE185862_expression_matrix_SSv4.hdf5",
+      "bytes": 3585764160,
+      "download_stream_SHA256": "6ee7a9e1378113d0ad7984bc3ec35710a37f80e463c573a73d7e85db3deb5685",
+      "publisher_checksum_available": false,
+      "review_repeated_massive_file_SHA256": false,
+      "evidence": "Existing official HTTPS acquisition record and independent source numerical identity checks; no unsupported publisher-checksum claim."
+    }
+  }
+}

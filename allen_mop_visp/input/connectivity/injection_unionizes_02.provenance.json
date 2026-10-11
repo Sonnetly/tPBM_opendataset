@@ -1,0 +1,17 @@
+{
+  "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AProjectionStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24in648048922%2C648051857%2C648318728%2C656657344%2C656842599%2C670657874%2C671030719%2C671033786%5D%5Bis_injection%24eqtrue%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "final_url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AProjectionStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24in648048922%2C648051857%2C648318728%2C656657344%2C656842599%2C670657874%2C671030719%2C671033786%5D%5Bis_injection%24eqtrue%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "status_code": 200,
+  "retrieved_at_UTC": "2026-10-11T14:21:31.172612+00:00",
+  "content_type": "application/json; charset=utf-8",
+  "response_date": "Sun, 11 Oct 2026 14:21:31 GMT",
+  "path": "input/connectivity/injection_unionizes_02.json",
+  "response_bytes": 156259,
+  "sha256": "7bb698aebd0e11dbd9bca0c92c850066c1a75ac984ed0d417193e1615e6ce67a",
+  "rows": 272,
+  "total_rows": 272,
+  "TLS_verification": "preserved",
+  "publisher_checksum": "not supplied for dynamic API response; local SHA256 records exact response",
+  "last_loaded_existing_response_at_UTC": "2026-10-11T14:31:10.245481+00:00",
+  "cached_sha256_matches_initial_record": true
+}

@@ -1,0 +1,23 @@
+gene,n_age_matched_neuron_subclasses,max_detection_fraction_MOp,max_detection_fraction_VISp,min_detection_fraction_MOp,min_detection_fraction_VISp,n_positive_P58_shared_cluster_contrasts,n_negative_P58_shared_cluster_contrasts,n_P58_cell_vs_shared_cluster_sign_changes,n_P58_vs_cohort_shared_cluster_sign_changes,interpretation
+Entpd1,16,0.1047717842323651,0.0771028037383177,0.0,0.0,8,7,3,1,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Nt5e,16,0.2050186865990389,0.2732558139534883,0.0,0.0,5,10,6,1,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Slc29a1,16,0.2219917012448132,0.3333333333333333,0.0,0.0071569971067458,8,8,7,3,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Slc29a2,16,0.151639344262295,0.1919431279620853,0.0,0.0,5,10,4,3,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Adk,16,0.799792531120332,0.8478260869565217,0.0,0.3333333333333333,8,8,4,3,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Ada,16,0.0150375939849624,0.0952380952380952,0.0,0.0,11,3,5,5,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Adora1,16,0.975103734439834,0.9891304347826086,0.0,0.0,8,7,1,3,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Adora2a,16,0.0408163265306122,0.0869565217391304,0.0,0.0,8,6,2,1,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Grm2,16,0.4864278770657294,0.5244403837368662,0.0,0.0,11,4,6,5,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Ryr2,16,0.9941591628133366,0.9967845659163987,0.5,0.0,5,11,4,6,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Trpc5,16,0.8894736842105263,0.8851744186046512,0.0,0.0210280373831775,12,4,4,2,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Atp2b3,16,0.6557377049180327,0.6576354679802956,0.0,0.0,1,14,2,4,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Cacna1c,16,1.0,1.0,0.796790757381258,0.8935483870967742,3,13,4,2,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Grin2a,16,1.0,1.0,0.0,0.0,5,10,3,9,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Mrps6,16,0.0026315789473684,0.002572347266881,0.0,0.0,7,2,1,6,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Penk,16,0.7669172932330827,0.7142857142857143,0.0,0.0054347826086956,5,11,3,6,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Kcnj6,16,0.8517688091679123,0.9125475285171104,0.0,0.0,6,9,4,4,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Shisa7,16,0.7578947368421053,0.8532608695652174,0.2222222222222222,0.1666666666666666,3,13,10,8,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Slitrk3,16,0.6390977443609023,0.7619047619047619,0.0,0.0,2,13,4,6,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Dlgap1,16,1.0,1.0,0.5,0.8333333333333334,4,12,3,2,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Bcs1l,16,0.3131578947368421,0.4347826086956521,0.0,0.1666666666666666,2,14,3,2,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank
+Ppargc1a,16,0.9638324873096448,0.985781990521327,0.2462424287743961,0.2711864406779661,1,15,1,2,Counts of descriptive contrast directions only; magnitude/detection must be inspected; no significance or qPCR priority rank

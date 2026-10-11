@@ -1,0 +1,32 @@
+{
+  "status": "subset_extracted",
+  "source_matrix": "input/rnaseq/raw/GSE185862_expression_matrix_10x.hdf5",
+  "source_matrix_shape_gene_cell": [
+    31053,
+    1169320
+  ],
+  "source_declared_data_shape": [
+    1169320,
+    31053
+  ],
+  "orientation_resolution": "counts axes identified by lengths of data/gene and data/samples; data/shape is recorded separately",
+  "source_matrix_chunks": [
+    1000,
+    10000
+  ],
+  "source_matrix_dtype": "int32",
+  "n_source_metadata_cells": 1169213,
+  "n_selected_cells": 153490,
+  "n_source_genes_in_library_denominator": 31053,
+  "n_candidate_genes_requested": 62,
+  "n_candidate_genes_available": 62,
+  "normalization_denominator": "Exact raw-count sum over all source genes; not candidate/HVG sum",
+  "subset_file": "input/rnaseq/ctx_hpf_mop_visp_candidate_counts.h5ad",
+  "subset_bytes": 15217069,
+  "subset_sha256": "08dc8826d6c45544038157eab7b77e44eb0cc7f1432296f26e5275743505a1a0",
+  "selected_metadata_sha256": "2b01185439bf93fd4e2049c19c0770d33213e7407ed2a19b4b24a14f178cf9b1",
+  "source_matrix_cell_names_absent_from_metadata": 107,
+  "workers": 2,
+  "pool_independence": "not established; official same-ROI pooling protocol retained; no animal inference",
+  "region_library_preparation_confounding": "No shared library-preparation date between MOp and VISp; cannot isolate a region effect from date"
+}

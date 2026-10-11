@@ -21,8 +21,10 @@ def main():
     parser.add_argument('--output', type=Path, default=ROOT / 'exports' / 'Allen_Dataset_M1_V1.zip')
     args = parser.parse_args()
     excluded = {'.venv', '__pycache__', '.pytest_cache', '.cache', '.git', 'logs', 'exports'}
+    large_raw_paths = [ROOT / 'input/merfish/cache', ROOT / 'input/rnaseq/raw']
     files = [p for p in ROOT.rglob('*') if p.is_file()
              and not excluded.intersection(p.relative_to(ROOT).parts)
+             and not any(raw == p or raw in p.parents for raw in large_raw_paths)
              and not p.name.startswith('.env')
              and p.name != 'file_inventory.json'
              and p.resolve() != args.output.resolve()]

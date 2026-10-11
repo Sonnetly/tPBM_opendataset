@@ -1,0 +1,252 @@
+{
+  "validated_at_UTC": "2026-10-11T13:31:58.492763+00:00",
+  "status": "passed",
+  "scope": "actual official Allen metadata and computed composition outputs",
+  "actual_analysis_computed": true,
+  "independent_animals": 1,
+  "selected_cell_count": 145860,
+  "checks": {
+    "unique_cell_labels": true,
+    "one_WT_male_B6J_donor": true,
+    "all_CCF_coordinates_present": true,
+    "all_selected_cells_QC_annotated": true,
+    "exact_region_labels": true,
+    "official_input_size_MD5_verified": true,
+    "measured_candidate_panel_Penk_only": true,
+    "composition_tables": [
+      {
+        "file": "composition_depth_group_gaba_within_gaba.csv",
+        "rows": 30,
+        "strata": 5,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_depth_group_major.csv",
+        "rows": 50,
+        "strata": 5,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_depth_group_subclass_all_cells.csv",
+        "rows": 280,
+        "strata": 5,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_depth_group_subclass_neurons.csv",
+        "rows": 200,
+        "strata": 5,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_hemisphere_gaba_within_gaba.csv",
+        "rows": 24,
+        "strata": 4,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_hemisphere_major.csv",
+        "rows": 40,
+        "strata": 4,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_hemisphere_subclass_all_cells.csv",
+        "rows": 224,
+        "strata": 4,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_hemisphere_subclass_neurons.csv",
+        "rows": 160,
+        "strata": 4,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_gaba_within_gaba.csv",
+        "rows": 66,
+        "strata": 11,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_gaba_within_gaba.csv",
+        "rows": 132,
+        "strata": 22,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_major.csv",
+        "rows": 220,
+        "strata": 22,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_section_gaba_within_gaba.csv",
+        "rows": 1398,
+        "strata": 233,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_section_major.csv",
+        "rows": 2440,
+        "strata": 244,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_section_subclass_all_cells.csv",
+        "rows": 13664,
+        "strata": 244,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_section_subclass_neurons.csv",
+        "rows": 9720,
+        "strata": 243,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_subclass_all_cells.csv",
+        "rows": 1232,
+        "strata": 22,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_hemisphere_subclass_neurons.csv",
+        "rows": 880,
+        "strata": 22,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_major.csv",
+        "rows": 110,
+        "strata": 11,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_section_gaba_within_gaba.csv",
+        "rows": 828,
+        "strata": 138,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_section_major.csv",
+        "rows": 1410,
+        "strata": 141,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_section_subclass_all_cells.csv",
+        "rows": 7896,
+        "strata": 141,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_section_subclass_neurons.csv",
+        "rows": 5640,
+        "strata": 141,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_subclass_all_cells.csv",
+        "rows": 616,
+        "strata": 11,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_layer_subclass_neurons.csv",
+        "rows": 440,
+        "strata": 11,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_region_gaba_within_gaba.csv",
+        "rows": 12,
+        "strata": 2,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_region_major.csv",
+        "rows": 20,
+        "strata": 2,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_region_subclass_all_cells.csv",
+        "rows": 112,
+        "strata": 2,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_region_subclass_neurons.csv",
+        "rows": 80,
+        "strata": 2,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_section_gaba_within_gaba.csv",
+        "rows": 186,
+        "strata": 31,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_section_major.csv",
+        "rows": 310,
+        "strata": 31,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_section_subclass_all_cells.csv",
+        "rows": 1736,
+        "strata": 31,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      },
+      {
+        "file": "composition_section_subclass_neurons.csv",
+        "rows": 1240,
+        "strata": 31,
+        "counts_equal_denominator": true,
+        "fractions_sum_one": true
+      }
+    ],
+    "heatmap_unsampled_layers_masked_and_zero_categories_zero": true
+  },
+  "source_sha256": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64",
+  "figure_files": [
+    "figures/merfish/layer_major_composition.png",
+    "figures/merfish/regional_major_composition.png",
+    "figures/merfish/regional_neuron_subclasses.png"
+  ],
+  "postprocessing_source_sha256": "f266e26a527eb3e34ba951dd134e67e974234348205d1cde82052deae0d7ff72",
+  "plot_regenerated_at_UTC": "2026-10-11T13:35:48.989887+00:00"
+}

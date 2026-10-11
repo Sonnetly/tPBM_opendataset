@@ -1,0 +1,20 @@
+[
+  {
+    "GSM": "GSM5629189",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629189&targ=self&form=text&view=full",
+    "full_response_bytes": 8111,
+    "full_response_sha256": "dac2c23d57fce95ea32cb524b33ceb725e753c5a9cfc311f097dd1d469387dce",
+    "excerpt_sha256": "ea01376098050a534026ddf8b4cdcf23eed9fa13e3878373ea3d11ddff425571",
+    "excerpt_file": "input/rnaseq/smartseq/GSM5629189_protocol_excerpt.soft.txt",
+    "excerpt_policy": "Retain title, complete protocol and processing lines; omit repetitive sample characteristics/contact fields"
+  },
+  {
+    "GSM": "GSM5629176",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629176&targ=self&form=text&view=full",
+    "full_response_bytes": 8114,
+    "full_response_sha256": "2d0b267720c3144ca00a9be34a4c3c32af4a9ca3c7853f0624435d8464d1f335",
+    "excerpt_sha256": "c71813d82ea9f2258e425072fa7bf73af2d76848e9d7f7bc80f55897cf67f7c5",
+    "excerpt_file": "input/rnaseq/smartseq/GSM5629176_protocol_excerpt.soft.txt",
+    "excerpt_policy": "Retain title, complete protocol and processing lines; omit repetitive sample characteristics/contact fields"
+  }
+]

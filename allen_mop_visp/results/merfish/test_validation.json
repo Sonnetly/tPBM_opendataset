@@ -1,10 +1,10 @@
 {
-  "saved_at_UTC": "2026-10-11T13:15:18.182954+00:00",
+  "saved_at_UTC": "2026-10-11T13:36:22.208258+00:00",
   "test_scope": "synthetic-only; no actual atlas cells or expression used",
   "command": ".venv/bin/python src/merfish/test_merfish_synthetic.py",
   "exit_code": 0,
   "tests_passed": 4,
-  "recorded_output": "Ran 4 tests in 2.551s; OK",
+  "recorded_output": "Ran 4 tests; OK",
   "checks": [
     "Raw 2023 ontology display mapping and exact anatomical layer extraction",
     "Whole QC annotated / neurons / GABA denominators and absent regional category zero handling",
@@ -12,13 +12,13 @@
     "Measured raw Penk indexing, raw detection, panel-CP10K normalization, zero-total missing value"
   ],
   "production_input_check": {
-    "command": ".venv/bin/python src/merfish/run_merfish.py",
-    "exit_code": 2,
-    "status": "pending missing verified files",
-    "actual_analysis_computed": false
+    "command": ".venv/bin/python src/merfish/run_merfish.py --download",
+    "exit_code": 0,
+    "status": "composition_completed",
+    "actual_analysis_computed": true
   },
   "source_sha256": {
-    "src/merfish/run_merfish.py": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64",
+    "src/merfish/run_merfish.py": "f266e26a527eb3e34ba951dd134e67e974234348205d1cde82052deae0d7ff72",
     "src/merfish/test_merfish_synthetic.py": "4fad05a6b7b82669f39ab12debdfea3453ccb87804d0984e23560379a744b8f3"
   },
   "repository_import_validation": {
@@ -39,6 +39,50 @@
       "status_file": "results/merfish/readiness_report.json",
       "status": "pending",
       "actual_allen_analysis": false
+    }
+  },
+  "previous_validation_record": {
+    "saved_at_UTC": "2026-10-11T13:15:18.182954+00:00",
+    "test_scope": "synthetic-only; no actual atlas cells or expression used",
+    "command": ".venv/bin/python src/merfish/test_merfish_synthetic.py",
+    "exit_code": 0,
+    "tests_passed": 4,
+    "recorded_output": "Ran 4 tests in 2.551s; OK",
+    "checks": [
+      "Raw 2023 ontology display mapping and exact anatomical layer extraction",
+      "Whole QC annotated / neurons / GABA denominators and absent regional category zero handling",
+      "Exact MOp VISp joins, coordinate-derived hemisphere, retained published metadata classification and plot/CSV generation",
+      "Measured raw Penk indexing, raw detection, panel-CP10K normalization, zero-total missing value"
+    ],
+    "production_input_check": {
+      "command": ".venv/bin/python src/merfish/run_merfish.py",
+      "exit_code": 2,
+      "status": "pending missing verified files",
+      "actual_analysis_computed": false
+    },
+    "source_sha256": {
+      "src/merfish/run_merfish.py": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64",
+      "src/merfish/test_merfish_synthetic.py": "4fad05a6b7b82669f39ab12debdfea3453ccb87804d0984e23560379a744b8f3"
+    },
+    "repository_import_validation": {
+      "status": "passed",
+      "verified_at_UTC": "2026-10-11T13:24:01.708621+00:00",
+      "command": "python src/merfish/test_merfish_synthetic.py",
+      "exit_code": 0,
+      "tests_passed": 4,
+      "recorded_output": "....\n----------------------------------------------------------------------\nRan 4 tests in 2.651s\n\nOK",
+      "actual_allen_data": false,
+      "source_sha256": {
+        "src/merfish/run_merfish.py": "ecc07545d13ebdc336a93287d2f3169e789a6d826e3bfba98be64ddf9240ba64",
+        "src/merfish/test_merfish_synthetic.py": "4fad05a6b7b82669f39ab12debdfea3453ccb87804d0984e23560379a744b8f3"
+      },
+      "production_input_check": {
+        "command": "python src/merfish/run_merfish.py",
+        "exit_code": 2,
+        "status_file": "results/merfish/readiness_report.json",
+        "status": "pending",
+        "actual_allen_analysis": false
+      }
     }
   }
 }

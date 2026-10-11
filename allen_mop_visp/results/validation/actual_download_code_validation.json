@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "verified_at_UTC": "2026-10-11T13:41:13.972616+00:00",
+  "scope": "New GEO download/extraction helpers, existing synthetic RNA checks and packaging exclusion review after actual source access became available. No production analyses are reclassified as complete by this record.",
+  "checks": [
+    {
+      "check": "extract aligned column chunks preserves requested cells and full-gene denominators",
+      "passed": true,
+      "synthetic_fixture": "5 genes × 9 cells; last partial gene block; nonconsecutive selected cells across column chunks"
+    },
+    {
+      "check": "extract negative raw count rejection",
+      "passed": true
+    },
+    {
+      "check": "download size and SHA256 manifest creation",
+      "passed": true,
+      "network": "mocked public-byte response; TLS configuration inspected in code, no real network request"
+    },
+    {
+      "check": "truncated download rejects final artifact and preserves partial file",
+      "passed": true
+    },
+    {
+      "check": "package excludes raw MERFISH/GEO artifacts, logs, exports, venv and environment files; retains code, subset manifests and results",
+      "passed": true,
+      "method": "static source review and dry-run inclusion predicate; archive not generated",
+      "raw_files_observed": 12
+    },
+    {
+      "check": "README credential review",
+      "passed": true,
+      "review": "No credential values or requests for new secret keys; historical 403 text awaits final report update."
+    },
+    {
+      "check": "existing RNA expression pipeline synthetic fixtures",
+      "passed": true,
+      "command": "python src/rnaseq/check_pipeline.py",
+      "exit_code": 0,
+      "recorded_output": "PASS: exact ROI, full-library normalization, detection, unavailable gene, shared-cluster weighting, raw-count guard, taxonomy guard and explicit pending exit",
+      "biological_validation": false
+    }
+  ],
+  "source_sha256": {
+    "src/rnaseq/download_geo.py": "39e69983e830ab26c33566962bbe01d51e8953c3deefdb1d974e781e42678f76",
+    "src/rnaseq/extract_geo_subset.py": "ec5622fbce434532d4ec462efc40fd71b3bb701a5dd6c2ecca000f0bdb323e14",
+    "src/rnaseq/analyze_expression.py": "ac308f5d8b815fc71e0d320cd12fe1787fd2c082b35f429d070b807fec3dc66c",
+    "src/rnaseq/check_pipeline.py": "f7da30628aa8247b2e3d1dc01da62c308b59a8ac1fd3bc95bc9cd9260631dc64",
+    "src/package_project.py": "440db87d52a0abdd173ed52251559f7b5d1a115252bd4d09141d4aad5390996b"
+  },
+  "temporary_fixtures_only": true,
+  "actual_GEO_download_or_full_extraction_in_this_validation": false,
+  "actual_Allen_biological_analysis_validation": false,
+  "archive_generated_in_this_validation": false
+}

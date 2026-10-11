@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope": "measured10x primary P58 and separately age-unmatched P57-P59 cohort results; postprocessing only",
+  "checks": [
+    "Unavailable shared-cluster comparisons remain NA and not direction changes",
+    "Core table numbers equal measured source summary",
+    "All raw donor ages retained in separate cohort scope",
+    "Per-row sample counts added to primary/cohort dotplots"
+  ],
+  "unavailable_shared_cluster_rows": 62,
+  "primary_p58_shared_subclasses": 22,
+  "candidate_genes": 62,
+  "original_subset_sha256": "08dc8826d6c45544038157eab7b77e44eb0cc7f1432296f26e5275743505a1a0",
+  "source_extraction_rerun": false,
+  "source_code_and_docs_sha256": {
+    "src/rnaseq/analyze_expression.py": "13cb5664f9e5caad6c2020b0cec0fedafde7f9fc11a3ebd75b50525ecb385f74",
+    "src/rnaseq/cohort_screening.py": "77ba2cd02e11574c29e6925e52b647a9a90259d5f0f7ec12da13d0b3ba027915",
+    "src/rnaseq/summarize_findings.py": "93c095f45fbf56dbebddfa40a5bc5261826fcfe09c5033446cfce19d77f4815a",
+    "src/rnaseq/extract_geo_subset.py": "ec5622fbce434532d4ec462efc40fd71b3bb701a5dd6c2ecca000f0bdb323e14",
+    "docs/RNAseq_analysis_ko.md": "907419922b2576df837e2ffb5f846249618addb46e9f3ba68d2cec9b97106b2c"
+  },
+  "documentation_scope_updated": "Library dates are disjoint; M1 coordinates confirmed, V1 AP provisional, bregma-to-CCF registration/light distribution unresolved; completed SMART-seq supplementary screen distinguished from direct 10x replication"
+}

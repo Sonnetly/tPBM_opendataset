@@ -273,7 +273,7 @@ def plot_composition(cells, figdir):
     table = proportions(cells, ["region", "anatomical_layer"], "major_group")
     fig, axes = plt.subplots(1, 2, figsize=(13, 6), constrained_layout=True)
     for ax, region in zip(axes, ["MOp", "VISp"]):
-        data = table[table.region.eq(region)].pivot(index="major_group", columns="anatomical_layer", values="percentage").reindex(index=GROUPS, columns=LAYERS)
+        data = table[table.region.eq(region)].pivot(index="major_group", columns="anatomical_layer", values="percentage").reindex(index=GROUPS, fill_value=0).reindex(columns=LAYERS)
         im = ax.imshow(np.ma.masked_invalid(data.to_numpy(dtype=float)), vmin=0, vmax=100, cmap="viridis", aspect="auto")
         totals = cells[cells.region.eq(region)].groupby("anatomical_layer").size()
         ax.set_xticks(range(len(LAYERS)), [f"L{x}\nn={totals.get(x, 0):,}" for x in LAYERS], rotation=40, ha="right")

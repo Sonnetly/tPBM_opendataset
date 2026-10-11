@@ -1,0 +1,34 @@
+{
+  "status": "passed_prepackaging_review",
+  "reviewed_at_UTC": "2026-10-11T14:02:15.433259+00:00",
+  "scope": "Current authoritative README/reports/state, Git ignore coverage and credential-pattern review before final packaging; old plan and initial ZIP remain historical snapshots. ZIP integrity will be checked after final generation without changing package contents.",
+  "primary_statuses": {
+    "analysis_status.json": "primary_atlas_descriptive_analysis_completed",
+    "results/merfish/readiness_report.json": "composition_completed",
+    "results/rnaseq/status.json": "descriptive_expression_complete",
+    "results/rnaseq/smartseq/status.json": "complete_descriptive_supplement"
+  },
+  "current_completion_text_matches_status": true,
+  "intentional_not_run_scopes": [
+    "optional raw MERFISH Penk spatial expression",
+    "animal/pool pseudobulk inference with unresolved independence and region/batch confounding",
+    "local stimulation ROI pending V1 AP and CCF/optical registration",
+    "Windows drive write not performed"
+  ],
+  "unintentionally_ignored_files": [],
+  "credential_pattern_matches": [],
+  "candidate_H5AD_subsets_included": [
+    "input/rnaseq/ctx_hpf_mop_visp_candidate_counts.h5ad",
+    "input/rnaseq/smartseq/mop_visp_candidate_exon_counts.h5ad"
+  ],
+  "ignored_scopes": [
+    "input/merfish/cache/",
+    "input/rnaseq/raw/ including SMART-seq full matrix",
+    ".cache/",
+    "logs/",
+    "__pycache__/"
+  ],
+  "intended_files_over50MB": [],
+  "Git_mutations_performed_by_review": false,
+  "note": "New child-generated documentation and workbook finalization may follow this snapshot; final ZIP/inventory inclusion is validated after generation."
+}

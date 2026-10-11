@@ -1,0 +1,8 @@
+{
+  "status": "measured_findings_summary_complete",
+  "n_genes": 62,
+  "n_core_panel_genes": 22,
+  "P58_matched_subclasses": 22,
+  "animal_Pvalues": "not computed",
+  "qPCR_rank": "not assigned; observations remain confounded screening candidates"
+}

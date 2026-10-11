@@ -1,0 +1,14 @@
+{
+  "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructure%2Crma%3A%3Acriteria%2C%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "loaded_existing_raw_response_at_UTC": "2026-10-11T14:21:27.173310+00:00",
+  "initial_acquisition": "Successful HTTPS RMA GET in this analysis session; response bytes preserved",
+  "path": "input/connectivity/ontology_structure_graph1.json",
+  "response_bytes": 664477,
+  "sha256": "88b5c69d1e45054abe935c12da460ba5edcc24b8a501a3e21bf52e719321c9dd",
+  "rows": 1327,
+  "total_rows": 1327,
+  "TLS_verification": "preserved",
+  "publisher_checksum": "not supplied for dynamic API response; local SHA256 records exact response",
+  "last_loaded_existing_response_at_UTC": "2026-10-11T14:31:10.155425+00:00",
+  "cached_sha256_matches_initial_record": true
+}

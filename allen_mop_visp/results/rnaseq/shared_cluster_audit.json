@@ -1,0 +1,5 @@
+{
+  "n_cells_without_cluster_excluded_from_standardization": 0,
+  "n_cells_with_cluster": 153490,
+  "interpretation": "Only observed, labeled clusters shared across both exact regions enter equal-cluster weighting"
+}

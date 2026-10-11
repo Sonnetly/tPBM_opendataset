@@ -1,0 +1,17 @@
+{
+  "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bid%24in648048922%2C648051857%2C648318728%2C656657344%2C656842599%2C670657874%2C671030719%2C671033786%5D%2Crma%3A%3Ainclude%2Cspecimen%28donor%28transgenic_mouse%28transgenic_lines%29%29%2Cinjections%28structure%2Cage%29%29%2Cequalization%2Cproducts%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "final_url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bid%24in648048922%2C648051857%2C648318728%2C656657344%2C656842599%2C670657874%2C671030719%2C671033786%5D%2Crma%3A%3Ainclude%2Cspecimen%28donor%28transgenic_mouse%28transgenic_lines%29%29%2Cinjections%28structure%2Cage%29%29%2Cequalization%2Cproducts%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "status_code": 200,
+  "retrieved_at_UTC": "2026-10-11T14:21:32.148210+00:00",
+  "content_type": "application/json; charset=utf-8",
+  "response_date": "Sun, 11 Oct 2026 14:21:32 GMT",
+  "path": "input/connectivity/manual_metadata_02.json",
+  "response_bytes": 37672,
+  "sha256": "8c4e6f8cc11a5d0dc3d2606012075ab3b324b7de4bd8f4c142a9f37ed106ade9",
+  "rows": 8,
+  "total_rows": 8,
+  "TLS_verification": "preserved",
+  "publisher_checksum": "not supplied for dynamic API response; local SHA256 records exact response",
+  "last_loaded_existing_response_at_UTC": "2026-10-11T14:31:10.253468+00:00",
+  "cached_sha256_matches_initial_record": true
+}

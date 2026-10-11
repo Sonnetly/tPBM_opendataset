@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "validation_kind": "synthetic_cached_provenance_integrity_fixture_not_atlas_evidence",
+  "completed_at_UTC": "2026-10-11T14:43:38.203384+00:00",
+  "command": "python src/connectivity/check_provenance_cache.py",
+  "returncode": 0,
+  "code_file": "src/connectivity/check_provenance_cache.py",
+  "code_sha256": "ab0ebb5520117f363eb3fd8b2715cd12d91193fab80f293ff83fbf195b38defa",
+  "stdout": "",
+  "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+}

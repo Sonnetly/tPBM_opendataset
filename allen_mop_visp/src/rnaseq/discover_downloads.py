@@ -57,13 +57,22 @@ def main():
         # Portal scripts can contain download URLs outside ordinary anchors.
         links = parser.items + re.findall(r'https?://[^\s<>"\\]+', data.decode("utf-8", errors="replace"))
         records = []
-        for href in sorted(set(urllib.parse.urljoin(final_url, x) for x in links)):
+        valid_links = set()
+        invalid_links = 0
+        for candidate in links:
+            try:
+                joined = urllib.parse.urljoin(final_url, candidate)
+                if urllib.parse.urlsplit(joined).scheme in {"http", "https"}:
+                    valid_links.add(joined)
+            except ValueError:
+                invalid_links += 1
+        for href in sorted(valid_links):
             if re.search(r"metadata|matrix|\.csv|\.h5|\.loom|\.zip|\.tar|\.gz|download|GSE[0-9]+", href, re.I):
                 records.append({"url": href, "host": urllib.parse.urlsplit(href).hostname, "source_page": final_url, "status": "discovered_not_validated"})
         with (out / f"official_{args.page}_download_links.csv").open("w", newline="", encoding="utf-8") as stream:
             writer = csv.DictWriter(stream, fieldnames=["url", "host", "source_page", "status"])
             writer.writeheader(); writer.writerows(records)
-        status = {"status": "official_page_downloaded", "url": final_url, "sha256": hashlib.sha256(data).hexdigest(), "candidate_links": len(records)}
+        status = {"status": "official_page_downloaded", "url": final_url, "sha256": hashlib.sha256(data).hexdigest(), "candidate_links": len(records), "malformed_script_URLs_ignored": invalid_links}
     except (urllib.error.URLError, OSError) as error:
         status = {"status": "blocked_official_page", "url": url, "error": str(error), "tls_verification": "preserved", "required_domain": host}
     (logs / f"download_discovery_{args.page}.json").write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -1,0 +1,29 @@
+{
+  "recorded_at_UTC": "2026-10-11T14:29:51.939546+00:00",
+  "sources": [
+    {
+      "path": "input/connectivity/official_mouse_connectivity_api.py",
+      "url": "https://raw.githubusercontent.com/AllenInstitute/AllenSDK/master/allensdk/api/queries/mouse_connectivity_api.py",
+      "bytes": 20826,
+      "sha256": "d7ee1e35bee3eb5b075bf6c8309f0620288d1fa8a57b846050e0c4abd1932e89",
+      "retrieval": "Official AllenInstitute/AllenSDK GitHub HTTPS raw source; original source/license text preserved",
+      "TLS_verification": "preserved"
+    },
+    {
+      "path": "input/connectivity/official_mouse_connectivity_cache.py",
+      "url": "https://raw.githubusercontent.com/AllenInstitute/AllenSDK/master/allensdk/core/mouse_connectivity_cache.py",
+      "bytes": 33214,
+      "sha256": "174f0cd7885813513860cb66f3e88dbb9efe98506be594abe739f7f6466da1a8",
+      "retrieval": "Official AllenInstitute/AllenSDK GitHub HTTPS raw source; original source/license text preserved",
+      "TLS_verification": "preserved"
+    },
+    {
+      "path": "input/connectivity/official_unionizes.rst",
+      "url": "https://raw.githubusercontent.com/AllenInstitute/AllenSDK/master/doc_template/unionizes.rst",
+      "bytes": 3149,
+      "sha256": "5090421a302aa071e81d7d777044a6ee70f7125c900cfc8b5435567e2158fca2",
+      "retrieval": "Official AllenInstitute/AllenSDK GitHub HTTPS raw source; original source/license text preserved",
+      "TLS_verification": "preserved"
+    }
+  ]
+}

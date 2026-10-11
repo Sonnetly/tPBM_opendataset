@@ -1,12 +1,30 @@
 {
-  "tested_at_UTC": "2026-10-11T13:03:51Z",
-  "status": "network_access_blocked",
-  "actual_analysis_computed": false,
-  "request": "Read-only HTTPS HEAD official S3 manifest",
+  "observed_at_UTC": "2026-10-11T13:30:19.073627+00:00",
+  "status": "official_S3_access_restored",
+  "request": "Read-only HTTPS GET official S3 release20250531 manifest and five required metadata files",
   "official_required_host": "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
-  "response": "HTTP 403 CONNECT tunnel failed (environment outbound proxy)",
-  "sandbox_escalation_result": "Same proxy CONNECT 403; automatic approval review did not reject the action",
-  "required_resolution": "Enable the official Allen S3 hostname in environment outbound network settings, save configuration, and retry in a runtime using it.",
+  "response": "Manifest HTTP200; required metadata downloaded through default sandbox network",
+  "sandbox_escalation_required": false,
   "TLS_verification": "kept enabled",
-  "credentials_required": false
+  "credentials_required": false,
+  "requested_metadata_bytes": 1571075446,
+  "optional_raw_Penk_downloaded": false,
+  "composition_execution": "completed",
+  "previous_attempt": {
+    "tested_at_UTC": "2026-10-11T13:03:51Z",
+    "status": "network_access_blocked",
+    "actual_analysis_computed": false,
+    "request": "Read-only HTTPS HEAD official S3 manifest",
+    "official_required_host": "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
+    "response": "HTTP 403 CONNECT tunnel failed (environment outbound proxy)",
+    "sandbox_escalation_result": "Same proxy CONNECT 403; automatic approval review did not reject the action",
+    "required_resolution": "Enable the official Allen S3 hostname in environment outbound network settings, save configuration, and retry in a runtime using it.",
+    "TLS_verification": "kept enabled",
+    "credentials_required": false
+  },
+  "actual_analysis_computed": true,
+  "exit_code": 0,
+  "verified_official_metadata_files": 5,
+  "verified_official_metadata_bytes": 1571075446,
+  "completed_at_UTC": "2026-10-11T13:31:58.493863+00:00"
 }

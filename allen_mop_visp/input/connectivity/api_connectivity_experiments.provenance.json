@@ -1,0 +1,14 @@
+{
+  "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AApiConnectivity%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+  "loaded_existing_raw_response_at_UTC": "2026-10-11T14:21:27.179762+00:00",
+  "initial_acquisition": "Successful HTTPS RMA GET in this analysis session; response bytes preserved",
+  "path": "input/connectivity/api_connectivity_experiments.json",
+  "response_bytes": 2563883,
+  "sha256": "13f06563d88eee118d5f5a4ed170972bd845c3b55c4c2f07627610410b70c56a",
+  "rows": 2992,
+  "total_rows": 2992,
+  "TLS_verification": "preserved",
+  "publisher_checksum": "not supplied for dynamic API response; local SHA256 records exact response",
+  "last_loaded_existing_response_at_UTC": "2026-10-11T14:31:10.166458+00:00",
+  "cached_sha256_matches_initial_record": true
+}

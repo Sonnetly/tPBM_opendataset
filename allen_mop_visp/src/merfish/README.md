@@ -1,6 +1,6 @@
 # B6J MERFISH MOp–VISp 분석
 
-현재 상태: **분석 코드와 입력 출처 확인 완료, 실제 세포 구성 수치 계산은 대기 중**이다. 공식 Allen S3 호스트에 대한 연결은 클라우드 outbound proxy의 `HTTP 403 CONNECT tunnel failed`로 차단되었다. 실제 세포 입력을 읽지 않았으므로 결과를 추정하거나 synthetic fixture를 결과로 제시하지 않는다.
+현재 상태: **공식 입력 다운로드와 실제 MOp–VISp 구성 분석을 완료**했다. 초기에는 공식 Allen S3 호스트가 클라우드 outbound proxy의 `HTTP 403 CONNECT tunnel failed`로 차단되었으나, 사용자 요청 후 재확인한 현재 런타임에서는 HTTPS GET이 성공했다. 공식 필수 입력 5개(1,571,075,446 bytes)를 다운로드하고 원본 MD5와 크기를 검증했다. MOp 83,976개, VISp 61,884개, 합계 145,860개 QC annotated 세포를 분석했으며 annotation 및 CCF 좌표 결측은 0개였다. 결과는 `results/merfish/composition_report_ko.md`에서 확인한다. 선택 사항인 raw matrix와 measured Penk 발현은 아직 다운로드·계산하지 않았다.
 
 ## 입력과 출처
 
@@ -9,7 +9,7 @@ Allen ABC의 `MERFISH-C57BL6J-638850`은 C57BL/6J WT 수컷 **한 동물**의 �
 - 공식 SDK: <https://github.com/AllenInstitute/abc_atlas_access>
 - SDK 확인 commit: `b16ee223d3466a57b30066973413ccc948c2e983`
 - 확보한 문서: SDK `descriptions/MERFISH-C57BL6J-638850.md`, `notebooks/merfish_ccf_registration_tutorial.ipynb`, `notebooks/ccf_and_parcellation_annotation_tutorial.ipynb`
-- 확보한 manifest: SDK의 `tests/abc_atlas_cache/resources/manifest.json`에 저장된 공식 URL·크기·MD5 목록. **실제 세포 자료는 포함되어 있지 않다.** 원문 사본은 `input/merfish/official_sdk_manifest_snapshot.json`, 출처와 SHA256은 `input/merfish/provenance.json`에 보존했다.
+- 최초 확보한 manifest: SDK의 `tests/abc_atlas_cache/resources/manifest.json`에 저장된 공식 URL·크기·MD5 목록. **이 manifest 자체에 실제 세포 자료는 포함되어 있지 않다.** 원문 사본은 `input/merfish/official_sdk_manifest_snapshot.json`, 초기 기록은 `input/merfish/provenance.json`의 `initial_SDK_snapshot_record`에 보존했다. 실제 분석에는 S3에서 확보한 `input/merfish/live_manifest_20250531.json`과 checksum을 통과한 5개 원본 파일을 사용했다.
 - 자동 다운로드 시 같은 release의 실제 S3 manifest를 먼저 읽고, 각 파일의 공식 MD5 및 크기를 검증한다. TLS 검증을 유지한다.
 
 | 필수 입력 | 버전 | byte |
@@ -51,7 +51,9 @@ CCF `structure`가 **정확히** `MOp` 또는 `VISp`인 세포를 먼저 선택�
 원본 클래스에 분류되고 원본 subclass와 cluster alias가 있는 공개 세포 metadata를 QC annotated 분모로 사용한다. 새 correlation-score 임계치를 만들지 않는다. 원본 `average_correlation_score`도 산출물에 유지한다. annotation 또는 좌표 join 실패 수는 audit에 보고한다.
 
 - `results/merfish/readiness_report.json`: 입력 유무·checksum·실제 분석 수행 여부·pending 이유·완료 시 cell audit.
-- `results/merfish/network_acquisition_status.json`: 실제 확인한 proxy 차단 상태.
+- `results/merfish/network_acquisition_status.json`: 초기 proxy 차단 및 현재 HTTPS 다운로드 성공 기록.
+- `results/merfish/actual_data_validation.json`: 실제 145,860개 세포와 32개 구성 CSV의 분모·합계·좌표·원본 검증 확인.
+- `results/merfish/composition_report_ko.md`: 실제 세포 구성 결과와 단일 동물 해석 조건.
 - `selected_cells_raw_labels_and_coordinates.csv.gz`: 영역·해부학적 층·원본 taxonomy·correlation score·CCF 좌표·표시 그룹·QC flag.
 - `raw_label_display_group_mapping.csv`: raw label → 표시용 그룹과 taxonomy 버전.
 - `sample_coverage.csv`: donor, genotype, sex, region, layer, hemisphere, section별 세포 수.
@@ -67,4 +69,4 @@ CCF 좌표는 mm이며 ASL 방향이다. x는 anterior→posterior, y는 dorsal�
 
 ## 검증 상태
 
-2026-10-11에 독립적인 **synthetic fixture 4개**를 검증했다. 원본 taxonomy 표시 매핑, 세 종류의 분모와 영역별 0 범주, 정확한 영역 join·층·반구 및 그림 산출, raw Penk 검출·명시적 정규화와 zero-total 결측 처리를 확인했다. fixture 파일과 그림은 임시 디렉터리에서 제거되며 실제 `results/merfish`에 저장되지 않는다. 실제 입력 검사 실행은 missing input 상태를 정확하게 `exit 2`, `actual_analysis_computed=false`로 보고했다.
+2026-10-11에 독립적인 **synthetic fixture 4개**를 검증했다. 원본 taxonomy 표시 매핑, 세 종류의 분모와 영역별 0 범주, 정확한 영역 join·층·반구 및 그림 산출, raw Penk 검출·명시적 정규화와 zero-total 결측 처리를 확인했다. fixture 파일과 그림은 임시 디렉터리에서 제거되며 실제 `results/merfish`에 저장되지 않는다. 최초 입력 검사에서는 missing input 상태를 정확하게 `exit 2`, `actual_analysis_computed=false`로 보고했다. 현재 실제 입력을 확보한 실행은 `exit 0`, `status=composition_completed`, `actual_analysis_computed=true`이며, 실제 결과에 대한 독립적인 출력 검증도 통과했다. 총 32개 구성 CSV의 각 층화 단위에서 cell count의 합이 분모와 일치하고 fraction의 합이 1임을 확인했다.

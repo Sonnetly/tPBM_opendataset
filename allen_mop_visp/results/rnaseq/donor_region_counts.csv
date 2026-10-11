@@ -1,0 +1,7 @@
+donor,region,chemistry,genotype,sex,age,facs,n_cells
+352353,MOp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,43604
+352356,MOp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,36294
+352357,MOp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,43829
+355878,VISp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,12941
+365616,VISp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2716
+365617,VISp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,14106

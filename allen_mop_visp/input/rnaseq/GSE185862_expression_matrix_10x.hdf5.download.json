@@ -1,0 +1,26 @@
+{
+  "status": "download_complete",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/GSE185862_expression_matrix_10x.hdf5",
+  "local_path": "input/rnaseq/raw/GSE185862_expression_matrix_10x.hdf5",
+  "bytes": 5716426072,
+  "sha256": "1ec6e788edfde84a875121762b651931a39f731dc35da1db3089fa82211c2163",
+  "response_headers": {
+    "date": "Sun, 11 Oct 2026 13:32:06 GMT",
+    "server": "envoy",
+    "last-modified": "Fri, 01 Oct 2021 01:30:08 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "5716426072",
+    "cache-control": "public, max-age=86400",
+    "expires": "Sun, 18 Oct 2026 13:32:06 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+    "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+    "x-envoy-upstream-service-time": "303",
+    "connection": "close"
+  },
+  "TLS_verification": "preserved",
+  "source": "official GEO GSE185862 archive",
+  "publisher_checksum_available": false
+}

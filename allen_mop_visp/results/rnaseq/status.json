@@ -1,13 +1,26 @@
 {
-  "status": "pending_external_data",
-  "executed": false,
-  "missing": [
-    "CTX-HPF MOp/VISp cell metadata",
-    "cell-level expression matrix and documented scale"
-  ],
-  "not_generated": [
-    "RNA-seq region expression differences",
-    "animal-level P values"
-  ],
-  "next_command": "python src/rnaseq/analyze_expression.py --metadata input/rnaseq/cell_metadata.csv --h5ad input/rnaseq/ctx_hpf.h5ad --value-kind raw_counts --full-transcriptome-counts-confirmed"
+  "status": "descriptive_expression_complete",
+  "n_selected_cells": 153490,
+  "n_candidates_present": 62,
+  "n_candidates_total": 62,
+  "matrix": "/workspace/tPBM_opendataset/allen_mop_visp/input/rnaseq/ctx_hpf_mop_visp_candidate_counts.h5ad",
+  "value_kind": "raw_counts",
+  "metadata_audit": {
+    "scope": "CTX-HPF MOp and VISp; RNA-seq cell counts are sampling counts, not tissue composition",
+    "n_all_cells": 153490,
+    "n_selected_cells": 153490,
+    "exact_regions_present": [
+      "MOp",
+      "VISp"
+    ],
+    "unknown_or_partial_fields": [
+      "pool"
+    ],
+    "genotype_policy": "Retain raw annotation; do not infer WT or C57BL/6J from missing values",
+    "animal_inference": "withheld; donor/pool independence and region/batch confounding require documented review"
+  },
+  "animal_statistics": "not performed; independent biological-unit mapping and design review required",
+  "normalization_denominator_evidence": "external metadata column full_library_counts",
+  "comparison_interpretation": "descriptive matched annotation labels; matching chemistry/genotype/age/sex/FACS is unverified where unknown",
+  "reported_difference": "MOp minus VISp in the supplied normalized expression scale; not log2FC unless separately modeled"
 }

@@ -1,0 +1,14 @@
+{
+  "scope": "CTX-HPF MOp and VISp; RNA-seq cell counts are sampling counts, not tissue composition",
+  "n_all_cells": 153490,
+  "n_selected_cells": 153490,
+  "exact_regions_present": [
+    "MOp",
+    "VISp"
+  ],
+  "unknown_or_partial_fields": [
+    "pool"
+  ],
+  "genotype_policy": "Retain raw annotation; do not infer WT or C57BL/6J from missing values",
+  "animal_inference": "withheld; donor/pool independence and region/batch confounding require documented review"
+}

@@ -244,13 +244,14 @@ def dotplots(summary, root):
     for number, (labels, data) in enumerate(panel.groupby(STRATA, dropna=False)):
         genes = sorted(data.gene.unique())
         rows = sorted(set(zip(data.region, data["class"], data.subclass)))
+        row_counts = data.groupby(["region", "class", "subclass"])["n_cells"].first().to_dict()
         fig, ax = plt.subplots(figsize=(max(9, len(genes) * .44), max(4, len(rows) * .34)))
         coords = {row: i for i, row in enumerate(rows)}
         x = data.gene.map({gene: i for i, gene in enumerate(genes)})
         y = [coords[(r, c, s)] for r, c, s in zip(data.region, data["class"], data.subclass)]
         points = ax.scatter(x, y, s=5 + data.detection_fraction.to_numpy() * 170, c=data.mean_expression, cmap="viridis")
         ax.set_xticks(range(len(genes)), genes, rotation=70, ha="right")
-        ax.set_yticks(range(len(rows)), [f"{r} | {c} | {s}" for r, c, s in rows])
+        ax.set_yticks(range(len(rows)), [f"{r} | {c} | {s} (n={int(row_counts[(r, c, s)]):,})" for r, c, s in rows])
         ax.set_title("MOp / VISp panel22: dot size = detection fraction\n" + "; ".join(f"{k}={v}" for k, v in zip(STRATA, labels)), fontsize=9)
         fig.colorbar(points, ax=ax, label=data.value_kind.iloc[0])
         for fraction in [.25, .5, 1.0]:

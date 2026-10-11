@@ -1,0 +1,13 @@
+{
+  "status": "exploratory_cohort_complete",
+  "n_cells": 153490,
+  "n_genes": 62,
+  "n_recorded_donors": 6,
+  "ages": [
+    "P57",
+    "P58",
+    "P59"
+  ],
+  "strict_age_comparison": "Separate primary within_subclass_region_difference.csv; exact shared age P58 only",
+  "animal_inference": "not performed; regional library preparation dates are disjoint and independent pools not verified"
+}

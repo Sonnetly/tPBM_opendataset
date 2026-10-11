@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "data_kind": "actual public GEO SMART-seq counts, not synthetic",
+  "source_all_gene_library_validation": "Exact recomputed sum across all 45768 source exon-count features for every selected cell equals data/total_exon_counts",
+  "sparse_orientation_validation": "Independent candidate alignment in both CSC orientations for ten deterministically selected cells",
+  "n_candidate_genes": 62,
+  "n_selected_cells": 22160,
+  "n_independently_recomputed_gene_stratum_rows": 10,
+  "checks": [
+    "exact MOp/VISp identities and counts",
+    "integer nonnegative read counts",
+    "subset hash and readme source hash",
+    "all-source-gene library denominator recorded and positive",
+    "reported mean logCPM/logCP10k/detection recomputed from subset",
+    "shared-cluster weighted mean difference independently recomputed",
+    "all67shared strata retained and38display filter strata",
+    "actual age metadata and22same-layer strata",
+    "no false exact-condition10x cross-assay results",
+    "no P values/FDR invented"
+  ],
+  "recomputed_gene_stratum_rows": [
+    {
+      "class": "GABAergic",
+      "subclass": "Lamp5",
+      "genotype": "Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P54",
+      "facs": "RFP-positive",
+      "gene": "Adora1"
+    },
+    {
+      "class": "GABAergic",
+      "subclass": "Pvalb",
+      "genotype": "Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "F",
+      "age": "P56",
+      "facs": "RFP-positive",
+      "gene": "Penk"
+    },
+    {
+      "class": "GABAergic",
+      "subclass": "Sst",
+      "genotype": "Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P54",
+      "facs": "RFP-positive",
+      "gene": "Nt5e"
+    },
+    {
+      "class": "GABAergic",
+      "subclass": "Vip",
+      "genotype": "Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P59",
+      "facs": "RFP-positive",
+      "gene": "Grm2"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L2/3 IT CTX",
+      "genotype": "Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P56",
+      "facs": "RFP-positive",
+      "gene": "Adora2a"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L4/5 IT CTX",
+      "genotype": "Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "F",
+      "age": "P54",
+      "facs": "RFP-positive",
+      "gene": "Adora1"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L4/5 IT CTX",
+      "genotype": "Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P56",
+      "facs": "RFP-positive",
+      "gene": "Penk"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L5/6 NP CTX",
+      "genotype": "Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P55",
+      "facs": "RFP-positive",
+      "gene": "Nt5e"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L6 CT CTX",
+      "genotype": "Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "M",
+      "age": "P56",
+      "facs": "RFP-positive",
+      "gene": "Grm2"
+    },
+    {
+      "class": "Glutamatergic",
+      "subclass": "L6 IT CTX",
+      "genotype": "Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt",
+      "sex": "F",
+      "age": "P59",
+      "facs": "RFP-positive",
+      "gene": "Adora2a"
+    }
+  ],
+  "strict_direction_cross_assay_match_rows": 0,
+  "minimum_cells_note": "display filter only; no biological-replicate independence supplied",
+  "animal_inference": "not calculated",
+  "portable_result_bytes": 21323114
+}

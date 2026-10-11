@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "n_source_metadata_cells": 73347,
+  "n_source_matrix_cells": 73363,
+  "n_selected_cells": 22160,
+  "n_selected_MOp": 6588,
+  "n_selected_VISp": 15572,
+  "n_source_genes": 45768,
+  "n_candidates_requested": 62,
+  "n_candidates_available": 62,
+  "missing_candidates": [],
+  "full_library_validation": "Exact recomputed sum across all 45768 source exon-count features for every selected cell equals data/total_exon_counts",
+  "sparse_orientation_validation": "Independent candidate alignment in both CSC orientations for ten deterministically selected cells",
+  "missing_age_cells": 2077,
+  "cells_with_recorded_injection": 1641,
+  "normalization": "log1p(exon read counts / full exon library * 1e6), per-cell logCPM; read counts, not UMI or TPM",
+  "source_matrix": "input/rnaseq/raw/GSE185862_expression_matrix_SSv4.hdf5",
+  "subset_file": "input/rnaseq/smartseq/mop_visp_candidate_exon_counts.h5ad",
+  "subset_sha256": "669c3517a392e599abf31aec3de9753c34ec99fecfcf9cb9d0c81050bee436d7",
+  "source_matrix_dimensions_cell_gene": [
+    73363,
+    45768
+  ],
+  "source_sparse_nonzero_entries": 703397415,
+  "animal_inference": "withheld; library batch and donor sampling reviewed descriptively",
+  "elapsed_s": 20.1
+}

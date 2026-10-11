@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "workbook": "results/connectivity/MOp_VISp_NREM_projection.xlsx",
+  "bytes": 1080781,
+  "sha256": "58569c91d6345b9360f69de4f6eeb19caac08b049df32170318fb9297dd28359",
+  "sheet_rows": {
+    "READ_ME": 13,
+    "Target_definitions": 8,
+    "WT_summary_and_sensitivity": 80,
+    "WT_exploratory_differences": 40,
+    "WT_injection_audit": 41,
+    "Cre_injection_audit": 127,
+    "Cre_line_separate_summary": 424,
+    "Experiment_target_hemisphere": 4032,
+    "Cohort_coverage_and_spread": 8
+  },
+  "completed_actual_analysis_required": true,
+  "workbook_sheet_and_row_counts_verified": true
+}

@@ -1,0 +1,15 @@
+field,source_column,present,n_missing
+cell_id,cell_id,True,0
+region,region,True,0
+class,class,True,0
+subclass,subclass,True,0
+cluster,cluster,True,0
+donor,donor,True,0
+pool,pool,True,153490
+chemistry,chemistry,True,0
+genotype,genotype,True,0
+sex,sex,True,0
+age,age,True,0
+facs,facs,True,0
+batch,batch,True,0
+library_total,full_library_counts,True,0

@@ -1,6 +1,6 @@
 {
   "dataset": "MERFISH-C57BL6J-638850",
-  "status": "official metadata manifest snapshot acquired; actual cell data not acquired",
+  "status": "live official S3 manifest and five required metadata files acquired and verified",
   "source_repository": "https://github.com/AllenInstitute/abc_atlas_access",
   "source_commit": "b16ee223d3466a57b30066973413ccc948c2e983",
   "source_file": "tests/abc_atlas_cache/resources/manifest.json",
@@ -8,10 +8,68 @@
   "source_manifest_version": "20250531",
   "sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
   "official_S3_release_manifest": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/releases/20250531/manifest.json",
-  "actual_study_cells_read": false,
+  "actual_study_cells_read": true,
   "notes": [
     "This file is the SDK test-resource copy of a published manifest, not simulated expression data.",
     "The live official S3 manifest will be fetched before automatic large downloads.",
     "Published artifact MD5 and size will be verified unchanged before any actual analysis."
-  ]
+  ],
+  "initial_SDK_snapshot_record": {
+    "dataset": "MERFISH-C57BL6J-638850",
+    "status": "official metadata manifest snapshot acquired; actual cell data not acquired",
+    "source_repository": "https://github.com/AllenInstitute/abc_atlas_access",
+    "source_commit": "b16ee223d3466a57b30066973413ccc948c2e983",
+    "source_file": "tests/abc_atlas_cache/resources/manifest.json",
+    "retrieval_method": "read-only HTTPS Git proxy, git clone --depth 1",
+    "source_manifest_version": "20250531",
+    "sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
+    "official_S3_release_manifest": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/releases/20250531/manifest.json",
+    "actual_study_cells_read": false,
+    "notes": [
+      "This file is the SDK test-resource copy of a published manifest, not simulated expression data.",
+      "The live official S3 manifest will be fetched before automatic large downloads.",
+      "Published artifact MD5 and size will be verified unchanged before any actual analysis."
+    ]
+  },
+  "live_manifest": "input/merfish/live_manifest_20250531.json",
+  "live_manifest_sha256": "d1c3f8d8c4e6657dbb8da53e6403f11e6116a125a3682dba9180cc6e998f24cd",
+  "artifact_checksums": [
+    {
+      "url": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/MERFISH-C57BL6J-638850/20241115/views/cell_metadata_with_cluster_annotation.csv",
+      "relative_path": "metadata/MERFISH-C57BL6J-638850/20241115/views/cell_metadata_with_cluster_annotation.csv",
+      "size": 1018613800,
+      "file_hash": "b4cddf29d092d5cb29f73af1cc156f7a",
+      "verified_published_MD5": true
+    },
+    {
+      "url": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/MERFISH-C57BL6J-638850-CCF/20231215/reconstructed_coordinates.csv",
+      "relative_path": "metadata/MERFISH-C57BL6J-638850-CCF/20231215/reconstructed_coordinates.csv",
+      "size": 256489776,
+      "file_hash": "125ecd204740b1fbccb3fb361bb63a07",
+      "verified_published_MD5": true
+    },
+    {
+      "url": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/MERFISH-C57BL6J-638850-CCF/20231215/ccf_coordinates.csv",
+      "relative_path": "metadata/MERFISH-C57BL6J-638850-CCF/20231215/ccf_coordinates.csv",
+      "size": 295901193,
+      "file_hash": "23628a884aa65616fa2f9d898c30e9ba",
+      "verified_published_MD5": true
+    },
+    {
+      "url": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv",
+      "relative_path": "metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv",
+      "size": 22261,
+      "file_hash": "3e415e67f7089192bbce62bf9aac7bd1",
+      "verified_published_MD5": true
+    },
+    {
+      "url": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/metadata/MERFISH-C57BL6J-638850/20241115/gene.csv",
+      "relative_path": "metadata/MERFISH-C57BL6J-638850/20241115/gene.csv",
+      "size": 48416,
+      "file_hash": "d9cee1242bc13374b5e2beeea827de3e",
+      "verified_published_MD5": true
+    }
+  ],
+  "actual_selected_MOp_VISp_cells": 145860,
+  "actual_analysis_completed_at_UTC": "2026-10-11T13:31:58.493863+00:00"
 }

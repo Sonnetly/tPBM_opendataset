@@ -1,6 +1,6 @@
 {
   "draft_status": "saved",
-  "runtime_access": "blocked_https_proxy_connect_403",
+  "runtime_access": "primary_sources_verified_accessible_legacy_hosts_still_blocked",
   "requires_publish": true,
   "custom_allowed_domains_saved": [
     "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
@@ -11,9 +11,59 @@
     "api.brain-map.org",
     "ftp.ncbi.nlm.nih.gov",
     "www.ncbi.nlm.nih.gov",
-    "pmc.ncbi.nlm.nih.gov"
+    "pmc.ncbi.nlm.nih.gov",
+    "idk-etl-prod-download-bucket.s3.amazonaws.com",
+    "cdn.prod.website-files.com"
   ],
   "existing_package_manager_preset": "preserved",
   "new_credentials_required": false,
-  "draft_save_does_not_apply_runtime_access": true
+  "draft_save_does_not_apply_runtime_access": true,
+  "updated_date": "2026-10-11",
+  "initial_observation": "Official Allen S3 requests initially failed with outbound proxy HTTP 403 CONNECT tunnel failed. This historical observation no longer describes the primary-source requests that subsequently succeeded.",
+  "verified_primary_source_access": [
+    {
+      "host": "allen-brain-cell-atlas.s3.us-west-2.amazonaws.com",
+      "status": "HTTPS_GET_succeeded",
+      "source": "Allen ABC live release 20250531 manifest and five required B6J MERFISH metadata files",
+      "downloaded_metadata_files": 5,
+      "downloaded_metadata_bytes": 1571075446,
+      "integrity": "Publisher MD5 and file size verified unchanged for all five metadata files",
+      "evidence": "results/merfish/network_acquisition_status.json; results/merfish/readiness_report.json"
+    },
+    {
+      "host": "ftp.ncbi.nlm.nih.gov",
+      "status": "HTTPS_GET_succeeded",
+      "source": "Official GEO GSE185862 10x expression archive and metadata",
+      "expression_matrix_bytes": 5716426072,
+      "integrity": "HTTPS TLS verification preserved; downloaded file size and locally computed SHA256 recorded. Publisher checksum was not available for this matrix.",
+      "evidence": "input/rnaseq/GSE185862_expression_matrix_10x.hdf5.download.json; input/rnaseq/download_manifest.json"
+    },
+    {
+      "host": "api.brain-map.org",
+      "status": "HTTPS_GET_succeeded",
+      "source": "Official Mouse Brain Connectivity Atlas ontology, experiment metadata and injection/projection StructureUnionize records",
+      "selected_MOp_VISp_experiments": 168,
+      "integrity": "TLS verification preserved; original JSON responses, query URL, retrieval timestamps and local SHA256 recorded; cached responses checked against provenance",
+      "evidence": "input/connectivity/acquisition_manifest.json; results/connectivity/status.json"
+    }
+  ],
+  "remaining_blocked_hosts": [
+    {
+      "host": "idk-etl-prod-download-bucket.s3.amazonaws.com",
+      "status": "blocked_https_proxy_connect_403",
+      "role": "Legacy Allen download links",
+      "draft_domain_added": true,
+      "added_draft_applied_to_runtime": false
+    },
+    {
+      "host": "cdn.prod.website-files.com",
+      "status": "blocked_https_proxy_connect_403",
+      "role": "Legacy website download assets",
+      "draft_domain_added": true,
+      "added_draft_applied_to_runtime": false
+    }
+  ],
+  "draft_update_scope": "The two legacy hosts were appended to the existing nine custom domains; the package-manager preset and previous domains were preserved.",
+  "publication_note": "Saved draft changes are not evidence of runtime access or publication. The added legacy domains have not been applied to the running environment. Primary Allen ABC and official GEO access were established by actual successful requests.",
+  "verification_policy": "Preserve TLS and publisher artifact checksums; do not bypass outbound network policy or replace expected hashes."
 }

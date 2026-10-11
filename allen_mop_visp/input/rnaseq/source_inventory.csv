@@ -1,6 +1,7 @@
 source_id,role,url,verification_status
-Allen_CTX_HPF_10x,official_download_entry,https://brain-map.org/our-research/cell-types-taxonomies/cell-types-database-rna-seq-data/mouse-whole-cortex-and-hippocampus-10x,referenced_in_plan_HTTP_proxy_CONNECT_403
+Allen_CTX_HPF_10x,official_download_entry,https://brain-map.org/our-research/cell-types-taxonomies/cell-types-database-rna-seq-data/mouse-whole-cortex-and-hippocampus-10x,retrieved_official_page_links_verified
 Allen_CTX_HPF_SMARTseq,optional_low_detection_followup,https://brain-map.org/our-research/cell-types-taxonomies/cell-types-database-rna-seq-data/mouse-whole-cortex-and-hippocampus-smart-seq,referenced_in_plan_not_retrieved
-MOp_GEO_sample,planned_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629156,referenced_in_plan_HTTP_proxy_CONNECT_403
-VISp_GEO_sample,planned_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629158,referenced_in_plan_not_retrieved
+MOp_GEO_sample,verified_SOFT_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629156&targ=self&form=text&view=full,retrieved_accession_title_chemistry_background_verified
+VISp_GEO_sample,verified_SOFT_source_metadata,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629158&targ=self&form=text&view=full,retrieved_accession_title_chemistry_background_verified
 Yao_Cell_2021,source_publication,https://pmc.ncbi.nlm.nih.gov/articles/PMC8195859/,referenced_in_plan_not_retrieved
+GEO_GSE185862_archive,official_download_archive,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/,retrieved_original_metadata_counts_readme_and_donor_records

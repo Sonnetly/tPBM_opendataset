@@ -1,0 +1,46 @@
+{
+  "status": "complete_descriptive_supplement",
+  "source": "GEO GSE185862 SMART-seq v4 exon read counts",
+  "exact_regions": [
+    "MOp",
+    "VISp"
+  ],
+  "n_selected_cells": 22160,
+  "n_candidates_measured": 62,
+  "strict_known_metadata_no_recorded_injection_cells": 18662,
+  "n_shared_metadata_strata_unfiltered": 67,
+  "shared_metadata_cells_unfiltered": {
+    "MOp": 2403,
+    "VISp": 2206
+  },
+  "n_shared_metadata_strata_min10_display": 38,
+  "displayed_metadata_cells": {
+    "MOp": 2110,
+    "VISp": 1871
+  },
+  "displayed_ages": [
+    "P53",
+    "P54",
+    "P55",
+    "P56",
+    "P59"
+  ],
+  "displayed_donor_counts": {
+    "MOp": 13,
+    "VISp": 13
+  },
+  "displayed_shared_donor_ids": [],
+  "displayed_shared_library_batch_ids": [],
+  "n_same_dissection_layer_strata_min10_display": 22,
+  "n_crosscheck_10x_exact_metadata_gene_rows": 0,
+  "n_crosscheck_10x_exact_metadata_subclasses": 0,
+  "missing_age_cells_excluded_from_strict_comparison": 2077,
+  "recorded_injection_cells_excluded_from_strict_comparison": 1641,
+  "normalization": "log1p(exon read CPM); full 45768-gene exon library denominator",
+  "unit": "PCR-duplicate-removed uniquely mapped exon read counts, not UMI or TPM",
+  "minimum_cells_policy": "n>=10 is only a display filter to omit very small strata; no inferential threshold",
+  "genotype_policy": "B6J background transgenic reporter lines; no WT comparison",
+  "anatomical_layer_policy": "Original dissection labels retained separately; same-dissection-layer sensitivity supplied",
+  "animal_inference": "not performed; cells are not independent animals; region/library-batch/dissection confounding unresolved",
+  "cross_assay_policy": "Separate read and UMI assays; direction-only comparison at same metadata stratum using log1p(relative CP10k) in separate columns"
+}

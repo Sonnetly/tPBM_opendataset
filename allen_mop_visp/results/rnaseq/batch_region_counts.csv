@@ -1,0 +1,5 @@
+batch,region,chemistry,genotype,sex,age,facs,n_cells
+171026,MOp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,79898
+171026,MOp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,43829
+171120,VISp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,12941
+180115,VISp,10x_v2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,16822

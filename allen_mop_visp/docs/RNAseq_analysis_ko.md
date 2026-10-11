@@ -1,60 +1,105 @@
-# CTX-HPF 후보 발현 비교: 실행 상태와 재개 방법
+# CTX-HPF 10x MOp–VISp 실제 후보 발현 분석
 
-현재 상태는 **외부 자료 확보 대기**이다. Allen 공식 다운로드 페이지와 NCBI 메타데이터에 접속할 때 HTTPS proxy CONNECT 단계에서 `403 Forbidden`이 발생했다. 라이브러리 설치나 TLS 인증서 검증 오류가 아니다. 현재 세포 수, genotype, donor/pool 수, MOp–VISp 발현 차이를 실제로 계산한 결과는 없다. 계획서에 적힌 약 8주령·B6J 배경 등의 조건은 실제 메타데이터 확인 전에는 분석 표본의 확정 조건으로 사용하지 않는다.
+공식 GEO GSE185862 원본에서 **MOp 123,727개와 VISp 29,763개, 총 153,490개 세포의 62개 후보 유전자**를 실제로 분석했다. 처음의 접속 실패 이후 Allen 설명 페이지와 GEO HTTPS archive가 열렸다. Allen 페이지가 연결하는 공식 GSE185862 archive의 자료를 사용했으며 후보 22개와 공통 52개의 합집합 62개가 모두 원본 matrix에 있다.
 
-완료한 준비는 후보 22개와 공통 52개를 읽는 발현 분석 코드, 원본 메타데이터 필드 확인, 정확한 `MOp`·`VISp`만 선택하는 규칙, 대응 subclass 및 공유 cluster 비교, dot plot, 합성 입력으로 수행하는 코드 검증이다. 합성 입력은 임시 폴더에서 삭제되며 실제 프로젝트 결과에 저장되지 않는다. 후보 합집합은 62개이다.
+31,053개 원본 유전자의 세포별 raw-count 합을 분모로 CP10k를 계산한 뒤 `log1p`했다. 후보 62개만 더한 값을 정규화 분모로 사용하지 않았다. 결과는 관찰된 세포 평균의 기술적 비교이다. **영역별 library preparation date가 완전히 분리되어 생물학적 지역 효과의 P/FDR 또는 PBM 반응을 추정하지 않았다.**
 
-## 먼저 확보·확인할 자료
+## 표본과 직접 비교 범위
 
-공식 출처는 `input/rnaseq/source_inventory.csv`에 있다. `src/rnaseq/discover_downloads.py`는 공식 Allen 페이지에서 실제 다운로드 링크를 수집한다. 아직 접근할 수 없는 큰 expression artifact의 파일명·크기·정규화 방법은 추정하지 않았다. 공식 링크가 확인되면 동일 dataset/chemistry의 전체 셀 메타데이터와 발현 자료를 확보하고, checksum 및 다운로드 출처를 기록해야 한다.
+| 조건 | MOp | VISp |
+|---|---:|---:|
+| QC/taxonomy에 있는 선택 세포 | 123,727 | 29,763 |
+| GABAergic 표집 세포 | 27,373 | 4,905 |
+| Glutamatergic 표집 세포 | 95,154 | 24,486 |
+| Non-Neuronal 표집 세포 | 1,200 | 372 |
+| 기록된 donor ID | 3 | 3 |
+| 나이 | P57, P58 | P58, P59 |
+| P58 세포 | 43,829 | 16,822 |
+| P58 기록된 donor ID | 1 | 2 |
+| Library preparation date label | 171026 | 171120, 180115 |
 
-메타데이터 확인 항목은 cell ID, 정확한 ROI, 원본 class/subclass/cluster, donor, biological pool, genotype, sex, age, chemistry, FACS 조건, batch/library이다. `schema_map.example.json`은 입력 열 이름을 지정하는 형식 예시이며 실제 Allen CSV에서 검증한 스키마가 아니다. 없는 필드를 새로 만들어 채우지 말고 예시에서 삭제한다. 필요한 열만 실제 확인된 이름으로 지정한다.
+양쪽 모두 `10x_v2`, 수컷, `Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt`, `RFP-positive` 선별이다. GEO protocol에서 C57BL/6J background와 Chromium Single Cell 3′ Reagent Kit v2를 확인했다. **WT B6J 자료가 아니라 B6J 배경 reporter 자료**이다. RNA-seq 표집 세포 수나 glia 비율을 조직의 실제 cellular composition으로 해석하지 않는다. 모든 선택 세포의 cortical layer field는 원본에서 `NA`이며 transcriptomic subclass를 해부학적 layer로 바꾸지 않는다.
 
-발현 분석은 H5AD 형식을 지원한다. 공식 원본이 다른 형식이면 공식 포맷에 맞춘 변환이 필요하다. cell ID와 gene ID를 원본 annotation에 정확히 맞추고 원본 정규화 단위를 유지해야 한다. 입력 파일이 CTX-HPF인지, 10x인지 SMART-seq인지 확인하며 두 기술을 같은 평균값으로 합치지 않는다. WMB의 `VIS`·`VIS-PTLp` 또는 Tasic 2018의 `ALM`을 `VISp`·`MOp`로 바꿔 쓰지 않는다.
+원본 XLSX에서 donor ID마다 고유한 age를 확인해 메타데이터에 연결했다. MOp와 VISp donor는 겹치지 않으며 원본 protocol은 같은 ROI의 sample pooling을 기술한다. 독립 biological pool 관계는 확인하지 않았다. 특히 P58 MOp는 기록된 donor가 한 명이므로 많은 세포를 독립 동물로 세지 않는다.
 
-## 실행
+## 나이 일치 비교와 전체 cohort 탐색
 
-프로젝트 폴더에서 가상환경 Python을 사용한다. 아래 명령은 Linux 예시이며 Windows에서는 같은 스크립트에 `.venv\Scripts\python.exe`를 사용할 수 있다. `--project-root`를 생략하면 스크립트 위치에서 프로젝트 루트를 찾으므로 프로젝트 폴더를 옮길 수 있다.
+**P58 나이 일치 결과**는 `within_subclass_region_difference.csv`의 `both_regions_observed=True` 행이다. chemistry, genotype, sex, age, FACS가 같은 strata끼리만 대응한다. 직접 대응되는 22개 subclass × 62 genes, 1,364개 기술적 대조가 있다. P57/P59는 한 영역만 있어 같은 유형의 지역 비교로 연결하지 않는다. `shared_cluster_standardized_difference.csv`는 알려진 공유 cluster만 남겨 같은 cluster 가중치를 준다.
 
-```bash
-python src/rnaseq/discover_downloads.py
-python src/rnaseq/analyze_expression.py --metadata input/rnaseq/cell_metadata.csv --audit-only
-```
+**P57–P59 전체 cohort 탐색**은 `exploratory_cohort_*` 파일이다. 원본 age를 유지하면서 같은 chemistry/genotype/sex/FACS 안에서 age가 완전히 일치하지 않는 전체 표집을 기술적으로 요약한다. P58 결과의 보조 민감도 화면이며 나이 일치 비교로 주장하지 않는다. 전체 cohort도 region–preparation date 교란 때문에 동물 검정을 하지 않는다.
 
-실제 메타데이터에 따라 필요하면 `--schema-map input/rnaseq/schema_map.json`을 추가한다. 두 정확한 영역과 class/subclass annotation을 확보한 뒤 진행한다. donor/pool 정보가 없다고 세포를 독립 동물로 세지 않는다.
+공유 cluster로 좁혀 같은 가중치를 주었을 때 방향이 바뀌면, 세부 유형 선택·가중치가 gross subclass 대비에 기여할 수 있다. 이것만으로 composition의 인과 효과나 batch 제거가 증명되지는 않는다. 공유 cluster가 없으면 미평가로 남기며 방향 반전으로 세지 않는다.
 
-전체 transcriptome raw-count matrix임이 원본 문서에서 확인될 때:
+## 핵심 관찰
+
+차이는 **MOp minus VISp 평균 `log1p(CP10k)`**이며 log2FC가 아니다. 아래는 P58 수치이다.
+
+| Gene / subclass | 표집 n MOp / VISp | 검출률 MOp / VISp | subclass 평균 차이 | 공유 cluster 동일 가중치 차이 |
+|---|---:|---:|---:|---:|
+| Adora1 / L2/3 IT CTX | 4,014 / 2,104 | 55.5% / 72.3% | −0.1370 | −0.0890 |
+| Adora1 / Pvalb | 1,576 / 422 | 45.8% / 35.3% | +0.1478 | +0.1392 |
+| Adk / L4/5 IT CTX | 13,373 / 6,567 | 65.4% / 54.1% | +0.2211 | +0.0956 |
+| Grm2 / L2/3 IT CTX | 4,014 / 2,104 | 21.5% / 36.4% | −0.0555 | −0.0530 |
+| Grm2 / L4/5 IT CTX | 13,373 / 6,567 | 48.6% / 52.4% | +0.0282 | −0.0568 |
+| Penk / Vip | 2,025 / 882 | 46.7% / 59.4% | −0.1821 | −0.0956 |
+| Penk / L5 IT CTX | 4,109 / 620 | 9.3% / 4.2% | +0.0538 | −0.0206 |
+| Kcnj6 / L6 CT CTX | 7,790 / 1,948 | 73.4% / 70.0% | +0.1982 | −0.0792 |
+| Nt5e / Pvalb | 1,576 / 422 | 10.5% / 19.7% | −0.0457 | −0.0207 |
+| Adora2a / L6 CT CTX | 7,790 / 1,948 | 1.16% / 0.62% | +0.0047 | +0.0037 |
+
+**Adora1은 세포 유형에 따라 방향이 다르다.** L2/3 IT에서는 VISp 쪽, Pvalb에서는 MOp 쪽 관찰 평균이 높고, 이 두 방향은 공유 cluster와 전체 P57–P59 탐색에서도 유지된다. A1 receptor를 영역 전체 하나의 수치로만 비교하는 것보다 IT·Pvalb를 분리해 위치·발현을 확인할 근거다. mRNA 차이를 adenosine의 수면 유도 threshold로 환산하지 않는다.
+
+**Adk/L4/5 IT, Grm2/L2/3 IT, Penk/Vip**도 P58과 전체 cohort의 공유 cluster 화면에서 같은 방향을 보이는 후속 위치 확인 후보이다. 반면 `Grm2/L4/5 IT`, `Kcnj6/L6 CT`, `Penk/L5 IT`는 공유 cluster 선택·같은 가중치 적용 후 방향이 바뀐다. gross subclass 평균만으로 지역 차이를 주장하기 어렵다.
+
+**Nt5e는 나이 범위에 민감한 subtype이 있고, Adora2a·Ada·Slc29a2 등은 검출률이 낮다.** Nt5e/L2/3 IT의 subclass 차이는 P58 −0.0124에서 전체 cohort +0.0027로 바뀐다. Adora2a/L6 CT 검출률은 약 1%이고 많은 다른 뉴런 subclass는 더 낮다. 미검출은 수용체 부재나 생물학적 0을 뜻하지 않는다. 기존 PBM의 Nt5e·Adora2a 감소 정보도 정상 atlas의 MOp–VISp 기저 방향을 결정하지 않는다.
+
+최종 qPCR 순위는 배정하지 않았다. 현재 화면은 Adora1의 세포 유형별 위치, Adk의 대사 축, Grm2와 Penk의 해당 subtype 발현을 독립 표본·실제 자극 위치에서 확인할 근거를 제공한다. Nt5e·Adora2a는 완료된 별도 SMART-seq 보조 결과를 참고하되, 같은 실험 조건에서 RNAscope 등 검출 가능한 측정으로 보완해야 한다. SMART-seq과 주 10x의 exact metadata 대조는 없으므로 직접 재현을 주장하지 않는다. M1 자극 좌표는 확정되었고 V1 AP는 잠정값이다. Bregma 좌표를 CCF로 등록하는 방법과 국소 광분포가 아직 확정되지 않아 실제 자극 ROI 특이 결론은 보류했다.
+
+## 원본과 검증 기록
+
+공식 Allen CTX-HPF 다운로드 entry가 연결하는 `https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/` 원본을 받았다. 정상 HTML GEO sample 페이지의 HTTP 200은 reCAPTCHA라 reject하고 공식 SOFT export endpoint에서 accession 본문을 확인했다. TLS 검증은 유지했다.
+
+- 10x matrix: 5,716,426,072 bytes; SHA256 `1ec6e788edfde84a875121762b651931a39f731dc35da1db3089fa82211c2163`.
+- 실제 `data/counts`: 31,053 genes × 1,169,320 cells; int32; gzip chunks 1,000 × 10,000. `data/shape`는 반대인 cell × gene이므로 gene/sample identity 배열 길이로 축을 확인했다.
+- 원본 taxonomy 메타데이터: 1,169,213 cells. matrix에만 있는 107개는 audit에 기록했으며 선택된 MOp/VISp는 모두 원본 matrix에 정확히 대응했다.
+- `ctx_hpf_mop_visp_candidate_counts.h5ad`: 153,490 × 62. `obs.full_library_counts`는 원본 31,053개 유전자 합계다.
+- `download_manifest.json`, matrix `.download.json`, `GEO_sample_source_manifest.json`, `subset_manifest.json`: URL·크기·SHA256 및 schema/정규화 근거.
+
+큰 원본은 `input/rnaseq/raw/`에서 보관하고 portable ZIP/Git 산출물에서 제외한다. subset, 선택 메타데이터, donor age 원본 레코드, SOFT, 작은 readme와 provenance는 보존한다. 62개 후보 결과를 재현할 때 큰 원본을 다시 내려받을 필요가 없다.
+
+## 재실행
+
+보존한 subset으로 P58 strict 비교와 전체 cohort 탐색을 다시 계산한다. 프로젝트 위치를 코드 경로로 찾으므로 Windows로 프로젝트 폴더를 옮겨 자신의 Python 환경에서 실행할 수 있다.
 
 ```bash
 python src/rnaseq/analyze_expression.py \
-  --metadata input/rnaseq/cell_metadata.csv \
-  --h5ad input/rnaseq/ctx_hpf.h5ad \
+  --metadata input/rnaseq/selected_cell_metadata.csv.gz \
+  --h5ad input/rnaseq/ctx_hpf_mop_visp_candidate_counts.h5ad \
   --value-kind raw_counts \
-  --full-transcriptome-counts-confirmed
+  --library-total-column full_library_counts
+python src/rnaseq/cohort_screening.py
+python src/rnaseq/summarize_findings.py
 ```
 
-HVG 또는 후보 유전자만 남은 counts에는 해당 확인 옵션을 붙이면 안 된다. 대신 메타데이터에 원본 전체 transcriptome 기준 UMI 합계가 보존되어 있다면 `--library-total-column 실제_열이름`을 사용한다. 스크립트는 외부 합계가 양의 정수이며 제공 matrix 합보다 작지 않은지 확인한다. raw counts는 전체 transcriptome 기준 CP10k를 만든 뒤 `log1p`한다. 단위가 이미 확인된 정규화 입력에는 `--value-kind log1p_cp10k`, `log2_cpm_plus1`, `linear_cpm` 중 실제 값에 맞는 것을 사용한다. matrix 값만 보고 단위를 추정하지 않는다.
-
-유전자 이름이 Ensembl ID이면 `--gene-map`으로 `gene_id,gene_symbol` CSV를 지정한다. 중복 gene ID 또는 한 후보의 복수 feature mapping은 임의로 첫 항목을 고르지 않고 중단한다.
+큰 원본부터 subset을 재현하려면:
 
 ```bash
-python src/rnaseq/check_pipeline.py
+python src/rnaseq/download_geo.py GSE185862_expression_matrix_10x.hdf5
+python src/rnaseq/download_geo.py GSE185862_metadata_10x.csv.gz
+python src/rnaseq/download_geo.py GSE185862_CTX-HPF-73538sample_metadata.xlsx
+python src/rnaseq/extract_geo_subset.py --workers 2
 ```
 
-검증은 정확한 ROI 선택, 전체 유전자 기준 library 분모, 외부 library totals, 검출률, 미측정 후보 처리, 공유 cluster 가중치, unknown subtype 제외, raw counts 검증, 입력 부재 상태를 확인한다. 생물학적 결론을 검증하는 시험은 아니다.
+extractor는 이미 보존한 `GSM5629156.soft.txt`·`GSM5629158.soft.txt`에서 chemistry를 확인한다. 원본이 이미 완전한 크기로 저장되어 있으면 downloader는 다시 받지 않고 SHA256을 표시한다. 62개만 있는 subset에 `--full-transcriptome-counts-confirmed`를 사용하면 안 된다. 반드시 전체 원본 library 합계 열을 지정한다.
 
-## 실제 입력 확보 후 생성할 산출물
+## 결과 파일
 
-- `metadata_fields.csv`, `metadata_audit.json`: 실제 열과 missing 조건을 명시한다.
-- `selected_cell_counts.csv`, donor/pool/batch × region count 표: RNA-seq 표집량이다. 조직 세포 비율로 해석하지 않는다.
-- `candidate_gene_coverage.csv`: 없는 후보는 미확보이며 0 발현으로 바꾸지 않는다.
-- `region_subclass_gene_summary.csv`: chemistry, genotype, sex, age, FACS별로 분리한 평균 발현과 검출률이다.
-- `region_all_selected_cells_gene_summary.csv`: FACS/RNA-seq에 표집된 세포 평균이다. 조직 평균을 추정하지 않는다.
-- `within_subclass_region_difference.csv`: MOp minus VISp 평균 발현과 검출률 차이이다. 값의 단위가 log1p(CP10k)일 때 이 차이는 유전자 log2FC가 아니다.
-- `shared_cluster_region_difference.csv`, `shared_cluster_standardized_difference.csv`: 알려진 공유 cluster만 비교하고 같은 cluster 가중치를 주는 탐색 결과이다. unknown cluster 제외 수는 `shared_cluster_audit.json`에 남긴다.
-- `figures/rnaseq/panel22_stratum_*.png`: 점 크기는 검출률, 색은 기록된 발현 단위이다. 서로 다른 chemistry/genotype 등의 층화 조건은 별도 그림에 둔다.
-- `selected_candidate_expression.npz`: 62개 후보 중 확보한 유전자만 저장한 부분 matrix이다.
+- `panel22_P58_cohort_cluster_sensitivity.csv`: 모든 22개 × 대응 subtype의 exact-age 평균·전체 cohort·공유 cluster 민감도.
+- `all62_P58_cohort_cluster_sensitivity.csv`: 공통 52개까지 포함한 전체 탐색 표.
+- `panel22_screening_coverage_and_sensitivity.csv`: 검출률·방향 민감도이며 유의성/최종 qPCR 순위가 아님.
+- `core_gene_observation_examples.csv`: 위 대표 표의 검증 가능한 원 수치.
+- `recorded_donor_subclass_candidate_summaries.csv`: 기록된 donor별 기술 통계; 독립 pool pseudobulk 검정 결과가 아님.
+- `figures/rnaseq/panel22_stratum_001.png`: P58 dot plot. 다른 strata의 나이는 `dotplot_strata.csv`에 기록. 그림 행마다 표집 n 표시.
+- `figures/rnaseq/exploratory_cohort_panel22_dotplot.{png,pdf}` 및 `common_up34`, `common_down18`: 전체 cohort 그림에 age-unmatched·교란 문구 표시.
 
-`status.json`이 `descriptive_expression_complete`일 때만 해당 실행의 결과가 완성된 것으로 판단한다. 입력 없이 실행하면 `pending_external_data`와 종료 코드 2를 반환한다. 실패한 실행에서는 이전 결과 파일이 남아 있을 수 있으므로 상태와 입력 출처를 함께 확인해야 한다.
-
-이 단계의 결과는 기술적 비교이다. 알려진 annotation이 같은 경우에도 genotype/chemistry/age/sex/FACS가 unknown이면 대응 조건을 확인한 비교로 주장하지 않는다. 동물 또는 독립 biological pool의 관계와 영역–batch confounding을 실제 원본에서 확인할 때까지 pseudobulk 동물 검정 및 P/FDR는 생성하지 않는다. 지역 간 기저 mRNA 차이를 정상 동물의 PBM 반응 차이, adenosine 농도, 효소 flux, 단백질 기능 또는 수면 threshold로 환산하지 않는다.
+`results/rnaseq/status.json`은 `descriptive_expression_complete`이다. SMART-seq는 별도 보조 결과를 사용하며 10x와 정규화 발현값을 합치지 않는다.

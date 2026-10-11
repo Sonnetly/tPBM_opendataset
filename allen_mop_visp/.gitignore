@@ -3,6 +3,8 @@
 __pycache__/
 *.py[cod]
 logs/
+input/merfish/cache/
+input/rnaseq/raw/
 .pytest_cache/
 .env
 .env.*

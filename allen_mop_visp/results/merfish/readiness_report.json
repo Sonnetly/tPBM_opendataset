@@ -1,17 +1,11 @@
 {
-  "run_time_UTC": "2026-10-11T13:23:27.240027+00:00",
-  "status": "pending",
+  "run_time_UTC": "2026-10-11T13:28:41.911895+00:00",
+  "status": "composition_completed",
   "dataset": "MERFISH-C57BL6J-638850",
   "caution": "One C57BL/6J male WT donor (638850); sections, hemispheres and cells are not independent animals. No animal-level p values or density estimates.",
-  "actual_analysis_computed": false,
-  "manifest_origin": "Official AllenInstitute/abc_atlas_access GitHub test-resource snapshot; not yet fetched from S3",
-  "pending": [
-    "Missing or unverified input: annotation",
-    "Missing or unverified input: reconstructed",
-    "Missing or unverified input: ccf",
-    "Missing or unverified input: parcellation",
-    "Missing or unverified input: gene"
-  ],
+  "actual_analysis_computed": true,
+  "manifest_origin": "input/merfish/live_manifest_20250531.json",
+  "pending": [],
   "files": {
     "annotation": {
       "version": "20241115",
@@ -20,8 +14,8 @@
       "size": 1018613800,
       "file_hash": "b4cddf29d092d5cb29f73af1cc156f7a",
       "local_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850/20241115/views/cell_metadata_with_cluster_annotation.csv",
-      "present": false,
-      "verified_published_MD5": false
+      "present": true,
+      "verified_published_MD5": true
     },
     "reconstructed": {
       "version": "20231215",
@@ -30,8 +24,8 @@
       "size": 256489776,
       "file_hash": "125ecd204740b1fbccb3fb361bb63a07",
       "local_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850-CCF/20231215/reconstructed_coordinates.csv",
-      "present": false,
-      "verified_published_MD5": false
+      "present": true,
+      "verified_published_MD5": true
     },
     "ccf": {
       "version": "20231215",
@@ -40,8 +34,8 @@
       "size": 295901193,
       "file_hash": "23628a884aa65616fa2f9d898c30e9ba",
       "local_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850-CCF/20231215/ccf_coordinates.csv",
-      "present": false,
-      "verified_published_MD5": false
+      "present": true,
+      "verified_published_MD5": true
     },
     "parcellation": {
       "version": "20230630",
@@ -50,8 +44,8 @@
       "size": 22261,
       "file_hash": "3e415e67f7089192bbce62bf9aac7bd1",
       "local_path": "input/merfish/cache/metadata/Allen-CCF-2020/20230630/views/parcellation_to_parcellation_term_membership_acronym.csv",
-      "present": false,
-      "verified_published_MD5": false
+      "present": true,
+      "verified_published_MD5": true
     },
     "gene": {
       "version": "20241115",
@@ -60,11 +54,24 @@
       "size": 48416,
       "file_hash": "d9cee1242bc13374b5e2beeea827de3e",
       "local_path": "input/merfish/cache/metadata/MERFISH-C57BL6J-638850/20241115/gene.csv",
-      "present": false,
-      "verified_published_MD5": false
+      "present": true,
+      "verified_published_MD5": true
     }
   },
   "manifest_version": "20250531",
-  "manifest_sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
-  "download_bytes_if_all_absent": 1571075446
+  "manifest_sha256": "d1c3f8d8c4e6657dbb8da53e6403f11e6116a125a3682dba9180cc6e998f24cd",
+  "download_bytes_if_all_absent": 1571075446,
+  "manifest_endpoint": "https://allen-brain-cell-atlas.s3.us-west-2.amazonaws.com/releases/20250531/manifest.json",
+  "cell_audit": {
+    "released_annotation_cells": 3938808,
+    "reconstructed_coordinate_cells": 3739961,
+    "selected_MOp_VISp_coordinate_cells": 145860,
+    "missing_annotation": 0,
+    "missing_CCF_coordinates": 0,
+    "selected_QC_annotated_cells": 145860
+  },
+  "Penk": {
+    "status": "pending_optional_raw_matrix",
+    "not_measured_genes": "All other 21 candidates are unmeasured in B6J500 panel"
+  }
 }

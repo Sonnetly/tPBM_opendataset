@@ -1,0 +1,1250 @@
+region,donor,class,subclass,genotype,sex,age,facs,n_cells
+MOp,260371,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+MOp,260371,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,37
+MOp,260371,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,32
+MOp,260371,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+MOp,260371,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+MOp,260371,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,24
+MOp,260371,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,24
+MOp,260371,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,4
+MOp,260674,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,12
+MOp,260674,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,1
+MOp,260674,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,11
+MOp,260674,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,27
+MOp,260674,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,16
+MOp,260674,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,41
+MOp,260674,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,32
+MOp,260674,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,20
+MOp,260674,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,1
+MOp,260674,Non-Neuronal,Astro,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+MOp,262258,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,4
+MOp,262258,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,36
+MOp,262258,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,75
+MOp,262258,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+MOp,262258,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,9
+MOp,262259,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+MOp,262259,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,44
+MOp,262259,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,40
+MOp,262259,Glutamatergic,L5/6 IT TPE-ENT,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+MOp,262259,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,18
+MOp,262259,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,2
+MOp,263283,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,24
+MOp,263283,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,7
+MOp,263283,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,8
+MOp,263283,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,57
+MOp,263283,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+MOp,263283,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,49
+MOp,265460,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,8
+MOp,265460,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+MOp,265460,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,9
+MOp,265460,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,26
+MOp,265460,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,71
+MOp,265460,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,9
+MOp,265460,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,10
+MOp,265460,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,34
+MOp,265460,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,18
+MOp,265460,Glutamatergic,L6b CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+MOp,265462,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,20
+MOp,265462,GABAergic,Meis2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,265462,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+MOp,265462,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,9
+MOp,265462,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,10
+MOp,265462,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,265462,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,20
+MOp,265462,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,36
+MOp,265462,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,5
+MOp,265462,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,3
+MOp,265462,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,12
+MOp,265462,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,71
+MOp,265462,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,24
+MOp,265462,Non-Neuronal,Astro,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,292651,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,60
+MOp,292651,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,6
+MOp,292651,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,3
+MOp,292651,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,12
+MOp,292651,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,84
+MOp,292651,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,41
+MOp,292651,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+MOp,298215,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,68
+MOp,298215,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,4
+MOp,298215,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,9
+MOp,298215,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,14
+MOp,298215,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,59
+MOp,298215,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,29
+MOp,298215,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+MOp,298354,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,60
+MOp,298354,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,7
+MOp,298354,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,7
+MOp,298354,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,45
+MOp,298354,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,2
+MOp,298354,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,44
+MOp,298354,Non-Neuronal,Micro-PVM,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P52,RFP-positive,1
+MOp,298355,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,49
+MOp,298355,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,19
+MOp,298355,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,12
+MOp,298355,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,36
+MOp,298355,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+MOp,298355,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,42
+MOp,304659,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,14
+MOp,304659,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,5
+MOp,304659,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,5
+MOp,304659,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,12
+MOp,304659,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+MOp,304659,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,32
+MOp,304659,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+MOp,304659,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,34
+MOp,304659,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,59
+MOp,304659,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,13
+MOp,304659,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+MOp,304659,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,6
+MOp,304659,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,13
+MOp,304659,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,9
+MOp,304661,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,9
+MOp,304661,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,4
+MOp,304661,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+MOp,304661,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+MOp,304661,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,25
+MOp,304661,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,4
+MOp,304661,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+MOp,304661,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+MOp,304661,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,103
+MOp,304661,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,24
+MOp,304661,Glutamatergic,L6b CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+MOp,306906,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,42
+MOp,306906,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,98
+MOp,306906,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+MOp,306906,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+MOp,306906,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,59
+MOp,306906,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,8
+MOp,306906,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+MOp,306909,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,18
+MOp,306909,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,32
+MOp,306909,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,22
+MOp,306909,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,43
+MOp,306909,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,27
+MOp,306910,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,306910,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,43
+MOp,306910,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,306910,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,4
+MOp,306910,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,54
+MOp,306910,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,18
+MOp,306910,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+MOp,308789,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,32
+MOp,308789,Glutamatergic,L5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+MOp,308790,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,85
+MOp,308790,Glutamatergic,L5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+MOp,315373,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,77
+MOp,315373,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,133
+MOp,315373,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,40
+MOp,315373,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,38
+MOp,315373,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,101
+MOp,315373,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,22
+MOp,315373,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,10
+MOp,315377,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+MOp,315377,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,37
+MOp,315377,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,51
+MOp,315377,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,17
+MOp,315377,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,21
+MOp,315377,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,30
+MOp,315377,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,18
+MOp,315377,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+MOp,315872,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,35
+MOp,315872,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,109
+MOp,315872,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,31
+MOp,315872,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,315872,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,12
+MOp,315872,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,99
+MOp,315872,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,11
+MOp,315872,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,4
+MOp,316321,GABAergic,Sst,Scnn1a-Tg2-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,317499,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,62
+MOp,319137,Glutamatergic,L4/5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,54
+MOp,319137,Glutamatergic,L5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,20
+MOp,319137,Glutamatergic,L5/6 NP CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,30
+MOp,319137,Glutamatergic,L6 CT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,61
+MOp,319137,Glutamatergic,L6 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,18
+MOp,319137,Glutamatergic,L6b CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,319138,Glutamatergic,L5/6 NP CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,4
+MOp,319138,Glutamatergic,L6 CT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,47
+MOp,319138,Glutamatergic,L6 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,12
+MOp,319138,Glutamatergic,L6b CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,6
+MOp,319138,Non-Neuronal,SMC-Peri,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+MOp,319139,Glutamatergic,L4/5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,24
+MOp,319139,Glutamatergic,L5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,38
+MOp,319139,Glutamatergic,L5 PT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,319139,Glutamatergic,L5/6 NP CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,16
+MOp,319139,Glutamatergic,L6 CT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,42
+MOp,319139,Glutamatergic,L6 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,18
+MOp,325133,Glutamatergic,L2/3 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,49
+MOp,325133,Glutamatergic,L4/5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,22
+MOp,325133,Glutamatergic,L5 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,325133,Glutamatergic,L5/6 NP CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+MOp,325133,Glutamatergic,L6 CT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,50
+MOp,325133,Glutamatergic,L6 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,19
+MOp,325133,Glutamatergic,L6b CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+MOp,325714,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,F,P58,GFP-positive (RFP unknown),4
+MOp,325714,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,F,P58,GFP-positive (RFP unknown),140
+MOp,328802,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,103
+MOp,328802,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,15
+MOp,328802,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+MOp,328802,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+MOp,328804,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,4
+MOp,328804,GABAergic,Vip,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+MOp,328804,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,113
+MOp,328804,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+MOp,328804,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+MOp,328804,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,16
+MOp,332663,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,53
+MOp,332663,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+MOp,342679,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,unknown,GFP-positive,4
+MOp,342679,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,unknown,GFP-positive,51
+MOp,342680,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,unknown,GFP-positive,2
+MOp,342680,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,unknown,GFP-positive,39
+MOp,349305,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,3
+MOp,349305,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,18
+MOp,349305,Non-Neuronal,SMC-Peri,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+MOp,357950,Glutamatergic,L5/6 NP CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+MOp,357950,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,8
+MOp,357950,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,46
+MOp,357950,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+MOp,361997,GABAergic,Lamp5,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+MOp,361997,GABAergic,Sncg,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,361997,GABAergic,Vip,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+MOp,361997,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,11
+MOp,361997,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,84
+MOp,361997,Non-Neuronal,Astro,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+MOp,361997,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+MOp,361997,Non-Neuronal,Oligo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,361997,Non-Neuronal,SMC-Peri,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,9
+MOp,361997,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+MOp,371346,GABAergic,Pvalb,Pvalb-T2A-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,60
+MOp,371346,GABAergic,Sst,Pvalb-T2A-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+MOp,371346,Glutamatergic,L5 PT CTX,Pvalb-T2A-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,371346,Non-Neuronal,Oligo,Pvalb-T2A-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,387397,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,47
+MOp,387397,GABAergic,Meis2,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+MOp,387397,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,30
+MOp,387397,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,34
+MOp,387397,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,79
+MOp,387397,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,4
+MOp,387397,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,114
+MOp,387399,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,70
+MOp,387399,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,21
+MOp,387399,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,35
+MOp,387399,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,54
+MOp,387399,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,4
+MOp,387399,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,117
+MOp,387400,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,60
+MOp,387400,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,33
+MOp,387400,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,19
+MOp,387400,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,89
+MOp,387400,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,2
+MOp,387400,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,111
+MOp,388065,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,118
+MOp,388066,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,118
+MOp,388068,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,107
+MOp,388068,GABAergic,Sst,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+MOp,418112,Glutamatergic,L2/3 IT CTX,unknown,M,unknown,RFP-positive,25
+MOp,418112,Glutamatergic,L4/5 IT CTX,unknown,M,unknown,RFP-positive,10
+MOp,418112,Glutamatergic,L5 IT CTX,unknown,M,unknown,RFP-positive,6
+MOp,418112,Glutamatergic,L6 IT CTX,unknown,M,unknown,RFP-positive,1
+MOp,418116,GABAergic,Sst Chodl,unknown,F,unknown,RFP-positive,1
+MOp,418116,Glutamatergic,Car3,unknown,F,unknown,RFP-positive,1
+MOp,418116,Glutamatergic,L2/3 IT CTX,unknown,F,unknown,RFP-positive,7
+MOp,418116,Glutamatergic,L4/5 IT CTX,unknown,F,unknown,RFP-positive,11
+MOp,418116,Glutamatergic,L5 IT CTX,unknown,F,unknown,RFP-positive,19
+MOp,418116,Glutamatergic,L6 CT CTX,unknown,F,unknown,RFP-positive,2
+MOp,418116,Glutamatergic,L6 IT CTX,unknown,F,unknown,RFP-positive,2
+MOp,418116,Glutamatergic,L6b CTX,unknown,F,unknown,RFP-positive,2
+MOp,418116,Non-Neuronal,Astro,unknown,F,unknown,RFP-positive,1
+MOp,424707,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+MOp,424707,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+MOp,424707,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+MOp,442432,GABAergic,Vip,Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,442432,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+MOp,442433,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,46
+MOp,442604,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,448673,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,47
+MOp,448673,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+MOp,448674,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,10
+MOp,448674,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,19
+VISp,184750,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P66,RFP-positive,3
+VISp,184750,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P66,RFP-positive,13
+VISp,184750,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P66,RFP-positive,24
+VISp,184752,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P65,RFP-positive,3
+VISp,184752,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P65,RFP-positive,9
+VISp,184752,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P65,RFP-positive,12
+VISp,184756,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,184756,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,9
+VISp,184756,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,4
+VISp,184756,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,185199,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,5
+VISp,185199,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,16
+VISp,185199,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,17
+VISp,185199,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,185199,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,185200,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P60,RFP-positive,2
+VISp,185200,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P60,RFP-positive,6
+VISp,185200,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P60,RFP-positive,15
+VISp,222454,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,222454,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+VISp,222454,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,222454,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,222454,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,222454,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,222454,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+VISp,222454,Glutamatergic,L2/3 IT PPP,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,222454,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,27
+VISp,222454,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,222454,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,8
+VISp,222454,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,222454,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,15
+VISp,222454,Non-Neuronal,Oligo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+VISp,223184,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,50
+VISp,223184,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,16
+VISp,223184,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,7
+VISp,223184,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,16
+VISp,223184,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,223184,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,50
+VISp,223184,Non-Neuronal,Oligo,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,225675,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,33
+VISp,225675,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,16
+VISp,225675,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,225675,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,24
+VISp,225675,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,225675,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,31
+VISp,225675,Non-Neuronal,Endo,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,225675,Non-Neuronal,SMC-Peri,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,225974,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,225974,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,9
+VISp,225974,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,13
+VISp,225974,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,42
+VISp,225974,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,43
+VISp,225974,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,8
+VISp,225974,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,225974,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,13
+VISp,225974,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,30
+VISp,225974,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,37
+VISp,225974,Glutamatergic,L6b CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,2
+VISp,226022,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,38
+VISp,226022,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,26
+VISp,226022,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,226022,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,44
+VISp,226022,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,226022,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,50
+VISp,226054,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,41
+VISp,226054,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,8
+VISp,226054,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,226054,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,46
+VISp,226054,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,56
+VISp,226054,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,14
+VISp,226056,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,22
+VISp,226056,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,226056,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,226056,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,4
+VISp,226056,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,35
+VISp,226056,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,226056,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,226423,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,226423,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,40
+VISp,226423,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,38
+VISp,226423,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,226423,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+VISp,226423,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,4
+VISp,226423,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,34
+VISp,226423,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,96
+VISp,226423,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,226961,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,26
+VISp,226961,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,26
+VISp,226961,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,6
+VISp,226961,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,38
+VISp,226961,GABAergic,Sst Chodl,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,226961,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,42
+VISp,226961,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,226961,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,9
+VISp,227236,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,227236,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,6
+VISp,227236,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,12
+VISp,227236,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,31
+VISp,227236,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,52
+VISp,227236,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,8
+VISp,227236,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+VISp,227236,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,20
+VISp,227236,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,43
+VISp,227236,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,74
+VISp,227236,Glutamatergic,L6b CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,227236,Non-Neuronal,Oligo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,227800,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,227800,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,227800,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+VISp,227800,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,10
+VISp,227800,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,13
+VISp,227800,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,5
+VISp,227800,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,30
+VISp,227800,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,47
+VISp,227800,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,8
+VISp,227800,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,7
+VISp,227800,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,12
+VISp,227800,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,27
+VISp,227800,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,61
+VISp,227800,Glutamatergic,L6b CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,227802,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,8
+VISp,227802,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,6
+VISp,227802,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,227802,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+VISp,227802,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,19
+VISp,227802,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,26
+VISp,227802,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,40
+VISp,227802,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+VISp,227802,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,227802,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+VISp,227802,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,32
+VISp,227802,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,54
+VISp,227804,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,10
+VISp,227804,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,7
+VISp,227804,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,227804,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,6
+VISp,227804,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,227804,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,9
+VISp,227804,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,4
+VISp,227804,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,29
+VISp,227804,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,50
+VISp,227804,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,9
+VISp,227804,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,227804,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,20
+VISp,227804,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,27
+VISp,227804,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,59
+VISp,227804,Non-Neuronal,Oligo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,233175,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,16
+VISp,233175,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,7
+VISp,233175,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,4
+VISp,233175,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,17
+VISp,233175,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,40
+VISp,233280,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,47
+VISp,233280,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+VISp,233280,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,6
+VISp,233280,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,19
+VISp,233280,GABAergic,Sst Chodl,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,233280,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,64
+VISp,233280,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,233280,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,8
+VISp,234648,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,234648,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,234648,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,7
+VISp,234648,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,13
+VISp,234648,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,234648,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,31
+VISp,234648,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,36
+VISp,234648,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,16
+VISp,234648,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,234648,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,22
+VISp,234648,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,32
+VISp,234648,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,63
+VISp,236153,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,14
+VISp,236153,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,3
+VISp,236153,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,236153,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,15
+VISp,236153,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,11
+VISp,236153,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,19
+VISp,236153,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,43
+VISp,236153,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,21
+VISp,236153,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,10
+VISp,236153,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,15
+VISp,236153,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,20
+VISp,236153,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,64
+VISp,236509,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,236509,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,13
+VISp,236509,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,28
+VISp,236509,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,18
+VISp,236509,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,4
+VISp,236509,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,9
+VISp,237247,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,29
+VISp,237248,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,13
+VISp,237248,GABAergic,Sst,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,237300,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,237300,GABAergic,Meis2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,237300,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,7
+VISp,237300,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,18
+VISp,237300,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,237300,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,37
+VISp,237300,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,37
+VISp,237300,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,16
+VISp,237300,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,3
+VISp,237300,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,24
+VISp,237300,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,16
+VISp,237300,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,69
+VISp,237300,Non-Neuronal,Oligo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,237303,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,20
+VISp,237303,GABAergic,Meis2,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,237303,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,237303,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,237303,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,7
+VISp,237303,GABAergic,Sst Chodl,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,237303,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,28
+VISp,237303,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,237303,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,31
+VISp,237303,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,70
+VISp,237303,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,237303,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,237303,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,237303,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,44
+VISp,237303,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,26
+VISp,237569,GABAergic,Lamp5,Ndnf-IRES2-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,51
+VISp,237569,GABAergic,Vip,Ndnf-IRES2-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,237569,Glutamatergic,CR,Ndnf-IRES2-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,2
+VISp,237569,Non-Neuronal,Endo,Ndnf-IRES2-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,20
+VISp,237569,Non-Neuronal,VLMC,Ndnf-IRES2-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,31
+VISp,237583,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,49
+VISp,237583,GABAergic,Meis2,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,237583,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,13
+VISp,237583,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,237583,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,32
+VISp,237583,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,56
+VISp,237583,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,237583,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,8
+VISp,237584,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,37
+VISp,237584,GABAergic,Meis2,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,237584,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,5
+VISp,237584,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,237584,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,27
+VISp,237584,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,44
+VISp,237584,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,237584,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,9
+VISp,237584,Non-Neuronal,Micro-PVM,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,237585,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,76
+VISp,237585,GABAergic,Meis2,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,237585,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,40
+VISp,237585,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,10
+VISp,237585,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,37
+VISp,237585,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,83
+VISp,237585,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,8
+VISp,237585,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,6
+VISp,237585,Non-Neuronal,Oligo,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,238377,GABAergic,Lamp5,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,238377,GABAergic,Sncg,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,238377,GABAergic,Vip,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,10
+VISp,238378,GABAergic,Vip,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,238721,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,25
+VISp,238757,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,4
+VISp,238757,GABAergic,Sncg,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,238757,GABAergic,Sst,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,22
+VISp,238757,GABAergic,Vip,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,238757,Glutamatergic,L5 IT CTX,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,239334,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P57,RFP-positive,3
+VISp,239950,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,32
+VISp,239950,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,21
+VISp,239950,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,7
+VISp,239950,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,44
+VISp,239950,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,20
+VISp,239950,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,6
+VISp,239950,Non-Neuronal,Micro-PVM,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,3
+VISp,239950,Non-Neuronal,Oligo,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,2
+VISp,239954,GABAergic,Lamp5,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,27
+VISp,239954,GABAergic,Pvalb,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,21
+VISp,239954,GABAergic,Sncg,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,5
+VISp,239954,GABAergic,Sst,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,40
+VISp,239954,GABAergic,Sst Chodl,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,4
+VISp,239954,GABAergic,Vip,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,63
+VISp,239954,Glutamatergic,L2/3 IT CTX,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,239954,Non-Neuronal,Astro,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,13
+VISp,239954,Non-Neuronal,Oligo,Gad2-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,240557,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,26
+VISp,240557,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,10
+VISp,240557,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,240557,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,27
+VISp,240557,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,13
+VISp,240557,Non-Neuronal,Micro-PVM,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,240558,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,57
+VISp,240558,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,26
+VISp,240558,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,11
+VISp,240558,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,55
+VISp,240558,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,240558,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,43
+VISp,241111,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,5
+VISp,241111,GABAergic,Sncg,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,2
+VISp,241111,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,7
+VISp,241111,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,19
+VISp,241111,Glutamatergic,Car3,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,1
+VISp,241111,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,36
+VISp,241111,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,43
+VISp,241111,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,7
+VISp,241111,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,2
+VISp,241111,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,14
+VISp,241111,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,10
+VISp,241111,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,44
+VISp,242303,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,46
+VISp,242303,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,50
+VISp,242303,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,7
+VISp,242303,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,7
+VISp,242303,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,6
+VISp,242303,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,9
+VISp,242303,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,61
+VISp,242303,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,2
+VISp,242308,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,242308,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,26
+VISp,242308,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,43
+VISp,242308,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,3
+VISp,242308,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,242308,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,22
+VISp,242308,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,26
+VISp,242308,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,62
+VISp,242313,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,53
+VISp,242313,GABAergic,Meis2,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,242313,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,13
+VISp,242313,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,8
+VISp,242313,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,14
+VISp,242313,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,69
+VISp,242314,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,48
+VISp,242314,GABAergic,Meis2,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,242314,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,17
+VISp,242314,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,7
+VISp,242314,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,47
+VISp,242314,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,53
+VISp,242314,Non-Neuronal,Endo,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,242962,GABAergic,Lamp5,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,45
+VISp,242962,GABAergic,Meis2,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,242962,GABAergic,Pvalb,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,4
+VISp,242962,GABAergic,Sncg,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,3
+VISp,242962,GABAergic,Sst,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,7
+VISp,242962,GABAergic,Sst Chodl,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,242962,GABAergic,Vip,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,7
+VISp,242962,Non-Neuronal,Endo,Slc32a1-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,10
+VISp,243214,GABAergic,Sst Chodl,Nos1-CreERT2/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P56,RFP-positive,5
+VISp,244402,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,21
+VISp,245824,GABAergic,Lamp5,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,11
+VISp,245824,GABAergic,Pvalb,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,245824,GABAergic,Sst,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,16
+VISp,245824,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,32
+VISp,245824,Glutamatergic,L2/3 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,64
+VISp,245824,Glutamatergic,L4/5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,64
+VISp,245824,Glutamatergic,L5 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,245824,Glutamatergic,L5 PT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+VISp,245824,Glutamatergic,L5/6 NP CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,21
+VISp,245824,Glutamatergic,L6 CT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,33
+VISp,245824,Glutamatergic,L6 IT CTX,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,78
+VISp,249709,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,27
+VISp,249710,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,8
+VISp,250386,GABAergic,Pvalb,Scnn1a-Tg2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,250386,Glutamatergic,L4/5 IT CTX,Scnn1a-Tg2-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,15
+VISp,250388,Glutamatergic,L4/5 IT CTX,Scnn1a-Tg2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,22
+VISp,250388,Glutamatergic,L5 IT CTX,Scnn1a-Tg2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+VISp,250849,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,12
+VISp,250849,GABAergic,Sst,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,49
+VISp,250849,GABAergic,Vip,Chrna2-Cre_OE25/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,6
+VISp,250951,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,5
+VISp,250951,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,11
+VISp,250951,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,48
+VISp,250951,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,11
+VISp,250951,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,250951,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,250951,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,8
+VISp,250953,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,4
+VISp,250953,GABAergic,Vip,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,250953,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,250953,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,43
+VISp,250953,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,26
+VISp,250953,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,250953,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,4
+VISp,250953,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,251596,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,25
+VISp,251596,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,5
+VISp,251597,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,7
+VISp,251597,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,251819,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P53,RFP-positive,26
+VISp,251977,GABAergic,Lamp5,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,8
+VISp,251977,GABAergic,Pvalb,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,251977,GABAergic,Sst,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,251977,GABAergic,Sst Chodl,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,7
+VISp,251977,GABAergic,Vip,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,12
+VISp,251977,Glutamatergic,L4/5 IT CTX,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,252193,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,252193,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,29
+VISp,252193,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,72
+VISp,252193,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,60
+VISp,252193,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,252193,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,7
+VISp,252595,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,252595,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,252595,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,252598,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,252598,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,12
+VISp,252598,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,40
+VISp,252598,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,23
+VISp,252598,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,252599,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,6
+VISp,252599,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,12
+VISp,252599,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,49
+VISp,252599,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,17
+VISp,252599,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,252599,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,252599,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,2
+VISp,252599,Glutamatergic,L6b CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,253107,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,35
+VISp,253374,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,48
+VISp,253374,GABAergic,Sst,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,4
+VISp,254569,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,1
+VISp,254569,Glutamatergic,L2/3 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,124
+VISp,254569,Glutamatergic,L4/5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,133
+VISp,254569,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+VISp,254569,Glutamatergic,L5 PT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,1
+VISp,254569,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,2
+VISp,254569,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,41
+VISp,254569,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P54,RFP-positive,64
+VISp,254570,Glutamatergic,Car3,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,6
+VISp,254570,Glutamatergic,L5 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,254570,Glutamatergic,L5/6 NP CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,4
+VISp,254570,Glutamatergic,L6 CT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,79
+VISp,254570,Glutamatergic,L6 IT CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,193
+VISp,254570,Glutamatergic,L6b CTX,Slc17a7-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,255103,Glutamatergic,L6 IT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,255103,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,5
+VISp,255103,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,255105,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,255105,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,25
+VISp,255105,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,255105,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,256129,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,2
+VISp,256134,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,16
+VISp,256553,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,47
+VISp,256553,Glutamatergic,L5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,256724,GABAergic,Vip,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,6
+VISp,256725,GABAergic,Vip,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,8
+VISp,256753,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,8
+VISp,256753,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P55,RFP-positive,2
+VISp,256755,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,11
+VISp,256755,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,256755,Non-Neuronal,VLMC,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,256758,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,23
+VISp,256758,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,30
+VISp,258160,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,30
+VISp,258160,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,6
+VISp,258163,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,258163,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,5
+VISp,258163,Non-Neuronal,Endo,Ctgf-T2A-dgCre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,258450,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,95
+VISp,259036,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P55,RFP-positive,4
+VISp,259036,GABAergic,Sst,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P55,RFP-positive,2
+VISp,259259,GABAergic,Pvalb,Sst-IRES-Cre/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P57,RFP-positive,3
+VISp,259259,GABAergic,Sst,Sst-IRES-Cre/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P57,RFP-positive,5
+VISp,260225,GABAergic,Lamp5,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,24
+VISp,260225,GABAergic,Pvalb,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,9
+VISp,260225,GABAergic,Sncg,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,260225,GABAergic,Sst,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,12
+VISp,260225,GABAergic,Sst Chodl,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,14
+VISp,260225,GABAergic,Vip,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,7
+VISp,260225,Glutamatergic,L5 IT CTX,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,2
+VISp,260225,Glutamatergic,L6 IT CTX,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,260981,GABAergic,Sst,Nos1-CreERT2/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P56,RFP-positive,3
+VISp,260981,GABAergic,Sst Chodl,Nos1-CreERT2/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P56,RFP-positive,15
+VISp,261268,GABAergic,Pvalb,Sst-IRES-Cre/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,F,P56,RFP-positive,6
+VISp,261268,GABAergic,Sst,Sst-IRES-Cre/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,F,P56,RFP-positive,16
+VISp,261309,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,31
+VISp,261309,GABAergic,Sst,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,261310,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,67
+VISp,261744,GABAergic,Vip,Chat-IRES-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,6
+VISp,262844,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P55,RFP-positive,24
+VISp,262844,GABAergic,Sst,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P55,RFP-positive,3
+VISp,262846,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P56,RFP-positive,17
+VISp,262846,GABAergic,Sst,Chrna2-Cre_OE25/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,M,P56,RFP-positive,6
+VISp,264196,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,5
+VISp,264196,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,4
+VISp,264196,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,37
+VISp,264196,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,18
+VISp,264196,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,264196,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,264196,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,5
+VISp,265062,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,45
+VISp,265062,Non-Neuronal,Micro-PVM,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,265256,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,55
+VISp,265257,GABAergic,Lamp5,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,265257,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,28
+VISp,265257,GABAergic,Sst,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,265999,GABAergic,Pvalb,Pvalb-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,47
+VISp,272729,Glutamatergic,L4/5 IT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,4
+VISp,272729,Glutamatergic,L5 IT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,272729,Glutamatergic,L5 PT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,9
+VISp,272729,Glutamatergic,L5/6 NP CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,8
+VISp,273282,GABAergic,Lamp5,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,5
+VISp,273282,GABAergic,Sncg,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,1
+VISp,273282,GABAergic,Vip,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,6
+VISp,273282,Glutamatergic,L2/3 IT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,60
+VISp,273282,Glutamatergic,L4/5 IT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,81
+VISp,273282,Glutamatergic,L5 IT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,4
+VISp,273282,Glutamatergic,L5 PT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,1
+VISp,273282,Glutamatergic,L6 CT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,3
+VISp,273282,Glutamatergic,L6 IT CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,1
+VISp,273282,Glutamatergic,L6b CTX,Trib2-F2A-CreERT2/wt;Snap25-LSL-F2A-GFP/wt,M,P57,GFP-positive,5
+VISp,273954,Glutamatergic,L4/5 IT CTX,Tlx3-Cre_PL56/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,55
+VISp,273954,Glutamatergic,L5 IT CTX,Tlx3-Cre_PL56/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,17
+VISp,274152,GABAergic,Pvalb,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,17
+VISp,274152,GABAergic,Sst,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,104
+VISp,274152,GABAergic,Sst Chodl,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,6
+VISp,274153,GABAergic,Pvalb,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,15
+VISp,274153,GABAergic,Sst,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,113
+VISp,274153,GABAergic,Sst Chodl,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,3
+VISp,274153,GABAergic,Vip,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,275830,GABAergic,Lamp5,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,2
+VISp,275830,GABAergic,Pvalb,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,6
+VISp,275830,GABAergic,Sst,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,4
+VISp,275830,GABAergic,Vip,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,7
+VISp,275830,Glutamatergic,L2/3 IT CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,3
+VISp,275830,Glutamatergic,L4/5 IT CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,14
+VISp,275830,Glutamatergic,L5 PT CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,2
+VISp,275830,Glutamatergic,L5/6 NP CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,3
+VISp,275830,Glutamatergic,L6 CT CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,1
+VISp,275830,Glutamatergic,L6 IT CTX,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,3
+VISp,275830,Non-Neuronal,Astro,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,33
+VISp,275830,Non-Neuronal,SMC-Peri,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,28
+VISp,275830,Non-Neuronal,VLMC,Vipr2-IRES2-Cre/wt;PhiC31-neo/Ai14(RCL-tdT),M,P59,RFP-positive,1
+VISp,276608,Glutamatergic,L4/5 IT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,7
+VISp,276608,Glutamatergic,L5 PT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,5
+VISp,276608,Glutamatergic,L5/6 NP CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,8
+VISp,277470,GABAergic,Sncg,Vip-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,11
+VISp,277470,GABAergic,Vip,Vip-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,192
+VISp,277994,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,F,P54,RFP-positive,6
+VISp,277994,GABAergic,Sst,Htr3a-Cre_NO152/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,F,P54,RFP-positive,1
+VISp,277994,GABAergic,Vip,Htr3a-Cre_NO152/wt;Pvalb-T2A-Dre/wt;Ai66(RCRL-tdT)/wt,F,P54,RFP-positive,22
+VISp,278160,Glutamatergic,L4/5 IT CTX,Tlx3-Cre_PL56/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,34
+VISp,278160,Glutamatergic,L5 IT CTX,Tlx3-Cre_PL56/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,28
+VISp,278251,GABAergic,Pvalb,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,11
+VISp,278251,GABAergic,Sst,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,84
+VISp,278251,GABAergic,Sst Chodl,Sst-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+VISp,278624,Glutamatergic,L4/5 IT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,33
+VISp,278624,Glutamatergic,L5 PT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,6
+VISp,278624,Glutamatergic,L5/6 NP CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,11
+VISp,278624,Glutamatergic,L6 CT CTX,Sim1-Cre_KJ18/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+VISp,278729,GABAergic,Lamp5,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,278729,GABAergic,Pvalb,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P57,RFP-positive,5
+VISp,280325,GABAergic,Sncg,Vip-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,12
+VISp,280325,GABAergic,Sst,Vip-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,1
+VISp,280325,GABAergic,Vip,Vip-IRES-Cre/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,127
+VISp,280708,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,1
+VISp,280709,GABAergic,Lamp5,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,1
+VISp,280709,GABAergic,Vip,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,2
+VISp,280709,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,2
+VISp,280709,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,2
+VISp,280709,Glutamatergic,L5/6 NP CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,2
+VISp,280710,GABAergic,Lamp5,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P54,RFP-positive,1
+VISp,280710,GABAergic,Sst,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P54,RFP-positive,3
+VISp,280710,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P54,RFP-positive,1
+VISp,280710,Non-Neuronal,VLMC,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P54,RFP-positive,1
+VISp,280711,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,1
+VISp,280711,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P53,RFP-positive,1
+VISp,280712,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P55,RFP-positive,2
+VISp,280712,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P55,RFP-positive,2
+VISp,280712,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P55,RFP-positive,1
+VISp,280713,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P55,RFP-positive,25
+VISp,280713,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P55,RFP-positive,18
+VISp,280714,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P58,RFP-positive,1
+VISp,280714,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),F,P58,RFP-positive,14
+VISp,280718,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P59,RFP-positive,2
+VISp,281387,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,281387,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,281759,GABAergic,Sst,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,1
+VISp,281759,Glutamatergic,L2/3 IT CTX,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,9
+VISp,281759,Glutamatergic,L4/5 IT CTX,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,20
+VISp,281759,Glutamatergic,L5 IT CTX,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,2
+VISp,281759,Glutamatergic,L6 IT CTX,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,1
+VISp,281759,Glutamatergic,L6b CTX,Ai110(RCL-FnGF-nT)/wt,M,P55,GFP-positive,11
+VISp,282509,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,4
+VISp,282509,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,282509,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,282509,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,282509,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,284143,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,2
+VISp,284143,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,29
+VISp,284143,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,2
+VISp,284143,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,17
+VISp,284143,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,284143,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,90
+VISp,284144,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,284144,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,55
+VISp,284144,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,284144,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+VISp,284144,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,3
+VISp,284706,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P59,RFP-positive,1
+VISp,284706,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P59,RFP-positive,180
+VISp,284708,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/Ai14(RCL-tdT),M,P58,RFP-positive,28
+VISp,285675,Glutamatergic,L6 CT CTX,Ntsr1-Cre_GN220/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,95
+VISp,285675,Glutamatergic,L6b CTX,Ntsr1-Cre_GN220/wt;Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,287947,Non-Neuronal,Endo,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,1
+VISp,287947,Non-Neuronal,SMC-Peri,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,2
+VISp,287950,Glutamatergic,Car3,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,1
+VISp,287950,Non-Neuronal,Oligo,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,3
+VISp,287950,Non-Neuronal,SMC-Peri,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,4
+VISp,287950,Non-Neuronal,VLMC,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P58,GFP-positive,1
+VISp,290474,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,6
+VISp,290474,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,3
+VISp,290474,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,2
+VISp,290474,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,10
+VISp,291016,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,7
+VISp,291016,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,291016,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,67
+VISp,291016,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P53,RFP-positive,20
+VISp,291740,Glutamatergic,L5 PT CTX,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,M,P56,GFP-positive,1
+VISp,291740,Non-Neuronal,Endo,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,M,P56,GFP-positive,7
+VISp,291740,Non-Neuronal,SMC-Peri,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,M,P56,GFP-positive,12
+VISp,291746,Non-Neuronal,Endo,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P57,GFP-positive,7
+VISp,291746,Non-Neuronal,SMC-Peri,Gnb4-IRES2-CreERT2/wt;Ai140(TIT2L-GFP-ICL-tTA2)/wt,F,P57,GFP-positive,7
+VISp,292251,Glutamatergic,L4/5 IT CTX,Rorb-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,99
+VISp,292251,Glutamatergic,L5 IT CTX,Rorb-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,16
+VISp,292251,Non-Neuronal,Astro,Rorb-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,293794,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,2
+VISp,293796,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,2
+VISp,293796,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,293796,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,6
+VISp,293796,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,2
+VISp,293796,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,2
+VISp,293796,Non-Neuronal,Oligo,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,293797,GABAergic,Lamp5,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,293797,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,293797,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,293797,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,20
+VISp,293797,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,8
+VISp,293797,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,13
+VISp,294008,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,294008,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+VISp,294008,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,4
+VISp,294008,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,294010,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,4
+VISp,294010,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,3
+VISp,294010,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P55,RFP-positive,9
+VISp,294813,GABAergic,Pvalb,Scnn1a-Tg3-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,294813,GABAergic,Sst,Scnn1a-Tg3-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,4
+VISp,294813,Glutamatergic,L4/5 IT CTX,Scnn1a-Tg3-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,120
+VISp,294813,Glutamatergic,L5 IT CTX,Scnn1a-Tg3-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,5
+VISp,294813,Glutamatergic,L6 CT CTX,Scnn1a-Tg3-Cre/wt;Ai14(RCL-tdT)/wt,M,P53,RFP-positive,1
+VISp,295255,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+VISp,295257,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,34
+VISp,295257,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,14
+VISp,295257,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,295259,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+VISp,295259,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,38
+VISp,295259,Glutamatergic,L6 CT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,20
+VISp,295259,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,295259,Non-Neuronal,Oligo,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,2
+VISp,295260,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,295260,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,32
+VISp,295489,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,295489,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,1
+VISp,295489,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,8
+VISp,295489,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,51
+VISp,295491,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P58,RFP-positive,1
+VISp,295491,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P58,RFP-positive,14
+VISp,295493,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,295493,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,13
+VISp,295493,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,26
+VISp,295493,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,13
+VISp,295493,Glutamatergic,L5/6 IT TPE-ENT,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,295493,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,128
+VISp,295500,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,295500,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,7
+VISp,295500,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,1
+VISp,295500,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,2
+VISp,295500,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,9
+VISp,295500,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P54,RFP-positive,20
+VISp,295501,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P54,RFP-positive,5
+VISp,295501,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P54,RFP-positive,24
+VISp,295501,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P54,RFP-positive,5
+VISp,295501,Non-Neuronal,Oligo,Ai14(RCL-tdT)/wt,F,P54,RFP-positive,1
+VISp,304188,GABAergic,Lamp5,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,304188,GABAergic,Meis2,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,3
+VISp,304188,GABAergic,Pvalb,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,304188,GABAergic,Sst,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,304188,GABAergic,Vip,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,8
+VISp,304188,Glutamatergic,L2/3 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,304188,Glutamatergic,L4/5 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,304188,Glutamatergic,L5/6 NP CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,2
+VISp,304188,Non-Neuronal,Astro,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,18
+VISp,304188,Non-Neuronal,SMC-Peri,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,6
+VISp,304188,Non-Neuronal,VLMC,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,304663,GABAergic,Vip,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,1
+VISp,304663,Non-Neuronal,Astro,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,83
+VISp,304663,Non-Neuronal,Endo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,2
+VISp,304663,Non-Neuronal,Micro-PVM,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,42
+VISp,304663,Non-Neuronal,Oligo,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,78
+VISp,304663,Non-Neuronal,SMC-Peri,Snap25-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-negative,4
+VISp,308236,GABAergic,Lamp5,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,6
+VISp,308236,GABAergic,Pvalb,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,98
+VISp,308236,GABAergic,Sncg,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,308236,GABAergic,Sst,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,8
+VISp,308236,GABAergic,Sst Chodl,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,308236,GABAergic,Vip,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,9
+VISp,308236,Glutamatergic,L5 PT CTX,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,3
+VISp,308236,Glutamatergic,L6 IT CTX,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,9
+VISp,308236,Glutamatergic,L6b CTX,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,308236,Non-Neuronal,Astro,Tac1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P58,RFP-positive,2
+VISp,309019,Glutamatergic,Car3,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,309019,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,10
+VISp,309019,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,4
+VISp,309019,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,17
+VISp,309020,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,309020,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,8
+VISp,309021,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,12
+VISp,309021,Glutamatergic,L4/5 IT CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,309021,Glutamatergic,L5 IT CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,309021,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,38
+VISp,309021,Glutamatergic,L5/6 IT TPE-ENT,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,309021,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,19
+VISp,309021,Glutamatergic,L6b CTX,Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,309583,GABAergic,Lamp5,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,1
+VISp,309583,GABAergic,Meis2,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,15
+VISp,309583,GABAergic,Pvalb,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,6
+VISp,309583,GABAergic,Sst,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,1
+VISp,309583,GABAergic,Vip,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,3
+VISp,309583,Glutamatergic,L4/5 IT CTX,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P58,RFP-positive,1
+VISp,311658,GABAergic,Lamp5,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,8
+VISp,311658,GABAergic,Pvalb,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,28
+VISp,311658,GABAergic,Sst,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+VISp,312510,GABAergic,Lamp5,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,12
+VISp,312510,GABAergic,Pvalb,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,12
+VISp,312510,GABAergic,Sst,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,5
+VISp,312510,GABAergic,Vip,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,25
+VISp,312510,Glutamatergic,CR,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,1
+VISp,312510,Glutamatergic,L2/3 IT CTX,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,14
+VISp,312510,Glutamatergic,L6 IT CTX,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,M,P59,GFP-positive,34
+VISp,313296,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,F,P58,RFP-positive,1
+VISp,316780,GABAergic,Lamp5,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P55,RFP-positive,1
+VISp,316780,GABAergic,Meis2,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P55,RFP-positive,2
+VISp,316780,GABAergic,Pvalb,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P55,RFP-positive,4
+VISp,316780,GABAergic,Vip,Vipr2-IRES2-Cre/wt;Slc32a1-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P55,RFP-positive,3
+VISp,317979,Glutamatergic,L2/3 IT CTX,Nr5a1-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,P56,GFP-positive (RFP unknown),1
+VISp,317979,Glutamatergic,L4/5 IT CTX,Nr5a1-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,P56,GFP-positive (RFP unknown),101
+VISp,318543,GABAergic,Meis2,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,3
+VISp,318543,GABAergic,Pvalb,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,318543,GABAergic,Sst,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,318543,GABAergic,Sst Chodl,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,318543,GABAergic,Vip,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,31
+VISp,318543,Glutamatergic,CR,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,318543,Glutamatergic,L2/3 IT CTX,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,318543,Glutamatergic,L5 IT CTX,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,318543,Glutamatergic,L6 IT CTX,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,21
+VISp,318544,GABAergic,Lamp5,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,318544,GABAergic,Meis2,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,3
+VISp,318544,GABAergic,Sst,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,318544,GABAergic,Vip,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,30
+VISp,318544,Glutamatergic,L2/3 IT CTX,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,7
+VISp,318544,Glutamatergic,L6 IT CTX,Penk-IRES2-Cre-neo/wt;Ai14(RCL-tdT)/wt,F,P57,RFP-positive,22
+VISp,320532,GABAergic,Lamp5,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,4
+VISp,320532,GABAergic,Pvalb,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,16
+VISp,320532,GABAergic,Sncg,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,320532,GABAergic,Sst,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,16
+VISp,320532,Glutamatergic,L5 PT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,320532,Glutamatergic,L5/6 NP CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,36
+VISp,320532,Glutamatergic,L6 CT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,320532,Glutamatergic,L6 IT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,10
+VISp,320532,Non-Neuronal,SMC-Peri,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,320535,GABAergic,Lamp5,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,4
+VISp,320535,GABAergic,Pvalb,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,9
+VISp,320535,GABAergic,Sncg,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,320535,GABAergic,Sst,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,6
+VISp,320535,Glutamatergic,L4/5 IT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,320535,Glutamatergic,L5 PT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,320535,Glutamatergic,L5/6 NP CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,30
+VISp,320535,Glutamatergic,L6 CT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,320535,Glutamatergic,L6 IT CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,8
+VISp,320535,Glutamatergic,L6b CTX,Slc17a8-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,323342,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P55,GFP-positive,5
+VISp,323342,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P55,GFP-positive,103
+VISp,323343,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P55,GFP-positive,3
+VISp,323343,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P55,GFP-positive,27
+VISp,323353,Glutamatergic,L5 PT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,RFP-positive,7
+VISp,323353,Glutamatergic,L6 CT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,GFP-positive,1
+VISp,323353,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,GFP-positive,16
+VISp,323354,Glutamatergic,L2/3 IT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,RFP-positive,19
+VISp,323354,Glutamatergic,L5 IT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,RFP-positive,1
+VISp,323354,Glutamatergic,L6 IT CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,RFP-positive,9
+VISp,323354,Glutamatergic,L6b CTX,Ctgf-T2A-dgCre/wt;Snap25-LSL-F2A-GFP/wt,M,P59,GFP-positive,3
+VISp,324789,Glutamatergic,L6 IT CTX,Ai14(RCL-tdT)/wt,M,P57,RFP-positive,3
+VISp,324792,Glutamatergic,L2/3 IT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,1
+VISp,324792,Glutamatergic,L5 PT CTX,Ai14(RCL-tdT)/wt,F,P57,RFP-positive,5
+VISp,330286,Glutamatergic,L4/5 IT CTX,Glt25d2-Cre_NF107/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,330286,Non-Neuronal,Astro,Glt25d2-Cre_NF107/wt;Ai14(RCL-tdT)/wt,M,P59,RFP-positive,1
+VISp,331242,GABAergic,Lamp5,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,16
+VISp,331242,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,331242,GABAergic,Sncg,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,8
+VISp,331242,GABAergic,Sst,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,6
+VISp,331242,GABAergic,Vip,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,38
+VISp,331242,Glutamatergic,CR,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,3
+VISp,331242,Glutamatergic,L5 IT CTX,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,331242,Glutamatergic,L6 CT CTX,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,331242,Glutamatergic,L6b CTX,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,3
+VISp,331243,GABAergic,Lamp5,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,15
+VISp,331243,GABAergic,Meis2,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,331243,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,2
+VISp,331243,GABAergic,Sncg,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,5
+VISp,331243,GABAergic,Sst,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,9
+VISp,331243,GABAergic,Vip,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,39
+VISp,331243,Glutamatergic,CR,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,1
+VISp,331243,Glutamatergic,L6 CT CTX,Htr3a-Cre_NO152/wt;Ai14(RCL-tdT)/wt,F,P56,RFP-positive,4
+VISp,337325,GABAergic,Pvalb,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,15
+VISp,337325,GABAergic,Sncg,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,337325,GABAergic,Sst,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,54
+VISp,337325,Glutamatergic,Car3,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,337325,Glutamatergic,L5 PT CTX,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,5
+VISp,337325,Glutamatergic,L6 CT CTX,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,337325,Glutamatergic,L6 IT CTX,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,54
+VISp,337325,Non-Neuronal,SMC-Peri,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,19
+VISp,337325,Non-Neuronal,VLMC,Calb1-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,338389,GABAergic,Lamp5,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,20
+VISp,338389,GABAergic,Meis2,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,338389,GABAergic,Pvalb,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,10
+VISp,338389,GABAergic,Sncg,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,338389,GABAergic,Sst,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,41
+VISp,338389,GABAergic,Sst Chodl,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,2
+VISp,338389,GABAergic,Vip,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,32
+VISp,338389,Glutamatergic,L2/3 IT CTX,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,5
+VISp,338389,Glutamatergic,L6 IT CTX,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,21
+VISp,338389,Non-Neuronal,SMC-Peri,Oxtr-T2A-Cre/wt;Ai14(RCL-tdT)/wt,M,P56,RFP-positive,1
+VISp,341956,GABAergic,Lamp5,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,341956,GABAergic,Pvalb,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,11
+VISp,341956,GABAergic,Sncg,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,341956,GABAergic,Sst,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,12
+VISp,341956,GABAergic,Vip,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,341956,Glutamatergic,L4/5 IT CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+VISp,341956,Glutamatergic,L5 PT CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,17
+VISp,341956,Glutamatergic,L5/6 NP CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,5
+VISp,341956,Glutamatergic,L6 IT CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+VISp,341956,Non-Neuronal,VLMC,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,342304,GABAergic,Pvalb,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,342304,GABAergic,Sst,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,21
+VISp,344295,GABAergic,Pvalb,Tac1-IRES2-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,13
+VISp,344295,GABAergic,Sst,Tac1-IRES2-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,20
+VISp,344733,GABAergic,Sst,Pdyn-T2A-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,104
+VISp,346302,Glutamatergic,Car3,Esr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,20
+VISp,346304,Glutamatergic,Car3,Esr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,17
+VISp,349106,GABAergic,Lamp5,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),6
+VISp,349106,GABAergic,Pvalb,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),3
+VISp,349106,GABAergic,Sst,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),12
+VISp,349106,GABAergic,Sst Chodl,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),1
+VISp,349106,GABAergic,Vip,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),6
+VISp,349106,Glutamatergic,L2/3 IT CTX,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),2
+VISp,349106,Glutamatergic,L6 CT CTX,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),1
+VISp,349106,Glutamatergic,L6 IT CTX,Oxtr-T2A-Cre/wt;Ai110(RCL-FnGF-nT)/wt,F,unknown,GFP-positive (RFP unknown),16
+VISp,350650,GABAergic,Lamp5,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,350650,GABAergic,Pvalb,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,5
+VISp,350650,GABAergic,Sncg,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+VISp,350650,GABAergic,Sst,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,8
+VISp,350650,GABAergic,Vip,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,350650,Glutamatergic,L5 PT CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,18
+VISp,350650,Glutamatergic,L5/6 NP CTX,Gng7-Cre_KH71/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+VISp,353517,GABAergic,Sst,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,353517,Glutamatergic,L5 IT CTX,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+VISp,353517,Glutamatergic,L5 PT CTX,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,353517,Glutamatergic,L5/6 NP CTX,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,22
+VISp,353517,Glutamatergic,L6 CT CTX,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,6
+VISp,353517,Glutamatergic,L6 IT CTX,Chrnb3-Cre_SM93/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+VISp,353650,GABAergic,Pvalb,Oxtr-T2A-Cre/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,20
+VISp,353650,GABAergic,Sst,Oxtr-T2A-Cre/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,356460,GABAergic,Pvalb,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,356460,GABAergic,Sst,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,28
+VISp,356461,GABAergic,Pvalb,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,356461,GABAergic,Sst,Crh-IRES-Cre_ZJH/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,16
+VISp,357175,GABAergic,Lamp5,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,5
+VISp,357175,GABAergic,Vip,Nkx2-1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,358332,GABAergic,Lamp5,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,1
+VISp,358332,Glutamatergic,L4/5 IT CTX,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,19
+VISp,358332,Glutamatergic,L5 IT CTX,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,7
+VISp,358332,Glutamatergic,L5/6 NP CTX,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,2
+VISp,358332,Glutamatergic,L6 CT CTX,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,1
+VISp,358332,Non-Neuronal,Astro,Rorb-P2A-FlpO/wt;Ai65F/wt,M,unknown,RFP-positive,148
+VISp,358891,GABAergic,Lamp5,Ndnf-IRES2-dgCre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,51
+VISp,358891,GABAergic,Pvalb,Ndnf-IRES2-dgCre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,358891,GABAergic,Sst,Ndnf-IRES2-dgCre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,358891,GABAergic,Sst Chodl,Ndnf-IRES2-dgCre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,359225,GABAergic,Meis2,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,5
+VISp,359225,GABAergic,Pvalb,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,31
+VISp,359225,GABAergic,Sncg,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,5
+VISp,359225,GABAergic,Sst,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,7
+VISp,359225,GABAergic,Vip,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,10
+VISp,359225,Glutamatergic,DG,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,359225,Glutamatergic,L6 CT CTX,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,359225,Glutamatergic,L6 IT CTX,Th-Cre_FI172/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+VISp,359706,GABAergic,Pvalb,Etv1-CreERT2/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,57
+VISp,359790,GABAergic,Lamp5,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+VISp,359790,GABAergic,Vip,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,359790,Glutamatergic,L2/3 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,8
+VISp,359790,Glutamatergic,L4/5 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,5
+VISp,359790,Glutamatergic,L5 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,359790,Glutamatergic,L5 PT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+VISp,359790,Glutamatergic,L6 CT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,3
+VISp,359790,Glutamatergic,L6 IT CTX,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,3
+VISp,359790,Non-Neuronal,Astro,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+VISp,359790,Non-Neuronal,SMC-Peri,Vipr2-IRES2-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,2
+VISp,362559,Glutamatergic,L2/3 IT CTX,Slc17a6-IRES-Cre/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,31
+VISp,364990,GABAergic,Lamp5,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,30
+VISp,364990,GABAergic,Pvalb,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,1
+VISp,364990,GABAergic,Sncg,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,9
+VISp,364990,GABAergic,Sst,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,4
+VISp,364990,GABAergic,Vip,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,1
+VISp,364990,Glutamatergic,L2/3 IT CTX,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,37
+VISp,364990,Glutamatergic,L6 IT CTX,Rasgrf2-T2A-dgFlpO/wt;Ai65F/wt,M,unknown,RFP-positive,1
+VISp,365746,GABAergic,Pvalb,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,2
+VISp,365746,GABAergic,Sncg,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,365746,GABAergic,Sst,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,365746,GABAergic,Sst Chodl,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,3
+VISp,365746,GABAergic,Vip,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,365746,Glutamatergic,L5/6 IT TPE-ENT,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,365746,Glutamatergic,L5/6 NP CTX,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,41
+VISp,365746,Glutamatergic,L6 CT CTX,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,365746,Glutamatergic,L6 IT CTX,Slc17a8-iCre/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,365756,GABAergic,Pvalb,Slc17a8-IRES2-Cre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,79
+VISp,365756,GABAergic,Sst,Slc17a8-IRES2-Cre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,48
+VISp,365756,Glutamatergic,L5 PT CTX,Slc17a8-IRES2-Cre/wt;Slc32a1-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,366890,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,15
+VISp,366890,GABAergic,Vip,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,366890,Glutamatergic,L4/5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,65
+VISp,366890,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,168
+VISp,366890,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,147
+VISp,366890,Glutamatergic,L5/6 IT TPE-ENT,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,366890,Glutamatergic,L5/6 NP CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,8
+VISp,366890,Glutamatergic,L6 CT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,1
+VISp,366890,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,P59,RFP-positive,7
+VISp,366891,GABAergic,Sst,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,3
+VISp,366891,Glutamatergic,L5 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,6
+VISp,366891,Glutamatergic,L5 PT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,10
+VISp,366891,Glutamatergic,L6 IT CTX,Rbp4-Cre_KL100/wt;Ai14(RCL-tdT)/wt,F,unknown,RFP-positive,4
+VISp,367203,GABAergic,Lamp5,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,13
+VISp,367203,GABAergic,Pvalb,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,367203,GABAergic,Sst,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,6
+VISp,367203,GABAergic,Sst Chodl,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,4
+VISp,367203,GABAergic,Vip,Nos1-CreERT2/wt;Ai14(RCL-tdT)/wt,M,unknown,RFP-positive,7
+VISp,369553,Glutamatergic,L2/3 IT CTX,Glt25d2-Cre_NF107/wt;Ai14(RCL-tdT)/wt,M,P91,RFP-positive,1
+VISp,370797,GABAergic,Lamp5,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,27
+VISp,370797,GABAergic,Pvalb,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,6
+VISp,370797,GABAergic,Sncg,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,1
+VISp,370797,GABAergic,Sst,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,18
+VISp,370797,GABAergic,Sst Chodl,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,1
+VISp,370797,GABAergic,Vip,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,12
+VISp,370797,Glutamatergic,L5 PT CTX,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,2
+VISp,370797,Glutamatergic,L5/6 NP CTX,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,3
+VISp,370797,Glutamatergic,L6 CT CTX,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,7
+VISp,370797,Glutamatergic,L6 IT CTX,Npy-IRES2-FlpO/wt;Ai65F/wt,F,unknown,RFP-positive,18
+VISp,373084,Glutamatergic,L4/5 IT CTX,Rorb-IRES2-FlpO/wt;Ai65F/wt,F,P74,RFP-positive,50
+VISp,373084,Glutamatergic,L5 IT CTX,Rorb-IRES2-FlpO/wt;Ai65F/wt,F,P74,RFP-positive,39
+VISp,373084,Glutamatergic,L6 IT CTX,Rorb-IRES2-FlpO/wt;Ai65F/wt,F,P74,RFP-positive,1
+VISp,373084,Non-Neuronal,Astro,Rorb-IRES2-FlpO/wt;Ai65F/wt,F,P74,RFP-positive,2
+VISp,374806,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,1
+VISp,374806,GABAergic,Sst,Htr3a-Cre_NO152/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,unknown,RFP-positive,52
+VISp,380838,GABAergic,Sst,Gad67-GFP_X98/wt,M,P56,GFP-positive,3
+VISp,383929,GABAergic,Lamp5,Ndnf-IRES2-dgCre/wt;Slc17a6-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P66,RFP-positive,1
+VISp,383929,Glutamatergic,CR,Ndnf-IRES2-dgCre/wt;Slc17a6-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P66,RFP-positive,14
+VISp,385995,GABAergic,Meis2,Th-P2A-FlpO/wt;Ai65F/wt,M,P60,RFP-positive,4
+VISp,385995,GABAergic,Pvalb,Th-P2A-FlpO/wt;Ai65F/wt,M,P60,RFP-positive,36
+VISp,385995,GABAergic,Sst,Th-P2A-FlpO/wt;Ai65F/wt,M,P60,RFP-positive,13
+VISp,385995,GABAergic,Vip,Th-P2A-FlpO/wt;Ai65F/wt,M,P60,RFP-positive,4
+VISp,385995,Non-Neuronal,Endo,Th-P2A-FlpO/wt;Ai65F/wt,M,P60,RFP-positive,1
+VISp,386803,GABAergic,Sncg,Vip-IRES-Cre/wt;Npy-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P57,RFP-positive,10
+VISp,386803,GABAergic,Vip,Vip-IRES-Cre/wt;Npy-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P57,RFP-positive,35
+VISp,387465,GABAergic,Sncg,Cck-IRES-Cre/wt;Vip-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P59,RFP-positive,12
+VISp,387465,GABAergic,Vip,Cck-IRES-Cre/wt;Vip-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P59,RFP-positive,34
+VISp,390185,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,5
+VISp,390349,GABAergic,Sst,Calb2-IRES-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,47
+VISp,390349,GABAergic,Sst Chodl,Calb2-IRES-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,2
+VISp,393491,GABAergic,Pvalb,Npr3-IRES2-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,1
+VISp,393491,GABAergic,Sst,Npr3-IRES2-Cre/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,58
+VISp,398211,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P57,RFP-positive,13
+VISp,398216,GABAergic,Pvalb,Htr3a-Cre_NO152/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,F,P58,RFP-positive,2
+VISp,398674,GABAergic,Sst,Chrna2-Cre_OE25/wt;Sst-IRES-FlpO/wt;Ai65(RCFL-tdT)/wt,M,P57,RFP-positive,103
+VISp,414271,GABAergic,Pvalb,Chrna2-Cre_OE25/wt;Pvalb-T2A-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,26
+VISp,417982,Glutamatergic,L2/3 IT CTX,Penk-IRES2-Cre-neo/wt;Slc17a6-IRES2-FlpO/wt;Ai65(RCFL-tdT)/wt,M,unknown,RFP-positive,21

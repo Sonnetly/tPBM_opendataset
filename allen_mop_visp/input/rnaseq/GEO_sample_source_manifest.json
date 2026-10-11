@@ -1,0 +1,14 @@
+[
+  {
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629156&targ=self&form=text&view=full",
+    "local_path": "input/rnaseq/GSM5629156.soft.txt",
+    "bytes": 8115,
+    "sha256": "c474b19e5dc6edc26328f45232e0746f04de350203344af5b86e8167c0c53fcb"
+  },
+  {
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5629158&targ=self&form=text&view=full",
+    "local_path": "input/rnaseq/GSM5629158.soft.txt",
+    "bytes": 8118,
+    "sha256": "bb2e6b8bf014fb2b6e6bcb7d2f6c95168f4a6ece8d425d106afc1045faf61b0d"
+  }
+]

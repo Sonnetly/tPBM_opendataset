@@ -1,0 +1,44 @@
+{
+  "completed_at_UTC": "2026-10-11T14:31:16.333067+00:00",
+  "status": "actual_projection_analysis_completed",
+  "actual_data_analyzed": true,
+  "selected_experiments": 168,
+  "WT_experiments_by_source": {
+    "VISp": 33,
+    "MOp": 8
+  },
+  "Cre_experiments_by_source": {
+    "VISp": 104,
+    "MOp": 23
+  },
+  "WT_source_only_annotation_by_source": {
+    "VISp": 16,
+    "MOp": 2
+  },
+  "failed_flag_counts": {
+    "False": 168
+  },
+  "mapped_targets": 7,
+  "unmapped_targets": [
+    "PZ"
+  ],
+  "expected_mapped_target_hemisphere_records": 3528,
+  "observed_mapped_target_hemisphere_records": 3528,
+  "missing_mapped_target_hemisphere_records": 0,
+  "normalization_arithmetic_verified": true,
+  "injection_root_total_arithmetic_verified": true,
+  "no_inference_p_values": true,
+  "sensitivity_definitions": [
+    "source-only annotated labels",
+    "exact P56 injection age",
+    "source-parent injection signal fraction >= 0.8",
+    "P56 and fraction >= 0.8"
+  ],
+  "purity_cutoff_interpretation": "0.8 is an exploratory injection-spread sensitivity condition, not a signal detection cutoff, official quality score, or functional-evidence threshold",
+  "summary_unit": "tracer experiment; WT and Cre lines separated",
+  "caution": "Anterograde viral tracer segmented axonal signal: not proof of synapses, postsynaptic identity, monosynaptic functional coupling, or NREM promotion. No physiological response is measured.",
+  "source_hashes": {
+    "input/connectivity/nrem_target_definitions.json": "09a3814a7eabc323420844af7c8be15b6fb73227c2479761751ad27e87ba6116",
+    "src/connectivity/analyze_connectivity.py": "0af356b3a42521e4393542d719d57d7a295ccfc7d0718530f43fe49024472608"
+  }
+}

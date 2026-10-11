@@ -1,0 +1,75 @@
+[
+  {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/GSE185862_CTX_HPF_2021_SS_readme.txt",
+    "local_path": "input/rnaseq/raw/GSE185862_CTX_HPF_2021_SS_readme.txt",
+    "bytes": 1909,
+    "sha256": "a40797db04cd6103710568c07134420dfbbf78b98e04ea2fc3f01ceb21d71ce2",
+    "headers": {
+      "date": "Sun, 11 Oct 2026 13:40:08 GMT",
+      "server": "envoy",
+      "last-modified": "Mon, 11 Oct 2021 11:42:21 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "1909",
+      "cache-control": "public, max-age=86400",
+      "expires": "Sun, 18 Oct 2026 13:40:08 GMT",
+      "vary": "Accept-Encoding",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+      "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+      "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+      "content-type": "text/plain; charset=utf-8",
+      "x-envoy-upstream-service-time": "186",
+      "connection": "close"
+    },
+    "TLS_verification": "preserved"
+  },
+  {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/GSE185862_metadata_ssv4.csv.gz",
+    "local_path": "input/rnaseq/raw/GSE185862_metadata_ssv4.csv.gz",
+    "bytes": 2250150,
+    "sha256": "d0b7de9c2d80ffdd9aeb9edfbfd80240d3f9068e9780393a5013579d8b19d372",
+    "headers": {
+      "date": "Sun, 11 Oct 2026 13:40:09 GMT",
+      "server": "envoy",
+      "last-modified": "Tue, 19 Oct 2021 12:21:35 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "2250150",
+      "cache-control": "public, max-age=86400",
+      "expires": "Sun, 18 Oct 2026 13:40:09 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+      "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+      "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+      "content-type": "application/x-gzip",
+      "x-envoy-upstream-service-time": "221",
+      "connection": "close"
+    },
+    "TLS_verification": "preserved"
+  },
+  {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/GSE185862_expression_matrix_SSv4.hdf5",
+    "local_path": "input/rnaseq/raw/GSE185862_expression_matrix_SSv4.hdf5",
+    "bytes": 3585764160,
+    "sha256": "6ee7a9e1378113d0ad7984bc3ec35710a37f80e463c573a73d7e85db3deb5685",
+    "TLS_verification": "preserved",
+    "publisher_checksum_available": false,
+    "response_headers": {
+      "date": "Sun, 11 Oct 2026 13:41:03 GMT",
+      "server": "envoy",
+      "last-modified": "Wed, 24 Nov 2021 19:26:47 GMT",
+      "accept-ranges": "bytes",
+      "content-length": "3585764160",
+      "cache-control": "public, max-age=86400",
+      "expires": "Sun, 18 Oct 2026 13:41:03 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+      "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+      "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+      "x-envoy-upstream-service-time": "361",
+      "connection": "close"
+    }
+  }
+]
