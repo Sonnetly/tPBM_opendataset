@@ -1,0 +1,162 @@
+{
+  "status": "all_six_existing_dotplots_replotted",
+  "analysis_scope": "Replot existing result tables only; no expression recalculation or regional tests.",
+  "shared_color_limits": [
+    0,
+    4.25
+  ],
+  "dot_area_formula": "4 + 120 * detection_fraction",
+  "numeric_gene_columns_per_page": 8,
+  "missing_group_policy": "Retain adjacent placeholder row with N/A and missing numeric values; never impute zero.",
+  "small_group_policy": "Retain all original groups; n<10 explicitly labeled, no new exclusion cutoff.",
+  "sources": [
+    {
+      "path": "results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv",
+      "SHA256": "9d252e139976a79932e70e5e67783a0c1f6fb7102d613444634c687d5d167559"
+    },
+    {
+      "path": "results/rnaseq/region_subclass_gene_summary.csv",
+      "SHA256": "fd2299a5f1dea2dc37ad9f5ea9814a8f9b4dde2a31f0d08caa8524f91db70a42"
+    },
+    {
+      "path": "figures/rnaseq/dotplot_strata.csv",
+      "SHA256": "6329962048bc732b34feda1a9bb5a7d4aefe7a5fedd5468dc4087ef770fa99a8"
+    }
+  ],
+  "plots": [
+    {
+      "name": "exploratory_cohort_panel22",
+      "original_figure": "exploratory_cohort_panel22_dotplot.png",
+      "gene_count": 22,
+      "row_count_including_NA": 50,
+      "observed_group_count": 48,
+      "missing_group_count": 2,
+      "observed_value_count": 1056,
+      "missing_value_count": 44,
+      "region_cell_totals": {
+        "MOp": 123727,
+        "VISp": 29763
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.png",
+        "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.pdf",
+        "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/exploratory_cohort_panel22_numeric_detail.pdf",
+      "numeric_detail_page_count": 3,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/exploratory_cohort_panel22_plot_values.csv"
+    },
+    {
+      "name": "exploratory_cohort_common_up34",
+      "original_figure": "exploratory_cohort_common_up34_dotplot.png",
+      "gene_count": 34,
+      "row_count_including_NA": 50,
+      "observed_group_count": 48,
+      "missing_group_count": 2,
+      "observed_value_count": 1632,
+      "missing_value_count": 68,
+      "region_cell_totals": {
+        "MOp": 123727,
+        "VISp": 29763
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.png",
+        "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.pdf",
+        "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/exploratory_cohort_common_up34_numeric_detail.pdf",
+      "numeric_detail_page_count": 5,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/exploratory_cohort_common_up34_plot_values.csv"
+    },
+    {
+      "name": "exploratory_cohort_common_down18",
+      "original_figure": "exploratory_cohort_common_down18_dotplot.png",
+      "gene_count": 18,
+      "row_count_including_NA": 50,
+      "observed_group_count": 48,
+      "missing_group_count": 2,
+      "observed_value_count": 864,
+      "missing_value_count": 36,
+      "region_cell_totals": {
+        "MOp": 123727,
+        "VISp": 29763
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.png",
+        "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.pdf",
+        "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/exploratory_cohort_common_down18_numeric_detail.pdf",
+      "numeric_detail_page_count": 3,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/exploratory_cohort_common_down18_plot_values.csv"
+    },
+    {
+      "name": "panel22_stratum_000_P57",
+      "original_figure": "panel22_stratum_000.png",
+      "gene_count": 22,
+      "row_count_including_NA": 48,
+      "observed_group_count": 24,
+      "missing_group_count": 24,
+      "observed_value_count": 528,
+      "missing_value_count": 528,
+      "region_cell_totals": {
+        "MOp": 79898
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.png",
+        "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.pdf",
+        "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/panel22_stratum_000_P57_numeric_detail.pdf",
+      "numeric_detail_page_count": 3,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/panel22_stratum_000_P57_plot_values.csv"
+    },
+    {
+      "name": "panel22_stratum_001_P58",
+      "original_figure": "panel22_stratum_001.png",
+      "gene_count": 22,
+      "row_count_including_NA": 48,
+      "observed_group_count": 46,
+      "missing_group_count": 2,
+      "observed_value_count": 1012,
+      "missing_value_count": 44,
+      "region_cell_totals": {
+        "MOp": 43829,
+        "VISp": 16822
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.png",
+        "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.pdf",
+        "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/panel22_stratum_001_P58_numeric_detail.pdf",
+      "numeric_detail_page_count": 3,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/panel22_stratum_001_P58_plot_values.csv"
+    },
+    {
+      "name": "panel22_stratum_002_P59",
+      "original_figure": "panel22_stratum_002.png",
+      "gene_count": 22,
+      "row_count_including_NA": 44,
+      "observed_group_count": 22,
+      "missing_group_count": 22,
+      "observed_value_count": 484,
+      "missing_value_count": 484,
+      "region_cell_totals": {
+        "VISp": 12941
+      },
+      "overview_exports": [
+        "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.png",
+        "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.pdf",
+        "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.svg"
+      ],
+      "numeric_detail_pdf": "figures/rnaseq/paired/panel22_stratum_002_P59_numeric_detail.pdf",
+      "numeric_detail_page_count": 3,
+      "plot_values_csv": "results/rnaseq/paired_dotplots/panel22_stratum_002_P59_plot_values.csv"
+    }
+  ],
+  "bundles": [
+    "figures/rnaseq/paired/all_six_paired_dotplots.pdf",
+    "figures/rnaseq/paired/all_six_numeric_detail_pages.pdf"
+  ]
+}

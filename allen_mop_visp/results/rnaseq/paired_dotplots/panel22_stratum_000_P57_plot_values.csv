@@ -1,0 +1,1057 @@
+plot_name,row_order,class,subclass,region,gene,observed,n_cells,mean_log1p_CP10k,detection_fraction,source_file,source_row_index
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Ada,True,4108.0,0.0015276804516986,0.0024342745861733,results/rnaseq/region_subclass_gene_summary.csv,0.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Adk,True,4108.0,0.3148557660375179,0.4182083739045764,results/rnaseq/region_subclass_gene_summary.csv,2.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Adora1,True,4108.0,0.0785181085125246,0.1248782862706913,results/rnaseq/region_subclass_gene_summary.csv,3.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Adora2a,True,4108.0,0.0004069464687753,0.0009737098344693,results/rnaseq/region_subclass_gene_summary.csv,4.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Atp2b3,True,4108.0,0.2720293351514093,0.3799902629016553,results/rnaseq/region_subclass_gene_summary.csv,8.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Bcs1l,True,4108.0,0.1781388873920073,0.2626582278481013,results/rnaseq/region_subclass_gene_summary.csv,10.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Cacna1c,True,4108.0,1.2557162816741607,0.9277020447906524,results/rnaseq/region_subclass_gene_summary.csv,13.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Dlgap1,True,4108.0,3.3440628496614435,1.0,results/rnaseq/region_subclass_gene_summary.csv,19.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Entpd1,True,4108.0,0.0287650069378113,0.044790652385589,results/rnaseq/region_subclass_gene_summary.csv,21.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Grin2a,True,4108.0,2.518710833052949,0.9566699123661148,results/rnaseq/region_subclass_gene_summary.csv,27.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Grm2,True,4108.0,0.0053838074680731,0.0094936708860759,results/rnaseq/region_subclass_gene_summary.csv,28.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Kcnj6,True,4108.0,0.4678447054144836,0.5671859785783836,results/rnaseq/region_subclass_gene_summary.csv,33.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Mrps6,True,4108.0,0.0002691344858164,0.0004868549172346,results/rnaseq/region_subclass_gene_summary.csv,35.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Nt5e,True,4108.0,0.1485904619633974,0.2137293086660175,results/rnaseq/region_subclass_gene_summary.csv,37.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Penk,True,4108.0,0.0112212730049013,0.0155793573515092,results/rnaseq/region_subclass_gene_summary.csv,40.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Ppargc1a,True,4108.0,0.3565535096233642,0.4410905550146056,results/rnaseq/region_subclass_gene_summary.csv,41.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Ryr2,True,4108.0,1.0005474494930502,0.8622200584225901,results/rnaseq/region_subclass_gene_summary.csv,44.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Shisa7,True,4108.0,0.3348736984525109,0.4447419668938656,results/rnaseq/region_subclass_gene_summary.csv,48.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Slc29a1,True,4108.0,0.0491838919682956,0.0752190847127556,results/rnaseq/region_subclass_gene_summary.csv,50.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Slc29a2,True,4108.0,0.0708422989418631,0.1117332035053554,results/rnaseq/region_subclass_gene_summary.csv,51.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Slitrk3,True,4108.0,0.2014802636244677,0.2879746835443038,results/rnaseq/region_subclass_gene_summary.csv,52.0
+panel22_stratum_000_P57,0,GABAergic,Lamp5,MOp,Trpc5,True,4108.0,1.2914428722036873,0.9167478091528724,results/rnaseq/region_subclass_gene_summary.csv,59.0
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,1,GABAergic,Lamp5,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Ada,True,3201.0,0.0012675324517766,0.0028116213683223,results/rnaseq/region_subclass_gene_summary.csv,124.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Adk,True,3201.0,0.4755408445033051,0.6494845360824743,results/rnaseq/region_subclass_gene_summary.csv,126.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Adora1,True,3201.0,0.3696954037026372,0.5060918462980318,results/rnaseq/region_subclass_gene_summary.csv,127.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Adora2a,True,3201.0,0.0006289880105384,0.0012496094970321,results/rnaseq/region_subclass_gene_summary.csv,128.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Atp2b3,True,3201.0,0.4032405105162387,0.5832552327397689,results/rnaseq/region_subclass_gene_summary.csv,132.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Bcs1l,True,3201.0,0.1569382954885634,0.282099343955014,results/rnaseq/region_subclass_gene_summary.csv,134.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Cacna1c,True,3201.0,1.0739090745736009,0.914401749453296,results/rnaseq/region_subclass_gene_summary.csv,137.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Dlgap1,True,3201.0,3.664426908616584,1.0,results/rnaseq/region_subclass_gene_summary.csv,143.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Entpd1,True,3201.0,0.0056289472960069,0.0109340830990315,results/rnaseq/region_subclass_gene_summary.csv,145.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Grin2a,True,3201.0,1.4102604586739436,0.7831927522649172,results/rnaseq/region_subclass_gene_summary.csv,151.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Grm2,True,3201.0,0.0071729733047135,0.01437050921587,results/rnaseq/region_subclass_gene_summary.csv,152.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Kcnj6,True,3201.0,0.5296799722157054,0.6660418619181506,results/rnaseq/region_subclass_gene_summary.csv,157.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Mrps6,True,3201.0,0.0002868065339928,0.000624804748516,results/rnaseq/region_subclass_gene_summary.csv,159.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Nt5e,True,3201.0,0.080018262002063,0.1393314589190878,results/rnaseq/region_subclass_gene_summary.csv,161.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Penk,True,3201.0,0.0274480981125648,0.0399875039050296,results/rnaseq/region_subclass_gene_summary.csv,164.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Ppargc1a,True,3201.0,1.5629882844778331,0.985004686035614,results/rnaseq/region_subclass_gene_summary.csv,165.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Ryr2,True,3201.0,0.7795440179036287,0.7203998750390503,results/rnaseq/region_subclass_gene_summary.csv,168.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Shisa7,True,3201.0,0.2738478041352291,0.4304904717275851,results/rnaseq/region_subclass_gene_summary.csv,172.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Slc29a1,True,3201.0,0.1226464786758593,0.2218056857232115,results/rnaseq/region_subclass_gene_summary.csv,174.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Slc29a2,True,3201.0,0.0966890154608409,0.1877538269290846,results/rnaseq/region_subclass_gene_summary.csv,175.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Slitrk3,True,3201.0,0.3089497405541777,0.4764136207435177,results/rnaseq/region_subclass_gene_summary.csv,176.0
+panel22_stratum_000_P57,2,GABAergic,Pvalb,MOp,Trpc5,True,3201.0,0.0431794706051766,0.0624804748516088,results/rnaseq/region_subclass_gene_summary.csv,183.0
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,3,GABAergic,Pvalb,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Ada,True,1598.0,0.0025498531414816,0.0050062578222778,results/rnaseq/region_subclass_gene_summary.csv,248.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Adk,True,1598.0,0.318435186093005,0.4831038798498123,results/rnaseq/region_subclass_gene_summary.csv,250.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Adora1,True,1598.0,0.0607922101554378,0.1132665832290363,results/rnaseq/region_subclass_gene_summary.csv,251.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Adora2a,True,1598.0,0.016762655585658,0.039424280350438,results/rnaseq/region_subclass_gene_summary.csv,252.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Atp2b3,True,1598.0,0.2719083839169519,0.4198998748435544,results/rnaseq/region_subclass_gene_summary.csv,256.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Bcs1l,True,1598.0,0.141972027892374,0.2653316645807259,results/rnaseq/region_subclass_gene_summary.csv,258.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Cacna1c,True,1598.0,1.1905737216956112,0.9080100125156444,results/rnaseq/region_subclass_gene_summary.csv,261.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Dlgap1,True,1598.0,2.9072714164045257,1.0,results/rnaseq/region_subclass_gene_summary.csv,267.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Entpd1,True,1598.0,0.0030074409764668,0.006883604505632,results/rnaseq/region_subclass_gene_summary.csv,269.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Grin2a,True,1598.0,0.993114895099108,0.7759699624530664,results/rnaseq/region_subclass_gene_summary.csv,275.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Grm2,True,1598.0,0.0053173190499339,0.0100125156445556,results/rnaseq/region_subclass_gene_summary.csv,276.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Kcnj6,True,1598.0,0.5676065843201827,0.6933667083854819,results/rnaseq/region_subclass_gene_summary.csv,281.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Mrps6,True,1598.0,0.0001662418517247,0.0006257822277847,results/rnaseq/region_subclass_gene_summary.csv,283.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Nt5e,True,1598.0,0.0644880897460041,0.1082603254067584,results/rnaseq/region_subclass_gene_summary.csv,285.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Penk,True,1598.0,0.0073504025839316,0.0118898623279098,results/rnaseq/region_subclass_gene_summary.csv,288.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Ppargc1a,True,1598.0,0.3085718451017426,0.4468085106382978,results/rnaseq/region_subclass_gene_summary.csv,289.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Ryr2,True,1598.0,1.275501626075621,0.9173967459324156,results/rnaseq/region_subclass_gene_summary.csv,292.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Shisa7,True,1598.0,0.2144350796854108,0.3704630788485607,results/rnaseq/region_subclass_gene_summary.csv,296.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Slc29a1,True,1598.0,0.0205830740793252,0.0350438047559449,results/rnaseq/region_subclass_gene_summary.csv,298.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Slc29a2,True,1598.0,0.0335312563522178,0.0713391739674593,results/rnaseq/region_subclass_gene_summary.csv,299.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Slitrk3,True,1598.0,0.1864220729819766,0.3197747183979975,results/rnaseq/region_subclass_gene_summary.csv,300.0
+panel22_stratum_000_P57,4,GABAergic,Sncg,MOp,Trpc5,True,1598.0,0.4339008273296326,0.5269086357947435,results/rnaseq/region_subclass_gene_summary.csv,307.0
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,5,GABAergic,Sncg,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Ada,True,4653.0,0.0001874176855818,0.0004298302170642,results/rnaseq/region_subclass_gene_summary.csv,372.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Adk,True,4653.0,0.3455995587517839,0.4998925424457339,results/rnaseq/region_subclass_gene_summary.csv,374.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Adora1,True,4653.0,0.2994345023715856,0.4214485278315065,results/rnaseq/region_subclass_gene_summary.csv,375.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Adora2a,True,4653.0,0.0008503508901476,0.001719320868257,results/rnaseq/region_subclass_gene_summary.csv,376.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Atp2b3,True,4653.0,0.3714097318556676,0.5327745540511498,results/rnaseq/region_subclass_gene_summary.csv,380.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Bcs1l,True,4653.0,0.1470017289363832,0.2518805071996561,results/rnaseq/region_subclass_gene_summary.csv,382.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Cacna1c,True,4653.0,1.4020066328459468,0.9653986675263272,results/rnaseq/region_subclass_gene_summary.csv,385.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Dlgap1,True,4653.0,3.318279063031463,1.0,results/rnaseq/region_subclass_gene_summary.csv,391.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Entpd1,True,4653.0,0.0212692265484157,0.0371803137760584,results/rnaseq/region_subclass_gene_summary.csv,393.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Grin2a,True,4653.0,1.8401646650547685,0.9228454760369654,results/rnaseq/region_subclass_gene_summary.csv,399.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Grm2,True,4653.0,0.0070875498421526,0.0135396518375241,results/rnaseq/region_subclass_gene_summary.csv,400.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Kcnj6,True,4653.0,0.2733674993577319,0.4100580270793036,results/rnaseq/region_subclass_gene_summary.csv,405.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Mrps6,True,4653.0,0.0001973821179199,0.0004298302170642,results/rnaseq/region_subclass_gene_summary.csv,407.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Nt5e,True,4653.0,0.0511337418575121,0.0926284117773479,results/rnaseq/region_subclass_gene_summary.csv,409.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Penk,True,4653.0,0.0272524410187958,0.0337416720395443,results/rnaseq/region_subclass_gene_summary.csv,412.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Ppargc1a,True,4653.0,0.8333371977932,0.7702557489791533,results/rnaseq/region_subclass_gene_summary.csv,413.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Ryr2,True,4653.0,1.2682485756642217,0.9458413926499032,results/rnaseq/region_subclass_gene_summary.csv,416.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Shisa7,True,4653.0,0.4730291322283658,0.6183107672469375,results/rnaseq/region_subclass_gene_summary.csv,420.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Slc29a1,True,4653.0,0.1375349363268567,0.2314635718891038,results/rnaseq/region_subclass_gene_summary.csv,422.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Slc29a2,True,4653.0,0.046694517586675,0.0891897700408338,results/rnaseq/region_subclass_gene_summary.csv,423.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Slitrk3,True,4653.0,0.5170797818993647,0.6569954867827208,results/rnaseq/region_subclass_gene_summary.csv,424.0
+panel22_stratum_000_P57,6,GABAergic,Sst,MOp,Trpc5,True,4653.0,0.3059285105172892,0.3223726627981947,results/rnaseq/region_subclass_gene_summary.csv,431.0
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,7,GABAergic,Sst,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Ada,True,223.0,0.0183811278837123,0.0403587443946188,results/rnaseq/region_subclass_gene_summary.csv,496.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Adk,True,223.0,0.4149643137497805,0.6233183856502242,results/rnaseq/region_subclass_gene_summary.csv,498.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Adora1,True,223.0,0.0204346509287716,0.0538116591928251,results/rnaseq/region_subclass_gene_summary.csv,499.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Adora2a,True,223.0,0.0022938112999303,0.0044843049327354,results/rnaseq/region_subclass_gene_summary.csv,500.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Atp2b3,True,223.0,0.309987622702839,0.4932735426008968,results/rnaseq/region_subclass_gene_summary.csv,504.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Bcs1l,True,223.0,0.152810763014508,0.2869955156950672,results/rnaseq/region_subclass_gene_summary.csv,506.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Cacna1c,True,223.0,1.1579448888055783,0.9641255605381166,results/rnaseq/region_subclass_gene_summary.csv,509.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Dlgap1,True,223.0,3.3345201630663976,1.0,results/rnaseq/region_subclass_gene_summary.csv,515.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Entpd1,True,223.0,0.0141313855723802,0.0313901345291479,results/rnaseq/region_subclass_gene_summary.csv,517.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Grin2a,True,223.0,2.457529061427562,1.0,results/rnaseq/region_subclass_gene_summary.csv,523.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Grm2,True,223.0,0.0229223859014595,0.0538116591928251,results/rnaseq/region_subclass_gene_summary.csv,524.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Kcnj6,True,223.0,0.0702259032429138,0.147982062780269,results/rnaseq/region_subclass_gene_summary.csv,529.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Mrps6,True,223.0,0.0020750335449424,0.0044843049327354,results/rnaseq/region_subclass_gene_summary.csv,531.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Nt5e,True,223.0,0.1519419320582863,0.2690582959641255,results/rnaseq/region_subclass_gene_summary.csv,533.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Penk,True,223.0,0.7353485690771526,0.7085201793721974,results/rnaseq/region_subclass_gene_summary.csv,536.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Ppargc1a,True,223.0,0.3433996227003927,0.4977578475336323,results/rnaseq/region_subclass_gene_summary.csv,537.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Ryr2,True,223.0,1.2941397137592738,0.9775784753363228,results/rnaseq/region_subclass_gene_summary.csv,540.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Shisa7,True,223.0,0.2605488201156579,0.452914798206278,results/rnaseq/region_subclass_gene_summary.csv,544.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Slc29a1,True,223.0,0.1187227624023636,0.2466367713004484,results/rnaseq/region_subclass_gene_summary.csv,546.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Slc29a2,True,223.0,0.0483707262755847,0.0986547085201793,results/rnaseq/region_subclass_gene_summary.csv,547.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Slitrk3,True,223.0,0.4344035866143767,0.6322869955156951,results/rnaseq/region_subclass_gene_summary.csv,548.0
+panel22_stratum_000_P57,8,GABAergic,Sst Chodl,MOp,Trpc5,True,223.0,0.4779576988122824,0.5246636771300448,results/rnaseq/region_subclass_gene_summary.csv,555.0
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,9,GABAergic,Sst Chodl,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Ada,True,5119.0,0.0021387549770979,0.0023442078530963,results/rnaseq/region_subclass_gene_summary.csv,620.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Adk,True,5119.0,0.4664569960754036,0.4565344793905059,results/rnaseq/region_subclass_gene_summary.csv,622.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Adora1,True,5119.0,0.0580908440686575,0.0687634303574917,results/rnaseq/region_subclass_gene_summary.csv,623.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Adora2a,True,5119.0,0.0004450135820594,0.000586051963274,results/rnaseq/region_subclass_gene_summary.csv,624.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Atp2b3,True,5119.0,0.2403486191308157,0.2617698769290877,results/rnaseq/region_subclass_gene_summary.csv,628.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Bcs1l,True,5119.0,0.1326892225891247,0.1527642117601094,results/rnaseq/region_subclass_gene_summary.csv,630.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Cacna1c,True,5119.0,1.1668982579316434,0.8140261769876929,results/rnaseq/region_subclass_gene_summary.csv,633.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Dlgap1,True,5119.0,3.4144794358344424,1.0,results/rnaseq/region_subclass_gene_summary.csv,639.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Entpd1,True,5119.0,0.0358185907971993,0.036139871068568,results/rnaseq/region_subclass_gene_summary.csv,641.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Grin2a,True,5119.0,1.1781319229878435,0.7569837858956827,results/rnaseq/region_subclass_gene_summary.csv,647.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Grm2,True,5119.0,0.0337880087416035,0.0382887282672397,results/rnaseq/region_subclass_gene_summary.csv,648.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Kcnj6,True,5119.0,0.4065445616728503,0.4098456729830045,results/rnaseq/region_subclass_gene_summary.csv,653.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Mrps6,True,5119.0,0.0003054168059469,0.0003907013088493,results/rnaseq/region_subclass_gene_summary.csv,655.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Nt5e,True,5119.0,0.038181733185554,0.0451260011721039,results/rnaseq/region_subclass_gene_summary.csv,657.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Penk,True,5119.0,0.7676647363620522,0.5223676499316273,results/rnaseq/region_subclass_gene_summary.csv,660.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Ppargc1a,True,5119.0,0.5790458721313366,0.5122094159015432,results/rnaseq/region_subclass_gene_summary.csv,661.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Ryr2,True,5119.0,0.7824065482058541,0.6671224848603243,results/rnaseq/region_subclass_gene_summary.csv,664.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Shisa7,True,5119.0,0.2186121731816127,0.2434069154131666,results/rnaseq/region_subclass_gene_summary.csv,668.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Slc29a1,True,5119.0,0.0484752548245783,0.0576284430552842,results/rnaseq/region_subclass_gene_summary.csv,670.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Slc29a2,True,5119.0,0.0348436841289831,0.0421957413557335,results/rnaseq/region_subclass_gene_summary.csv,671.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Slitrk3,True,5119.0,0.303539245724687,0.3219378784918929,results/rnaseq/region_subclass_gene_summary.csv,672.0
+panel22_stratum_000_P57,10,GABAergic,Vip,MOp,Trpc5,True,5119.0,0.2653457630037427,0.2473139285016604,results/rnaseq/region_subclass_gene_summary.csv,679.0
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,11,GABAergic,Vip,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Ada,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,744.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Adk,True,10.0,0.2368224105714563,0.2,results/rnaseq/region_subclass_gene_summary.csv,746.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Adora1,True,10.0,0.0992968527009239,0.1,results/rnaseq/region_subclass_gene_summary.csv,747.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Adora2a,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,748.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Atp2b3,True,10.0,0.2488545204015355,0.2,results/rnaseq/region_subclass_gene_summary.csv,752.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Bcs1l,True,10.0,0.1249202978975514,0.1,results/rnaseq/region_subclass_gene_summary.csv,754.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Cacna1c,True,10.0,1.2590208722667555,0.6,results/rnaseq/region_subclass_gene_summary.csv,757.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Dlgap1,True,10.0,1.5252650419523834,0.9,results/rnaseq/region_subclass_gene_summary.csv,763.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Entpd1,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,765.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Grin2a,True,10.0,0.0870263501828716,0.1,results/rnaseq/region_subclass_gene_summary.csv,771.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Grm2,True,10.0,0.2119466480804231,0.2,results/rnaseq/region_subclass_gene_summary.csv,772.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Kcnj6,True,10.0,0.1492516574375198,0.1,results/rnaseq/region_subclass_gene_summary.csv,777.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Mrps6,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,779.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Nt5e,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,781.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Penk,True,10.0,0.1292918603061409,0.1,results/rnaseq/region_subclass_gene_summary.csv,784.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Ppargc1a,True,10.0,0.3358808705844072,0.3,results/rnaseq/region_subclass_gene_summary.csv,785.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Ryr2,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,788.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Shisa7,True,10.0,0.2251355001456061,0.2,results/rnaseq/region_subclass_gene_summary.csv,792.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Slc29a1,True,10.0,0.1349503588756018,0.1,results/rnaseq/region_subclass_gene_summary.csv,794.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Slc29a2,True,10.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,795.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Slitrk3,True,10.0,0.1350138395241139,0.1,results/rnaseq/region_subclass_gene_summary.csv,796.0
+panel22_stratum_000_P57,12,Glutamatergic,CR,MOp,Trpc5,True,10.0,0.5263037138902329,0.3,results/rnaseq/region_subclass_gene_summary.csv,803.0
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,13,Glutamatergic,CR,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Ada,True,247.0,0.0015218817199888,0.0040485829959514,results/rnaseq/region_subclass_gene_summary.csv,868.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Adk,True,247.0,0.5029809256334966,0.7773279352226721,results/rnaseq/region_subclass_gene_summary.csv,870.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Adora1,True,247.0,0.6856386264820964,0.8866396761133604,results/rnaseq/region_subclass_gene_summary.csv,871.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Adora2a,True,247.0,0.0013063070229339,0.0040485829959514,results/rnaseq/region_subclass_gene_summary.csv,872.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Atp2b3,True,247.0,0.3125588030805935,0.5668016194331984,results/rnaseq/region_subclass_gene_summary.csv,876.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Bcs1l,True,247.0,0.1650531868871122,0.3684210526315789,results/rnaseq/region_subclass_gene_summary.csv,878.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Cacna1c,True,247.0,1.591574464597469,0.9919028340080972,results/rnaseq/region_subclass_gene_summary.csv,881.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Dlgap1,True,247.0,3.066615220399716,1.0,results/rnaseq/region_subclass_gene_summary.csv,887.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Entpd1,True,247.0,0.0245622143813334,0.0566801619433198,results/rnaseq/region_subclass_gene_summary.csv,889.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Grin2a,True,247.0,1.8017678472766248,0.9959514170040484,results/rnaseq/region_subclass_gene_summary.csv,895.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Grm2,True,247.0,0.0943766162037431,0.2267206477732793,results/rnaseq/region_subclass_gene_summary.csv,896.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Kcnj6,True,247.0,0.8499436896735226,0.931174089068826,results/rnaseq/region_subclass_gene_summary.csv,901.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Mrps6,True,247.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,903.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Nt5e,True,247.0,0.0401694038887823,0.1012145748987854,results/rnaseq/region_subclass_gene_summary.csv,905.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Penk,True,247.0,0.1481981169756335,0.2753036437246963,results/rnaseq/region_subclass_gene_summary.csv,908.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Ppargc1a,True,247.0,0.1135763850578482,0.2591093117408907,results/rnaseq/region_subclass_gene_summary.csv,909.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Ryr2,True,247.0,1.2061882923987532,0.9595141700404858,results/rnaseq/region_subclass_gene_summary.csv,912.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Shisa7,True,247.0,0.5213751648880349,0.7854251012145749,results/rnaseq/region_subclass_gene_summary.csv,916.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Slc29a1,True,247.0,0.0046975328327423,0.0121457489878542,results/rnaseq/region_subclass_gene_summary.csv,918.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Slc29a2,True,247.0,0.0353558216368176,0.0850202429149797,results/rnaseq/region_subclass_gene_summary.csv,919.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Slitrk3,True,247.0,0.3138902362466136,0.5870445344129555,results/rnaseq/region_subclass_gene_summary.csv,920.0
+panel22_stratum_000_P57,14,Glutamatergic,Car3,MOp,Trpc5,True,247.0,0.8558808151547832,0.8866396761133604,results/rnaseq/region_subclass_gene_summary.csv,927.0
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,15,Glutamatergic,Car3,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Ada,True,7999.0,0.001337885920191,0.0028753594199274,results/rnaseq/region_subclass_gene_summary.csv,992.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Adk,True,7999.0,0.4601704933875691,0.6420802600325041,results/rnaseq/region_subclass_gene_summary.csv,994.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Adora1,True,7999.0,0.4492061064916272,0.6008251031378923,results/rnaseq/region_subclass_gene_summary.csv,995.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Adora2a,True,7999.0,0.0020573561921901,0.0042505313164145,results/rnaseq/region_subclass_gene_summary.csv,996.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Atp2b3,True,7999.0,0.3712263400001687,0.5774471808976122,results/rnaseq/region_subclass_gene_summary.csv,1000.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Bcs1l,True,7999.0,0.1333743953587466,0.2595324415551944,results/rnaseq/region_subclass_gene_summary.csv,1002.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Cacna1c,True,7999.0,1.4879707859772875,0.972246530816352,results/rnaseq/region_subclass_gene_summary.csv,1005.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Dlgap1,True,7999.0,3.232120196421343,1.0,results/rnaseq/region_subclass_gene_summary.csv,1011.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Entpd1,True,7999.0,0.0100012542233404,0.0227528441055131,results/rnaseq/region_subclass_gene_summary.csv,1013.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Grin2a,True,7999.0,2.375076340775196,0.9982497812226528,results/rnaseq/region_subclass_gene_summary.csv,1019.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Grm2,True,7999.0,0.1207574504341652,0.2339042380297537,results/rnaseq/region_subclass_gene_summary.csv,1020.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Kcnj6,True,7999.0,0.9767111786342654,0.90686335791974,results/rnaseq/region_subclass_gene_summary.csv,1025.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Mrps6,True,7999.0,0.0002942746724916,0.0006250781347668,results/rnaseq/region_subclass_gene_summary.csv,1027.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Nt5e,True,7999.0,0.0515750067689457,0.1010126265783222,results/rnaseq/region_subclass_gene_summary.csv,1029.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Penk,True,7999.0,0.1854646530181299,0.2285285660707588,results/rnaseq/region_subclass_gene_summary.csv,1032.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Ppargc1a,True,7999.0,0.4591246037177819,0.6277034629328666,results/rnaseq/region_subclass_gene_summary.csv,1033.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Ryr2,True,7999.0,1.8815008028273217,0.9951243905488186,results/rnaseq/region_subclass_gene_summary.csv,1036.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Shisa7,True,7999.0,0.6440839008797598,0.7914739342417803,results/rnaseq/region_subclass_gene_summary.csv,1040.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Slc29a1,True,7999.0,0.0148982081347119,0.0312539067383422,results/rnaseq/region_subclass_gene_summary.csv,1042.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Slc29a2,True,7999.0,0.0271383359755357,0.0561320165020627,results/rnaseq/region_subclass_gene_summary.csv,1043.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Slitrk3,True,7999.0,0.2733264788933605,0.4659332416552069,results/rnaseq/region_subclass_gene_summary.csv,1044.0
+panel22_stratum_000_P57,16,Glutamatergic,L2/3 IT CTX,MOp,Trpc5,True,7999.0,0.4778119519688069,0.6252031503937993,results/rnaseq/region_subclass_gene_summary.csv,1051.0
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,17,Glutamatergic,L2/3 IT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Ada,True,184.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1116.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Adk,True,184.0,0.4303309076396256,0.4945652173913043,results/rnaseq/region_subclass_gene_summary.csv,1118.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Adora1,True,184.0,0.3794223120041071,0.4130434782608695,results/rnaseq/region_subclass_gene_summary.csv,1119.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Adora2a,True,184.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1120.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Atp2b3,True,184.0,0.2520391169513356,0.3152173913043478,results/rnaseq/region_subclass_gene_summary.csv,1124.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Bcs1l,True,184.0,0.0939028643732744,0.1304347826086956,results/rnaseq/region_subclass_gene_summary.csv,1126.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Cacna1c,True,184.0,1.0111730094536278,0.8097826086956522,results/rnaseq/region_subclass_gene_summary.csv,1129.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Dlgap1,True,184.0,3.0080067465879923,1.0,results/rnaseq/region_subclass_gene_summary.csv,1135.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Entpd1,True,184.0,0.0038256442814404,0.0054347826086956,results/rnaseq/region_subclass_gene_summary.csv,1137.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Grin2a,True,184.0,2.0516403622781465,0.967391304347826,results/rnaseq/region_subclass_gene_summary.csv,1143.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Grm2,True,184.0,0.1551572553272881,0.1956521739130435,results/rnaseq/region_subclass_gene_summary.csv,1144.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Kcnj6,True,184.0,0.7321943070234392,0.7119565217391305,results/rnaseq/region_subclass_gene_summary.csv,1149.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Mrps6,True,184.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1151.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Nt5e,True,184.0,0.0530962284002669,0.0706521739130434,results/rnaseq/region_subclass_gene_summary.csv,1153.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Penk,True,184.0,0.5086320139590367,0.4673913043478261,results/rnaseq/region_subclass_gene_summary.csv,1156.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Ppargc1a,True,184.0,0.4848862588929444,0.5543478260869565,results/rnaseq/region_subclass_gene_summary.csv,1157.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Ryr2,True,184.0,1.6012047305149664,0.9456521739130436,results/rnaseq/region_subclass_gene_summary.csv,1160.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Shisa7,True,184.0,0.282350727810984,0.3641304347826087,results/rnaseq/region_subclass_gene_summary.csv,1164.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Slc29a1,True,184.0,0.0059600497190158,0.0108695652173913,results/rnaseq/region_subclass_gene_summary.csv,1166.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Slc29a2,True,184.0,0.0412334325517123,0.0543478260869565,results/rnaseq/region_subclass_gene_summary.csv,1167.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Slitrk3,True,184.0,0.2211834752599682,0.2826086956521739,results/rnaseq/region_subclass_gene_summary.csv,1168.0
+panel22_stratum_000_P57,18,Glutamatergic,L2/3 IT PPP,MOp,Trpc5,True,184.0,0.2149341178565832,0.2771739130434782,results/rnaseq/region_subclass_gene_summary.csv,1175.0
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,19,Glutamatergic,L2/3 IT PPP,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Ada,True,20570.0,0.0009364089475003,0.0016528925619834,results/rnaseq/region_subclass_gene_summary.csv,1240.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Adk,True,20570.0,0.7154435449519978,0.7655809431210501,results/rnaseq/region_subclass_gene_summary.csv,1242.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Adora1,True,20570.0,0.9300322248282764,0.848663101604278,results/rnaseq/region_subclass_gene_summary.csv,1243.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Adora2a,True,20570.0,0.0007544948728376,0.0013612056392805,results/rnaseq/region_subclass_gene_summary.csv,1244.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Atp2b3,True,20570.0,0.2626755560509387,0.4050072921730676,results/rnaseq/region_subclass_gene_summary.csv,1248.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Bcs1l,True,20570.0,0.1233440705170957,0.2117160913952357,results/rnaseq/region_subclass_gene_summary.csv,1250.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Cacna1c,True,20570.0,1.303757508188225,0.9300437530384056,results/rnaseq/region_subclass_gene_summary.csv,1253.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Dlgap1,True,20570.0,3.145850854693993,1.0,results/rnaseq/region_subclass_gene_summary.csv,1259.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Entpd1,True,20570.0,0.0130735212629702,0.0263976665046183,results/rnaseq/region_subclass_gene_summary.csv,1261.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Grin2a,True,20570.0,2.267552257896269,0.9960136120563928,results/rnaseq/region_subclass_gene_summary.csv,1267.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Grm2,True,20570.0,0.350203196000906,0.4954302382109868,results/rnaseq/region_subclass_gene_summary.csv,1268.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Kcnj6,True,20570.0,0.7572712104034867,0.7913952357802625,results/rnaseq/region_subclass_gene_summary.csv,1273.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Mrps6,True,20570.0,0.0002714506672975,0.0004861448711716,results/rnaseq/region_subclass_gene_summary.csv,1275.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Nt5e,True,20570.0,0.0524795550235345,0.0884783665532328,results/rnaseq/region_subclass_gene_summary.csv,1277.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Penk,True,20570.0,0.0055613367913987,0.0098687408847836,results/rnaseq/region_subclass_gene_summary.csv,1280.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Ppargc1a,True,20570.0,0.1915016114898025,0.2962566844919786,results/rnaseq/region_subclass_gene_summary.csv,1281.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Ryr2,True,20570.0,1.7495423263505585,0.986436558094312,results/rnaseq/region_subclass_gene_summary.csv,1284.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Shisa7,True,20570.0,0.3825210554251373,0.5350996596985902,results/rnaseq/region_subclass_gene_summary.csv,1288.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Slc29a1,True,20570.0,0.0092412534476226,0.0195430238210986,results/rnaseq/region_subclass_gene_summary.csv,1290.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Slc29a2,True,20570.0,0.0217231231407438,0.0410792416140009,results/rnaseq/region_subclass_gene_summary.csv,1291.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Slitrk3,True,20570.0,0.2253983950711212,0.3593096742829363,results/rnaseq/region_subclass_gene_summary.csv,1292.0
+panel22_stratum_000_P57,20,Glutamatergic,L4/5 IT CTX,MOp,Trpc5,True,20570.0,0.5487644174069979,0.624161400097229,results/rnaseq/region_subclass_gene_summary.csv,1299.0
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,21,Glutamatergic,L4/5 IT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Ada,True,6578.0,0.0011251630966605,0.0024323502584372,results/rnaseq/region_subclass_gene_summary.csv,1364.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Adk,True,6578.0,0.5609444189805524,0.7815445424141076,results/rnaseq/region_subclass_gene_summary.csv,1366.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Adora1,True,6578.0,0.897514529437151,0.9212526603830952,results/rnaseq/region_subclass_gene_summary.csv,1367.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Adora2a,True,6578.0,0.0015285919032047,0.0039525691699604,results/rnaseq/region_subclass_gene_summary.csv,1368.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Atp2b3,True,6578.0,0.3238831316360775,0.5787473396169048,results/rnaseq/region_subclass_gene_summary.csv,1372.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Bcs1l,True,6578.0,0.1296028312883972,0.2861051991486774,results/rnaseq/region_subclass_gene_summary.csv,1374.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Cacna1c,True,6578.0,1.0137658510863303,0.923989054423837,results/rnaseq/region_subclass_gene_summary.csv,1377.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Dlgap1,True,6578.0,2.9605789033833587,1.0,results/rnaseq/region_subclass_gene_summary.csv,1383.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Entpd1,True,6578.0,0.0172774981437299,0.0437823046518698,results/rnaseq/region_subclass_gene_summary.csv,1385.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Grin2a,True,6578.0,2.14575021293126,0.9987838248707814,results/rnaseq/region_subclass_gene_summary.csv,1391.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Grm2,True,6578.0,0.2181504424282772,0.4221647917300091,results/rnaseq/region_subclass_gene_summary.csv,1392.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Kcnj6,True,6578.0,0.7688672243645243,0.8736698084524172,results/rnaseq/region_subclass_gene_summary.csv,1397.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Mrps6,True,6578.0,0.0003440844313148,0.0009121313469139,results/rnaseq/region_subclass_gene_summary.csv,1399.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Nt5e,True,6578.0,0.0398878183205765,0.0901489814533292,results/rnaseq/region_subclass_gene_summary.csv,1401.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Penk,True,6578.0,0.0881012615123355,0.1182730313165095,results/rnaseq/region_subclass_gene_summary.csv,1404.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Ppargc1a,True,6578.0,0.3082164401533609,0.5322286409242931,results/rnaseq/region_subclass_gene_summary.csv,1405.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Ryr2,True,6578.0,1.8269668518734343,0.9965034965034965,results/rnaseq/region_subclass_gene_summary.csv,1408.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Shisa7,True,6578.0,0.4060096790018193,0.6605351170568562,results/rnaseq/region_subclass_gene_summary.csv,1412.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Slc29a1,True,6578.0,0.0297492026255728,0.0694740042566129,results/rnaseq/region_subclass_gene_summary.csv,1414.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Slc29a2,True,6578.0,0.031130179353428,0.0754028580115536,results/rnaseq/region_subclass_gene_summary.csv,1415.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Slitrk3,True,6578.0,0.2084901807130349,0.4255092733353603,results/rnaseq/region_subclass_gene_summary.csv,1416.0
+panel22_stratum_000_P57,22,Glutamatergic,L5 IT CTX,MOp,Trpc5,True,6578.0,0.597485111265779,0.7400425661295227,results/rnaseq/region_subclass_gene_summary.csv,1423.0
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,23,Glutamatergic,L5 IT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Ada,True,250.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1488.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Adk,True,250.0,0.3186618828316147,0.648,results/rnaseq/region_subclass_gene_summary.csv,1490.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Adora1,True,250.0,0.7989337836998586,0.948,results/rnaseq/region_subclass_gene_summary.csv,1491.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Adora2a,True,250.0,0.0009864682744027,0.004,results/rnaseq/region_subclass_gene_summary.csv,1492.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Atp2b3,True,250.0,0.3388352941540751,0.656,results/rnaseq/region_subclass_gene_summary.csv,1496.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Bcs1l,True,250.0,0.1582129017827733,0.384,results/rnaseq/region_subclass_gene_summary.csv,1498.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Cacna1c,True,250.0,0.672568950241339,0.864,results/rnaseq/region_subclass_gene_summary.csv,1501.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Dlgap1,True,250.0,2.867809712224773,1.0,results/rnaseq/region_subclass_gene_summary.csv,1507.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Entpd1,True,250.0,0.0225784336730862,0.064,results/rnaseq/region_subclass_gene_summary.csv,1509.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Grin2a,True,250.0,2.228937749710783,1.0,results/rnaseq/region_subclass_gene_summary.csv,1515.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Grm2,True,250.0,0.090119861899539,0.22,results/rnaseq/region_subclass_gene_summary.csv,1516.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Kcnj6,True,250.0,0.5066106680003266,0.776,results/rnaseq/region_subclass_gene_summary.csv,1521.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Mrps6,True,250.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1523.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Nt5e,True,250.0,0.0075875729899295,0.024,results/rnaseq/region_subclass_gene_summary.csv,1525.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Penk,True,250.0,0.0093206782492454,0.024,results/rnaseq/region_subclass_gene_summary.csv,1528.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Ppargc1a,True,250.0,1.0803508005835052,0.96,results/rnaseq/region_subclass_gene_summary.csv,1529.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Ryr2,True,250.0,1.2250524497644883,0.988,results/rnaseq/region_subclass_gene_summary.csv,1532.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Shisa7,True,250.0,0.3776124151604569,0.688,results/rnaseq/region_subclass_gene_summary.csv,1536.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Slc29a1,True,250.0,0.0528228167310786,0.14,results/rnaseq/region_subclass_gene_summary.csv,1538.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Slc29a2,True,250.0,0.0768895182998438,0.216,results/rnaseq/region_subclass_gene_summary.csv,1539.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Slitrk3,True,250.0,0.2842179808847338,0.572,results/rnaseq/region_subclass_gene_summary.csv,1540.0
+panel22_stratum_000_P57,24,Glutamatergic,L5 PT CTX,MOp,Trpc5,True,250.0,0.3190506190197762,0.52,results/rnaseq/region_subclass_gene_summary.csv,1547.0
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,25,Glutamatergic,L5 PT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ada,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1612.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adk,True,1.0,0.5939320711594677,1.0,results/rnaseq/region_subclass_gene_summary.csv,1614.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adora1,True,1.0,0.9640104493487353,1.0,results/rnaseq/region_subclass_gene_summary.csv,1615.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adora2a,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1616.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Atp2b3,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1620.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Bcs1l,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1622.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Cacna1c,True,1.0,1.5368523930071611,1.0,results/rnaseq/region_subclass_gene_summary.csv,1625.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Dlgap1,True,1.0,2.892204055916288,1.0,results/rnaseq/region_subclass_gene_summary.csv,1631.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Entpd1,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1633.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Grin2a,True,1.0,2.20947785438612,1.0,results/rnaseq/region_subclass_gene_summary.csv,1639.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Grm2,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1640.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Kcnj6,True,1.0,0.3404271877716927,1.0,results/rnaseq/region_subclass_gene_summary.csv,1645.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Mrps6,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1647.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Nt5e,True,1.0,0.3404271877716927,1.0,results/rnaseq/region_subclass_gene_summary.csv,1649.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Penk,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1652.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ppargc1a,True,1.0,1.2335182194599734,1.0,results/rnaseq/region_subclass_gene_summary.csv,1653.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ryr2,True,1.0,1.6204725961669455,1.0,results/rnaseq/region_subclass_gene_summary.csv,1656.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Shisa7,True,1.0,0.5939320711594677,1.0,results/rnaseq/region_subclass_gene_summary.csv,1660.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slc29a1,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1662.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slc29a2,True,1.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,1663.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slitrk3,True,1.0,0.5939320711594677,1.0,results/rnaseq/region_subclass_gene_summary.csv,1664.0
+panel22_stratum_000_P57,26,Glutamatergic,L5/6 IT TPE-ENT,MOp,Trpc5,True,1.0,0.5939320711594677,1.0,results/rnaseq/region_subclass_gene_summary.csv,1671.0
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,27,Glutamatergic,L5/6 IT TPE-ENT,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Ada,True,2741.0,0.0008560187979743,0.0010944910616563,results/rnaseq/region_subclass_gene_summary.csv,1674.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Adk,True,2741.0,0.6308353989920307,0.6213060926669098,results/rnaseq/region_subclass_gene_summary.csv,1676.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Adora1,True,2741.0,1.3028308161900917,0.9281284202845675,results/rnaseq/region_subclass_gene_summary.csv,1677.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Adora2a,True,2741.0,0.000460870442296,0.0007296607077708,results/rnaseq/region_subclass_gene_summary.csv,1678.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Atp2b3,True,2741.0,0.2799613023609988,0.3524261218533382,results/rnaseq/region_subclass_gene_summary.csv,1682.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Bcs1l,True,2741.0,0.1596427583772626,0.2167092302079533,results/rnaseq/region_subclass_gene_summary.csv,1684.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Cacna1c,True,2741.0,1.2104241121956931,0.8960233491426487,results/rnaseq/region_subclass_gene_summary.csv,1687.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Dlgap1,True,2741.0,2.668021793209157,0.9985406785844584,results/rnaseq/region_subclass_gene_summary.csv,1693.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Entpd1,True,2741.0,0.0449317666185402,0.0653046333454943,results/rnaseq/region_subclass_gene_summary.csv,1695.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Grin2a,True,2741.0,2.2788400736849725,0.9952572053994893,results/rnaseq/region_subclass_gene_summary.csv,1701.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Grm2,True,2741.0,0.1161418393564299,0.1601605253557096,results/rnaseq/region_subclass_gene_summary.csv,1702.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Kcnj6,True,2741.0,0.3750669900899805,0.4363371032469901,results/rnaseq/region_subclass_gene_summary.csv,1707.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Mrps6,True,2741.0,0.0002271461369331,0.0003648303538854,results/rnaseq/region_subclass_gene_summary.csv,1709.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Nt5e,True,2741.0,0.0497925160486872,0.067493615468807,results/rnaseq/region_subclass_gene_summary.csv,1711.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Penk,True,2741.0,0.0050441773107689,0.0076614374315943,results/rnaseq/region_subclass_gene_summary.csv,1714.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Ppargc1a,True,2741.0,0.5775923983916783,0.6056183874498359,results/rnaseq/region_subclass_gene_summary.csv,1715.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Ryr2,True,2741.0,1.9563948746706488,0.9948923750456038,results/rnaseq/region_subclass_gene_summary.csv,1718.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Shisa7,True,2741.0,0.2947590769579875,0.3739511127325793,results/rnaseq/region_subclass_gene_summary.csv,1722.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Slc29a1,True,2741.0,0.0404067073925189,0.054359722728931,results/rnaseq/region_subclass_gene_summary.csv,1724.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Slc29a2,True,2741.0,0.0313543413957569,0.0456037942356804,results/rnaseq/region_subclass_gene_summary.csv,1725.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Slitrk3,True,2741.0,0.1711378109634001,0.2265596497628602,results/rnaseq/region_subclass_gene_summary.csv,1726.0
+panel22_stratum_000_P57,28,Glutamatergic,L5/6 NP CTX,MOp,Trpc5,True,2741.0,0.0245227830083981,0.035388544326888,results/rnaseq/region_subclass_gene_summary.csv,1733.0
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,29,Glutamatergic,L5/6 NP CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Ada,True,15584.0,0.0007587496903991,0.0014117043121149,results/rnaseq/region_subclass_gene_summary.csv,1798.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Adk,True,15584.0,0.43340103378767,0.5870764887063655,results/rnaseq/region_subclass_gene_summary.csv,1800.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Adora1,True,15584.0,1.25778810763946,0.952258726899384,results/rnaseq/region_subclass_gene_summary.csv,1801.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Adora2a,True,15584.0,0.0095791336701475,0.0159137577002053,results/rnaseq/region_subclass_gene_summary.csv,1802.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Atp2b3,True,15584.0,0.3477000540531374,0.5109086242299795,results/rnaseq/region_subclass_gene_summary.csv,1806.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Bcs1l,True,15584.0,0.1395951056535372,0.2394763860369609,results/rnaseq/region_subclass_gene_summary.csv,1808.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Cacna1c,True,15584.0,0.9003776723833673,0.8565836755646817,results/rnaseq/region_subclass_gene_summary.csv,1811.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Dlgap1,True,15584.0,3.1198661572697457,0.9998716632443532,results/rnaseq/region_subclass_gene_summary.csv,1817.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Entpd1,True,15584.0,0.0222005264129168,0.0420302874743326,results/rnaseq/region_subclass_gene_summary.csv,1819.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Grin2a,True,15584.0,2.1719222701560064,0.9967915811088296,results/rnaseq/region_subclass_gene_summary.csv,1825.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Grm2,True,15584.0,0.033186214990635,0.0607032854209445,results/rnaseq/region_subclass_gene_summary.csv,1826.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Kcnj6,True,15584.0,0.9120438782266014,0.8284137577002053,results/rnaseq/region_subclass_gene_summary.csv,1831.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Mrps6,True,15584.0,0.0001442662221294,0.000320841889117,results/rnaseq/region_subclass_gene_summary.csv,1833.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Nt5e,True,15584.0,0.0464416120728463,0.0800821355236139,results/rnaseq/region_subclass_gene_summary.csv,1835.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Penk,True,15584.0,0.0064965143200435,0.0125128336755646,results/rnaseq/region_subclass_gene_summary.csv,1838.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Ppargc1a,True,15584.0,0.2665460116158321,0.3909137577002053,results/rnaseq/region_subclass_gene_summary.csv,1839.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Ryr2,True,15584.0,1.8910847372599568,0.9944815195071868,results/rnaseq/region_subclass_gene_summary.csv,1842.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Shisa7,True,15584.0,0.5234077867371281,0.6721637577002053,results/rnaseq/region_subclass_gene_summary.csv,1846.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Slc29a1,True,15584.0,0.0634450507787718,0.1139630390143737,results/rnaseq/region_subclass_gene_summary.csv,1848.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Slc29a2,True,15584.0,0.0287584968177408,0.0542864476386037,results/rnaseq/region_subclass_gene_summary.csv,1849.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Slitrk3,True,15584.0,0.1028289427960917,0.1803131416837782,results/rnaseq/region_subclass_gene_summary.csv,1850.0
+panel22_stratum_000_P57,30,Glutamatergic,L6 CT CTX,MOp,Trpc5,True,15584.0,0.0218087447142324,0.0402335728952772,results/rnaseq/region_subclass_gene_summary.csv,1857.0
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,31,Glutamatergic,L6 CT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Ada,True,4403.0,0.0017970107662324,0.0038610038610038,results/rnaseq/region_subclass_gene_summary.csv,1922.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Adk,True,4403.0,0.4562381638570943,0.6402452873041108,results/rnaseq/region_subclass_gene_summary.csv,1924.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Adora1,True,4403.0,0.6002030671603448,0.7440381558028617,results/rnaseq/region_subclass_gene_summary.csv,1925.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Adora2a,True,4403.0,0.0023974908541185,0.0049965932318873,results/rnaseq/region_subclass_gene_summary.csv,1926.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Atp2b3,True,4403.0,0.3768863189467967,0.5861912332500567,results/rnaseq/region_subclass_gene_summary.csv,1930.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Bcs1l,True,4403.0,0.159175159786507,0.2995684760390643,results/rnaseq/region_subclass_gene_summary.csv,1932.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Cacna1c,True,4403.0,1.2315602449108918,0.9625255507608448,results/rnaseq/region_subclass_gene_summary.csv,1935.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Dlgap1,True,4403.0,3.0984751467865244,1.0,results/rnaseq/region_subclass_gene_summary.csv,1941.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Entpd1,True,4403.0,0.0147867082243065,0.0311151487622075,results/rnaseq/region_subclass_gene_summary.csv,1943.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Grin2a,True,4403.0,2.200873219428827,0.9988644106291164,results/rnaseq/region_subclass_gene_summary.csv,1949.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Grm2,True,4403.0,0.0373091021879464,0.0788099023393141,results/rnaseq/region_subclass_gene_summary.csv,1950.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Kcnj6,True,4403.0,0.9209357070920204,0.892573245514422,results/rnaseq/region_subclass_gene_summary.csv,1955.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Mrps6,True,4403.0,0.0002401937993178,0.0004542357483533,results/rnaseq/region_subclass_gene_summary.csv,1957.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Nt5e,True,4403.0,0.0459516169511995,0.0906200317965023,results/rnaseq/region_subclass_gene_summary.csv,1959.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Penk,True,4403.0,0.2498650479949199,0.3218260277083806,results/rnaseq/region_subclass_gene_summary.csv,1962.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Ppargc1a,True,4403.0,0.3478324720324908,0.5339541221894163,results/rnaseq/region_subclass_gene_summary.csv,1963.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Ryr2,True,4403.0,1.9024624362545597,0.9959118782648194,results/rnaseq/region_subclass_gene_summary.csv,1966.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Shisa7,True,4403.0,0.6035365784568881,0.7715194185782421,results/rnaseq/region_subclass_gene_summary.csv,1970.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Slc29a1,True,4403.0,0.0354031687096207,0.0717692482398364,results/rnaseq/region_subclass_gene_summary.csv,1972.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Slc29a2,True,4403.0,0.027796406169259,0.0590506472859414,results/rnaseq/region_subclass_gene_summary.csv,1973.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Slitrk3,True,4403.0,0.2261421329622695,0.4058596411537588,results/rnaseq/region_subclass_gene_summary.csv,1974.0
+panel22_stratum_000_P57,32,Glutamatergic,L6 IT CTX,MOp,Trpc5,True,4403.0,0.3342229318303797,0.4833068362480127,results/rnaseq/region_subclass_gene_summary.csv,1981.0
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,33,Glutamatergic,L6 IT CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Ada,True,1569.0,0.0005226080517589,0.0012746972594008,results/rnaseq/region_subclass_gene_summary.csv,2046.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Adk,True,1569.0,0.8099393437043059,0.8483110261312938,results/rnaseq/region_subclass_gene_summary.csv,2048.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Adora1,True,1569.0,1.429380709044408,0.9866156787762906,results/rnaseq/region_subclass_gene_summary.csv,2049.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Adora2a,True,1569.0,0.009691298199733,0.0235818992989165,results/rnaseq/region_subclass_gene_summary.csv,2050.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Atp2b3,True,1569.0,0.293889595955399,0.521351179094965,results/rnaseq/region_subclass_gene_summary.csv,2054.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Bcs1l,True,1569.0,0.1561211543759223,0.3161249203314213,results/rnaseq/region_subclass_gene_summary.csv,2056.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Cacna1c,True,1569.0,0.8853574234834213,0.9177820267686424,results/rnaseq/region_subclass_gene_summary.csv,2059.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Dlgap1,True,1569.0,2.667721872375037,1.0,results/rnaseq/region_subclass_gene_summary.csv,2065.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Entpd1,True,1569.0,0.0305263821697884,0.0688336520076481,results/rnaseq/region_subclass_gene_summary.csv,2067.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Grin2a,True,1569.0,1.503142244687958,0.9796048438495856,results/rnaseq/region_subclass_gene_summary.csv,2073.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Grm2,True,1569.0,0.0799592756210293,0.1504142766093053,results/rnaseq/region_subclass_gene_summary.csv,2074.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Kcnj6,True,1569.0,0.603158647390863,0.751434034416826,results/rnaseq/region_subclass_gene_summary.csv,2079.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Mrps6,True,1569.0,0.0005102922763036,0.0012746972594008,results/rnaseq/region_subclass_gene_summary.csv,2081.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Nt5e,True,1569.0,0.0310306478205934,0.0688336520076481,results/rnaseq/region_subclass_gene_summary.csv,2083.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Penk,True,1569.0,0.0034601727180027,0.0076481835564053,results/rnaseq/region_subclass_gene_summary.csv,2086.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Ppargc1a,True,1569.0,0.4215373918276417,0.6297004461440407,results/rnaseq/region_subclass_gene_summary.csv,2087.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Ryr2,True,1569.0,1.3024925337472797,0.9808795411089866,results/rnaseq/region_subclass_gene_summary.csv,2090.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Shisa7,True,1569.0,0.5635158233640446,0.7794773741236456,results/rnaseq/region_subclass_gene_summary.csv,2094.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Slc29a1,True,1569.0,0.1142252492853401,0.2332695984703633,results/rnaseq/region_subclass_gene_summary.csv,2096.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Slc29a2,True,1569.0,0.0316622572264444,0.070108349267049,results/rnaseq/region_subclass_gene_summary.csv,2097.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Slitrk3,True,1569.0,0.2760153426805469,0.4996813256851498,results/rnaseq/region_subclass_gene_summary.csv,2098.0
+panel22_stratum_000_P57,34,Glutamatergic,L6b CTX,MOp,Trpc5,True,1569.0,0.1209640255785666,0.1765455704270235,results/rnaseq/region_subclass_gene_summary.csv,2105.0
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,35,Glutamatergic,L6b CTX,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Ada,True,313.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2170.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Adk,True,313.0,1.6994986933022698,0.8306709265175719,results/rnaseq/region_subclass_gene_summary.csv,2172.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Adora1,True,313.0,0.2033138003687134,0.1373801916932907,results/rnaseq/region_subclass_gene_summary.csv,2173.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Adora2a,True,313.0,0.0552043407056186,0.0383386581469648,results/rnaseq/region_subclass_gene_summary.csv,2174.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Atp2b3,True,313.0,0.0183721293462884,0.0127795527156549,results/rnaseq/region_subclass_gene_summary.csv,2178.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Bcs1l,True,313.0,0.1088157186190124,0.0734824281150159,results/rnaseq/region_subclass_gene_summary.csv,2180.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Cacna1c,True,313.0,0.076464329901793,0.0511182108626198,results/rnaseq/region_subclass_gene_summary.csv,2183.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Dlgap1,True,313.0,2.78607125849806,0.9808306709265175,results/rnaseq/region_subclass_gene_summary.csv,2189.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Entpd1,True,313.0,0.1220026430109317,0.0798722044728434,results/rnaseq/region_subclass_gene_summary.csv,2191.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Grin2a,True,313.0,0.0877026922366588,0.060702875399361,results/rnaseq/region_subclass_gene_summary.csv,2197.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Grm2,True,313.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2198.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Kcnj6,True,313.0,0.0448006572859961,0.0319488817891373,results/rnaseq/region_subclass_gene_summary.csv,2203.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Mrps6,True,313.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2205.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Nt5e,True,313.0,0.0143232699575962,0.0095846645367412,results/rnaseq/region_subclass_gene_summary.csv,2207.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Penk,True,313.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2210.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Ppargc1a,True,313.0,0.8195103691466279,0.5015974440894568,results/rnaseq/region_subclass_gene_summary.csv,2211.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Ryr2,True,313.0,0.0676819045929771,0.0447284345047923,results/rnaseq/region_subclass_gene_summary.csv,2214.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Shisa7,True,313.0,0.0318270575386311,0.0223642172523961,results/rnaseq/region_subclass_gene_summary.csv,2218.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Slc29a1,True,313.0,0.0055564626411255,0.0031948881789137,results/rnaseq/region_subclass_gene_summary.csv,2220.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Slc29a2,True,313.0,0.0627907312157722,0.0447284345047923,results/rnaseq/region_subclass_gene_summary.csv,2221.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Slitrk3,True,313.0,0.0034468871111637,0.0031948881789137,results/rnaseq/region_subclass_gene_summary.csv,2222.0
+panel22_stratum_000_P57,36,Non-Neuronal,Astro,MOp,Trpc5,True,313.0,0.0113421382161631,0.0063897763578274,results/rnaseq/region_subclass_gene_summary.csv,2229.0
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,37,Non-Neuronal,Astro,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Ada,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2294.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Adk,True,75.0,0.3490008265626878,0.2266666666666666,results/rnaseq/region_subclass_gene_summary.csv,2296.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Adora1,True,75.0,0.0624208176362588,0.04,results/rnaseq/region_subclass_gene_summary.csv,2297.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Adora2a,True,75.0,0.0201172085232916,0.0266666666666666,results/rnaseq/region_subclass_gene_summary.csv,2298.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Atp2b3,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2302.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Bcs1l,True,75.0,0.0140211953203964,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2304.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Cacna1c,True,75.0,0.1013081447760814,0.0666666666666666,results/rnaseq/region_subclass_gene_summary.csv,2307.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Dlgap1,True,75.0,1.6601759185515357,0.7733333333333333,results/rnaseq/region_subclass_gene_summary.csv,2313.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Entpd1,True,75.0,0.5042822910722475,0.32,results/rnaseq/region_subclass_gene_summary.csv,2315.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Grin2a,True,75.0,0.1711814183573461,0.1066666666666666,results/rnaseq/region_subclass_gene_summary.csv,2321.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Grm2,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2322.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Kcnj6,True,75.0,0.0263982418715972,0.0266666666666666,results/rnaseq/region_subclass_gene_summary.csv,2327.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Mrps6,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2329.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Nt5e,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2331.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Penk,True,75.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2334.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Ppargc1a,True,75.0,0.0182863903377966,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2335.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Ryr2,True,75.0,0.0249041857854735,0.0266666666666666,results/rnaseq/region_subclass_gene_summary.csv,2338.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Shisa7,True,75.0,0.0236650347877649,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2342.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Slc29a1,True,75.0,0.0452460384760185,0.04,results/rnaseq/region_subclass_gene_summary.csv,2344.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Slc29a2,True,75.0,0.0247558162481993,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2345.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Slitrk3,True,75.0,0.0200621466347983,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2346.0
+panel22_stratum_000_P57,38,Non-Neuronal,Endo,MOp,Trpc5,True,75.0,0.0247558162481993,0.0133333333333333,results/rnaseq/region_subclass_gene_summary.csv,2353.0
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,39,Non-Neuronal,Endo,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Ada,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2418.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Adk,True,90.0,0.0883981358986623,0.0555555555555555,results/rnaseq/region_subclass_gene_summary.csv,2420.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Adora1,True,90.0,0.0225041591156617,0.0111111111111111,results/rnaseq/region_subclass_gene_summary.csv,2421.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Adora2a,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2422.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Atp2b3,True,90.0,0.017603542803764,0.0111111111111111,results/rnaseq/region_subclass_gene_summary.csv,2426.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Bcs1l,True,90.0,0.0524344950756776,0.0333333333333333,results/rnaseq/region_subclass_gene_summary.csv,2428.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Cacna1c,True,90.0,0.0549193953380994,0.0333333333333333,results/rnaseq/region_subclass_gene_summary.csv,2431.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Dlgap1,True,90.0,1.4627582604516594,0.6777777777777778,results/rnaseq/region_subclass_gene_summary.csv,2437.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Entpd1,True,90.0,1.1986698022733373,0.5777777777777777,results/rnaseq/region_subclass_gene_summary.csv,2439.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Grin2a,True,90.0,0.1409497840067598,0.0888888888888888,results/rnaseq/region_subclass_gene_summary.csv,2445.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Grm2,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2446.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Kcnj6,True,90.0,0.0559339954031136,0.0333333333333333,results/rnaseq/region_subclass_gene_summary.csv,2451.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Mrps6,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2453.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Nt5e,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2455.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Penk,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2458.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Ppargc1a,True,90.0,0.0198072353779854,0.0111111111111111,results/rnaseq/region_subclass_gene_summary.csv,2459.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Ryr2,True,90.0,0.1132975725603834,0.0666666666666666,results/rnaseq/region_subclass_gene_summary.csv,2462.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Shisa7,True,90.0,0.0401905942059525,0.0222222222222222,results/rnaseq/region_subclass_gene_summary.csv,2466.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Slc29a1,True,90.0,0.1106660084850562,0.0666666666666666,results/rnaseq/region_subclass_gene_summary.csv,2468.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Slc29a2,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2469.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Slitrk3,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2470.0
+panel22_stratum_000_P57,40,Non-Neuronal,Micro-PVM,MOp,Trpc5,True,90.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2477.0
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,41,Non-Neuronal,Micro-PVM,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Ada,True,362.0,0.0105446208749772,0.0082872928176795,results/rnaseq/region_subclass_gene_summary.csv,2542.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Adk,True,362.0,0.3152592971070467,0.2348066298342541,results/rnaseq/region_subclass_gene_summary.csv,2544.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Adora1,True,362.0,0.596136447396695,0.4143646408839779,results/rnaseq/region_subclass_gene_summary.csv,2545.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Adora2a,True,362.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2546.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Atp2b3,True,362.0,0.0413543832505951,0.0303867403314917,results/rnaseq/region_subclass_gene_summary.csv,2550.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Bcs1l,True,362.0,0.0619484845408012,0.0635359116022099,results/rnaseq/region_subclass_gene_summary.csv,2552.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Cacna1c,True,362.0,0.3678047120968544,0.2513812154696133,results/rnaseq/region_subclass_gene_summary.csv,2555.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Dlgap1,True,362.0,2.0666629932593867,0.8812154696132597,results/rnaseq/region_subclass_gene_summary.csv,2561.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Entpd1,True,362.0,0.0213490776748453,0.0193370165745856,results/rnaseq/region_subclass_gene_summary.csv,2563.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Grin2a,True,362.0,0.1569162094390081,0.1381215469613259,results/rnaseq/region_subclass_gene_summary.csv,2569.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Grm2,True,362.0,0.0032095577411142,0.0027624309392265,results/rnaseq/region_subclass_gene_summary.csv,2570.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Kcnj6,True,362.0,0.0525043427629582,0.0441988950276243,results/rnaseq/region_subclass_gene_summary.csv,2575.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Mrps6,True,362.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2577.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Nt5e,True,362.0,0.1116191378686659,0.0939226519337016,results/rnaseq/region_subclass_gene_summary.csv,2579.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Penk,True,362.0,0.0213671129437027,0.0165745856353591,results/rnaseq/region_subclass_gene_summary.csv,2582.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Ppargc1a,True,362.0,0.0767732479300803,0.0552486187845303,results/rnaseq/region_subclass_gene_summary.csv,2583.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Ryr2,True,362.0,0.1501405304829295,0.1215469613259668,results/rnaseq/region_subclass_gene_summary.csv,2586.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Shisa7,True,362.0,0.0818575556682981,0.0662983425414364,results/rnaseq/region_subclass_gene_summary.csv,2590.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Slc29a1,True,362.0,0.0012852293549368,0.0027624309392265,results/rnaseq/region_subclass_gene_summary.csv,2592.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Slc29a2,True,362.0,0.0050367962498604,0.005524861878453,results/rnaseq/region_subclass_gene_summary.csv,2593.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Slitrk3,True,362.0,0.0795301006852988,0.0607734806629834,results/rnaseq/region_subclass_gene_summary.csv,2594.0
+panel22_stratum_000_P57,42,Non-Neuronal,Oligo,MOp,Trpc5,True,362.0,0.0480205021821753,0.0414364640883977,results/rnaseq/region_subclass_gene_summary.csv,2601.0
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,43,Non-Neuronal,Oligo,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Ada,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2666.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Adk,True,15.0,1.142250304880423,0.6,results/rnaseq/region_subclass_gene_summary.csv,2668.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Adora1,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2669.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Adora2a,True,15.0,0.617813576662997,0.3333333333333333,results/rnaseq/region_subclass_gene_summary.csv,2670.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Atp2b3,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2674.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Bcs1l,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2676.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Cacna1c,True,15.0,2.4644038441367018,0.9333333333333332,results/rnaseq/region_subclass_gene_summary.csv,2679.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Dlgap1,True,15.0,1.423636915977215,0.6666666666666666,results/rnaseq/region_subclass_gene_summary.csv,2685.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Entpd1,True,15.0,0.2755517549667861,0.1333333333333333,results/rnaseq/region_subclass_gene_summary.csv,2687.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Grin2a,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2693.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Grm2,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2694.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Kcnj6,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2699.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Mrps6,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2701.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Nt5e,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2703.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Penk,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2706.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Ppargc1a,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2707.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Ryr2,True,15.0,0.3536022030992503,0.2,results/rnaseq/region_subclass_gene_summary.csv,2710.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Shisa7,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2714.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Slc29a1,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2716.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Slc29a2,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2717.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Slitrk3,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2718.0
+panel22_stratum_000_P57,44,Non-Neuronal,SMC-Peri,MOp,Trpc5,True,15.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2725.0
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,45,Non-Neuronal,SMC-Peri,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Ada,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2790.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Adk,True,5.0,1.3758508445101216,0.8,results/rnaseq/region_subclass_gene_summary.csv,2792.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Adora1,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2793.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Adora2a,True,5.0,0.7666660265006728,0.4,results/rnaseq/region_subclass_gene_summary.csv,2794.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Atp2b3,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2798.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Bcs1l,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2800.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Cacna1c,True,5.0,0.3425957182749881,0.2,results/rnaseq/region_subclass_gene_summary.csv,2803.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Dlgap1,True,5.0,1.8089136835561792,0.8,results/rnaseq/region_subclass_gene_summary.csv,2809.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Entpd1,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2811.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Grin2a,True,5.0,0.3755925157505264,0.2,results/rnaseq/region_subclass_gene_summary.csv,2817.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Grm2,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2818.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Kcnj6,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2823.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Mrps6,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2825.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Nt5e,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2827.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Penk,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2830.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Ppargc1a,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2831.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Ryr2,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2834.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Shisa7,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2838.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Slc29a1,True,5.0,0.3425957182749881,0.2,results/rnaseq/region_subclass_gene_summary.csv,2840.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Slc29a2,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2841.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Slitrk3,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2842.0
+panel22_stratum_000_P57,46,Non-Neuronal,VLMC,MOp,Trpc5,True,5.0,0.0,0.0,results/rnaseq/region_subclass_gene_summary.csv,2849.0
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Ada,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Adk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Adora1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Adora2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Atp2b3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Bcs1l,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Cacna1c,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Dlgap1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Entpd1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Grin2a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Grm2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Kcnj6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Mrps6,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Nt5e,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Penk,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Ppargc1a,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Ryr2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Shisa7,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Slc29a1,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Slc29a2,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Slitrk3,False,,,,results/rnaseq/region_subclass_gene_summary.csv,
+panel22_stratum_000_P57,47,Non-Neuronal,VLMC,VISp,Trpc5,False,,,,results/rnaseq/region_subclass_gene_summary.csv,

@@ -2,6 +2,12 @@
 
 목적은 정상 상태 atlas에서 MOp와 VISp의 세포 구성과 대응 세포 유형 안의 후보 유전자 발현을 비교하고, 기존 PBM 결과와 연결하는 것이다. 후속 회로 분석은 NREM 관련 영역으로의 투사를 우선 확인한다. 정상 상태 발현과 atlas의 축삭 신호를 PBM 처리 효과 또는 수면 유발 효과로 해석하지 않는다.
 
+처음 읽을 문서: [M1–V1 데이터 해석 안내서](docs/M1_V1_data_analysis_guide_ko.md). 기존 결과 CSV의 구성·발현·개별 투사 요약 그림과, 완료/미완료 분석·가설·추가 실험·한계를 함께 정리했다.
+
+[RNA-seq 전체 6개 dotplot의 MOp–VISp 인접 행 비교](figures/rnaseq/paired/README_ko.md): 공통 색 범위의 요약 그림과 평균·검출률 숫자판을 제공한다. [전체 요약 PDF](figures/rnaseq/paired/all_six_paired_dotplots.pdf), [전체 숫자판 PDF](figures/rnaseq/paired/all_six_numeric_detail_pages.pdf). P57/P59의 미표집 영역은 N/A로 유지했다.
+
+[Dotplot에서 우선 확인할 gene × 세포 유형](results/rnaseq/paired_dotplots/gene_observation_review_ko.md): 전체 62개 후보를 검토하고 P58 평균·검출률·공유 cluster·cohort 민감도를 연결했다. 통계적으로 유의한 지역 DEG나 최종 qPCR 순위가 아닌 관측 후보이다.
+
 2026-10-12 후속 검토: [MOp L4·구성 그림의 분모와 표현 검토](docs/composition_visualization_review_ko.md), [실제 810 nm 연속광·180분 조건의 M1 PBM 수면 반응 가설](docs/M1_PBM_sleep_sensitivity_hypothesis_ko.md)을 추가했다. 기존 구성 그림은 유지했으며, 가설은 실제 지역별 PBM 효과를 계산한 결과가 아니다. 사용자 자극 조건과 새로 확인한 원 논문·공개 보충자료를 함께 기록했다.
 
 ## 저장 위치

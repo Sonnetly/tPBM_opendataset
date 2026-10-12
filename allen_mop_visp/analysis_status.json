@@ -88,7 +88,7 @@
   "windows_destination_written": false,
   "original_cloud_work_folder": "/workspace/Allen Dataset_M1_V1",
   "git_workflow": "Analysis files are maintained in the repository and included in user-requested commits/pushes. Exact commit and remote state are recorded by Git history and remote verification, not this analytical snapshot.",
-  "updated_at_UTC": "2026-10-12T02:18:40.193906+00:00",
+  "updated_at_UTC": "2026-10-12T07:20:14.845292+00:00",
   "MERFISH_Penk_spatial_expression": {
     "status": "not_run_optional_matrix_not_downloaded",
     "reason": "metadata composition completed; broad candidate expression computed with RNA-seq; MERFISH measurement coverage is not actual spatial expression"
@@ -159,5 +159,36 @@
     "existing_figures_changed": false,
     "bibliographic_PMID_DOI_pairs_checked": 7,
     "review": "results/validation/hypothesis_document_review.json"
+  },
+  "discussion_interpretation_and_figures": {
+    "status": "completed",
+    "scope": "Existing result CSV visualization and interpretation; no new PBM effect or regional P/FDR",
+    "guide": "docs/M1_V1_data_analysis_guide_ko.md",
+    "figures": "figures/discussion",
+    "discussion_figure_sets": 4,
+    "bulk_qPCR": "Feasibility, dilution and paired pilot design documented; no measured qPCR values or detection probability estimated"
+  },
+  "RNAseq_paired_dotplots": {
+    "status": "completed_and_validated",
+    "original_dotplots_replotted": 6,
+    "shared_color_limits": [
+      0,
+      4.25
+    ],
+    "overview_pdf_pages": 6,
+    "numeric_pdf_pages": 20,
+    "observed_values_preserved": 5576,
+    "N_A_numeric_slots_preserved": 1204,
+    "availability": "P57 MOp only; P58 both regions; P59 VISp only",
+    "figures": "figures/rnaseq/paired",
+    "validation": "results/rnaseq/paired_dotplots/validation_summary.json"
+  },
+  "RNAseq_descriptive_candidate_review": {
+    "status": "completed",
+    "genes_reviewed": 62,
+    "selected_gene_subclass_observations": 19,
+    "scope": "Descriptive selection and shared-cluster sensitivity; not regional DE, animal inference or definitive qPCR rank",
+    "report": "results/rnaseq/paired_dotplots/gene_observation_review_ko.md",
+    "provenance": "results/rnaseq/paired_dotplots/candidate_review_provenance.json"
   }
 }

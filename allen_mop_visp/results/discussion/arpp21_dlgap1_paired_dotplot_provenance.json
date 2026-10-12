@@ -1,0 +1,29 @@
+{
+  "source": "results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv",
+  "source_SHA256": "9d252e139976a79932e70e5e67783a0c1f6fb7102d613444634c687d5d167559",
+  "scope": "Replot existing means and detection fractions; no new expression analysis or hypothesis test.",
+  "genes": [
+    "Arpp21",
+    "Dlgap1"
+  ],
+  "subclasses": [
+    "Lamp5",
+    "Pvalb",
+    "Sncg",
+    "Sst",
+    "Vip",
+    "L2/3 IT CTX",
+    "L4/5 IT CTX",
+    "L5 IT CTX",
+    "L6 CT CTX",
+    "L6 IT CTX"
+  ],
+  "numeric_rows_copied": 40,
+  "exports": [
+    "figures/discussion/04_arpp21_dlgap1_paired_dotplot.png",
+    "figures/discussion/04_arpp21_dlgap1_paired_dotplot.pdf",
+    "figures/discussion/04_arpp21_dlgap1_paired_dotplot.svg"
+  ],
+  "color_scale": "Shared across both genes in this figure; independent of original up34/down18 scales.",
+  "validation": "Unique region/subclass/gene rows; all selected cell counts >=20; exact existing values copied."
+}

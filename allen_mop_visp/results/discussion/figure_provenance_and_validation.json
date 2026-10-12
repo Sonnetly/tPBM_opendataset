@@ -1,0 +1,125 @@
+{
+  "source_repository_commit": "bc392b8096a4706b14bc56378b1336f12fff7fb7",
+  "scope": "Replot existing descriptive result CSVs; no new PBM analysis, DE, module score, animal test or causal inference.",
+  "source_files": [
+    {
+      "path": "results/merfish/composition_region_major.csv",
+      "sha256": "10b68b99d66777458c11bc1da446f56f01bea6ae79bf6ae267974498e665b6e3"
+    },
+    {
+      "path": "results/merfish/composition_layer_major.csv",
+      "sha256": "c0ce89261b3c4df9d91e3641ce566f959f87e71e60511dd624abfaa00af021c7"
+    },
+    {
+      "path": "results/rnaseq/panel22_P58_cohort_cluster_sensitivity.csv",
+      "sha256": "7bfeebfae1d42bd1522166dc6ab4129d0c301ee15a00d82b7d0921f23e57d1e2"
+    },
+    {
+      "path": "results/connectivity/projection_by_experiment_target_hemisphere.csv",
+      "sha256": "8a0137863565cf41dac5ad74ccd3d66f8ac36f935e4697ba6ce6861a53dbf23b"
+    },
+    {
+      "path": "results/connectivity/WT_target_projection_descriptive_summary.csv",
+      "sha256": "4146bb52c951da45ada3a10b7c781fd633504d7953d9f660d39551f4809590ae"
+    }
+  ],
+  "figures": [
+    "figures/discussion/01_composition_and_depth.png",
+    "figures/discussion/01_composition_and_depth.pdf",
+    "figures/discussion/01_composition_and_depth.svg",
+    "figures/discussion/02_adenosine_gene_sensitivity.png",
+    "figures/discussion/02_adenosine_gene_sensitivity.pdf",
+    "figures/discussion/02_adenosine_gene_sensitivity.svg",
+    "figures/discussion/03_projection_individual_experiments.png",
+    "figures/discussion/03_projection_individual_experiments.pdf",
+    "figures/discussion/03_projection_individual_experiments.svg"
+  ],
+  "checks": {
+    "composition_counts_and_denominators": "passed",
+    "expression_unique_80_gene_subclass_rows_and_finite_values": "passed",
+    "projection_medians_and_n_match_original_summary": "passed"
+  },
+  "expression_selection": {
+    "genes": [
+      "Entpd1",
+      "Nt5e",
+      "Slc29a1",
+      "Slc29a2",
+      "Adk",
+      "Ada",
+      "Adora1",
+      "Adora2a"
+    ],
+    "subclasses": [
+      "Lamp5",
+      "Pvalb",
+      "Sncg",
+      "Sst",
+      "Vip",
+      "L2/3 IT CTX",
+      "L4/5 IT CTX",
+      "L5 IT CTX",
+      "L6 CT CTX",
+      "L6 IT CTX"
+    ],
+    "sparse_astro_in_separate_audit_table": true
+  },
+  "projection_medians": [
+    {
+      "scope": "all",
+      "target": "ZI",
+      "region": "MOp",
+      "n": 8,
+      "median_NPV": 0.170543807636223
+    },
+    {
+      "scope": "all",
+      "target": "ZI",
+      "region": "VISp",
+      "n": 33,
+      "median_NPV": 0.0255988154819586
+    },
+    {
+      "scope": "all",
+      "target": "RT",
+      "region": "MOp",
+      "n": 8,
+      "median_NPV": 0.10245118800629316
+    },
+    {
+      "scope": "all",
+      "target": "RT",
+      "region": "VISp",
+      "n": 33,
+      "median_NPV": 0.0963315526792483
+    },
+    {
+      "scope": "P56_purity_0.8",
+      "target": "ZI",
+      "region": "MOp",
+      "n": 4,
+      "median_NPV": 0.268411345827341
+    },
+    {
+      "scope": "P56_purity_0.8",
+      "target": "ZI",
+      "region": "VISp",
+      "n": 10,
+      "median_NPV": 0.04803048105831895
+    },
+    {
+      "scope": "P56_purity_0.8",
+      "target": "RT",
+      "region": "MOp",
+      "n": 4,
+      "median_NPV": 0.15274853740522704
+    },
+    {
+      "scope": "P56_purity_0.8",
+      "target": "RT",
+      "region": "VISp",
+      "n": 10,
+      "median_NPV": 0.1041884200469205
+    }
+  ]
+}

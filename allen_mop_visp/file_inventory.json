@@ -6,8 +6,8 @@
   },
   {
     "path": "README_ko.md",
-    "bytes": 10537,
-    "sha256": "231e1972aa15b8658120b00c9cc02fe33e1626520c84add59864d8a88e776b9e"
+    "bytes": 11489,
+    "sha256": "106ede0c625e9587e3b8f8c5bfe5e6b1737e7e80e730aebcb7e92e89f81b139b"
   },
   {
     "path": "analysis_report_ko.md",
@@ -16,13 +16,18 @@
   },
   {
     "path": "analysis_status.json",
-    "bytes": 7634,
-    "sha256": "335ef389299e99abe2504d715d0406b8ffe833722613dd336eea2017f2322b14"
+    "bytes": 9006,
+    "sha256": "322de872d6345cbeb95dc0eec046eba0cabd46efe676d393015672bccb1541fe"
   },
   {
     "path": "docs/M1_PBM_sleep_sensitivity_hypothesis_ko.md",
     "bytes": 17451,
     "sha256": "e4893fb326c9f023dd1e2ea8903437355add1cc1213e466ac07c6e090081db6e"
+  },
+  {
+    "path": "docs/M1_V1_data_analysis_guide_ko.md",
+    "bytes": 29186,
+    "sha256": "56d76460856c02e0d1df2bd81e377c98c22c71d31944cdf8708b4e93a53391fd"
   },
   {
     "path": "docs/MOp_VISp_Allen_analysis_plan_ko.md",
@@ -85,6 +90,66 @@
     "sha256": "6a90c491473e74b94cdc63d5351e85caa605c4c5a01591b8189d20aa86c733cd"
   },
   {
+    "path": "figures/discussion/01_composition_and_depth.pdf",
+    "bytes": 21162,
+    "sha256": "c3a77ec6cd237b3b9b95b865be188e7dbe242bc0120ba1005acf2ac1c039d047"
+  },
+  {
+    "path": "figures/discussion/01_composition_and_depth.png",
+    "bytes": 292964,
+    "sha256": "2359b0b81f251c89d6fc659498ee5a2fdf3ef14c67e22bd096085bdddea85345"
+  },
+  {
+    "path": "figures/discussion/01_composition_and_depth.svg",
+    "bytes": 59520,
+    "sha256": "b97fac3d370f14d35f4634342147d5acbbee1d17d5c9fc9acd7c274ad9da8f70"
+  },
+  {
+    "path": "figures/discussion/02_adenosine_gene_sensitivity.pdf",
+    "bytes": 30602,
+    "sha256": "7685870c3377d8b3df358456e8bc758f787d6c6b4c1ff2e1ff45605f569292b0"
+  },
+  {
+    "path": "figures/discussion/02_adenosine_gene_sensitivity.png",
+    "bytes": 383036,
+    "sha256": "87e6dd183913271f541d0a00a52a2d947eaa6397bd7dedcb6f9a95a711182ea5"
+  },
+  {
+    "path": "figures/discussion/02_adenosine_gene_sensitivity.svg",
+    "bytes": 102734,
+    "sha256": "fd88ac43867eb79d8e8b0871d924007abed833192fa59dfeaff8f4e9664c04e1"
+  },
+  {
+    "path": "figures/discussion/03_projection_individual_experiments.pdf",
+    "bytes": 22444,
+    "sha256": "b5dfb3afa6349020516fd69689f9207fff78629cbb718c5e4230dc505549f97d"
+  },
+  {
+    "path": "figures/discussion/03_projection_individual_experiments.png",
+    "bytes": 262117,
+    "sha256": "63f891cc416c0a62d63f11b037b70b890acc92d5017660cd0832772fa7ee6a1c"
+  },
+  {
+    "path": "figures/discussion/03_projection_individual_experiments.svg",
+    "bytes": 58937,
+    "sha256": "1b7a926e64a916d6451fd14d7d218937448d5484fffdff25744f09c24cd40bba"
+  },
+  {
+    "path": "figures/discussion/04_arpp21_dlgap1_paired_dotplot.pdf",
+    "bytes": 26907,
+    "sha256": "d4a1651823d575e9f5a035bf4bf51056c3f27a0f8cceb5baacf5aeb47bc3f855"
+  },
+  {
+    "path": "figures/discussion/04_arpp21_dlgap1_paired_dotplot.png",
+    "bytes": 422149,
+    "sha256": "4e3fd90585a4c9db16974fe77b8ccd662838d86a6a3d57fac92c6f821d483dd6"
+  },
+  {
+    "path": "figures/discussion/04_arpp21_dlgap1_paired_dotplot.svg",
+    "bytes": 67858,
+    "sha256": "ccaef6d0383e6b1caaf1fe56c822b411ea3eae21346d3da351ba5d417041c850"
+  },
+  {
     "path": "figures/merfish/layer_major_composition.png",
     "bytes": 146172,
     "sha256": "efc1c49754232fa9849819e0c94635eb8502271a3265427aee7aabcf97e8f778"
@@ -133,6 +198,146 @@
     "path": "figures/rnaseq/exploratory_cohort_panel22_dotplot.png",
     "bytes": 726889,
     "sha256": "7af4ca32887aacc99ce05eabdc039d55064643ee84e4f9b257c9d96759204aa2"
+  },
+  {
+    "path": "figures/rnaseq/paired/P58_panel22_numeric_page01_preview.png",
+    "bytes": 1230673,
+    "sha256": "d91de0668f56e801126066056621fcfcb0255aaf89dacc12dcd0a98c4eccb32c"
+  },
+  {
+    "path": "figures/rnaseq/paired/README_ko.md",
+    "bytes": 2806,
+    "sha256": "d67a477d9f6dbada5c2092468087c13e0e34aeb8bf6d64d4f070528adebfc91b"
+  },
+  {
+    "path": "figures/rnaseq/paired/all_six_numeric_detail_pages.pdf",
+    "bytes": 1133700,
+    "sha256": "2ccf33726b5f77cbd36b1ab0e827bbdbe6710a9ed8f5de132da6c500e7eb4174"
+  },
+  {
+    "path": "figures/rnaseq/paired/all_six_paired_dotplots.pdf",
+    "bytes": 949610,
+    "sha256": "7acc3c0f8108b09c76d9ca9b001ee75733e0bdd1103c8d0b6db215fb05e81e9f"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_down18_numeric_detail.pdf",
+    "bytes": 178602,
+    "sha256": "c80179fd568d3f5623efb554f9149a190fe7da50902b0727652c080cbc5f0dc5"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.pdf",
+    "bytes": 152870,
+    "sha256": "adde1d8b0569feca597e74fc92cc7ac2af7c66a58bd9b9c6b37fc05f4cc9a2cd"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.png",
+    "bytes": 773897,
+    "sha256": "088fd4327999745b80e8e786e68f599f20e557e1bb71d865c72188e4ca33a0c3"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_down18_paired_dotplot.svg",
+    "bytes": 595813,
+    "sha256": "4a765b93fbdd6394f21c4f221c774da3d7d363175b2e64446e69ec2440b58051"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_up34_numeric_detail.pdf",
+    "bytes": 347914,
+    "sha256": "952eeb74975032a432e1ad1741806d8dc1afacde7cef61b48a5b91ed2b54f02d"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.pdf",
+    "bytes": 294142,
+    "sha256": "9c85cc35473f20ca67ca1dc2912ba1f1da14e80bf14dd50db4b125cea9f34ad2"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.png",
+    "bytes": 1225654,
+    "sha256": "5149d51bac1b44966c8bb3034f16fce9eb080a13a64cff4f2e6f5fd2bd34999f"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_common_up34_paired_dotplot.svg",
+    "bytes": 1107574,
+    "sha256": "3e7f06c621f436109e4f6f7280800a2bd452849b1e77715493fb2dfc0a457960"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_panel22_numeric_detail.pdf",
+    "bytes": 222761,
+    "sha256": "a8140493c351d8a7531bfefe188b693ab1e16ba6fe0b20ad44526733d6ee7926"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.pdf",
+    "bytes": 192673,
+    "sha256": "f14e0ead913b159ce686be9366a47e41867f7924bc495ef04290efbdbf7981ed"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.png",
+    "bytes": 931590,
+    "sha256": "7e9026b4f44f61c655e9e474f33dee3c7e1303d2bc6e5d92ccf21b4ae8c42267"
+  },
+  {
+    "path": "figures/rnaseq/paired/exploratory_cohort_panel22_paired_dotplot.svg",
+    "bytes": 723134,
+    "sha256": "1a72d11ed0d7800684ca2aedfcfd036f49f51ef9184ffd1ea66997e6532d8283"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_000_P57_numeric_detail.pdf",
+    "bytes": 132896,
+    "sha256": "4aacb9b152b82f3313fc2a84ca30a7ea86d44758d9acb7158d680e8b898b0fa0"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.pdf",
+    "bytes": 110065,
+    "sha256": "b35f98630e369dfdd550901bb5f98e926ad26e9c72aa4f3a977afdb44a0dd34b"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.png",
+    "bytes": 891929,
+    "sha256": "9a2400777303a081a28bbe83f2fcc645d91a9b2a5528978ee831d0458fbbde29"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_000_P57_paired_dotplot.svg",
+    "bytes": 401898,
+    "sha256": "22cf71f25a8558e221f4b646d4a73a23ec7a2f16305419ebe1dba166f4561e57"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_001_P58_numeric_detail.pdf",
+    "bytes": 212552,
+    "sha256": "b76dc30b132d2f1f924bb149635d2d193adda5ad353cbb1112b225cdc20ead8c"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.pdf",
+    "bytes": 183247,
+    "sha256": "14d47105f41b401d47bc991fd5bf93ebaf3adc592a8725d2340b2e74d8d34d4f"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.png",
+    "bytes": 896669,
+    "sha256": "dc6420a7d2114e0a82833415de77021638efcc9668619504a2821ec4a7bb7a49"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_001_P58_paired_dotplot.svg",
+    "bytes": 691588,
+    "sha256": "8415e3892a077bdf59c72c262a084633746e65d4a890d7b997af97c6336c4e5d"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_002_P59_numeric_detail.pdf",
+    "bytes": 120339,
+    "sha256": "acbe8463541d4c2e8d1db209105eddb66d7e78f9c1d082dca2f5afdf78d80ce5"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.pdf",
+    "bytes": 99050,
+    "sha256": "28d22bb379336f4c5f4808fc95aeeb1dee67eac7815eebe5d45e06cddcb7b545"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.png",
+    "bytes": 824972,
+    "sha256": "7155bcb7ecf5374f58c0a67a59d984279062e77c609c53b0fbb4334f319bcc3f"
+  },
+  {
+    "path": "figures/rnaseq/paired/panel22_stratum_002_P59_paired_dotplot.svg",
+    "bytes": 368553,
+    "sha256": "be78ddc1f3da04121bac5279a8c603ddc39d814f5a182161dd262f966493c73b"
   },
   {
     "path": "figures/rnaseq/panel22_stratum_000.png",
@@ -685,6 +890,51 @@
     "sha256": "333a006ca50cc431e5d7244371de2db6e5e494ddd1ffbc25b401f0118669bd6f"
   },
   {
+    "path": "results/discussion/adenosine_astro_sparse_audit.csv",
+    "bytes": 3602,
+    "sha256": "a0f8ee1887bf1243415d95bfc3c6d24f17bdf5abbf837145527e686254c109b7"
+  },
+  {
+    "path": "results/discussion/adenosine_neuronal_plot_values.csv",
+    "bytes": 34588,
+    "sha256": "52e08ee64cfebfc66ab9e5deb0688769520c61e5d63c37cdbb0be02e46b82d6f"
+  },
+  {
+    "path": "results/discussion/arpp21_dlgap1_paired_dotplot_provenance.json",
+    "bytes": 948,
+    "sha256": "9c8e6b83c2e1550060a20004f76d72ba3bc46655c383fc0845db3c58a3f9ea05"
+  },
+  {
+    "path": "results/discussion/arpp21_dlgap1_paired_dotplot_values.csv",
+    "bytes": 12214,
+    "sha256": "1a030310a3aa1a6e01e4fd6c41ebb9d6a03a254a8c999899cabf3c1fb594e316"
+  },
+  {
+    "path": "results/discussion/composition_shared_layers.csv",
+    "bytes": 2157,
+    "sha256": "c65a4f5862a0bcca2aa69ee0e4179243787843de8678da93c29394deef861b95"
+  },
+  {
+    "path": "results/discussion/composition_whole_region.csv",
+    "bytes": 2096,
+    "sha256": "95c39f9639874b9df6f319e6ce549be661bbd07d10d16bb5cf82d77ee7f2980c"
+  },
+  {
+    "path": "results/discussion/figure_provenance_and_validation.json",
+    "bytes": 3417,
+    "sha256": "28aaec810253876cb7439f1550ee26507ed2dda3f0886e4b05e244363e5ce4e1"
+  },
+  {
+    "path": "results/discussion/projection_plot_medians.csv",
+    "bytes": 342,
+    "sha256": "783da409f8fd1fa347bf746218bf93941650f07849c2a7530549939e894227db"
+  },
+  {
+    "path": "results/discussion/projection_plot_values.csv",
+    "bytes": 63466,
+    "sha256": "177c1341536aa9883837ced9eb152a59e1be8f1c7d293779f2b637a98b4385a1"
+  },
+  {
     "path": "results/merfish/actual_data_validation.json",
     "bytes": 7439,
     "sha256": "49e4c22234f821b2af0ed8a9e603ba299210de58582e1764c51c2f259e9e67da"
@@ -1080,6 +1330,71 @@
     "sha256": "2b95f213cedb322b8d6cf3b04068fff22ae7cd5599ed1a69daa607a748a5903c"
   },
   {
+    "path": "results/rnaseq/paired_dotplots/all62_descriptive_candidate_review.csv",
+    "bytes": 648844,
+    "sha256": "2442d490e56e644f098ebed7ee372eb4e71b611177ae83e54fcb6ce1d3d4e55a"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/all_plot_values_and_availability.csv",
+    "bytes": 1096838,
+    "sha256": "09c4e8f4b243cd7f495cc0fbe893b36ada1fe0f188eb53955380576d69874e81"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/candidate_review_provenance.json",
+    "bytes": 901,
+    "sha256": "61d99d84e39521526ae3508eb07cd2f17911b5ef8eb552b674af133606c9bdd9"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/exploratory_cohort_common_down18_plot_values.csv",
+    "bytes": 161373,
+    "sha256": "db51534edeb03d973cc01e4fb6dfd8f0ddf96dfde2d9cf505acc4e56f0c9e189"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/exploratory_cohort_common_up34_plot_values.csv",
+    "bytes": 307208,
+    "sha256": "eb924bd925e39ce8aa33a21329b1f5fca88b2b907a47a102115522e6bd8b907d"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/exploratory_cohort_panel22_plot_values.csv",
+    "bytes": 193543,
+    "sha256": "40711189c66afa3f13a784907ba96a5e3c52561a06da930bb7ba331db8e356c5"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/gene_observation_review_ko.md",
+    "bytes": 5107,
+    "sha256": "f491e755b5d943b7a31d2f6873068ea123598dcb79d48cf0ed22c2909d5b3ea2"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/panel22_stratum_000_P57_plot_values.csv",
+    "bytes": 144163,
+    "sha256": "c0e562f89777f406e63664da6549014e55df1924faa2aabc6f7e79faabdc44dd"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/panel22_stratum_001_P58_plot_values.csv",
+    "bytes": 161196,
+    "sha256": "337b6c45f665d140f59adcd7567b04f53d4b9987d8939d903d067201d779f7a2"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/panel22_stratum_002_P59_plot_values.csv",
+    "bytes": 130000,
+    "sha256": "40836a5a856d1330b6c146197dc967d194a32b84f43d256574bb2ebeb1b46e0f"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/replot_manifest.json",
+    "bytes": 6591,
+    "sha256": "308baefc111db4149804e9e986b95b802fb1c64674a91700d1c793c15e352706"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/selected_gene_subclass_observations.csv",
+    "bytes": 11137,
+    "sha256": "a30a9a683753ff528d1a49ade56513cbbf6627480f0286f885c38ab2a266140b"
+  },
+  {
+    "path": "results/rnaseq/paired_dotplots/validation_summary.json",
+    "bytes": 809,
+    "sha256": "6861811e3468c7220426f1ed8a7d6d1d23273285e8c19d500ee075fd2a8a7790"
+  },
+  {
     "path": "results/rnaseq/panel22_P58_cohort_cluster_sensitivity.csv",
     "bytes": 195712,
     "sha256": "7bfeebfae1d42bd1522166dc6ab4129d0c301ee15a00d82b7d0921f23e57d1e2"
@@ -1345,6 +1660,11 @@
     "sha256": "ebd32ec73e4acf0d00d0ee5e2add85231b7e31ecd102c47d09df9a457b1e5ffe"
   },
   {
+    "path": "src/build_discussion_figures.py",
+    "bytes": 11142,
+    "sha256": "4a80dea9a0ca4981b3d19f948bb96551b03781615295a7e80b96bd06607c0179"
+  },
+  {
     "path": "src/build_pbm_panels.py",
     "bytes": 28767,
     "sha256": "b2c669414742f71d05b7bf889e975cfb2810fc7b03476f7b63f53278abc1e8fd"
@@ -1403,6 +1723,21 @@
     "path": "src/package_project.py",
     "bytes": 2380,
     "sha256": "440db87d52a0abdd173ed52251559f7b5d1a115252bd4d09141d4aad5390996b"
+  },
+  {
+    "path": "src/plot_arpp21_dlgap1_paired.py",
+    "bytes": 4233,
+    "sha256": "3bef8965a3b834ff1379c6810f8f153cb1123681c2c4dc26c6fc91ac4db2b771"
+  },
+  {
+    "path": "src/replot_all_rnaseq_dotplots_paired.py",
+    "bytes": 15461,
+    "sha256": "7040a0f084e7c7faa7f4ad3804407809d578ebfee29b3bc88d96357ff489796d"
+  },
+  {
+    "path": "src/review_rnaseq_dotplot_candidates.py",
+    "bytes": 9575,
+    "sha256": "026cdeceeeaefbf1e8b4a1482b4b2f1d4f2afd5f50c6e0834c9ea817a6b2f453"
   },
   {
     "path": "src/rnaseq/analyze_expression.py",

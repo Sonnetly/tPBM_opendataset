@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "validated_at_UTC": "2026-10-12T06:43:32.620789+00:00",
+  "validation_scope": "Replot data and artifact validation, not a regional effect or PBM hypothesis test",
+  "independent_agent_audit": {
+    "observed_values_match_source": 5576,
+    "N_A_numeric_values_remain_missing": 1204,
+    "adjacent_region_order": "MOp then VISp for every subgroup",
+    "maximum_numeric_CSV_roundtrip_error": 4.44e-16,
+    "visual_check": "down18 overview and P58 numeric preview; no overlaps or clipping"
+  },
+  "artifact_checks": {
+    "original_six_PNGs_unchanged_against_HEAD": true,
+    "source_SHA256s_match": true,
+    "PNG_exports_valid": true,
+    "overview_bundle_pages": 6,
+    "numeric_bundle_pages": 20,
+    "individual_PDF_pages_match_manifest": true,
+    "guide_links_exist": true
+  }
+}

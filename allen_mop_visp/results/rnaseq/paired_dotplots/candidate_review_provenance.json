@@ -1,0 +1,24 @@
+{
+  "scope": "Descriptive review of existing contrasts; no DE, animal inference, P/FDR or definitive qPCR ranking.",
+  "sources": [
+    {
+      "path": "results/rnaseq/all62_P58_cohort_cluster_sensitivity.csv",
+      "SHA256": "4ed975a7be7869f74f43aae0b8a85a14a326bae2f92755979b416a475be12dc5"
+    },
+    {
+      "path": "results/rnaseq/shared_cluster_region_difference.csv",
+      "SHA256": "b5287f3b2fdb6055e9b06601f28dfd549e1de2a6fadac7e3fc4228707b6d1b07"
+    }
+  ],
+  "selected_observations": 19,
+  "overview": {
+    "neuronal_subclasses_both_regions_n_ge100": 13,
+    "gene_subclass_comparisons": 806,
+    "median_absolute_P58_mean_difference": 0.0189465856842619
+  },
+  "exploratory_extra_sensitivity": "Equal P58 shared-cluster weights after requiring n>=10 in each region; not official QC.",
+  "checks": {
+    "duplicate_keys_absent": true,
+    "P58_cluster_means_match_existing_B": true
+  }
+}

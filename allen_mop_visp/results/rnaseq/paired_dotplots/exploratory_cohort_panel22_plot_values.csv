@@ -1,0 +1,1101 @@
+plot_name,row_order,class,subclass,region,gene,observed,n_cells,mean_log1p_CP10k,detection_fraction,source_file,source_row_index
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Ada,True,5981.0,0.0017531990530343,0.0025079418157498,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,0.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Adk,True,5981.0,0.319564380627285,0.4113024577829794,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Adora1,True,5981.0,0.0842318252409685,0.1280722287242936,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,3.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Adora2a,True,5981.0,0.0005544277692279,0.0011703728473499,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,4.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Atp2b3,True,5981.0,0.2706568190711844,0.3651563283731817,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,8.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Bcs1l,True,5981.0,0.1713774677103375,0.2457782979434877,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,10.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Cacna1c,True,5981.0,1.2410835359933332,0.9125564286908544,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,13.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Dlgap1,True,5981.0,3.313498085863396,0.99983280387895,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,19.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Entpd1,True,5981.0,0.0291108499581175,0.0436381875940478,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,21.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Grin2a,True,5981.0,2.489164591972953,0.9543554589533524,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,27.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Grm2,True,5981.0,0.0077102479702705,0.0123725129576993,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,28.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Kcnj6,True,5981.0,0.448728897061534,0.5373683330546731,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,33.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Mrps6,True,5981.0,0.0002791624417959,0.0005015883631499,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,35.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Nt5e,True,5981.0,0.1523443833922983,0.2110015047650894,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,37.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Penk,True,5981.0,0.0111765857549578,0.0155492392576492,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,40.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Ppargc1a,True,5981.0,0.3462195797447502,0.419996656077579,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,41.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Ryr2,True,5981.0,0.9969102754464172,0.8508610600234074,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,44.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Shisa7,True,5981.0,0.3380715624018231,0.4348771108510282,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,48.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Slc29a1,True,5981.0,0.0529625040103504,0.0774118040461461,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,50.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Slc29a2,True,5981.0,0.0680314101925833,0.1039959872930948,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,51.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Slitrk3,True,5981.0,0.1896997809388292,0.2656746363484367,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,52.0
+exploratory_cohort_panel22,0,GABAergic,Lamp5,MOp,Trpc5,True,5981.0,1.256344673378103,0.8931616786490554,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,59.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Ada,True,1096.0,0.0008486371358565,0.0018248175182481,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1488.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Adk,True,1096.0,0.3305409195131063,0.4662408759124087,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1490.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Adora1,True,1096.0,0.0546736290999422,0.0994525547445255,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1491.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Adora2a,True,1096.0,0.0003963000775736,0.000912408759124,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1492.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Atp2b3,True,1096.0,0.3293454009665655,0.4735401459854014,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1496.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Bcs1l,True,1096.0,0.2207632800867878,0.3512773722627737,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1498.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Cacna1c,True,1096.0,1.2514971775558412,0.9333941605839416,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1501.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Dlgap1,True,1096.0,3.3877832730379644,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1507.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Entpd1,True,1096.0,0.0167094095150935,0.0301094890510948,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1509.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Grin2a,True,1096.0,2.4940972882981467,0.9635036496350364,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1515.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Grm2,True,1096.0,0.0075161209345535,0.0155109489051094,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1516.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Kcnj6,True,1096.0,0.4484515140939848,0.5666058394160584,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1521.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Mrps6,True,1096.0,0.0002122506777313,0.000912408759124,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1523.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Nt5e,True,1096.0,0.1666545772575189,0.2563868613138686,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1525.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Penk,True,1096.0,0.0148872942120099,0.0255474452554744,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1528.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Ppargc1a,True,1096.0,0.4496607226145787,0.5447080291970803,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1529.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Ryr2,True,1096.0,0.8605713216006738,0.8257299270072993,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1532.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Shisa7,True,1096.0,0.3338869949429241,0.4908759124087591,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1536.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Slc29a1,True,1096.0,0.0516716821211754,0.0921532846715328,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1538.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Slc29a2,True,1096.0,0.0766515900411524,0.1350364963503649,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1539.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Slitrk3,True,1096.0,0.1908689905090669,0.2965328467153285,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1540.0
+exploratory_cohort_panel22,1,GABAergic,Lamp5,VISp,Trpc5,True,1096.0,1.2164705944888206,0.8932481751824818,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1547.0
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Ada,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Adk,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Adora1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Adora2a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Atp2b3,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Bcs1l,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Cacna1c,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Dlgap1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Entpd1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Grin2a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Grm2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Kcnj6,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Mrps6,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Nt5e,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Penk,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Ppargc1a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Ryr2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Shisa7,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Slc29a1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Slc29a2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Slitrk3,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,2,GABAergic,Meis2,MOp,Trpc5,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Ada,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1550.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Adk,True,3.0,1.7782135183889327,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1552.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Adora1,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1553.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Adora2a,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1554.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Atp2b3,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1558.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Bcs1l,True,3.0,0.3931159190068489,0.3333333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1560.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Cacna1c,True,3.0,3.718434363049257,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1563.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Dlgap1,True,3.0,4.24968573179013,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1569.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Entpd1,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1571.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Grin2a,True,3.0,2.158976234705891,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1577.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Grm2,True,3.0,0.919572170970009,0.6666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1578.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Kcnj6,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1583.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Mrps6,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1585.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Nt5e,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1587.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Penk,True,3.0,0.4910131689176334,0.3333333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1590.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Ppargc1a,True,3.0,1.868860157063172,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1591.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Ryr2,True,3.0,1.3643398656002157,0.6666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1594.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Shisa7,True,3.0,1.10103162762074,0.6666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1598.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Slc29a1,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1600.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Slc29a2,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1601.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Slitrk3,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1602.0
+exploratory_cohort_panel22,3,GABAergic,Meis2,VISp,Trpc5,True,3.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1609.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Ada,True,4777.0,0.0010433863438595,0.0023027004396064,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,62.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Adk,True,4777.0,0.4713517938386329,0.6240318191333473,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,64.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Adora1,True,4777.0,0.364692007761881,0.4902658572325727,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,65.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Adora2a,True,4777.0,0.0006281011840915,0.0012560184216035,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,66.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Atp2b3,True,4777.0,0.4073904973627499,0.5719070546368014,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,70.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Bcs1l,True,4777.0,0.1572546777011487,0.2708813062591584,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,72.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Cacna1c,True,4777.0,1.0655777369161172,0.9011932175005234,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,75.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Dlgap1,True,4777.0,3.650311562142328,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,81.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Entpd1,True,4777.0,0.0063214164535844,0.0119321750052334,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,83.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Grin2a,True,4777.0,1.4096827443135609,0.7887795687670086,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,89.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Grm2,True,4777.0,0.0079407266136239,0.0154908938664433,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,90.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Kcnj6,True,4777.0,0.5078412856899137,0.6309399204521666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,95.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Mrps6,True,4777.0,0.0004012663274362,0.0006280092108017,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,97.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Nt5e,True,4777.0,0.075216904960314,0.1279045425999581,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,99.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Penk,True,4777.0,0.0275760473630148,0.0401925894913125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,102.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Ppargc1a,True,4777.0,1.5481473204207827,0.9780196776219384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,103.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Ryr2,True,4777.0,0.8009186020281605,0.725350638476031,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,106.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Shisa7,True,4777.0,0.2643444320518894,0.4054846137743353,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,110.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Slc29a1,True,4777.0,0.1200149034576763,0.2095457400041867,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,112.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Slc29a2,True,4777.0,0.0933193618967341,0.1752145698136906,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,113.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Slitrk3,True,4777.0,0.2885409332019621,0.4362570651036215,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,114.0
+exploratory_cohort_panel22,4,GABAergic,Pvalb,MOp,Trpc5,True,4777.0,0.0447837303353504,0.0655222943269834,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,121.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Ada,True,750.0,0.0005485588234376,0.0013333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1612.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Adk,True,750.0,0.4439021677065947,0.6133333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1614.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Adora1,True,750.0,0.2226389869083692,0.3573333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1615.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Adora2a,True,750.0,0.0006200142965826,0.0013333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1616.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Atp2b3,True,750.0,0.4231629601720445,0.5973333333333334,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1620.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Bcs1l,True,750.0,0.1944196112408587,0.3386666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1622.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Cacna1c,True,750.0,1.0096148475177582,0.8893333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1625.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Dlgap1,True,750.0,3.648502166896719,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1631.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Entpd1,True,750.0,0.0067708511718988,0.012,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1633.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Grin2a,True,750.0,1.221268523533431,0.74,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1639.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Grm2,True,750.0,0.0088231789909496,0.0226666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1640.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Kcnj6,True,750.0,0.5100588021883583,0.6613333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1645.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Mrps6,True,750.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1647.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Nt5e,True,750.0,0.0819070825727534,0.148,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1649.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Penk,True,750.0,0.0208749793216545,0.032,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1652.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Ppargc1a,True,750.0,1.5396962658225797,0.9826666666666668,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1653.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Ryr2,True,750.0,0.8531246283624332,0.7906666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1656.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Shisa7,True,750.0,0.2111321719643377,0.3573333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1660.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Slc29a1,True,750.0,0.1155427450459845,0.2293333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1662.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Slc29a2,True,750.0,0.1017249562252954,0.1973333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1663.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Slitrk3,True,750.0,0.2541232112503839,0.4146666666666667,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1664.0
+exploratory_cohort_panel22,5,GABAergic,Pvalb,VISp,Trpc5,True,750.0,0.0314503713471359,0.0466666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1671.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Ada,True,2284.0,0.0025505042304653,0.004816112084063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,124.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Adk,True,2284.0,0.3205289101519152,0.4754816112084063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,126.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Adora1,True,2284.0,0.0653579611246018,0.1173380035026269,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,127.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Adora2a,True,2284.0,0.0174493826976628,0.0398423817863397,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,128.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Atp2b3,True,2284.0,0.2941376675952559,0.4334500875656742,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,132.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Bcs1l,True,2284.0,0.1405627137408999,0.2539404553415061,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,134.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Cacna1c,True,2284.0,1.2040557259720182,0.902802101576182,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,137.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Dlgap1,True,2284.0,2.877773507955494,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,143.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Entpd1,True,2284.0,0.0036005424693726,0.0074430823117338,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,145.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Grin2a,True,2284.0,1.0175034195793735,0.7845884413309983,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,151.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Grm2,True,2284.0,0.0081661871316236,0.0144483362521891,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,152.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Kcnj6,True,2284.0,0.5580278570565946,0.6733800350262698,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,157.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Mrps6,True,2284.0,0.0001163110678879,0.0004378283712784,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,159.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Nt5e,True,2284.0,0.0649688702646909,0.1090192644483362,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,161.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Penk,True,2284.0,0.006859265356401,0.0100700525394045,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,164.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Ppargc1a,True,2284.0,0.3149221108070873,0.4448336252189142,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,165.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Ryr2,True,2284.0,1.2685750066297512,0.910245183887916,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,168.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Shisa7,True,2284.0,0.2176448082926212,0.3585814360770578,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,172.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Slc29a1,True,2284.0,0.0287786239511635,0.0450963222416812,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,174.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Slc29a2,True,2284.0,0.0342722048216483,0.0700525394045534,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,175.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Slitrk3,True,2284.0,0.1764250577363769,0.2933450087565674,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,176.0
+exploratory_cohort_panel22,6,GABAergic,Sncg,MOp,Trpc5,True,2284.0,0.4277452925243137,0.5205779334500875,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,183.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Ada,True,261.0,0.0016030805978521,0.003831417624521,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1674.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Adk,True,261.0,0.3926226281619163,0.5670498084291188,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1676.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Adora1,True,261.0,0.0293234518270981,0.0651340996168582,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1677.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Adora2a,True,261.0,0.0164688857028974,0.0383141762452107,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1678.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Atp2b3,True,261.0,0.3235167811747126,0.4904214559386973,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1682.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Bcs1l,True,261.0,0.1722590778675037,0.318007662835249,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1684.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Cacna1c,True,261.0,1.3574184751343357,0.950191570881226,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1687.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Dlgap1,True,261.0,2.891415413040768,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1693.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Entpd1,True,261.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1695.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Grin2a,True,261.0,1.0379614590472976,0.7701149425287356,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1701.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Grm2,True,261.0,0.0194955616564444,0.0306513409961685,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1702.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Kcnj6,True,261.0,0.5594665753529801,0.6628352490421456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1707.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Mrps6,True,261.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1709.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Nt5e,True,261.0,0.066923433897019,0.1034482758620689,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1711.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Penk,True,261.0,0.0139621672051246,0.0191570881226053,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1714.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Ppargc1a,True,261.0,0.4295705693756351,0.5478927203065134,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1715.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Ryr2,True,261.0,1.122132146516298,0.8812260536398467,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1718.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Shisa7,True,261.0,0.2488286838077007,0.4367816091954023,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1722.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Slc29a1,True,261.0,0.0215369440798275,0.0459770114942528,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1724.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Slc29a2,True,261.0,0.0468575786219097,0.10727969348659,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1725.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Slitrk3,True,261.0,0.1731324254511685,0.2835249042145594,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1726.0
+exploratory_cohort_panel22,7,GABAergic,Sncg,VISp,Trpc5,True,261.0,0.3305131454202314,0.4521072796934866,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1733.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Ada,True,6831.0,0.000923124223679,0.0011711316059142,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,186.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Adk,True,6831.0,0.3455224089720662,0.4849948762992241,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,188.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Adora1,True,6831.0,0.295657571873888,0.4065290587029717,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,189.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Adora2a,True,6831.0,0.0005792245193759,0.0011711316059142,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,190.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Atp2b3,True,6831.0,0.378046151438531,0.5220319133362612,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,194.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Bcs1l,True,6831.0,0.1464087157989354,0.2402283706631532,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,196.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Cacna1c,True,6831.0,1.3894854823199956,0.9568145220319132,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,199.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Dlgap1,True,6831.0,3.291162917570197,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,205.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Entpd1,True,6831.0,0.023080032138317,0.0382081686429512,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,207.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Grin2a,True,6831.0,1.86922479146301,0.9260723173766652,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,213.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Grm2,True,6831.0,0.0092663321875273,0.0161030595813204,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,214.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Kcnj6,True,6831.0,0.2697839458050835,0.3935002195871761,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,219.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Mrps6,True,6831.0,0.0004875865158946,0.0008783487044356,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,221.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Nt5e,True,6831.0,0.051317985898628,0.0887132191480017,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,223.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Penk,True,6831.0,0.0282972824986544,0.0342555994729907,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,226.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Ppargc1a,True,6831.0,0.8171795526381573,0.7555262772654077,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,227.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Ryr2,True,6831.0,1.2726101173339004,0.9382228077880252,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,230.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Shisa7,True,6831.0,0.4713716965781108,0.5977162933684673,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,234.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Slc29a1,True,6831.0,0.1322536552102537,0.2165129556433904,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,236.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Slc29a2,True,6831.0,0.0446398891974365,0.0821256038647343,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,237.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Slitrk3,True,6831.0,0.4848171837090578,0.6127946127946128,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,238.0
+exploratory_cohort_panel22,8,GABAergic,Sst,MOp,Trpc5,True,6831.0,0.3127300568169828,0.322061191626409,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,245.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Ada,True,1079.0,0.0005304199332079,0.0009267840593141,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1736.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Adk,True,1079.0,0.3569419412502115,0.5078776645041705,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1738.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Adora1,True,1079.0,0.2284985079308561,0.355885078776645,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1739.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Adora2a,True,1079.0,0.0004697716507392,0.0009267840593141,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1740.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Atp2b3,True,1079.0,0.4281065523807874,0.5755329008341057,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1744.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Bcs1l,True,1079.0,0.1899187927591589,0.3002780352177943,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1746.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Cacna1c,True,1079.0,1.445713047940653,0.9647822057460612,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1749.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Dlgap1,True,1079.0,3.419711473012552,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1755.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Entpd1,True,1079.0,0.0239310890574593,0.0435588507877664,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1757.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Grin2a,True,1079.0,1.6334101810235195,0.8785912882298424,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1763.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Grm2,True,1079.0,0.0148511553619464,0.0287303058387395,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1764.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Kcnj6,True,1079.0,0.2614577751240678,0.3873957367933272,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1769.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Mrps6,True,1079.0,0.0007842418877455,0.0018535681186283,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1771.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Nt5e,True,1079.0,0.0500377388913257,0.0908248378127896,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1773.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Penk,True,1079.0,0.0715980372226882,0.0806302131603336,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1776.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Ppargc1a,True,1079.0,0.8574940867730004,0.7951807228915663,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1777.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Ryr2,True,1079.0,1.352460901467102,0.9508804448563484,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1780.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Shisa7,True,1079.0,0.4383604512154076,0.5746061167747915,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1784.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Slc29a1,True,1079.0,0.1297143506240341,0.2233549582947173,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1786.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Slc29a2,True,1079.0,0.0584501437768482,0.1121408711770157,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1787.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Slitrk3,True,1079.0,0.43440818753193,0.5801668211306765,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1788.0
+exploratory_cohort_panel22,9,GABAergic,Sst,VISp,Trpc5,True,1079.0,0.3881196410701873,0.3957367933271548,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1795.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Ada,True,356.0,0.0144889557728778,0.0308988764044943,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,248.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Adk,True,356.0,0.3976346888975328,0.5814606741573034,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,250.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Adora1,True,356.0,0.0341729265171902,0.0702247191011236,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,251.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Adora2a,True,356.0,0.0014368537075406,0.0028089887640449,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,252.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Atp2b3,True,356.0,0.2935572969901313,0.4606741573033708,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,256.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Bcs1l,True,356.0,0.1455228332305502,0.2668539325842696,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,258.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Cacna1c,True,356.0,1.2211016780013997,0.9634831460674156,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,261.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Dlgap1,True,356.0,3.2903630777371613,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,267.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Entpd1,True,356.0,0.0130658540768644,0.0252808988764044,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,269.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Grin2a,True,356.0,2.416063468199948,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,275.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Grm2,True,356.0,0.01831596133148,0.0421348314606741,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,276.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Kcnj6,True,356.0,0.0775531422407773,0.1544943820224719,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,281.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Mrps6,True,356.0,0.0012998103385454,0.0028089887640449,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,283.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Nt5e,True,356.0,0.131012350043756,0.2331460674157303,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,285.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Penk,True,356.0,0.7617163762140926,0.7303370786516854,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,288.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Ppargc1a,True,356.0,0.329113119599253,0.4775280898876404,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,289.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Ryr2,True,356.0,1.2956509759074242,0.9662921348314608,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,292.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Shisa7,True,356.0,0.2527398744140182,0.4185393258426966,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,296.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Slc29a1,True,356.0,0.1197918353848499,0.2331460674157303,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,298.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Slc29a2,True,356.0,0.0446572477226614,0.0870786516853932,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,299.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Slitrk3,True,356.0,0.4457380245861683,0.6348314606741573,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,300.0
+exploratory_cohort_panel22,10,GABAergic,Sst Chodl,MOp,Trpc5,True,356.0,0.4734239057348556,0.5168539325842697,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,307.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Ada,True,34.0,0.0184394678241053,0.0588235294117647,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1798.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Adk,True,34.0,0.3757759900667146,0.7058823529411765,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1800.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Adora1,True,34.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1801.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Adora2a,True,34.0,0.0218334018650161,0.0294117647058823,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1802.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Atp2b3,True,34.0,0.2275387170888716,0.4411764705882353,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1806.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Bcs1l,True,34.0,0.2356314620556332,0.4705882352941176,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1808.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Cacna1c,True,34.0,1.180547268983541,0.9705882352941176,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1811.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Dlgap1,True,34.0,3.3168381561860856,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1817.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Entpd1,True,34.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1819.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Grin2a,True,34.0,2.395745513788296,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1825.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Grm2,True,34.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1826.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Kcnj6,True,34.0,0.0490505391669231,0.088235294117647,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1831.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Mrps6,True,34.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1833.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Nt5e,True,34.0,0.08355872635149,0.2058823529411764,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1835.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Penk,True,34.0,0.6005469526462219,0.7352941176470589,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1838.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Ppargc1a,True,34.0,0.276098625185261,0.5294117647058824,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1839.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Ryr2,True,34.0,1.212396514754477,0.9411764705882352,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1842.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Shisa7,True,34.0,0.2458792206711596,0.5294117647058824,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1846.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Slc29a1,True,34.0,0.1106431938193006,0.2647058823529412,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1848.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Slc29a2,True,34.0,0.0213386840317652,0.0588235294117647,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1849.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Slitrk3,True,34.0,0.4453542145888176,0.7647058823529411,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1850.0
+exploratory_cohort_panel22,11,GABAergic,Sst Chodl,VISp,Trpc5,True,34.0,0.4037649103232154,0.5588235294117647,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1857.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Ada,True,7144.0,0.002141076009338,0.0023796192609182,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,310.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Adk,True,7144.0,0.4673837417166346,0.4472284434490481,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,312.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Adora1,True,7144.0,0.0648066003860606,0.0736282194848824,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,313.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Adora2a,True,7144.0,0.0005194115027456,0.0005599104143337,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,314.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Atp2b3,True,7144.0,0.2470745453773278,0.2609182530795073,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,318.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Bcs1l,True,7144.0,0.1317352492897257,0.1475363941769316,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,320.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Cacna1c,True,7144.0,1.176302769468743,0.8115901455767077,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,323.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Dlgap1,True,7144.0,3.379814135236471,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,329.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Entpd1,True,7144.0,0.0336345215491083,0.0334546472564389,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,331.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Grin2a,True,7144.0,1.1862492582235291,0.7581187010078387,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,337.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Grm2,True,7144.0,0.035357239427883,0.0389137737961926,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,338.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Kcnj6,True,7144.0,0.3977295588321881,0.3945968645016797,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,343.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Mrps6,True,7144.0,0.000218844992951,0.0002799552071668,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,345.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Nt5e,True,7144.0,0.0412500501375006,0.0468924972004479,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,347.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Penk,True,7144.0,0.7439391375303592,0.506578947368421,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,350.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Ppargc1a,True,7144.0,0.5686284590141535,0.4977603583426652,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,351.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Ryr2,True,7144.0,0.7939392012074477,0.660414333706607,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,354.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Shisa7,True,7144.0,0.2186412112454117,0.2374020156774916,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,358.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Slc29a1,True,7144.0,0.0514709554279737,0.0592105263157894,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,360.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Slc29a2,True,7144.0,0.0337466439632824,0.0394736842105263,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,361.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Slitrk3,True,7144.0,0.2965132791394216,0.3086506159014557,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,362.0
+exploratory_cohort_panel22,12,GABAergic,Vip,MOp,Trpc5,True,7144.0,0.2632999096498724,0.2421612541993281,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,369.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Ada,True,1682.0,0.0046117536617417,0.0065398335315101,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1860.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Adk,True,1682.0,0.4807730551955937,0.4898929845422116,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1862.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Adora1,True,1682.0,0.041198517562643,0.0535077288941736,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1863.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Adora2a,True,1682.0,0.0008154825753913,0.0011890606420927,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1864.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Atp2b3,True,1682.0,0.3005970883537228,0.3412604042806183,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1868.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Bcs1l,True,1682.0,0.1488422173312908,0.1866825208085612,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1870.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Cacna1c,True,1682.0,1.2642361423733832,0.856718192627824,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1873.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Dlgap1,True,1682.0,3.44589000843245,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1879.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Entpd1,True,1682.0,0.0378477273810474,0.0410225921521997,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1881.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Grin2a,True,1682.0,1.2570848260083998,0.7847800237812128,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1887.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Grm2,True,1682.0,0.0464789590587921,0.0594530321046373,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1888.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Kcnj6,True,1682.0,0.3603580878625656,0.3959571938168846,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1893.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Mrps6,True,1682.0,0.001003572887039,0.0011890606420927,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1895.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Nt5e,True,1682.0,0.0393115004737647,0.0523186682520808,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1897.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Penk,True,1682.0,0.877210797577448,0.5731272294887039,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1900.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Ppargc1a,True,1682.0,0.679378020451908,0.5766944114149821,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1901.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Ryr2,True,1682.0,0.712813469019603,0.6516052318668252,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1904.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Shisa7,True,1682.0,0.2104316174850002,0.2479191438763377,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1908.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Slc29a1,True,1682.0,0.0542415040618018,0.0695600475624256,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1910.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Slc29a2,True,1682.0,0.0359017161346526,0.0481569560047562,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1911.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Slitrk3,True,1682.0,0.2958806671674667,0.3418549346016646,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1912.0
+exploratory_cohort_panel22,13,GABAergic,Vip,VISp,Trpc5,True,1682.0,0.1721933385939805,0.1765755053507728,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1919.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Ada,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,372.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Adk,True,12.0,0.1973520088095469,0.1666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,374.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Adora1,True,12.0,0.0827473772507699,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,375.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Adora2a,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,376.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Atp2b3,True,12.0,0.2073787670012795,0.1666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,380.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Bcs1l,True,12.0,0.1041002482479595,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,382.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Cacna1c,True,12.0,1.3354637489398495,0.6666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,385.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Dlgap1,True,12.0,1.4205239461229249,0.8333333333333334,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,391.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Entpd1,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,393.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Grin2a,True,12.0,0.0725219584857263,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,399.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Grm2,True,12.0,0.1766222067336859,0.1666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,400.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Kcnj6,True,12.0,0.1243763811979331,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,405.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Mrps6,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,407.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Nt5e,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,409.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Penk,True,12.0,0.1077432169217841,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,412.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Ppargc1a,True,12.0,0.4331422602882004,0.3333333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,413.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Ryr2,True,12.0,0.1045310366403793,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,416.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Shisa7,True,12.0,0.2921439534283844,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,420.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Slc29a1,True,12.0,0.1124586323963349,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,422.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Slc29a2,True,12.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,423.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Slitrk3,True,12.0,0.1125115329367615,0.0833333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,424.0
+exploratory_cohort_panel22,14,Glutamatergic,CR,MOp,Trpc5,True,12.0,0.4385864282418607,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,431.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Ada,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1922.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Adk,True,8.0,0.2767580939364399,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1924.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Adora1,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1925.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Adora2a,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1926.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Atp2b3,True,8.0,0.1108289334956877,0.125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1930.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Bcs1l,True,8.0,0.1395314779221956,0.125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1932.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Cacna1c,True,8.0,1.8395539572514208,0.875,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1935.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Dlgap1,True,8.0,1.0769635566525904,0.75,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1941.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Entpd1,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1943.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Grin2a,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1949.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Grm2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1950.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Kcnj6,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1955.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Mrps6,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1957.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Nt5e,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1959.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Penk,True,8.0,0.3556712933381728,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1962.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Ppargc1a,True,8.0,0.6067719205293554,0.625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1963.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Ryr2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1966.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Shisa7,True,8.0,0.132348922860337,0.125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1970.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Slc29a1,True,8.0,0.2695755388745813,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1972.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Slc29a2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1973.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Slitrk3,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1974.0
+exploratory_cohort_panel22,15,Glutamatergic,CR,VISp,Trpc5,True,8.0,0.3486586692787358,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1981.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Ada,True,627.0,0.0005995291624198,0.0015948963317384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,434.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Adk,True,627.0,0.4850110528710287,0.7352472089314195,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,436.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Adora1,True,627.0,0.6604477690122492,0.835725677830941,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,437.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Adora2a,True,627.0,0.0010547485137717,0.0031897926634768,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,438.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Atp2b3,True,627.0,0.2927766419754414,0.5279106858054227,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,442.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Bcs1l,True,627.0,0.1582064166697223,0.3349282296650718,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,444.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Cacna1c,True,627.0,1.542826309115288,0.9920255183413078,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,447.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Dlgap1,True,627.0,3.124464276890284,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,453.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Entpd1,True,627.0,0.0212156779845033,0.0478468899521531,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,455.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Grin2a,True,627.0,1.7937249666032418,0.9936204146730464,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,461.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Grm2,True,627.0,0.1104397236741569,0.2408293460925039,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,462.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Kcnj6,True,627.0,0.7539528086938421,0.8660287081339713,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,467.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Mrps6,True,627.0,0.0008905004164691,0.0015948963317384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,469.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Nt5e,True,627.0,0.0280346298428518,0.0701754385964912,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,471.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Penk,True,627.0,0.1754169154895891,0.2934609250398724,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,474.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Ppargc1a,True,627.0,0.1313314166248012,0.2727272727272727,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,475.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Ryr2,True,627.0,1.139310492304194,0.9585326953748008,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,478.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Shisa7,True,627.0,0.5433188955447205,0.7687400318979266,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,482.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Slc29a1,True,627.0,0.0051602955245105,0.0127591706539074,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,484.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Slc29a2,True,627.0,0.0265742843366447,0.0606060606060606,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,485.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Slitrk3,True,627.0,0.2876921658813069,0.5151515151515151,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,486.0
+exploratory_cohort_panel22,16,Glutamatergic,Car3,MOp,Trpc5,True,627.0,0.9148811302231824,0.8883572567783095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,493.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Ada,True,103.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1984.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Adk,True,103.0,0.4935238143505475,0.6213592233009708,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1986.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Adora1,True,103.0,0.6555301142945117,0.7864077669902912,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1987.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Adora2a,True,103.0,0.0055785188916057,0.0097087378640776,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1988.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Atp2b3,True,103.0,0.3173555847752855,0.5145631067961165,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1992.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Bcs1l,True,103.0,0.1725967723109421,0.3009708737864077,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1994.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Cacna1c,True,103.0,1.532065894204666,0.9805825242718448,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1997.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Dlgap1,True,103.0,2.943729199877792,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2003.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Entpd1,True,103.0,0.0262190774406619,0.0485436893203883,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2005.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Grin2a,True,103.0,1.7897093092851766,0.9805825242718448,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2011.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Grm2,True,103.0,0.0665547127602121,0.1553398058252427,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2012.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Kcnj6,True,103.0,0.5967147681183473,0.6990291262135923,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2017.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Mrps6,True,103.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2019.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Nt5e,True,103.0,0.0204754054335745,0.0485436893203883,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2021.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Penk,True,103.0,0.1840185441542848,0.203883495145631,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2024.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Ppargc1a,True,103.0,0.1455290510559456,0.2621359223300971,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2025.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Ryr2,True,103.0,1.259745982126262,0.9514563106796116,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2028.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Shisa7,True,103.0,0.4192121747399597,0.5922330097087378,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2032.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Slc29a1,True,103.0,0.007472291585731,0.0194174757281553,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2034.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Slc29a2,True,103.0,0.0313587963234615,0.058252427184466,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2035.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Slitrk3,True,103.0,0.188584122975353,0.3398058252427184,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2036.0
+exploratory_cohort_panel22,17,Glutamatergic,Car3,VISp,Trpc5,True,103.0,0.6646935126161048,0.6893203883495146,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2043.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Ada,True,12013.0,0.0015051601513276,0.0030799966702738,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,496.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Adk,True,12013.0,0.4577012787252238,0.6254890535253476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,498.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Adora1,True,12013.0,0.4464478573524901,0.5855323399650378,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,499.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Adora2a,True,12013.0,0.0018807581320016,0.0038291850495296,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,500.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Atp2b3,True,12013.0,0.3652122692728046,0.5534837259635395,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,504.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Bcs1l,True,12013.0,0.1375071514703541,0.2532256721884625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,506.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Cacna1c,True,12013.0,1.468231477793717,0.9660367934737368,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,509.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Dlgap1,True,12013.0,3.2231643880259973,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,515.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Entpd1,True,12013.0,0.0117267663592789,0.0245567302089403,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,517.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Grin2a,True,12013.0,2.35283673416443,0.9978356780154832,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,523.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Grm2,True,12013.0,0.1240685352962612,0.2275867809872638,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,524.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Kcnj6,True,12013.0,0.947477080301339,0.8884541746441356,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,529.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Mrps6,True,12013.0,0.0005253227331651,0.0009989178390077,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,531.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Nt5e,True,12013.0,0.0465229831939029,0.0881544992924332,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,533.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Penk,True,12013.0,0.1715763682411546,0.2091900441188712,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,536.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Ppargc1a,True,12013.0,0.4492062403964055,0.6015150253891618,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,537.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Ryr2,True,12013.0,1.8695332797123667,0.9940064929659536,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,540.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Shisa7,True,12013.0,0.6316006350063141,0.7707483559477233,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,544.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Slc29a1,True,12013.0,0.0154971394725423,0.0306334803962374,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,546.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Slc29a2,True,12013.0,0.0253947724059417,0.0507783234828935,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,547.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Slitrk3,True,12013.0,0.2756694609464966,0.452260051610755,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,548.0
+exploratory_cohort_panel22,18,Glutamatergic,L2/3 IT CTX,MOp,Trpc5,True,12013.0,0.4753207629251908,0.605427453591942,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,555.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Ada,True,3426.0,0.00231923213285,0.0040863981319322,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2046.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Adk,True,3426.0,0.3185921345348785,0.4982486865148862,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2048.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Adora1,True,3426.0,0.5879329009025057,0.7002335084646818,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2049.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Adora2a,True,3426.0,0.0010426014347615,0.0017513134851138,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2050.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Atp2b3,True,3426.0,0.3920303668661164,0.5837711617046117,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2054.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Bcs1l,True,3426.0,0.1778630112334653,0.3283712784588441,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2056.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Cacna1c,True,3426.0,1.4732804344148855,0.964681844716871,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2059.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Dlgap1,True,3426.0,3.291284609059343,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2065.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Entpd1,True,3426.0,0.0152748575053007,0.0323992994746059,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2067.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Grin2a,True,3426.0,2.3688978257472364,0.9982486865148862,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2073.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Grm2,True,3426.0,0.1913851595994052,0.3420899007589025,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2074.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Kcnj6,True,3426.0,0.9034265917057946,0.873029772329247,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2079.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Mrps6,True,3426.0,0.0005428783504645,0.0008756567425569,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2081.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Nt5e,True,3426.0,0.0437899091917849,0.0907764156450671,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2083.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Penk,True,3426.0,0.1193628971135607,0.1669585522475189,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2086.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Ppargc1a,True,3426.0,0.5652476222555909,0.6929363689433742,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2087.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Ryr2,True,3426.0,1.708081667004101,0.98861646234676,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2090.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Shisa7,True,3426.0,0.5575625200819572,0.723292469352014,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2094.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Slc29a1,True,3426.0,0.010135941066196,0.0195563339171044,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2096.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Slc29a2,True,3426.0,0.0249390822982401,0.0542907180385289,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2097.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Slitrk3,True,3426.0,0.2750636959890282,0.4635143023934617,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2098.0
+exploratory_cohort_panel22,19,Glutamatergic,L2/3 IT CTX,VISp,Trpc5,True,3426.0,0.3241524896277255,0.4603035610040864,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2105.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Ada,True,229.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,558.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Adk,True,229.0,0.4285167675578158,0.4803493449781659,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,560.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Adora1,True,229.0,0.3414872398608428,0.3755458515283842,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,561.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Adora2a,True,229.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,562.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Atp2b3,True,229.0,0.2593463017080049,0.314410480349345,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,566.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Bcs1l,True,229.0,0.0865440098749678,0.1179039301310043,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,568.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Cacna1c,True,229.0,0.9921024166218828,0.7903930131004366,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,571.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Dlgap1,True,229.0,3.019867489796913,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,577.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Entpd1,True,229.0,0.003073880121332,0.0043668122270742,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,579.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Grin2a,True,229.0,2.068389873655936,0.9694323144104804,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,585.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Grm2,True,229.0,0.1558765596134131,0.1921397379912663,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,586.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Kcnj6,True,229.0,0.7000969970806037,0.6768558951965066,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,591.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Mrps6,True,229.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,593.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Nt5e,True,229.0,0.0454788184577981,0.0611353711790393,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,595.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Penk,True,229.0,0.5313032186209998,0.4716157205240174,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,598.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Ppargc1a,True,229.0,0.5094121783202382,0.5720524017467249,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,599.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Ryr2,True,229.0,1.6089165618106016,0.9519650655021834,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,602.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Shisa7,True,229.0,0.2680868104113365,0.3406113537117904,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,606.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Slc29a1,True,229.0,0.0047888609096022,0.0087336244541484,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,608.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Slc29a2,True,229.0,0.0372667039145207,0.0480349344978165,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,609.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Slitrk3,True,229.0,0.2115657858928032,0.2707423580786026,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,610.0
+exploratory_cohort_panel22,20,Glutamatergic,L2/3 IT PPP,MOp,Trpc5,True,229.0,0.2363663262273537,0.2925764192139738,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,617.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Ada,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2108.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Adk,True,1.0,0.8450186571213409,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2110.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Adora1,True,1.0,0.8450186571213409,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2111.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Adora2a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2112.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Atp2b3,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2116.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Bcs1l,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2118.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Cacna1c,True,1.0,1.6062455713351274,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2121.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Dlgap1,True,1.0,3.316380865721767,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2127.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Entpd1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2129.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Grin2a,True,1.0,2.4530865499325443,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2135.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Grm2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2136.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Kcnj6,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2141.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Mrps6,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2143.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Nt5e,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2145.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Penk,True,1.0,2.1936769017749485,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2148.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Ppargc1a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2149.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Ryr2,True,1.0,1.6062455713351274,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2152.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Shisa7,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2156.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Slc29a1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2158.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Slc29a2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2159.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Slitrk3,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2160.0
+exploratory_cohort_panel22,21,Glutamatergic,L2/3 IT PPP,VISp,Trpc5,True,1.0,0.8450186571213409,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2167.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Ada,True,33943.0,0.001236694062624,0.0020033585717231,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,620.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Adk,True,33943.0,0.683230755068604,0.721444775064078,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,622.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Adora1,True,33943.0,0.9175701890477388,0.8252069646171523,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,623.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Adora2a,True,33943.0,0.0007911561897892,0.0013257519959932,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,624.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Atp2b3,True,33943.0,0.2637617647087841,0.3857938308340453,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,628.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Bcs1l,True,33943.0,0.1295376037631573,0.2063753940429543,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,630.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Cacna1c,True,33943.0,1.2812329565519331,0.9132958194620392,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,633.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Dlgap1,True,33943.0,3.132405142432012,0.9999705388445336,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,639.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Entpd1,True,33943.0,0.0138239856653481,0.0259258168105353,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,641.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Grin2a,True,33943.0,2.229147310527098,0.994196152373096,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,647.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Grm2,True,33943.0,0.3713377957838808,0.4918834516689744,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,648.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Kcnj6,True,33943.0,0.7308060755764267,0.7527325221695195,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,653.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Mrps6,True,33943.0,0.0003879223374622,0.0006776065757299,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,655.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Nt5e,True,33943.0,0.0453256939337159,0.0727395928468314,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,657.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Penk,True,33943.0,0.0058573515559994,0.0098694870812833,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,660.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Ppargc1a,True,33943.0,0.1884566823888849,0.2765518663641988,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,661.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Ryr2,True,33943.0,1.7487571432696143,0.9825589959638216,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,664.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Shisa7,True,33943.0,0.377704703635826,0.5051409716289073,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,668.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Slc29a1,True,33943.0,0.0097188580168947,0.0190908287423032,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,670.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Slc29a2,True,33943.0,0.0215288735538619,0.0377397401526087,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,671.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Slitrk3,True,33943.0,0.2258843501893688,0.3385675986212179,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,672.0
+exploratory_cohort_panel22,22,Glutamatergic,L4/5 IT CTX,MOp,Trpc5,True,33943.0,0.4984197995615556,0.5645346610494063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,679.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Ada,True,12438.0,0.0009383516765168,0.0016079755587715,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2170.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Adk,True,12438.0,0.367254115218913,0.4681620839363242,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2172.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Adora1,True,12438.0,1.069390493422132,0.8663772310660878,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2173.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Adora2a,True,12438.0,0.0009077701007372,0.00168837433671,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2174.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Atp2b3,True,12438.0,0.280501549226765,0.3909792571152918,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2178.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Bcs1l,True,12438.0,0.1507967180589643,0.2277697378999839,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2180.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Cacna1c,True,12438.0,1.225205752933894,0.8968483679048078,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2183.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Dlgap1,True,12438.0,2.976743610328201,0.9997588036661844,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2189.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Entpd1,True,12438.0,0.0105857271719862,0.0193761054831966,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2191.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Grin2a,True,12438.0,2.1441773591152797,0.9897893552018008,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2197.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Grm2,True,12438.0,0.3594766968229286,0.4740311947258401,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2198.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Kcnj6,True,12438.0,0.7350600400487688,0.743849493487699,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2203.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Mrps6,True,12438.0,0.0002181879065933,0.0004019938896928,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2205.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Nt5e,True,12438.0,0.0318253895812008,0.0516160154365653,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2207.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Penk,True,12438.0,0.0057274563602595,0.0089242643511818,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2210.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Ppargc1a,True,12438.0,0.426481742799831,0.4819906737417591,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2211.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Ryr2,True,12438.0,1.6281122409972508,0.9671168998231228,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2214.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Shisa7,True,12438.0,0.3424433729711844,0.456263064801415,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2218.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Slc29a1,True,12438.0,0.0028305831658781,0.0059495095674545,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2220.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Slc29a2,True,12438.0,0.0241159850274265,0.0409229779707348,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2221.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Slitrk3,True,12438.0,0.2595739174543078,0.3703971699630166,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2222.0
+exploratory_cohort_panel22,23,Glutamatergic,L4/5 IT CTX,VISp,Trpc5,True,12438.0,0.3388229575848877,0.4085061907059013,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2229.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Ada,True,10687.0,0.0011653710518605,0.0024328623561336,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,682.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Adk,True,10687.0,0.5559677581301072,0.7529708992233555,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,684.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Adora1,True,10687.0,0.8663872226316871,0.8915504818938897,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,685.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Adora2a,True,10687.0,0.001412666597599,0.0034621502760363,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,686.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Atp2b3,True,10687.0,0.3220739580494569,0.5514176101805932,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,690.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Bcs1l,True,10687.0,0.1362474191463224,0.2803406007298587,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,692.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Cacna1c,True,10687.0,0.9980936218531324,0.9112005240011228,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,695.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Dlgap1,True,10687.0,2.9607980380656107,0.999906428370918,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,701.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Entpd1,True,10687.0,0.0193151752371534,0.0451950968466361,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,703.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Grin2a,True,10687.0,2.1268003553073527,0.9982221390474408,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,709.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Grm2,True,10687.0,0.2271581100412435,0.414335173575372,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,710.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Kcnj6,True,10687.0,0.7571854332007877,0.8465425283054178,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,715.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Mrps6,True,10687.0,0.0003444701302332,0.0009357162908206,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,717.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Nt5e,True,10687.0,0.0345968069063029,0.0748573032656498,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,719.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Penk,True,10687.0,0.0828130168113014,0.1085430897351922,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,722.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Ppargc1a,True,10687.0,0.2969192597168493,0.495555347618602,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,723.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Ryr2,True,10687.0,1.837646891444784,0.9956021334331432,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,726.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Shisa7,True,10687.0,0.4055058645419318,0.6352577898381211,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,730.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Slc29a1,True,10687.0,0.0302655705074241,0.0655001403574436,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,732.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Slc29a2,True,10687.0,0.0298236849646356,0.0683072892299054,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,733.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Slitrk3,True,10687.0,0.2070273207003823,0.3988958547768316,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,734.0
+exploratory_cohort_panel22,24,Glutamatergic,L5 IT CTX,MOp,Trpc5,True,10687.0,0.5500141603987171,0.6894357630766351,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,741.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Ada,True,1099.0,0.0016824371178446,0.0018198362147406,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2232.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Adk,True,1099.0,0.4329084010465234,0.618744313011829,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2234.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Adora1,True,1099.0,0.9959142417388852,0.8826205641492265,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2235.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Adora2a,True,1099.0,0.0012089635676937,0.002729754322111,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2236.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Atp2b3,True,1099.0,0.3331624120764487,0.535031847133758,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2240.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Bcs1l,True,1099.0,0.1804911195373862,0.3321201091901729,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2242.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Cacna1c,True,1099.0,1.0533924851774117,0.8789808917197452,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2245.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Dlgap1,True,1099.0,2.722830614073744,0.9990900818926296,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2251.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Entpd1,True,1099.0,0.0191092108911861,0.0409463148316651,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2253.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Grin2a,True,1099.0,2.136112696821504,0.9963603275705186,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2259.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Grm2,True,1099.0,0.2490776155609562,0.4131028207461328,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2260.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Kcnj6,True,1099.0,0.6732251954090596,0.7870791628753412,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2265.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Mrps6,True,1099.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2267.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Nt5e,True,1099.0,0.0348515051792216,0.0764331210191082,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2269.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Penk,True,1099.0,0.0176557317733194,0.0336669699727024,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2272.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Ppargc1a,True,1099.0,0.4635364363782354,0.6141947224749773,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2273.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Ryr2,True,1099.0,1.717364614115524,0.989080982711556,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2276.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Shisa7,True,1099.0,0.3119568383652408,0.4977252047315741,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2280.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Slc29a1,True,1099.0,0.0560001782591608,0.1064604185623293,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2282.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Slc29a2,True,1099.0,0.0358698736544276,0.0691537761601455,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2283.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Slitrk3,True,1099.0,0.1656316808879582,0.3303002729754322,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2284.0
+exploratory_cohort_panel22,25,Glutamatergic,L5 IT CTX,VISp,Trpc5,True,1099.0,0.4970762538885516,0.6160145586897179,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2291.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Ada,True,494.0,0.0008080934602813,0.0020242914979757,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,744.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Adk,True,494.0,0.371119209356705,0.6700404858299596,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,746.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Adora1,True,494.0,0.7981544226844146,0.9352226720647774,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,747.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Adora2a,True,494.0,0.0013432227142768,0.0040485829959514,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,748.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Atp2b3,True,494.0,0.3602028673857806,0.6558704453441295,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,752.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Bcs1l,True,494.0,0.1400585776828094,0.3319838056680162,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,754.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Cacna1c,True,494.0,0.7327647480284775,0.8663967611336032,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,757.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Dlgap1,True,494.0,2.9264014445000304,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,763.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Entpd1,True,494.0,0.0275000026497225,0.0668016194331983,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,765.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Grin2a,True,494.0,2.192490229775842,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,771.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Grm2,True,494.0,0.0912301853351226,0.2085020242914979,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,772.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Kcnj6,True,494.0,0.5688511214782612,0.8016194331983806,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,777.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Mrps6,True,494.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,779.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Nt5e,True,494.0,0.0109088911339851,0.0263157894736842,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,781.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Penk,True,494.0,0.0077634299305366,0.0222672064777327,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,784.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Ppargc1a,True,494.0,1.0848467360631893,0.95748987854251,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,785.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Ryr2,True,494.0,1.312220162032003,0.9898785425101214,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,788.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Shisa7,True,494.0,0.3993827672914956,0.7024291497975709,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,792.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Slc29a1,True,494.0,0.0619604749936015,0.1538461538461538,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,794.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Slc29a2,True,494.0,0.0703302983357745,0.1842105263157894,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,795.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Slitrk3,True,494.0,0.2750931199673734,0.5526315789473685,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,796.0
+exploratory_cohort_panel22,26,Glutamatergic,L5 PT CTX,MOp,Trpc5,True,494.0,0.3465183014888969,0.5607287449392713,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,803.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Ada,True,629.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2294.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Adk,True,629.0,0.3079814251000605,0.5691573926868044,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2296.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Adora1,True,629.0,0.7868527484457237,0.8823529411764706,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2297.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Adora2a,True,629.0,0.0005587802174108,0.0015898251192368,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2298.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Atp2b3,True,629.0,0.3391362448066557,0.5802861685214626,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2302.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Bcs1l,True,629.0,0.1560609016871275,0.3513513513513513,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2304.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Cacna1c,True,629.0,0.8565144973818912,0.8918918918918919,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2307.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Dlgap1,True,629.0,3.1159762497574888,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2313.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Entpd1,True,629.0,0.0243696714596609,0.0604133545310015,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2315.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Grin2a,True,629.0,2.2839864909216283,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2321.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Grm2,True,629.0,0.1554094155872406,0.3163751987281399,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2322.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Kcnj6,True,629.0,0.5646697001938753,0.7488076311605724,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2327.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Mrps6,True,629.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2329.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Nt5e,True,629.0,0.0281109920420032,0.0763116057233704,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2331.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Penk,True,629.0,0.0050973659165497,0.0158982511923688,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2334.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Ppargc1a,True,629.0,1.1587838348350958,0.9332273449920508,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2335.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Ryr2,True,629.0,1.1113364886787374,0.9364069952305246,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2338.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Shisa7,True,629.0,0.3951511560540572,0.6788553259141494,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2342.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Slc29a1,True,629.0,0.0492280264791809,0.1287758346581876,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2344.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Slc29a2,True,629.0,0.0517829366639859,0.1446740858505564,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2345.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Slitrk3,True,629.0,0.3197937492627569,0.6009538950715422,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2346.0
+exploratory_cohort_panel22,27,Glutamatergic,L5 PT CTX,VISp,Trpc5,True,629.0,0.5136949601199531,0.6089030206677265,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2353.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ada,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,806.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adk,True,1.0,0.5939320711594677,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,808.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adora1,True,1.0,0.9640104493487353,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,809.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Adora2a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,810.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Atp2b3,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,814.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Bcs1l,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,816.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Cacna1c,True,1.0,1.5368523930071611,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,819.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Dlgap1,True,1.0,2.892204055916288,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,825.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Entpd1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,827.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Grin2a,True,1.0,2.20947785438612,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,833.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Grm2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,834.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Kcnj6,True,1.0,0.3404271877716927,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,839.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Mrps6,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,841.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Nt5e,True,1.0,0.3404271877716927,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,843.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Penk,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,846.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ppargc1a,True,1.0,1.2335182194599734,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,847.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Ryr2,True,1.0,1.6204725961669455,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,850.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Shisa7,True,1.0,0.5939320711594677,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,854.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slc29a1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,856.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slc29a2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,857.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Slitrk3,True,1.0,0.5939320711594677,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,858.0
+exploratory_cohort_panel22,28,Glutamatergic,L5/6 IT TPE-ENT,MOp,Trpc5,True,1.0,0.5939320711594677,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,865.0
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ada,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adk,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adora1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Adora2a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Atp2b3,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Bcs1l,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Cacna1c,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Dlgap1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Entpd1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Grin2a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Grm2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Kcnj6,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Mrps6,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Nt5e,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Penk,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ppargc1a,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Ryr2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Shisa7,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slc29a1,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slc29a2,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Slitrk3,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,29,Glutamatergic,L5/6 IT TPE-ENT,VISp,Trpc5,False,,,,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Ada,True,4092.0,0.0011542839700433,0.001466275659824,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,868.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Adk,True,4092.0,0.6347270304245016,0.6107038123167156,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,870.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Adora1,True,4092.0,1.258650362004777,0.9071358748778104,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,871.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Adora2a,True,4092.0,0.0003087111149397,0.0004887585532746,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,872.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Atp2b3,True,4092.0,0.2808432005419642,0.3399315738025415,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,876.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Bcs1l,True,4092.0,0.1550865859699323,0.2033235581622678,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,878.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Cacna1c,True,4092.0,1.1981886922524796,0.8804985337243402,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,881.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Dlgap1,True,4092.0,2.648630158739471,0.9975562072336266,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,887.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Entpd1,True,4092.0,0.0475236957680831,0.0654936461388074,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,889.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Grin2a,True,4092.0,2.261499314271865,0.9921798631476052,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,895.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Grm2,True,4092.0,0.1149941303506687,0.1515151515151515,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,896.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Kcnj6,True,4092.0,0.3637244743948701,0.4147116324535679,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,901.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Mrps6,True,4092.0,0.00028229151395,0.0004887585532746,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,903.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Nt5e,True,4092.0,0.0440975311540359,0.0586510263929618,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,905.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Penk,True,4092.0,0.0047755788442122,0.0068426197458455,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,908.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Ppargc1a,True,4092.0,0.5589810096266634,0.5752688172043011,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,909.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Ryr2,True,4092.0,1.942075723762292,0.9897360703812316,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,912.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Shisa7,True,4092.0,0.295735718091955,0.3592375366568915,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,916.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Slc29a1,True,4092.0,0.040067503153649,0.0518084066471163,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,918.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Slc29a2,True,4092.0,0.0305654809013484,0.04227761485826,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,919.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Slitrk3,True,4092.0,0.1568654627032497,0.2021016617790811,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,920.0
+exploratory_cohort_panel22,30,Glutamatergic,L5/6 NP CTX,MOp,Trpc5,True,4092.0,0.0261361749295494,0.0354349951124144,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,927.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Ada,True,670.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2356.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Adk,True,670.0,0.4920289235166786,0.5417910447761194,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2358.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Adora1,True,670.0,1.254288659199294,0.9194029850746268,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2359.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Adora2a,True,670.0,0.0029914295609771,0.0029850746268656,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2360.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Atp2b3,True,670.0,0.3048492637893633,0.3940298507462687,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2364.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Bcs1l,True,670.0,0.1925149710553781,0.2611940298507462,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2366.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Cacna1c,True,670.0,1.2950701086942946,0.9074626865671642,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2369.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Dlgap1,True,670.0,2.921091767381754,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2375.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Entpd1,True,670.0,0.0487845173831285,0.0701492537313432,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2377.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Grin2a,True,670.0,2.447153724001168,0.9970149253731344,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2383.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Grm2,True,670.0,0.0830090692004199,0.1238805970149253,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2384.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Kcnj6,True,670.0,0.3293372845798519,0.4104477611940298,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2389.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Mrps6,True,670.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2391.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Nt5e,True,670.0,0.0471558028290911,0.0716417910447761,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2393.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Penk,True,670.0,0.0050964369634438,0.0074626865671641,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2396.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Ppargc1a,True,670.0,0.5400587887644036,0.5776119402985075,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2397.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Ryr2,True,670.0,1.93412630751602,0.9865671641791044,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2400.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Shisa7,True,670.0,0.276418459680294,0.3597014925373134,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2404.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Slc29a1,True,670.0,0.0471353517701669,0.0686567164179104,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2406.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Slc29a2,True,670.0,0.0366331163232128,0.0552238805970149,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2407.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Slitrk3,True,670.0,0.1794341791662674,0.2477611940298507,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2408.0
+exploratory_cohort_panel22,31,Glutamatergic,L5/6 NP CTX,VISp,Trpc5,True,670.0,0.0164912398489203,0.0238805970149253,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2415.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Ada,True,23374.0,0.0009656556688092,0.0016257379994866,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,930.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Adk,True,23374.0,0.4404423119275081,0.5729015145032943,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,932.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Adora1,True,23374.0,1.1983108787375076,0.9278257893385812,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,933.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Adora2a,True,23374.0,0.0088456341990118,0.014460511679644,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,934.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Atp2b3,True,23374.0,0.3447913493333406,0.4895610507401386,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,938.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Bcs1l,True,23374.0,0.1443238765765993,0.2348335757679473,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,940.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Cacna1c,True,23374.0,0.8911633531737168,0.8366561136305296,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,943.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Dlgap1,True,23374.0,3.132402844662841,0.9998716522631984,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,949.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Entpd1,True,23374.0,0.025534888043043,0.0447077949858817,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,951.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Grin2a,True,23374.0,2.154916791796192,0.9958500898434156,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,957.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Grm2,True,23374.0,0.0356046552646066,0.0613930007700864,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,958.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Kcnj6,True,23374.0,0.875299066545815,0.7970394455377771,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,963.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Mrps6,True,23374.0,0.0003703612326344,0.0006417386840078,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,965.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Nt5e,True,23374.0,0.0417644224257498,0.0699922991357919,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,967.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Penk,True,23374.0,0.0064073598216874,0.0117652092068109,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,970.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Ppargc1a,True,23374.0,0.2619696545741253,0.3701120903568067,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,971.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Ryr2,True,23374.0,1.892593658772996,0.9932831351073844,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,974.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Shisa7,True,23374.0,0.5157536848680234,0.6442200735860357,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,978.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Slc29a1,True,23374.0,0.0642101012393062,0.1090527937024043,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,980.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Slc29a2,True,23374.0,0.0275467016256201,0.0488577051424659,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,981.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Slitrk3,True,23374.0,0.1043856985631802,0.1729271840506545,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,982.0
+exploratory_cohort_panel22,32,Glutamatergic,L6 CT CTX,MOp,Trpc5,True,23374.0,0.0239422704603206,0.0414563189869085,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,989.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Ada,True,3033.0,0.0008694014434892,0.0023079459281239,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2418.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Adk,True,3033.0,0.5106806311313802,0.6485328058028355,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2420.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Adora1,True,3033.0,1.2176245700920671,0.9333992746455656,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2421.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Adora2a,True,3033.0,0.0081624292469954,0.0145070886910649,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2422.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Atp2b3,True,3033.0,0.4233203250139848,0.5931421035278602,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2426.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Bcs1l,True,3033.0,0.1946970473818137,0.326739202110122,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2428.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Cacna1c,True,3033.0,1.117097929689299,0.9037256841411144,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2431.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Dlgap1,True,3033.0,3.2104689438980776,0.9993405868776788,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2437.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Entpd1,True,3033.0,0.032117679786469,0.0606660072535443,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2439.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Grin2a,True,3033.0,2.2922108582415937,0.995384108143752,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2445.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Grm2,True,3033.0,0.0199412792616937,0.0392350807781074,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2446.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Kcnj6,True,3033.0,0.6185504676134532,0.6894164193867458,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2451.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Mrps6,True,3033.0,0.0005842171100486,0.0009891196834817,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2453.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Nt5e,True,3033.0,0.0382824296370064,0.0745136828222881,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2455.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Penk,True,3033.0,0.0065461763283572,0.0121991427629409,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2458.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Ppargc1a,True,3033.0,0.5141189055956629,0.6178700956149027,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2459.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Ryr2,True,3033.0,1.8659421561048712,0.990108803165183,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2462.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Shisa7,True,3033.0,0.5010609916282265,0.6518298714144412,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2466.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Slc29a1,True,3033.0,0.0892685489518704,0.1569403231124299,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2468.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Slc29a2,True,3033.0,0.0340052258013772,0.0629739531816683,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2469.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Slitrk3,True,3033.0,0.1210185516861826,0.2248598747115067,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2470.0
+exploratory_cohort_panel22,33,Glutamatergic,L6 CT CTX,VISp,Trpc5,True,3033.0,0.01215704727444,0.0237388724035608,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2477.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Ada,True,7149.0,0.0015602240149542,0.0032172331794656,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,992.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Adk,True,7149.0,0.4586535939707544,0.619527206602322,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,994.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Adora1,True,7149.0,0.5861390215841864,0.712407329696461,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,995.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Adora2a,True,7149.0,0.0018135726919614,0.0037767519932857,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,996.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Atp2b3,True,7149.0,0.3682620474123384,0.5526647083508183,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1000.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Bcs1l,True,7149.0,0.1614337184579222,0.288152189117359,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1002.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Cacna1c,True,7149.0,1.2006216515837596,0.946286193873269,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1005.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Dlgap1,True,7149.0,3.106946155822513,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1011.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Entpd1,True,7149.0,0.0193705205893427,0.0377675199328577,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1013.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Grin2a,True,7149.0,2.1617577996104256,0.9981815638550846,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1019.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Grm2,True,7149.0,0.0455791958716745,0.0875646943628479,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1020.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Kcnj6,True,7149.0,0.8854174046791171,0.8619387326898867,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1025.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Mrps6,True,7149.0,0.0004270031755198,0.0008392782207301,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1027.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Nt5e,True,7149.0,0.0421901263422974,0.0787522730451811,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1029.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Penk,True,7149.0,0.232956891133753,0.2986431668764862,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1032.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Ppargc1a,True,7149.0,0.3364090494217909,0.4999300601482724,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1033.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Ryr2,True,7149.0,1.88645596297554,0.994544691565254,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1036.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Shisa7,True,7149.0,0.5821417846398166,0.7353476010630857,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1040.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Slc29a1,True,7149.0,0.0364915328422255,0.068680934396419,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1042.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Slc29a2,True,7149.0,0.0279882701523024,0.0558120016785564,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1043.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Slitrk3,True,7149.0,0.2261721510720175,0.3842495453909638,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1044.0
+exploratory_cohort_panel22,34,Glutamatergic,L6 IT CTX,MOp,Trpc5,True,7149.0,0.3306940853434905,0.4627220590292348,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1051.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Ada,True,2733.0,0.0006769921477794,0.0010976948408342,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2480.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Adk,True,2733.0,0.4286020668236754,0.5964141968532748,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2482.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Adora1,True,2733.0,0.6236972750502643,0.7453347969264544,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2483.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Adora2a,True,2733.0,0.0020729324269114,0.0051225759238931,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2484.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Atp2b3,True,2733.0,0.3782480095521109,0.5678741309915843,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2488.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Bcs1l,True,2733.0,0.1918627745104973,0.3391877058177827,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2490.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Cacna1c,True,2733.0,1.140536267230452,0.9271862422246616,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2493.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Dlgap1,True,2733.0,3.1450145686237083,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2499.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Entpd1,True,2733.0,0.0252278103833437,0.0515916575192096,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2501.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Grin2a,True,2733.0,2.205242880281147,0.9974387120380536,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2507.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Grm2,True,2733.0,0.0462242131217757,0.0958653494328576,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2508.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Kcnj6,True,2733.0,0.8141212417703536,0.8294914013904134,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2513.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Mrps6,True,2733.0,0.0011394179333936,0.0025612879619465,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2515.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Nt5e,True,2733.0,0.035122389569299,0.0742773508964507,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2517.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Penk,True,2733.0,0.2185650067551218,0.2996706915477497,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2520.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Ppargc1a,True,2733.0,0.5395723728663662,0.6619099890230515,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2521.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Ryr2,True,2733.0,1.8398832743187772,0.991950237833882,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2524.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Shisa7,True,2733.0,0.5204867195213239,0.6963044273691914,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2528.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Slc29a1,True,2733.0,0.030628395568945,0.0600073179656055,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2530.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Slc29a2,True,2733.0,0.0244606472744272,0.049030369557263,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2531.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Slitrk3,True,2733.0,0.1965583424385311,0.3465056714233443,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2532.0
+exploratory_cohort_panel22,35,Glutamatergic,L6 IT CTX,VISp,Trpc5,True,2733.0,0.1393955706328045,0.212586900841566,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2539.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Ada,True,2533.0,0.0005516739885945,0.0011843663639952,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1054.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Adk,True,2533.0,0.8037808849897204,0.8298460323726806,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1056.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Adora1,True,2533.0,1.3896816080984065,0.9822345045400712,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1057.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Adora2a,True,2533.0,0.010001850245057,0.0217133833399131,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1058.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Atp2b3,True,2533.0,0.2885063071206605,0.491512041058034,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1062.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Bcs1l,True,2533.0,0.1620382896043845,0.3118831425187525,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1064.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Cacna1c,True,2533.0,0.8840829021911989,0.9009080142123964,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1067.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Dlgap1,True,2533.0,2.6588172772224183,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1073.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Entpd1,True,2533.0,0.0391501285339467,0.0825108566916699,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1075.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Grin2a,True,2533.0,1.4831658616056258,0.9707856296881168,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1081.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Grm2,True,2533.0,0.0785067432300908,0.1433083300434267,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1082.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Kcnj6,True,2533.0,0.5796683484781058,0.7228582708251086,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1087.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Mrps6,True,2533.0,0.0003160870831111,0.0007895775759968,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1089.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Nt5e,True,2533.0,0.0272069620112621,0.0584287406237662,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1091.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Penk,True,2533.0,0.0034527728265588,0.0075009869719699,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1094.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Ppargc1a,True,2533.0,0.4294910900950009,0.6127121989735491,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1095.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Ryr2,True,2533.0,1.3174044435537162,0.9743387287801026,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1098.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Shisa7,True,2533.0,0.5620795545162846,0.7556257402289775,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1102.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Slc29a1,True,2533.0,0.1181791734083562,0.2289774970390841,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1104.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Slc29a2,True,2533.0,0.0307895225318763,0.0651401500197394,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1105.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Slitrk3,True,2533.0,0.2773873139616332,0.4828266877220687,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1106.0
+exploratory_cohort_panel22,36,Glutamatergic,L6b CTX,MOp,Trpc5,True,2533.0,0.1274377828907197,0.1764705882352941,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1113.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Ada,True,346.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2542.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Adk,True,346.0,0.7436376244824182,0.8410404624277457,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2544.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Adora1,True,346.0,1.4183146984322128,0.9855491329479767,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2545.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Adora2a,True,346.0,0.0246917233436638,0.0693641618497109,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2546.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Atp2b3,True,346.0,0.3384785029262134,0.5838150289017341,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2550.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Bcs1l,True,346.0,0.2061680201114332,0.4161849710982659,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2552.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Cacna1c,True,346.0,0.9291548703605358,0.930635838150289,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2555.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Dlgap1,True,346.0,2.851894197915351,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2561.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Entpd1,True,346.0,0.0258976299103078,0.0606936416184971,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2563.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Grin2a,True,346.0,1.5345509078914568,0.9884393063583816,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2569.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Grm2,True,346.0,0.0583140988479292,0.1156069364161849,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2570.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Kcnj6,True,346.0,0.6467439263705556,0.8034682080924855,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2575.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Mrps6,True,346.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2577.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Nt5e,True,346.0,0.0380883295979117,0.0895953757225433,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2579.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Penk,True,346.0,0.0062715273700577,0.0144508670520231,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2582.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Ppargc1a,True,346.0,0.6711637881839214,0.7774566473988439,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2583.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Ryr2,True,346.0,1.337119318372719,0.9855491329479767,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2586.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Shisa7,True,346.0,0.5838693746381652,0.8236994219653179,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2590.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Slc29a1,True,346.0,0.1321084652642851,0.2861271676300578,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2592.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Slc29a2,True,346.0,0.0229641731365702,0.0664739884393063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2593.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Slitrk3,True,346.0,0.3271163724119316,0.5895953757225434,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2594.0
+exploratory_cohort_panel22,37,Glutamatergic,L6b CTX,VISp,Trpc5,True,346.0,0.0623385453133923,0.1069364161849711,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2601.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Ada,True,438.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1116.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Adk,True,438.0,1.631409699261094,0.7990867579908676,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1118.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Adora1,True,438.0,0.2277147500253168,0.1484018264840182,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1119.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Adora2a,True,438.0,0.052954252976906,0.0365296803652968,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1120.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Atp2b3,True,438.0,0.0201897812357338,0.0136986301369863,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1124.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Bcs1l,True,438.0,0.0940355783455255,0.0639269406392694,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1126.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Cacna1c,True,438.0,0.0733272853462412,0.047945205479452,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1129.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Dlgap1,True,438.0,2.732591921072768,0.9748858447488584,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1135.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Entpd1,True,438.0,0.1361015173020401,0.0867579908675799,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1137.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Grin2a,True,438.0,0.1268552982879253,0.0821917808219178,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1143.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Grm2,True,438.0,0.0040145839532506,0.002283105022831,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1144.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Kcnj6,True,438.0,0.0466395574085497,0.0319634703196347,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1149.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Mrps6,True,438.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1151.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Nt5e,True,438.0,0.0167279078799156,0.0114155251141552,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1153.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Penk,True,438.0,0.003634855636881,0.002283105022831,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1156.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Ppargc1a,True,438.0,0.7926896891110313,0.4748858447488584,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1157.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Ryr2,True,438.0,0.0726371544011781,0.047945205479452,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1160.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Shisa7,True,438.0,0.0315784750895181,0.0228310502283105,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1164.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Slc29a1,True,438.0,0.0117192432041449,0.0068493150684931,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1166.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Slc29a2,True,438.0,0.0545900292328756,0.0388127853881278,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1167.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Slitrk3,True,438.0,0.008722861464336,0.0068493150684931,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1168.0
+exploratory_cohort_panel22,38,Non-Neuronal,Astro,MOp,Trpc5,True,438.0,0.0152915154576768,0.0091324200913242,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1175.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Ada,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2604.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Adk,True,81.0,1.4499622631545763,0.7530864197530864,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2606.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Adora1,True,81.0,0.2870784745675239,0.2098765432098765,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2607.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Adora2a,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2608.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Atp2b3,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2612.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Bcs1l,True,81.0,0.0837774307721254,0.0617283950617283,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2614.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Cacna1c,True,81.0,0.0352845626943738,0.0246913580246913,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2617.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Dlgap1,True,81.0,2.5348803525218275,0.9753086419753086,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2623.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Entpd1,True,81.0,0.1508463735343906,0.1234567901234567,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2625.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Grin2a,True,81.0,0.1524973434922872,0.1234567901234567,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2631.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Grm2,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2632.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Kcnj6,True,81.0,0.0116253181809843,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2637.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Mrps6,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2639.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Nt5e,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2641.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Penk,True,81.0,0.0135516027847659,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2644.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Ppargc1a,True,81.0,0.7843408033828626,0.5555555555555556,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2645.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Ryr2,True,81.0,0.0894915038410497,0.0617283950617283,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2648.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Shisa7,True,81.0,0.0176690851000616,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2652.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Slc29a1,True,81.0,0.0144113560594671,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2654.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Slc29a2,True,81.0,0.0179898012523695,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2655.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Slitrk3,True,81.0,0.0094796687476077,0.0123456790123456,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2656.0
+exploratory_cohort_panel22,39,Non-Neuronal,Astro,VISp,Trpc5,True,81.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2663.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Ada,True,105.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1178.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Adk,True,105.0,0.3576784462051156,0.2285714285714285,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1180.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Adora1,True,105.0,0.0534850072228205,0.0380952380952381,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1181.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Adora2a,True,105.0,0.014369434659494,0.019047619047619,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1182.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Atp2b3,True,105.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1186.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Bcs1l,True,105.0,0.0100151395145688,0.0095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1188.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Cacna1c,True,105.0,0.0981688016507679,0.0666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1191.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Dlgap1,True,105.0,1.4309940685676072,0.6952380952380952,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1197.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Entpd1,True,105.0,0.4855007119768131,0.3047619047619048,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1199.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Grin2a,True,105.0,0.180009092186136,0.1142857142857142,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1205.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Grm2,True,105.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1206.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Kcnj6,True,105.0,0.0534555870673276,0.0380952380952381,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1211.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Mrps6,True,105.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1213.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Nt5e,True,105.0,0.0116190949958121,0.0095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1215.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Penk,True,105.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1218.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Ppargc1a,True,105.0,0.0314808049703213,0.019047619047619,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1219.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Ryr2,True,105.0,0.067612491602877,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1222.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Shisa7,True,105.0,0.0169035962769749,0.0095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1226.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Slc29a1,True,105.0,0.0974846822556145,0.0666666666666666,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1228.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Slc29a2,True,105.0,0.0176827258915709,0.0095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1229.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Slitrk3,True,105.0,0.0259491997349538,0.019047619047619,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1230.0
+exploratory_cohort_panel22,40,Non-Neuronal,Endo,MOp,Trpc5,True,105.0,0.0176827258915709,0.0095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1237.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Ada,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2666.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Adk,True,39.0,0.4665023547849056,0.282051282051282,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2668.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Adora1,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2669.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Adora2a,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2670.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Atp2b3,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2674.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Bcs1l,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2676.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Cacna1c,True,39.0,0.0885468311272752,0.0769230769230769,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2679.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Dlgap1,True,39.0,0.9283168348976176,0.5384615384615384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2685.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Entpd1,True,39.0,0.5404118424665338,0.3333333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2687.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Grin2a,True,39.0,0.0826035954385854,0.0769230769230769,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2693.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Grm2,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2694.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Kcnj6,True,39.0,0.038721381465215,0.0256410256410256,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2699.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Mrps6,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2701.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Nt5e,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2703.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Penk,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2706.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Ppargc1a,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2707.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Ryr2,True,39.0,0.1089287949473772,0.0769230769230769,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2710.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Shisa7,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2714.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Slc29a1,True,39.0,0.0641660046321145,0.0512820512820512,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2716.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Slc29a2,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2717.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Slitrk3,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2718.0
+exploratory_cohort_panel22,41,Non-Neuronal,Endo,VISp,Trpc5,True,39.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2725.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Ada,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1240.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Adk,True,111.0,0.116883483603517,0.072072072072072,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1242.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Adora1,True,111.0,0.0182466154991852,0.009009009009009,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1243.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Adora2a,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1244.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Atp2b3,True,111.0,0.0142731428138627,0.009009009009009,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1248.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Bcs1l,True,111.0,0.0572941826161894,0.036036036036036,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1250.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Cacna1c,True,111.0,0.0601661760092481,0.036036036036036,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1253.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Dlgap1,True,111.0,1.4310644631583411,0.6756756756756757,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1259.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Entpd1,True,111.0,1.1631814199797263,0.5675675675675675,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1261.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Grin2a,True,111.0,0.1626815320716489,0.0990990990990991,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1267.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Grm2,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1268.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Kcnj6,True,111.0,0.0453518881646867,0.027027027027027,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1273.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Mrps6,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1275.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Nt5e,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1277.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Penk,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1280.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Ppargc1a,True,111.0,0.0160599205767449,0.009009009009009,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1281.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Ryr2,True,111.0,0.1095277581192622,0.063063063063063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1284.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Shisa7,True,111.0,0.0325869682750966,0.018018018018018,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1288.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Slc29a1,True,111.0,0.1066859395020548,0.063063063063063,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1290.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Slc29a2,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1291.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Slitrk3,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1292.0
+exploratory_cohort_panel22,42,Non-Neuronal,Micro-PVM,MOp,Trpc5,True,111.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1299.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Ada,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2728.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Adk,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2730.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Adora1,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2731.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Adora2a,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2732.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Atp2b3,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2736.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Bcs1l,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2738.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Cacna1c,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2741.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Dlgap1,True,21.0,1.3076047323816962,0.7142857142857143,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2747.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Entpd1,True,21.0,1.2895696670966552,0.8095238095238095,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2749.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Grin2a,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2755.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Grm2,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2756.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Kcnj6,True,21.0,0.0613401913053311,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2761.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Mrps6,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2763.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Nt5e,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2765.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Penk,True,21.0,0.0710213449457313,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2768.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Ppargc1a,True,21.0,0.050006568682388,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2769.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Ryr2,True,21.0,0.050006568682388,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2772.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Shisa7,True,21.0,0.1405026740029746,0.0952380952380952,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2776.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Slc29a1,True,21.0,0.4361705075752582,0.3333333333333333,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2778.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Slc29a2,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2779.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Slitrk3,True,21.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2780.0
+exploratory_cohort_panel22,43,Non-Neuronal,Micro-PVM,VISp,Trpc5,True,21.0,0.0870305883477317,0.0476190476190476,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2787.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Ada,True,512.0,0.0108967333547624,0.0078125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1302.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Adk,True,512.0,0.3400781436541573,0.24609375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1304.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Adora1,True,512.0,0.5737506550517669,0.390625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1305.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Adora2a,True,512.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1306.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Atp2b3,True,512.0,0.0346142664553233,0.02734375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1310.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Bcs1l,True,512.0,0.0543607718527625,0.052734375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1312.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Cacna1c,True,512.0,0.351837333758663,0.234375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1315.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Dlgap1,True,512.0,1.995365211362527,0.861328125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1321.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Entpd1,True,512.0,0.0206212623579965,0.017578125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1323.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Grin2a,True,512.0,0.2035938359091745,0.162109375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1329.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Grm2,True,512.0,0.0052631353378702,0.005859375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1330.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Kcnj6,True,512.0,0.0567600984454778,0.044921875,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1335.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Mrps6,True,512.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1337.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Nt5e,True,512.0,0.1149225263325959,0.095703125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1339.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Penk,True,512.0,0.0210797184793146,0.017578125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1342.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Ppargc1a,True,512.0,0.0789720405337501,0.056640625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1343.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Ryr2,True,512.0,0.1838352952537362,0.146484375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1346.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Shisa7,True,512.0,0.0837202560917865,0.06640625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1350.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Slc29a1,True,512.0,0.0020416466063049,0.00390625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1352.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Slc29a2,True,512.0,0.0035611723485341,0.00390625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1353.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Slitrk3,True,512.0,0.0812431594425318,0.060546875,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1354.0
+exploratory_cohort_panel22,44,Non-Neuronal,Oligo,MOp,Trpc5,True,512.0,0.0526248033294295,0.041015625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1361.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Ada,True,219.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2790.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Adk,True,219.0,0.5051808015070329,0.3789954337899543,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2792.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Adora1,True,219.0,0.5790600633009818,0.4520547945205479,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2793.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Adora2a,True,219.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2794.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Atp2b3,True,219.0,0.065288414753835,0.0502283105022831,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2798.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Bcs1l,True,219.0,0.0863075189153606,0.0821917808219178,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2800.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Cacna1c,True,219.0,0.5521318970087986,0.3515981735159817,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2803.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Dlgap1,True,219.0,2.253661609137488,0.9041095890410958,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2809.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Entpd1,True,219.0,0.0533112697891655,0.045662100456621,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2811.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Grin2a,True,219.0,0.1480941465359719,0.1324200913242009,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2817.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Grm2,True,219.0,0.0211216435951465,0.0182648401826484,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2818.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Kcnj6,True,219.0,0.0220695589060068,0.0273972602739726,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2823.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Mrps6,True,219.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2825.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Nt5e,True,219.0,0.1295363881086292,0.1095890410958904,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2827.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Penk,True,219.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2830.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Ppargc1a,True,219.0,0.0813316985601595,0.0684931506849315,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2831.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Ryr2,True,219.0,0.1388016647880465,0.1232876712328767,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2834.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Shisa7,True,219.0,0.1480931247403789,0.1141552511415525,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2838.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Slc29a1,True,219.0,0.0102682786938687,0.0091324200913242,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2840.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Slc29a2,True,219.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2841.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Slitrk3,True,219.0,0.0825511508431515,0.0639269406392694,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2842.0
+exploratory_cohort_panel22,45,Non-Neuronal,Oligo,VISp,Trpc5,True,219.0,0.0768793628218839,0.0547945205479452,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2849.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Ada,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1364.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Adk,True,26.0,0.8645872550024206,0.4615384615384615,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1366.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Adora1,True,26.0,0.0578715768311492,0.0384615384615384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1367.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Adora2a,True,26.0,0.3564309096132675,0.1923076923076923,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1368.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Atp2b3,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1372.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Bcs1l,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1374.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Cacna1c,True,26.0,2.4543200439239907,0.9230769230769232,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1377.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Dlgap1,True,26.0,1.2155233816097597,0.6153846153846154,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1383.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Entpd1,True,26.0,0.3560197846682002,0.1923076923076923,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1385.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Grin2a,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1391.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Grm2,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1392.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Kcnj6,True,26.0,0.0578715768311492,0.0384615384615384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1397.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Mrps6,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1399.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Nt5e,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1401.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Penk,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1404.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Ppargc1a,True,26.0,0.0718171972676258,0.0384615384615384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1405.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Ryr2,True,26.0,0.4638694832607397,0.2692307692307692,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1408.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Shisa7,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1412.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Slc29a1,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1414.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Slc29a2,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1415.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Slitrk3,True,26.0,0.0682801781547903,0.0384615384615384,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1416.0
+exploratory_cohort_panel22,46,Non-Neuronal,SMC-Peri,MOp,Trpc5,True,26.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1423.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Ada,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2852.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Adk,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2854.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Adora1,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2855.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Adora2a,True,11.0,0.4887197123292698,0.2727272727272727,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2856.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Atp2b3,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2860.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Bcs1l,True,11.0,0.1640336342563622,0.0909090909090909,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2862.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Cacna1c,True,11.0,2.7220148403678284,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2865.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Dlgap1,True,11.0,0.7336161220666962,0.4545454545454545,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2871.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Entpd1,True,11.0,0.1392153281549506,0.0909090909090909,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2873.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Grin2a,True,11.0,0.0999344909182232,0.0909090909090909,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2879.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Grm2,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2880.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Kcnj6,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2885.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Mrps6,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2887.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Nt5e,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2889.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Penk,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2892.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Ppargc1a,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2893.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Ryr2,True,11.0,0.1463853084331833,0.0909090909090909,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2896.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Shisa7,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2900.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Slc29a1,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2902.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Slc29a2,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2903.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Slitrk3,True,11.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2904.0
+exploratory_cohort_panel22,47,Non-Neuronal,SMC-Peri,VISp,Trpc5,True,11.0,0.1251005914326663,0.0909090909090909,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2911.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Ada,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1426.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Adk,True,8.0,1.3370043276836563,0.75,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1428.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Adora1,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1429.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Adora2a,True,8.0,0.6867438132804731,0.375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1430.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Atp2b3,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1434.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Bcs1l,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1436.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Cacna1c,True,8.0,0.6265593521036641,0.375,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1439.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Dlgap1,True,8.0,1.4123130002093447,0.625,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1445.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Entpd1,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1447.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Grin2a,True,8.0,0.4337536684633141,0.25,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1453.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Grm2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1454.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Kcnj6,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1459.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Mrps6,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1461.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Nt5e,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1463.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Penk,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1466.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Ppargc1a,True,8.0,0.2075775467175525,0.125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1467.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Ryr2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1470.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Shisa7,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1474.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Slc29a1,True,8.0,0.2141223239218675,0.125,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1476.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Slc29a2,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1477.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Slitrk3,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1478.0
+exploratory_cohort_panel22,48,Non-Neuronal,VLMC,MOp,Trpc5,True,8.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,1485.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Ada,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2914.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Adk,True,1.0,1.7461705174007456,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2916.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Adora1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2917.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Adora2a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2918.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Atp2b3,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2922.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Bcs1l,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2924.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Cacna1c,True,1.0,2.091729669961395,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2927.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Dlgap1,True,1.0,1.2138153571174586,1.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2933.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Entpd1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2935.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Grin2a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2941.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Grm2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2942.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Kcnj6,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2947.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Mrps6,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2949.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Nt5e,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2951.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Penk,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2954.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Ppargc1a,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2955.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Ryr2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2958.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Shisa7,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2962.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Slc29a1,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2964.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Slc29a2,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2965.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Slitrk3,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2966.0
+exploratory_cohort_panel22,49,Non-Neuronal,VLMC,VISp,Trpc5,True,1.0,0.0,0.0,results/rnaseq/exploratory_cohort_region_subclass_gene_summary.csv,2973.0
