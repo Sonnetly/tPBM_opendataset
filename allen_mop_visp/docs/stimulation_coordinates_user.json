@@ -21,5 +21,19 @@
     "reported_size_um": 400,
     "meaning": "core diameter, confirmed by user"
   },
-  "local_roi_status": "deferred; V1 AP approximate, skull-to-CCF transform and optical footprint not validated; do not directly substitute bregma coordinates into CCF"
+  "local_roi_status": "deferred; V1 AP approximate, skull-to-CCF transform and optical footprint not validated; do not directly substitute bregma coordinates into CCF",
+  "PBM_protocol_user_confirmed": {
+    "source": "User replies in current Codex conversation on 2026-10-12",
+    "wavelength_nm": 810,
+    "fiber_tip_irradiance_mW_per_cm2_approximate": 20,
+    "irradiance_reference": "fiber tip; user-reported, independent calibration not performed in this analysis",
+    "mode": "continuous wave",
+    "duration_minutes": 180,
+    "nominal_fiber_tip_fluence_J_per_cm2": 216.0,
+    "fluence_calculation": "0.020 W/cm2 x 10800 s = 216 J/cm2, assuming constant reported irradiance for the whole 180 minutes",
+    "fluence_scope": "nominal at fiber tip; not measured tissue absorbed dose or dose at a cortical layer",
+    "stimulation_ZT": "not provided",
+    "optical_footprint_CCF_registration": "not validated",
+    "updated_at_UTC": "2026-10-12T02:09:01.668731+00:00"
+  }
 }

@@ -1,0 +1,677 @@
+
+
+
+Supplementary Materials for
+
+Transcranial photobiomodulation to enhance sleep by elevating adenosine signaling: a translational study
+
+Jieun Jung et al.
+
+*Corresponding author. Email: tae-kim@gist.ac.kr (T. Kim)
+
+
+
+
+
+This PDF file includes:
+
+Figs. S1 to S8
+Tables S1 to S3
+Supplementary Materials and Methods
+ Fig. S1.
+No significant changes in metabolic signals before and after tPBM. Averaged changes in oxygenated hemoglobin (Δ[HbO₂]), deoxygenated hemoglobin (Δ[HHb]), and oxidized cytochrome c oxidase (Δ[oxCCO]) in (a) sham, and (b) tPBM conditions before and after stimulation. Due to the constraints of the experimental set up, no measurements were obtained during tPBM administration. Averaged changes in (c) [HbO2], (d) [HHb], and (e) [oxCCO]. Averaged change of (f) [HbO2], (g) [HHb], and (h) in [oxCCO] in pre- and post-tPBM. Data are shown as mean ± SEM (n = 4). Statistical analysis was performed using two-way repeated measures ANOVA followed by Bonferroni’s multiple comparisons test. HbO₂, oxygenated hemoglobin; HHb, deoxygenated hemoglobin; oxCCO, oxidized cytochrome c oxidase.
+
+
+Fig. S2.
+Schematic illustration and stimulation information of the in vitro PBM experiment
+a Schematic illustration of the in vitro PBM setup. b Heatmap illustrating the spatial distribution of 810-nm light intensity across the 96-well plate. c Definition of high, mid, and low PBM intensities based on the in vivo tPBM intensity and 810-nm light penetration through the skull and brain tissue of C57BL/6 mice. Light intensities were calculated based on the estimated light intensities reaching specific depths (0 mm, 1.72 mm, and 3.25 mm) in the mouse brain during the in vivo tPBM experiment.
+
+
+Fig. S3.
+Increased nitric oxide (NO) levels by PBM in neurons in vitro. a Representative fluorescent images showing NO production (green) in neurons, astrocytes, and microglia after sham or PBM treatment at low, mid, or high intensity. Scale bars: 200 μm. b-d Quantification of NO levels (fold change) in neurons (b), astrocytes (c), and microglia (d) after sham or PBM treatment. Data are shown as the mean ± SEM. ****P < 0.0001 by one-way ANOVA followed by Tukey’s multiple comparisons test, with Benjamini–Hochberg false discovery rate (FDR) correction for multiple comparisons.
+
+Fig. S4.
+Week-by-week trajectories of subjective sleep outcomes across four time points in ITT and PP analyses. a–c Intention-to-treat (ITT) analysis of weekly changes in Insomnia Severity Index (ISI, panel a), Pittsburgh Sleep Quality Index (PSQI, panel b), and Epworth Sleepiness Scale (ESS, panel c) scores through the study period in the tPBM (blue) and sham (orange) groups. d–f Per-protocol (PP) analysis of the same outcomes, excluding participants who failed to adhere to the intervention protocol. Data are presented as mean ± SEM. Dots show group means, lines smoothed trends, and shaded areas SEM. *p < 0.05 and **p < 0.01 for time × group interaction by two-way repeated measures ANOVA (mixed-effect model).
+
+
+Fig. S5.
+Age-based analyses of treatment effects on change in PSQI. a Scatter plot showing the relationship between age and ΔPSQI in the sham and PBM groups. Fitted lines were derived from a linear regression model including treatment group, age, the treatment-by-age interaction term, and baseline PSQI. ΔPSQI was defined as the difference between the mean baseline PSQI and the PSQI score during the intervention week. Shaded areas indicate 95% confidence intervals. The treatment-by-age interaction coefficient was 0.0946, with a corresponding p value of 0.2465. b Exploratory age-stratified subgroup analysis of treatment effects on ΔPSQI. Participants were stratified into three age groups (<30 years, 30–40 years, and >40 years), and the adjusted treatment effect was estimated within each subgroup. Baseline PSQI was included as a covariate in the subgroup models. Points indicate effect estimates, horizontal lines indicate 95% confidence intervals, and the sample size for each subgroup is shown on the right as PBM/sham.
+
+
+Fig. S6.
+Effects of tPBM on subjective sleep outcomes across multiple scales a–b Changes in Pittsburgh Sleep Quality Index (PSQI) scores from baseline to the intervention period in the PBM (a) and sham (b) groups. c–d Changes in Insomnia Severity Index (ISI) scores in the PBM (c) and sham (d) groups. e–f Changes in Epworth Sleepiness Scale (ESS) scores in the PBM (e) and sham (f) groups. For each panel, individual participant trajectories are shown as connected lines between baseline and intervention values. Bars represent group means, and error bars indicate standard error of the mean (SEM). Statistical comparisons between baseline and intervention were performed using paired t-tests, and corresponding p-values are displayed above each panel. Across all three measures (PSQI, ISI, and ESS), the PBM group exhibited significant improvements following the intervention, whereas the sham group showed no statistically significant changes.
+
+
+
+Fig. S7.
+Effects of tPBM on sleep quality assessed by PSQI and responder analyses a Distribution of individual changes in PSQI scores (ΔPSQI), defined as the difference between the PSQI score at Week 3 and the mean PSQI across Weeks 0–2. Individual data points are overlaid on boxplots for each group (PBM, orange; sham, dark gray). The central line indicates the median, boxes represent the interquartile range, and whiskers denote the range excluding outliers. A horizontal dashed line at ΔPSQI = 0 indicates no change from baseline. Group differences were assessed using Welch’s t-test. b Receiver operating characteristic (ROC) curve evaluating the ability of ΔPSQI to discriminate between PBM and sham groups. The optimal cutoff was determined using the Youden index and corresponded to ΔPSQI ≤ −1.0. The area under the curve (AUC) and its 95% confidence interval are shown. c Forest plot of odds ratios (ORs) for responder status across multiple predefined and data-driven thresholds, including ROC-derived cutoff, fixed thresholds (ΔPSQI ≤ −2 and ≤ −3), normalization (PSQI ≤ 5 at Week 3), and a sham distribution–based cutoff (mean − 1 SD). Points indicate OR estimates and horizontal lines represent 95% confidence intervals, plotted on a logarithmic scale. The vertical dashed line indicates no effect (OR = 1). d Standardized effect size (Cohen’s d) for the between-group difference in ΔPSQI (PBM − sham). The point estimate and 95% confidence interval are shown. The vertical dashed line indicates no effect (d = 0). The associated p-value from Welch’s t-test is also reported.
+
+Fig. S8.
+Correlation and Bland–Altman analyses comparing sleep diary and actigraphy-derived sleep timing parameters. a–c Scatter plots showing Pearson correlation analyses between sleep diary and actigraphy-derived measures using pooled observations from baseline and intervention week. a Sleep diary wake time versus actigraphy sleep offset. b Sleep diary bedtime versus actigraphy sleep onset. c Sleep diary midpoint versus actigraphy midpoint. Each dot represents one paired observation, and the solid line indicates the fitted linear regression line. Pearson’s correlation coefficient (r) and corresponding p value are shown in each panel. d–f Bland–Altman plots for the same paired comparisons. d Wake time/sleep offset. e Bedtime/sleep onset. f Midpoint/midpoint. The x-axis represents the mean of the two paired measures, and the y-axis represents the difference between actigraphy and sleep diary values. The solid horizontal line indicates the mean difference, and the dashed lines indicate the 95% limits of agreement. Midpoint was defined as the temporal midpoint between sleep diary-reported bedtime and wake time, and between actigraphy-derived sleep onset and sleep offset.
+
+
+
+Sham(n=18)
+tPBM(n=16)
+Age, mean (SD), years
+27.7 (8.1)
+32.5 (8.5)
+Sex, n (%)
+
+
+
+Male
+9 (50.0)
+9 (56.3)
+
+Female
+9 (50.0)
+7 (43.7)
+Occupation, n (%)
+
+
+
+Student
+10 (55.6)
+9 (56.3)
+
+Office worker
+6 (33.3)
+5 (31.3)
+
+Researcher
+1 (5.6)
+1 (6.3)
+
+Self-employed/Freelancer
+1 (5.6)
+1 (6.3)
+
+Production/Technical job
+0
+0
+Work schedule, n (%)
+
+
+
+Day shift
+13 (72.2)
+12 (75.0)
+
+Flexible schedule
+1 (5.6)
+3 (18.8)
+
+Other
+4 (22.2)
+1 (6.3)
+Education level, n (%)
+
+
+
+High school graduate
+7 (38.9)
+1 (6.3)
+
+University graduate
+9 (50.0)
+14 (87.5)
+
+Graduate school or higher
+2 (11.1)
+1 (6.3)
+Income (KRW), n (%)
+
+
+
+Less than 30 million
+6 (33.3)
+9 (56.3)
+
+30-50 million
+6 (33.3)
+1 (6.3)
+
+50-70 million
+2 (11.1)
+5 (31.3)
+
+Other
+4 (22.2)
+1 (6.3)
+Coffee consumption, n (%)
+
+
+
+Daily
+11 (61.1)
+11 (68.8)
+
+Occasionally
+3 (16.7)
+3 (18.8)
+
+Rarely
+4 (22.2)
+0
+
+Never
+0
+2 (12.5)
+Smoking status, n (%)
+
+
+
+Current smoker
+1 (5.6)
+0
+
+Former smoker
+1 (5.6)
+4 (25.0)
+
+Non-smoker
+16 (88.9)
+12 (75.0)
+Alcohol consumption, n (%)
+
+
+
+1-2 times/week
+6 (33.3)
+4 (25.0)
+
+1-2 times/month
+8 (44.4)
+9 (56.3)
+
+Never drinks
+4 (22.2)
+3 (18.8)
+Physical activity, n (%)
+
+
+
+Regular exercise
+10 (55.6)
+7 (43.8)
+
+Light exercise
+5 (27.8)
+8 (50.0)
+
+No exercise
+5 (27.8)
+1 (6.3)
+Underlying medical conditions, n (%)
+
+
+
+No
+16 (88.9)
+16 (100.0)
+
+Yes
+2 (11.1)
+0
+Current medication use, n (%)
+
+
+
+No
+15 (83.3)
+15 (93.8)
+
+Yes
+3 (16.7)
+1 (6.3)
+Baseline assessment score, mean (SD)
+
+
+
+ISI
+10.61 (3.61)
+10.17 (5.02)
+
+PSQI
+6.72 (1.80)
+6.27 (2.32)
+
+ESS
+6.91 (3.22)
+7.94 (3.16)
+Table S1.
+Baseline characteristics of the study (per-protocol [PP] subjects)
+ISI, insomnia severity index; PSQI, Pittsburgh sleep quality index; ESS, Epworth Sleepiness Scale
+
+
+Variables
+Sham (n=20)
+
+tPBM (n=20)
+
+
+P value
+
+
+Pre
+Post
+d
+P
+
+Pre
+Post
+d
+P
+
+Time
+Group
+T x G
+ISI
+10.48(4.89)
+10.17(5.95)
+-0.13
+0.577
+
+10.04(3.67)
+6.94(3.66)
+-0.84
+0.004
+
+0.008
+0.238
+0.013
+PSQI
+6.33(2.02)
+6.06(1.95)
+-0.15
+0.529
+
+6.46(2.18)
+4.62(2.50)
+-1.03
+<0.001
+
+0.005
+0.341
+0.018
+ESS
+7.46(3.17)
+6.67(4.26)
+-0.29
+0.238
+
+6.92(3.44)
+5.31(3.63)
+-0.66
+0.018
+
+0.013
+0.424
+0.374
+PSQI components
+
+
+
+
+
+
+
+
+
+
+
+
+
+PSQI-C1
+1.59(0.51)
+1.50(0.51)
+-0.19
+0.439
+
+1.40(0.49)
+1.06(0.44)
+-0.91
+0.002
+
+0.012
+0.043
+0.121
+PSQI-C2
+1.69(0.95)
+1.72(1.07)
+0.04
+0.854
+
+1.65(0.85)
+0.88(0.89)
+-0.89
+0.003
+
+0.040
+0.137
+0.010
+PSQI-C3
+0.63(0.50)
+0.56(0.62)
+-0.15
+0.521
+
+0.54(0.58)
+0.44(0.73)
+-0.14
+0.575
+
+0.397
+0.573
+0.886
+PSQI-C4
+0.26(0.35)
+0.11(0.32)
+-0.41
+0.104
+
+0.33(0.50)
+0.25(0.77)
+-0.15
+0.564
+
+0.148
+0.499
+0.690
+PSQI-C5
+1.07(0.44)
+1.17(0.38)
+0.42
+0.096
+
+1.31(0.49)
+1.12(0.34)
+-0.45
+0.095
+
+0.524
+0.460
+0.019
+PSQI-C6
+0.09(0.32)
+0.11(0.32)
+0.07
+0.772
+
+0.19(0.67)
+0.19(0.75)
+0.00
+1.000
+
+0.786
+0.641
+0.801
+PSQI-C7
+1.00(0.57)
+0.89(0.96)
+-0.16
+0.501
+
+1.04(0.59)
+0.69(0.60)
+-0.66
+0.019
+
+0.043
+0.717
+0.263
+
+Sleep Diary
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bedtime
+(hour)
+25.33(1.49)
+25.53(1.44)
+0.40
+0.106
+
+24.06(1.28)
+24.50(1.12)
+0.78
+0.007
+
+0.002
+0.016
+0.218
+Wake time
+(hour)
+8.91(1.44)
+8.97(1.53)
+0.06
+0.816
+
+7.83(1.14)
+8.01(1.41)
+0.37
+0.158
+
+0.414
+0.033
+0.668
+TIB
+(hour)
+7.69(0.90)
+7.82(1.10)
+0.11
+0.634
+
+7.77(0.83)
+7.51(1.16)
+-0.40
+0.133
+
+0.729
+0.704
+0.231
+
+Actigraphy
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sleep onset
+(hour)
+25.82(1.57)
+25.78(1.41)
+-0.03
+0.891
+
+24.55(1.38)
+24.96(1.18)
+0.94
+0.002
+
+0.223
+0.029
+0.118
+Sleep offset
+(hour)
+8.95(1.66)
+9.13(1.88)
+0.19
+0.436
+
+7.77(1.03)
+8.09(1.20)
+0.55
+0.044
+
+0.080
+0.033
+0.611
+On-Off Interval (min)
+427.95(43.69)
+424.51(47.87)
+-0.09
+0.714
+
+433.38(53.69)
+427.44(45.21)
+-0.19
+0.465
+
+0.451
+0.785
+0.840
+Wake After Sleep Onset (min)
+41.85(22.25)
+42.46(19.46)
+0.07
+0.769
+
+36.42(21.06)
+35.01(19.68)
+-0.14
+0.579
+
+0.829
+0.359
+0.531
+TST
+(min)
+385.94(51.91)
+381.94(56.39)
+-0.11
+0.656
+
+396.82(47.07)
+392.33(45.97)
+-0.17
+0.509
+
+0.450
+0.524
+0.965
+Wake
+(counts)
+18.62(9.04)
+19.39(8.60)
+0.20
+0.411
+
+17.48(7.82)
+15.84(6.70)
+-0.36
+0.165
+
+0.624
+0.391
+0.103
+
+
+Table S2.
+Pre and postintervention changes in questionnaire scores and sleep parameters for PBM vs. sham groups (per-protocol [PP] subjects)
+In bedtime and sleep onset time, values greater than 24 denote sleep onset times occurring after midnight (e.g., 25 = 1 AM, 26 = 2 AM). Data are presented as mean (SD). ISI, Insomnia Severity Index; PSQI, Pittsburgh Sleep Quality Index; ESS, Epworth Sleepiness Scale; TIB, Time in bed; TST, Total Sleep Time; d, Cohen’s d; P, P-value; T, Time; G, Group. d is standardized effect size (Cohen’s d). Number in bold indicates a significant difference (p<0.05).
+Term
+Beta
+SE
+95% CI
+p value
+Intercept
+-3.920
+1.707
+-7.386 to -0.455
+0.028
+Treatment (PBM vs Sham)
+3.777
+1.814
+0.095 to 7.458
+0.045
+Age
+0.062
+0.045
+-0.029 to 0.154
+0.172
+Treatment × Age
+-0.079
+0.058
+-0.197 to 0.039
+0.182
+Baseline PSQI mean
+0.395
+0.132
+0.127 to 0.663
+0.005
+
+Table S3.
+Multiple linear regression model assessing the association of age and treatment with change in PSQI. A multiple linear regression analysis was performed with ΔPSQI as the dependent variable and treatment group, age, the treatment-by-age interaction term, and baseline PSQI as independent variables. Baseline PSQI was defined as the mean of PSQI scores obtained across the 2-week baseline period. ΔPSQI was calculated as the difference between the mean baseline PSQI and the PSQI score during the intervention week. The table presents the regression coefficient (Beta), standard error (SE), 95% confidence interval (CI), and p value for each model term.
+
+ID
+Group
+Reason for exclusion from PP analysis
+A
+Sham
+Device usage time was not recorded in the sleep diary, preventing verification of intervention timing and protocol compliance.
+B
+tPBM
+Device usage time was not recorded in the sleep diary, preventing verification of intervention timing and protocol compliance.
+C
+Sham
+Frequent alcohol consumption, staying awake throughout the night, and irregular sleep schedules during the study period substantially interfered with interpretation of sleep-related outcomes. Behavioral confounding factors were identified on 10 of the 21 study days, limiting attribution of observed sleep changes to the intervention.
+D
+tPBM
+The device was used under settings different from the assigned intervention condition, resulting in non-adherence to the study protocol.
+E
+tPBM
+Discrepancies were identified among the sleep diary records, device usage logs, and post-study interview responses. Furthermore, the sleep diary was found to have been completed retrospectively based on participant recall, limiting data reliability and interpretability.
+F
+tPBM
+The device was used under settings different from the assigned intervention condition, resulting in non-adherence to the study protocol.
+
+Supplementary Table 4. Detailed reasons for participant exclusion from the per-protocol analysis.
+
+
+
+Supplementary Materials and Methods1. Neuron culture and preparation in 96-well plates
+The SH-SY5Y human neuroblastoma cell line was obtained from American Type Culture Collection (ATCC). Cells were inoculated onto T25 culture flasks pre-coated with BD Matrigel (BD Biosciences, San Jose, CA, USA) and maintained in high-glucose Dulbecco’s Modified Eagle’s Medium (DMEM, Merck D6429-1L). The medium was supplemented with 10% fetal bovine serum (FBS, Thermo Fisher Scientific, Waltham, MA, USA), 1 mg heparin (StemCell Technologies, Vancouver, Canada), 1% B27 neural supplement (Life Technologies, Grand Island, NY, USA), and 1% penicillin/streptomycin/amphotericin-B solution (Lonza, Hopkinton, MA, USA), and was preserved in a CO₂ incubator. Media were renewed every three days until cellular confluency was attained. For 2D neuronal differentiation, 1 × 10⁴ cells per well were seeded onto Matrigel-coated black 96-well plates, cultured in DMEM differentiation medium containing high glucose, and supplemented with 1% FBS, 1 mg heparin, 1% B27 neural supplement, 1% penicillin/streptomycin/amphotericin-B, 10 μM Retinoic Acid (Sigma), and 50 ng/ml BDNF (Gibco). Fifty percent of the differentiation medium was replenished every 3 to 4 days for one week before the initiation of any PBM treatment.
+
+2. Astrocytes culture
+The immortalized human astrocytes SV40 purchased from Applied Biological Materials, Inc. were grown in the culture dish coated with 40 μg/mL collagen Type I using astrocyte proliferation media consisting of Prigrow IV (ABM Inc.), 10 ng/mL epidermal growth factor (EGF), 1% v/v penicillin-streptomycin, 2 mM L-glutamine (Gibco-BRL), and 10% (v/v) FBS (Thermo Fisher Scientific). Cells were cultured in a 37°C incubator, 5% CO2, and medium was changed every 2 days.
+
+3. Microglia culture
+The immortalized human microglia SV40 cell line was purchased from Applied Biological Materials, Inc. Cells were cultured in a T25 flask containing 3 mL of microglia proliferation media at 37°C, 5% CO2 incubator. To prepare 500 mL of microglia medium, add 50 mL of FBS (Thermo Fisher Scientific) and 5 mL of (1% v/v) of Penicillin/Streptomycin (Sigma-Aldrich) to 445 mL of Prigrow III medium (ABM Inc.). The cell culture media was changed every 2 days with fresh media.
+
+4. Preparation of astrocytes and microglia in 96-well plates
+Astrocytes and microglia were grown on a T25 flask until confluent. Cells were washed with PBS, detached using 2.5% Trypsin (Thermo Fisher Scientific), and resuspended in a fresh proliferation medium to subculture. Cells were plated on the black 96-well plate at the density of 1 × 10⁴ cells/mL. Prior to astrocyte plating, 40 μg/mL collagen Type I was coated on the 96-well plate for 30 minutes and washed with PBS. Cells were maintained in 1% (v/v) FBS for 24 hours before near-infrared treatment.
+
+5. In vitro photobiomodulation
+The in vitro PBM apparatus for administering 810-nm light to cultured neural cells was custom-designed and constructed. The light source consisted of 28 surface-mount 810-nm LEDs (Cat. No. SST-10-IRD-B90H-S810, Mouser Electronics) arranged on a stripboard. The LEDs were configured in four parallel circuits, each containing seven LEDs connected in series. A ground glass diffuser (Cat. No. DG100X100-120, Thorlabs) was used to distribute the light emitted from the LEDs evenly. The structural framework of the apparatus was fabricated using a 3D printer (Cat. No. 3DP-110F, Cubicon) with acrylonitrile butadiene styrene material. The LED circuit was powered by a DC power supply (DP712, RIGOL Technologies), with a total forward voltage of 21.0V applied across the circuit to ensure that each LED received a forward voltage of 3.0V, in accordance with the manufacturer’s instruction. Light intensity was controlled by adjusting the current supplied to the circuit. The black 96-well plate was used to ensure that the light exposure to each well was independent. The light intensity at the bottom of a well in the black 96-well plate was measured at 810 nm using a Compact Power and Energy Meter Console (PM100D, Thorlabs) and a Slim Photodiode Power Sensor (S130C, Thorlabs). Only the central 4×4 wells (16 wells) of the plate received PBM to ensure uniform light exposure, while all other wells were shielded with aluminum foil. PBM was applied for 3 hours, the same as in vivo conditions, and the 96-well plate was maintained in an incubator at 37°C with 5% CO2.
+
+5. In-vitro intracellular ATP measurement
+Intracellular ATP levels were evaluated by BioTracker ATP-Red Live Cell Dye (Cat. No. SCT045, Sigma-Aldrich). Cells were rinsed in 1% PBS and exposed to 10 μM BioTracker in differentiation medium containing 1% FBS for 20 minutes at 37°C. The following three washes with 1% PBS were used to remove surplus probes, and differentiation media containing 1% FBS was introduced. Signals were identified using a fluorescent microscope (Nikon TiE, Nikon) fitted with a TRITC filter (Ex/Em=510/570 nm). The fluorescence intensity, indicative of intracellular ATP, was assessed using NIS-Elements software.
+
+6. In-vitro extracellular ATP measurement
+The conditioned media was amalgamated with the RealTime-Glo Extracellular ATP Assay Reagent (Cat. No. GA5010, Promega) and incubated for 30 minutes at ambient temperature on a white plate, according to the manufacturer’s instructions. Luminescence resulting from luciferase activity was measured using the Glomax multi-detection system (Promega, Wisconsin, USA).
+
+7. In-vitro nitric oxide (NO) measurement
+Intracellular nitric oxide was quantified with the fluorescent probe DAF-FM Diacetate (Cat. No. D23844, Thermo Fisher Scientific). Cells were rinsed in 1% PBS and then incubated with 10 μM DAF-FM DA in differentiation media containing 1% FBS for 30 minutes at 37°C. Superfluous probes were eliminated by washing the cells thrice with 1% PBS, followed by the addition of fresh differentiation media containing 1% FBS. Nitric oxide was seen using a fluorescent microscope (Nikon TiE, Nikon) at excitation/emission wavelengths of 495/515 nm, and fluorescence intensity was assessed using NIS-Elements software.
+
+8. In-vitro toxicology assay
+Lactic dehydrogenase (LDH)-based toxicology assay was performed to assess possible cytotoxicity from PBM. Following treatment, the conditioned medium was harvested and amalgamated with an LDH reaction mixture (Cat. No. 11644793001, Sigma-Aldrich) containing a catalyst and dye. After a 30-minute incubation at ambient temperature, signals were measured at 492 nm using a Synergy HT microplate reader (BioTek Instruments).

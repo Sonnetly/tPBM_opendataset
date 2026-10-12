@@ -88,7 +88,7 @@
   "windows_destination_written": false,
   "original_cloud_work_folder": "/workspace/Allen Dataset_M1_V1",
   "git_workflow": "Analysis files are maintained in the repository and included in user-requested commits/pushes. Exact commit and remote state are recorded by Git history and remote verification, not this analytical snapshot.",
-  "updated_at_UTC": "2026-10-11T14:41:33.452263+00:00",
+  "updated_at_UTC": "2026-10-12T02:18:40.193906+00:00",
   "MERFISH_Penk_spatial_expression": {
     "status": "not_run_optional_matrix_not_downloaded",
     "reason": "metadata composition completed; broad candidate expression computed with RNA-seq; MERFISH measurement coverage is not actual spatial expression"
@@ -148,5 +148,16 @@
     "status": "methods_proposed_not_calculated",
     "reason": "preserved expression subsets contain 62 selected genes; full gene universe or complete prespecified modules required",
     "plan": "docs/downstream_pathway_analysis_options_ko.md"
+  },
+  "M1_PBM_sleep_hypothesis": {
+    "status": "hypothesis_written_not_experimentally_tested",
+    "document": "docs/M1_PBM_sleep_sensitivity_hypothesis_ko.md",
+    "protocol_user_confirmed": "810 nm; approximately 20 mW/cm2 at fiber tip; continuous wave; 180 min",
+    "nominal_fiber_tip_fluence_J_per_cm2": 216,
+    "tissue_dose_calibrated": false,
+    "visualization_review": "docs/composition_visualization_review_ko.md",
+    "existing_figures_changed": false,
+    "bibliographic_PMID_DOI_pairs_checked": 7,
+    "review": "results/validation/hypothesis_document_review.json"
   }
 }

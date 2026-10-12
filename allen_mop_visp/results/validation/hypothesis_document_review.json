@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "reviewed_at_UTC": "2026-10-12T02:18:40.193306+00:00",
+  "validation_kind": "source_consistency_and_independent_document_review_not_PBM_experiment",
+  "existing_figures_and_merfish_plot_code_unchanged": true,
+  "protected_files_checked": 18,
+  "CCF_MOp4_absent_VISp4_present": true,
+  "nonGlut_GABA_percentages": {
+    "MOp": 22.06650492364778,
+    "VISp": 26.433373921329874
+  },
+  "nominal_fiber_tip_fluence_J_per_cm2": 216,
+  "dose_scope": "not measured tissue absorbed dose",
+  "exact_PMID_DOI_pairs_verified": 7,
+  "independent_document_reviews": [
+    "Actual composition/RNA/connectivity values and causal-direction review; suggested unit/WT wording corrections applied",
+    "Literature/protocol scope and response-vs-threshold review; citation/year and comparison wording corrections applied"
+  ],
+  "interpretation": "Hypothesis and visualization recommendations only. No new plots, MOp-VISp PBM treatment-effect calculation, animal P/FDR, or sensitivity threshold estimation."
+}

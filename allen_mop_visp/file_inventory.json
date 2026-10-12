@@ -6,8 +6,8 @@
   },
   {
     "path": "README_ko.md",
-    "bytes": 10063,
-    "sha256": "447fb0b9c1213451c8ec14de3b2fe3913780c0d311562b5badc84c4c466aca2c"
+    "bytes": 10537,
+    "sha256": "231e1972aa15b8658120b00c9cc02fe33e1626520c84add59864d8a88e776b9e"
   },
   {
     "path": "analysis_report_ko.md",
@@ -16,8 +16,13 @@
   },
   {
     "path": "analysis_status.json",
-    "bytes": 7052,
-    "sha256": "60f7820ceea39fcf24421480f89a47cd761a6c2a4bf4c09afcbb3018c96f46b4"
+    "bytes": 7634,
+    "sha256": "335ef389299e99abe2504d715d0406b8ffe833722613dd336eea2017f2322b14"
+  },
+  {
+    "path": "docs/M1_PBM_sleep_sensitivity_hypothesis_ko.md",
+    "bytes": 17451,
+    "sha256": "e4893fb326c9f023dd1e2ea8903437355add1cc1213e466ac07c6e090081db6e"
   },
   {
     "path": "docs/MOp_VISp_Allen_analysis_plan_ko.md",
@@ -38,6 +43,11 @@
     "path": "docs/SMARTseq_analysis_ko.md",
     "bytes": 8794,
     "sha256": "7e9dd72d7d2648403674f41900ae0a28fd53c85d8fe1dcf2437c5befacad12d2"
+  },
+  {
+    "path": "docs/composition_visualization_review_ko.md",
+    "bytes": 6430,
+    "sha256": "83f84948bf892c5473271643b2469e08cdded1f55d53da8f753b54fc42086862"
   },
   {
     "path": "docs/downstream_pathway_analysis_options_ko.md",
@@ -61,8 +71,8 @@
   },
   {
     "path": "docs/stimulation_coordinates_user.json",
-    "bytes": 663,
-    "sha256": "af1ec3570d2595eb5e2d6542e01fc85cb2c167c19b0ff607f6804f60bc2943da"
+    "bytes": 1471,
+    "sha256": "4513fb90e4cad7da2eda4721d78fdb018e40e927fc01203721ac5ca8de69ec97"
   },
   {
     "path": "figures/connectivity/WT_individual_target_projection_heatmap.png",
@@ -313,6 +323,31 @@
     "path": "input/coverage/B6N_Zhuang1_gene_list.html",
     "bytes": 348843,
     "sha256": "26f459a4d2bc560d64114ed2ab098c6542ed9c5be63568c4b6d32b9a04b3c6c8"
+  },
+  {
+    "path": "input/literature/Jung_2026_public_supplementary_information.docx",
+    "bytes": 3241309,
+    "sha256": "4c441cb12bcbc25e0ac57399df791281b49b153bb10edf61a7e7b0f55aff28ae"
+  },
+  {
+    "path": "input/literature/Jung_2026_public_supplementary_information.provenance.json",
+    "bytes": 516,
+    "sha256": "270b5ebfadc7d5585104d7dfc15a1ec07d5c459323979c9166f26a925f3986e5"
+  },
+  {
+    "path": "input/literature/Jung_2026_public_supplementary_information_extracted.txt",
+    "bytes": 21117,
+    "sha256": "7e6a6007eac8a0d589afdf27d112bcb5fe46ff34d0224c3e4f1d58a9ae183679"
+  },
+  {
+    "path": "input/literature/PBM_sleep_hypothesis_europepmc_core_response.json",
+    "bytes": 61505,
+    "sha256": "92b5e5e564a02abad585b2f5fa480e2978f01c8fb308be69d324d216b0a85ffa"
+  },
+  {
+    "path": "input/literature/PBM_sleep_hypothesis_reference_registry.json",
+    "bytes": 24296,
+    "sha256": "e408daa449d08db095f129e9b637fb6057762600d872032b26d6dc70efafc06b"
   },
   {
     "path": "input/merfish/live_manifest_20250531.json",
@@ -1263,6 +1298,11 @@
     "path": "results/validation/final_prepackaging_review.json",
     "bytes": 1688,
     "sha256": "4c63fe2cc5b0a26bd416a8ed2ed684af8f0437a4acc618c3749a2fabd48903f8"
+  },
+  {
+    "path": "results/validation/hypothesis_document_review.json",
+    "bytes": 1016,
+    "sha256": "21a58e361ebe5aaa14555d327e794f48e5a7030a437487385c0263caeb61025e"
   },
   {
     "path": "results/validation/repository_import_validation.json",

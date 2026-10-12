@@ -2,6 +2,8 @@
 
 목적은 정상 상태 atlas에서 MOp와 VISp의 세포 구성과 대응 세포 유형 안의 후보 유전자 발현을 비교하고, 기존 PBM 결과와 연결하는 것이다. 후속 회로 분석은 NREM 관련 영역으로의 투사를 우선 확인한다. 정상 상태 발현과 atlas의 축삭 신호를 PBM 처리 효과 또는 수면 유발 효과로 해석하지 않는다.
 
+2026-10-12 후속 검토: [MOp L4·구성 그림의 분모와 표현 검토](docs/composition_visualization_review_ko.md), [실제 810 nm 연속광·180분 조건의 M1 PBM 수면 반응 가설](docs/M1_PBM_sleep_sensitivity_hypothesis_ko.md)을 추가했다. 기존 구성 그림은 유지했으며, 가설은 실제 지역별 PBM 효과를 계산한 결과가 아니다. 사용자 자극 조건과 새로 확인한 원 논문·공개 보충자료를 함께 기록했다.
+
 ## 저장 위치
 
 현재 정본은 저장소의 `allen_mop_visp/` 폴더다. 클라우드 절대 경로는 `/workspace/tPBM_opendataset/allen_mop_visp`이다. 사용자의 커밋·푸시 요청에 따라 이전 `/workspace/Allen Dataset_M1_V1`에서 파일 68개와 inventory를 복사하고 SHA256으로 일치를 확인했다. 지정한 Windows 경로는 `G:\내 드라이브\0. Research\2026\openRNAseq_PBM\Allen Dataset_M1_V1`이며 클라우드에 연결되어 있지 않다. 로컬 저장이 완료됐다는 의미가 아니다.
