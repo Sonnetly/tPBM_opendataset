@@ -17,6 +17,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from depth import (DEPTH_CAUTION, cortical_depth, depth_cumulative, depth_layer_profile,
+                   depth_shell_difference, depth_shell_ratios)
+
 ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / "input" / "merfish"
 RESULTS = ROOT / "results" / "merfish"
@@ -174,9 +178,14 @@ def prepare_cells(paths, chunksize=200_000):
     cells = cells.merge(annotation, on="cell_label", how="left", validate="one_to_one", indicator="annotation_join")
     cells["region"] = cells.parcellation_structure
     cells["anatomical_layer"] = [layer_from_acronym(a, b) for a, b in zip(cells.region, cells.parcellation_substructure)]
+    # Layer-derived grouping, retained for continuity. It is NOT depth matched between
+    # regions: MOp cortex is about twice as thick as VISp, so the same label spans a
+    # different physical depth range in each. Use depth_shell for anything dose related.
     cells["depth_group"] = cells.anatomical_layer.map({"1": "superficial", "2/3": "superficial", "4": "middle", "5": "deep", "6a": "deep", "6b": "deep"}).fillna("unknown")
     # Allen CCF ASL, z axis left-to-right, 1140 voxels × 10 μm, midline z=5.7 mm.
     cells["hemisphere"] = np.select([cells.z_ccf < 5.7, cells.z_ccf > 5.7, cells.z_ccf == 5.7], ["left", "right", "midline"], default="unknown")
+    # Physical depth below the pial surface, in micrometres. See src/merfish/depth.py.
+    cells = cortical_depth(cells)
     for column in ["raw_class", "raw_subclass", "raw_neurotransmitter"]:
         cells[column] = cells[column].fillna("")
     cells["major_group"] = [classify(a, b, c) for a, b, c in zip(cells.raw_class, cells.raw_subclass, cells.raw_neurotransmitter)]
@@ -236,7 +245,8 @@ def write_composition(cells, outdir, figdir):
                   "section": ["region", "brain_section_label"], "layer_hemisphere": ["region", "anatomical_layer", "hemisphere"],
                   "layer_section": ["region", "anatomical_layer", "brain_section_label"],
                   "layer_hemisphere_section": ["region", "anatomical_layer", "hemisphere", "brain_section_label"],
-                  "depth_group": ["region", "depth_group"]}
+                  "depth_group": ["region", "depth_group"],
+                  "depth_shell": ["region", "depth_shell"]}
     for name, dim in dimensions.items():
         for category, denominator, suffix in [("major_group", "all_QC_annotated", "major"), ("raw_subclass", "all_QC_annotated", "subclass_all_cells"),
                                               ("raw_subclass", "neurons", "subclass_neurons"), ("gaba_family", "GABAergic_neurons", "gaba_within_gaba")]:
@@ -250,7 +260,20 @@ def write_composition(cells, outdir, figdir):
         wide["MOp_minus_VISp_percentage_points"] = wide.MOp - wide.VISp
         wide["denominator"] = denominator
         wide.to_csv(outdir / f"regional_descriptive_difference_{label}.csv")
+    write_depth_tables(retained, outdir)
     plot_composition(retained, figdir)
+
+
+def write_depth_tables(retained, outdir):
+    """Physical depth tables. Percentages of all QC cells share one denominator, so a
+    shift in the neuron share moves every other class mechanically; the per-100-neurons
+    table removes that closure effect and is the one to read for dose arguments."""
+    depth_layer_profile(retained).to_csv(outdir / "depth_layer_profile.csv", index=False)
+    depth_cumulative(retained).to_csv(outdir / "depth_cumulative_distribution.csv", index=False)
+    shells = depth_shell_ratios(retained, proportions)
+    shells.to_csv(outdir / "composition_depth_shell_per100_neurons.csv", index=False)
+    depth_shell_difference(shells).to_csv(outdir / "depth_shell_regional_difference.csv", index=False)
+    (outdir / "depth_caution.txt").write_text(DEPTH_CAUTION + "\n")
 
 
 def plot_composition(cells, figdir):

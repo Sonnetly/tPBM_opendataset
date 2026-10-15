@@ -1,0 +1,47 @@
+{
+  "run_time_UTC": "2026-10-15T06:12:17.637402+00:00",
+  "status": "depth_shell_composition_completed",
+  "dataset": "MERFISH-C57BL6J-638850",
+  "caution": "Depth is distance in the coronal plane to the nearest CCF layer-1 cell of the same section, region and hemisphere. L1 somata lie below the true pia, so absolute depth is slightly underestimated; the offset is shared by both regions. Depth is measured from the cortical surface, not from the skull, and is not an optical dose. One C57BL/6J male donor.",
+  "shell_edges_um": [
+    0,
+    100,
+    200,
+    300,
+    400,
+    600,
+    800,
+    1000,
+    1200
+  ],
+  "pending": [],
+  "cells": {
+    "selected_cells": 145860,
+    "QC_annotated": 145860,
+    "with_depth": 142775,
+    "without_depth_insufficient_pia_reference": 3085,
+    "pia_reference_groups": 55
+  },
+  "cortical_thickness_proxy_L6b_median_depth_um": {
+    "MOp": 1470.7768220550236,
+    "VISp": 801.4176794081916
+  },
+  "shells_reported": [
+    "0000-0100",
+    "0100-0200",
+    "0200-0300",
+    "0300-0400",
+    "0400-0600",
+    "0600-0800",
+    "0800-1000",
+    "1000-1200",
+    "1200+"
+  ],
+  "shells_dropped_below_min_cells": 200,
+  "figures": [
+    "depth_layer_profile.png",
+    "depth_cumulative_distribution.png",
+    "depth_shell_composition.png",
+    "depth_shell_e_to_i_ratio.png"
+  ]
+}
