@@ -63,6 +63,10 @@ RELEASE = "20250531"
 # Coronal animals first: MOp and VISp are both sampled in coronal series.
 DEFAULT_ANIMALS = ("Zhuang-ABCA-1", "Zhuang-ABCA-2")
 CANDIDATE_CSV = ROOT / "results" / "pbm" / "exploration_genes62.csv"
+# The MERFISH run already stores the official release manifest snapshot and it covers
+# every directory in the release, Zhuang included. Planning works offline from it; a
+# --download run still refetches the live manifest and verifies every published MD5.
+MANIFEST_SNAPSHOT = ROOT / "input" / "merfish" / "official_sdk_manifest_snapshot.json"
 GABA_SUBCLASS_HINTS = ("Pvalb", "Sst", "Vip", "Lamp5", "Sncg", "Sst Chodl")
 MIN_CELLS_PER_STRATUM = 50
 
@@ -86,29 +90,77 @@ def checksum(path: Path, algorithm="md5") -> str:
     return h.hexdigest()
 
 
-def fetch_manifest(release=RELEASE):
-    url = f"{BASE}/releases/{release}/manifest.json"
-    with urllib.request.urlopen(url, timeout=60) as response:
-        manifest = json.load(response)
-    INPUT.mkdir(parents=True, exist_ok=True)
-    path = INPUT / f"live_manifest_{manifest['version']}.json"
-    path.write_text(json.dumps(manifest, indent=2))
-    return manifest, path
+def fetch_manifest(release=RELEASE, snapshot=MANIFEST_SNAPSHOT, live=True):
+    """Live manifest when the network allows it, otherwise the stored snapshot.
+
+    Returns (manifest, path, origin). Planning and entry resolution are identical either
+    way. Only a --download run needs the live copy, because the published MD5 that every
+    download is checked against must come from the release itself.
+    """
+    if live:
+        url = f"{BASE}/releases/{release}/manifest.json"
+        try:
+            with urllib.request.urlopen(url, timeout=60) as response:
+                manifest = json.load(response)
+            INPUT.mkdir(parents=True, exist_ok=True)
+            path = INPUT / f"live_manifest_{manifest['version']}.json"
+            path.write_text(json.dumps(manifest, indent=2))
+            return manifest, path, "live S3 release manifest"
+        except (urllib.error.URLError, OSError, ValueError) as error:
+            if not snapshot.exists():
+                raise
+            print(f"Live manifest unavailable ({type(error).__name__}); using stored snapshot",
+                  file=sys.stderr)
+    if not snapshot.exists():
+        raise FileNotFoundError(f"No manifest snapshot at {snapshot}")
+    return json.loads(snapshot.read_text()), snapshot, "stored snapshot, not refetched"
 
 
-def describe_manifest(manifest, animals):
-    """Print what each Zhuang directory actually offers.
+def describe_manifest(manifest, animals=None):
+    """What each Zhuang directory offers, with byte sizes.
 
-    Entry names have changed across releases, so the script resolves them from the live
+    Entry names have changed across releases, so the script resolves them from the
     manifest rather than hard-coding a path that may silently point at the wrong file.
     """
     listing = manifest["file_listing"]
     out = {}
-    for name in listing:
-        if not name.startswith("Zhuang"):
-            continue
-        out[name] = {section: sorted(listing[name][section]) for section in listing[name]}
+    for directory in sorted(k for k in listing if k.startswith("Zhuang")):
+        sections = {}
+        for section, entries in listing[directory].items():
+            for name, entry in entries.items():
+                kinds = [k for k in ("raw", "log2") if k in entry] or [None]
+                for kind in kinds:
+                    spec = next(iter((entry[kind] if kind else entry)["files"].values()))
+                    label = f"{name}/{kind}" if kind else name
+                    sections[f"{section}/{label}"] = {"bytes": spec["size"],
+                                                      "format": Path(spec["relative_path"]).suffix}
+        out[directory] = sections
     return out
+
+
+def download_plan(manifest, animals):
+    """Bytes this run would fetch, per animal, before anything is downloaded."""
+    plan, total = {}, 0
+    for animal in animals:
+        specs = {
+            "annotation": resolve(manifest, animal, "metadata", "cell_metadata_with_cluster_annotation"),
+            "ccf": resolve(manifest, f"{animal}-CCF", "metadata", "ccf_coordinates",
+                           "cell_metadata_with_parcellation_annotation"),
+            "expression": resolve(manifest, animal, "expression_matrices", animal, kind="log2"),
+        }
+        plan[animal] = {name: {"entry": spec["manifest_entry"], "bytes": spec["size"],
+                               "cached": Path(spec["local_path"]).exists()}
+                        for name, spec in specs.items()}
+        total += sum(spec["size"] for spec in specs.values())
+    parcellation = resolve(manifest, "Allen-CCF-2020", "metadata",
+                           "parcellation_to_parcellation_term_membership_acronym")
+    plan["Allen-CCF-2020"] = {"parcellation": {"entry": parcellation["manifest_entry"],
+                                               "bytes": parcellation["size"],
+                                               "cached": Path(parcellation["local_path"]).exists()}}
+    total += parcellation["size"]
+    plan["total_bytes_if_nothing_cached"] = total
+    plan["total_GB_if_nothing_cached"] = round(total / 1024 ** 3, 2)
+    return plan
 
 
 def resolve(manifest, directory, section, *name_candidates, kind=None):
@@ -383,7 +435,10 @@ def main(argv=None):
     parser.add_argument("--animals", nargs="+", default=list(DEFAULT_ANIMALS))
     parser.add_argument("--release", default=RELEASE)
     parser.add_argument("--download", action="store_true", help="Fetch verified files and analyse")
-    parser.add_argument("--list", action="store_true", help="Print available Zhuang manifest entries and stop")
+    parser.add_argument("--list", action="store_true",
+                        help="Print Zhuang manifest entries and the download plan, then stop")
+    parser.add_argument("--offline", action="store_true",
+                        help="Skip the live manifest and plan from the stored snapshot")
     parser.add_argument("--all-panel-genes", action="store_true", default=True,
                         help="Compute the panel-wide null, not just the 62 candidates")
     parser.add_argument("--min-cells", type=int, default=MIN_CELLS_PER_STRATUM)
@@ -393,18 +448,31 @@ def main(argv=None):
     report = {"run_time_UTC": utc_now(), "status": "pending", "caution": CAUTION,
               "animals_requested": args.animals, "release": args.release, "pending": []}
     try:
-        manifest, manifest_path = fetch_manifest(args.release)
+        manifest, manifest_path, origin = fetch_manifest(args.release, live=not args.offline)
         report["manifest_version"] = manifest["version"]
+        report["manifest_origin"] = origin
         report["manifest_sha256"] = checksum(manifest_path, "sha256")
-        report["zhuang_manifest_entries"] = describe_manifest(manifest, args.animals)
+        report["zhuang_manifest_entries"] = describe_manifest(manifest)
+        report["download_plan"] = download_plan(manifest, args.animals)
+        candidates = candidate_genes()
+        report["candidate_genes"] = len(candidates)
         if args.list:
             report["status"] = "manifest_listed"
+            print(json.dumps(report["download_plan"], indent=2))
             return 0
 
-        candidates = candidate_genes()
         if not args.download:
             report["pending"].append("Pass --download to fetch the verified Allen files")
             return 2
+        if origin != "live S3 release manifest":
+            raise ValueError("Refusing to download against a stored snapshot. The published MD5 "
+                             "must come from the live release manifest; retry when S3 is reachable.")
+        required = report["download_plan"]["total_bytes_if_nothing_cached"] + 8 * 1024 ** 3
+        INPUT.mkdir(parents=True, exist_ok=True)
+        free = shutil.disk_usage(INPUT).free
+        report["free_bytes"] = free
+        if free < required:
+            raise OSError(f"Need about {required:,} free bytes including working room, have {free:,}")
 
         per_animal = []
         coverage_written = False

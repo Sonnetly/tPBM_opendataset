@@ -1,0 +1,210 @@
+{
+  "run_time_UTC": "2026-10-15T06:28:28.637920+00:00",
+  "status": "manifest_listed",
+  "caution": "Zhuang-ABCA MERFISH, normal untreated brains. Descriptive within-subclass regional comparison only. No PBM condition is present, so nothing here estimates a PBM response. Panel absence means unmeasured, not zero. Per-animal agreement is reported instead of an animal-level p value.",
+  "animals_requested": [
+    "Zhuang-ABCA-1",
+    "Zhuang-ABCA-2",
+    "Zhuang-ABCA-3",
+    "Zhuang-ABCA-4"
+  ],
+  "release": "20250531",
+  "pending": [],
+  "manifest_version": "20250531",
+  "manifest_origin": "stored snapshot, not refetched",
+  "manifest_sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
+  "zhuang_manifest_entries": {
+    "Zhuang-ABCA-1": {
+      "expression_matrices/Zhuang-ABCA-1/raw": {
+        "bytes": 1193452436,
+        "format": ".h5ad"
+      },
+      "expression_matrices/Zhuang-ABCA-1/log2": {
+        "bytes": 2128478610,
+        "format": ".h5ad"
+      },
+      "metadata/cell_metadata": {
+        "bytes": 661035596,
+        "format": ".csv"
+      },
+      "metadata/gene": {
+        "bytes": 84677,
+        "format": ".csv"
+      },
+      "metadata/cell_metadata_with_cluster_annotation": {
+        "bytes": 871047338,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-1-CCF": {
+      "metadata/ccf_coordinates": {
+        "bytes": 220766326,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-2": {
+      "expression_matrices/Zhuang-ABCA-2/raw": {
+        "bytes": 520384543,
+        "format": ".h5ad"
+      },
+      "expression_matrices/Zhuang-ABCA-2/log2": {
+        "bytes": 871420938,
+        "format": ".h5ad"
+      },
+      "metadata/cell_metadata": {
+        "bytes": 285532200,
+        "format": ".csv"
+      },
+      "metadata/gene": {
+        "bytes": 84677,
+        "format": ".csv"
+      },
+      "metadata/cell_metadata_with_cluster_annotation": {
+        "bytes": 376180083,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-2-CCF": {
+      "metadata/ccf_coordinates": {
+        "bytes": 89087322,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-3": {
+      "expression_matrices/Zhuang-ABCA-3/raw": {
+        "bytes": 658305677,
+        "format": ".h5ad"
+      },
+      "expression_matrices/Zhuang-ABCA-3/log2": {
+        "bytes": 1160586154,
+        "format": ".h5ad"
+      },
+      "metadata/cell_metadata": {
+        "bytes": 369078900,
+        "format": ".csv"
+      },
+      "metadata/gene": {
+        "bytes": 84677,
+        "format": ".csv"
+      },
+      "metadata/cell_metadata_with_cluster_annotation": {
+        "bytes": 489287971,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-3-CCF": {
+      "metadata/ccf_coordinates": {
+        "bytes": 132290292,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-4": {
+      "expression_matrices/Zhuang-ABCA-4/raw": {
+        "bytes": 64247492,
+        "format": ".h5ad"
+      },
+      "expression_matrices/Zhuang-ABCA-4/log2": {
+        "bytes": 106739752,
+        "format": ".h5ad"
+      },
+      "metadata/cell_metadata": {
+        "bytes": 37955304,
+        "format": ".csv"
+      },
+      "metadata/gene": {
+        "bytes": 84677,
+        "format": ".csv"
+      },
+      "metadata/cell_metadata_with_cluster_annotation": {
+        "bytes": 50545200,
+        "format": ".csv"
+      }
+    },
+    "Zhuang-ABCA-4-CCF": {
+      "metadata/ccf_coordinates": {
+        "bytes": 13750526,
+        "format": ".csv"
+      }
+    }
+  },
+  "download_plan": {
+    "Zhuang-ABCA-1": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-1/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 871047338,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-1-CCF/metadata/ccf_coordinates",
+        "bytes": 220766326,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-1/expression_matrices/Zhuang-ABCA-1/log2",
+        "bytes": 2128478610,
+        "cached": false
+      }
+    },
+    "Zhuang-ABCA-2": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-2/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 376180083,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-2-CCF/metadata/ccf_coordinates",
+        "bytes": 89087322,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-2/expression_matrices/Zhuang-ABCA-2/log2",
+        "bytes": 871420938,
+        "cached": false
+      }
+    },
+    "Zhuang-ABCA-3": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-3/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 489287971,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-3-CCF/metadata/ccf_coordinates",
+        "bytes": 132290292,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-3/expression_matrices/Zhuang-ABCA-3/log2",
+        "bytes": 1160586154,
+        "cached": false
+      }
+    },
+    "Zhuang-ABCA-4": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-4/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 50545200,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-4-CCF/metadata/ccf_coordinates",
+        "bytes": 13750526,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-4/expression_matrices/Zhuang-ABCA-4/log2",
+        "bytes": 106739752,
+        "cached": false
+      }
+    },
+    "Allen-CCF-2020": {
+      "parcellation": {
+        "entry": "Allen-CCF-2020/metadata/parcellation_to_parcellation_term_membership_acronym",
+        "bytes": 22261,
+        "cached": false
+      }
+    },
+    "total_bytes_if_nothing_cached": 6510202773,
+    "total_GB_if_nothing_cached": 6.06
+  },
+  "candidate_genes": 62
+}
