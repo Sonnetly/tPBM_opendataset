@@ -1,10 +1,12 @@
 {
-  "run_time_UTC": "2026-10-15T06:52:14.115152+00:00",
+  "run_time_UTC": "2026-10-15T07:10:40.119454+00:00",
   "status": "zhuang_within_subclass_analysis_completed",
   "caution": "Zhuang-ABCA MERFISH, normal untreated brains. Descriptive within-subclass regional comparison only. No PBM condition is present, so nothing here estimates a PBM response. Panel absence means unmeasured, not zero. Per-animal agreement is reported instead of an animal-level p value.",
   "animals_requested": [
     "Zhuang-ABCA-1",
-    "Zhuang-ABCA-2"
+    "Zhuang-ABCA-2",
+    "Zhuang-ABCA-3",
+    "Zhuang-ABCA-4"
   ],
   "release": "20250531",
   "pending": [],
@@ -147,16 +149,50 @@
       "annotation": {
         "entry": "Zhuang-ABCA-2/metadata/cell_metadata_with_cluster_annotation",
         "bytes": 376180083,
-        "cached": false
+        "cached": true
       },
       "ccf": {
         "entry": "Zhuang-ABCA-2-CCF/metadata/ccf_coordinates",
         "bytes": 89087322,
-        "cached": false
+        "cached": true
       },
       "expression": {
         "entry": "Zhuang-ABCA-2/expression_matrices/Zhuang-ABCA-2/log2",
         "bytes": 871420938,
+        "cached": true
+      }
+    },
+    "Zhuang-ABCA-3": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-3/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 489287971,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-3-CCF/metadata/ccf_coordinates",
+        "bytes": 132290292,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-3/expression_matrices/Zhuang-ABCA-3/log2",
+        "bytes": 1160586154,
+        "cached": false
+      }
+    },
+    "Zhuang-ABCA-4": {
+      "annotation": {
+        "entry": "Zhuang-ABCA-4/metadata/cell_metadata_with_cluster_annotation",
+        "bytes": 50545200,
+        "cached": false
+      },
+      "ccf": {
+        "entry": "Zhuang-ABCA-4-CCF/metadata/ccf_coordinates",
+        "bytes": 13750526,
+        "cached": false
+      },
+      "expression": {
+        "entry": "Zhuang-ABCA-4/expression_matrices/Zhuang-ABCA-4/log2",
+        "bytes": 106739752,
         "cached": false
       }
     },
@@ -167,11 +203,11 @@
         "cached": true
       }
     },
-    "total_bytes_if_nothing_cached": 4557002878,
-    "total_GB_if_nothing_cached": 4.24
+    "total_bytes_if_nothing_cached": 6510202773,
+    "total_GB_if_nothing_cached": 6.06
   },
   "candidate_genes": 62,
-  "free_bytes": 27951267840,
+  "free_bytes": 26141360128,
   "panel_size": 1122,
   "candidates_measured": [
     "Adora1",
@@ -251,6 +287,18 @@
       "VISp": 15410,
       "shared_strata": 19,
       "dropped_strata": 27
+    },
+    "Zhuang-ABCA-3": {
+      "MOp": 25856,
+      "VISp": 22864,
+      "shared_strata": 20,
+      "dropped_strata": 22
+    },
+    "Zhuang-ABCA-4": {
+      "MOp": 2884,
+      "VISp": 3624,
+      "shared_strata": 13,
+      "dropped_strata": 22
     }
   }
 }

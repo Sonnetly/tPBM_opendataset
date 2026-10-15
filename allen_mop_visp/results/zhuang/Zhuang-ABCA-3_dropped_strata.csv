@@ -1,0 +1,23 @@
+animal,subclass_clean,cell_class,n_MOp,n_VISp,reason
+Zhuang-ABCA-3,Astro-NT NN,Other,4,2,fewer than 50 cells
+Zhuang-ABCA-3,Astro-OLF NN,Other,5,4,fewer than 50 cells
+Zhuang-ABCA-3,Astroependymal NN,Other,4,0,subclass absent in one region
+Zhuang-ABCA-3,BAM NN,Other,68,32,fewer than 50 cells
+Zhuang-ABCA-3,CLA-EPd-CTX Car3 Glut,Glutamatergic,74,47,fewer than 50 cells
+Zhuang-ABCA-3,CT SUB Glut,Glutamatergic,3,3,fewer than 50 cells
+Zhuang-ABCA-3,DC NN,Other,6,2,fewer than 50 cells
+Zhuang-ABCA-3,HPF CR Glut,Glutamatergic,2,1,fewer than 50 cells
+Zhuang-ABCA-3,IT EP-CLA Glut,Glutamatergic,2,3,fewer than 50 cells
+Zhuang-ABCA-3,L2/3 IT RSP Glut,Glutamatergic,1,0,subclass absent in one region
+Zhuang-ABCA-3,L6b CTX Glut,Glutamatergic,105,44,fewer than 50 cells
+Zhuang-ABCA-3,Lamp5 Lhx6 Gaba,GABAergic,8,4,fewer than 50 cells
+Zhuang-ABCA-3,Lymphoid NN,Other,13,16,fewer than 50 cells
+Zhuang-ABCA-3,MEA-COA-BMA Ccdc42 Glut,Glutamatergic,3,1,fewer than 50 cells
+Zhuang-ABCA-3,OB-mi Frmd7 Gaba,GABAergic,0,1,subclass absent in one region
+Zhuang-ABCA-3,Pvalb chandelier Gaba,GABAergic,25,10,fewer than 50 cells
+Zhuang-ABCA-3,RHP-COA Ndnf Gaba,GABAergic,0,1,subclass absent in one region
+Zhuang-ABCA-3,STR D1 Gaba,GABAergic,1,0,subclass absent in one region
+Zhuang-ABCA-3,STR D2 Gaba,GABAergic,1,0,subclass absent in one region
+Zhuang-ABCA-3,STR-PAL Chst9 Gaba,GABAergic,2,0,subclass absent in one region
+Zhuang-ABCA-3,Sncg Gaba,GABAergic,77,41,fewer than 50 cells
+Zhuang-ABCA-3,Sst Chodl Gaba,GABAergic,39,11,fewer than 50 cells
