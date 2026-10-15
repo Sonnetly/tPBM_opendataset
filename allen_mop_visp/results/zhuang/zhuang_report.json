@@ -1,18 +1,16 @@
 {
-  "run_time_UTC": "2026-10-15T06:28:28.637920+00:00",
-  "status": "manifest_listed",
+  "run_time_UTC": "2026-10-15T06:52:14.115152+00:00",
+  "status": "zhuang_within_subclass_analysis_completed",
   "caution": "Zhuang-ABCA MERFISH, normal untreated brains. Descriptive within-subclass regional comparison only. No PBM condition is present, so nothing here estimates a PBM response. Panel absence means unmeasured, not zero. Per-animal agreement is reported instead of an animal-level p value.",
   "animals_requested": [
     "Zhuang-ABCA-1",
-    "Zhuang-ABCA-2",
-    "Zhuang-ABCA-3",
-    "Zhuang-ABCA-4"
+    "Zhuang-ABCA-2"
   ],
   "release": "20250531",
   "pending": [],
   "manifest_version": "20250531",
-  "manifest_origin": "stored snapshot, not refetched",
-  "manifest_sha256": "12a58f42c06aff0a0cb8bdd7069b73273f64dbd144557d46a7a3242887f14478",
+  "manifest_origin": "live S3 release manifest",
+  "manifest_sha256": "d1c3f8d8c4e6657dbb8da53e6403f11e6116a125a3682dba9180cc6e998f24cd",
   "zhuang_manifest_entries": {
     "Zhuang-ABCA-1": {
       "expression_matrices/Zhuang-ABCA-1/raw": {
@@ -132,17 +130,17 @@
       "annotation": {
         "entry": "Zhuang-ABCA-1/metadata/cell_metadata_with_cluster_annotation",
         "bytes": 871047338,
-        "cached": false
+        "cached": true
       },
       "ccf": {
         "entry": "Zhuang-ABCA-1-CCF/metadata/ccf_coordinates",
         "bytes": 220766326,
-        "cached": false
+        "cached": true
       },
       "expression": {
         "entry": "Zhuang-ABCA-1/expression_matrices/Zhuang-ABCA-1/log2",
         "bytes": 2128478610,
-        "cached": false
+        "cached": true
       }
     },
     "Zhuang-ABCA-2": {
@@ -162,49 +160,97 @@
         "cached": false
       }
     },
-    "Zhuang-ABCA-3": {
-      "annotation": {
-        "entry": "Zhuang-ABCA-3/metadata/cell_metadata_with_cluster_annotation",
-        "bytes": 489287971,
-        "cached": false
-      },
-      "ccf": {
-        "entry": "Zhuang-ABCA-3-CCF/metadata/ccf_coordinates",
-        "bytes": 132290292,
-        "cached": false
-      },
-      "expression": {
-        "entry": "Zhuang-ABCA-3/expression_matrices/Zhuang-ABCA-3/log2",
-        "bytes": 1160586154,
-        "cached": false
-      }
-    },
-    "Zhuang-ABCA-4": {
-      "annotation": {
-        "entry": "Zhuang-ABCA-4/metadata/cell_metadata_with_cluster_annotation",
-        "bytes": 50545200,
-        "cached": false
-      },
-      "ccf": {
-        "entry": "Zhuang-ABCA-4-CCF/metadata/ccf_coordinates",
-        "bytes": 13750526,
-        "cached": false
-      },
-      "expression": {
-        "entry": "Zhuang-ABCA-4/expression_matrices/Zhuang-ABCA-4/log2",
-        "bytes": 106739752,
-        "cached": false
-      }
-    },
     "Allen-CCF-2020": {
       "parcellation": {
         "entry": "Allen-CCF-2020/metadata/parcellation_to_parcellation_term_membership_acronym",
         "bytes": 22261,
-        "cached": false
+        "cached": true
       }
     },
-    "total_bytes_if_nothing_cached": 6510202773,
-    "total_GB_if_nothing_cached": 6.06
+    "total_bytes_if_nothing_cached": 4557002878,
+    "total_GB_if_nothing_cached": 4.24
   },
-  "candidate_genes": 62
+  "candidate_genes": 62,
+  "free_bytes": 27951267840,
+  "panel_size": 1122,
+  "candidates_measured": [
+    "Adora1",
+    "Adora2a",
+    "Ccbe1",
+    "Cdkn1c",
+    "Ecel1",
+    "Epha4",
+    "Npnt",
+    "Penk",
+    "Slc10a4",
+    "Stxbp6",
+    "Trpc5",
+    "Zeb2"
+  ],
+  "candidates_not_measured": [
+    "Ada",
+    "Adipor2",
+    "Adk",
+    "Arid5b",
+    "Arpp21",
+    "Arsb",
+    "Atp2b3",
+    "Bcl7a",
+    "Bcs1l",
+    "Btbd3",
+    "Btbd9",
+    "Cacna1c",
+    "Cd276",
+    "Cdk14",
+    "Chrm4",
+    "Dlgap1",
+    "Entpd1",
+    "Faah",
+    "Gimap6",
+    "Gjb6",
+    "Grid1",
+    "Grin2a",
+    "Grm2",
+    "Hsd11b1",
+    "Ier5",
+    "Ifitm2",
+    "Irs1",
+    "Kcnj6",
+    "Map2k6",
+    "Mrps6",
+    "Nt5e",
+    "Nupr1",
+    "Pcdh19",
+    "Ppargc1a",
+    "Proz",
+    "Ptpn3",
+    "Ryr2",
+    "S100a10",
+    "Samd12",
+    "Sap30",
+    "Shisa7",
+    "Slc29a1",
+    "Slc29a2",
+    "Slitrk3",
+    "Sorbs3",
+    "Sphkap",
+    "Stra6",
+    "Tmem40",
+    "Tnr",
+    "Wnt9a"
+  ],
+  "cells": {
+    "Zhuang-ABCA-1": {
+      "MOp": 48400,
+      "VISp": 38475,
+      "shared_strata": 23,
+      "dropped_strata": 32
+    },
+    "Zhuang-ABCA-2": {
+      "MOp": 21194,
+      "VISp": 15410,
+      "shared_strata": 19,
+      "dropped_strata": 27
+    }
+  }
 }

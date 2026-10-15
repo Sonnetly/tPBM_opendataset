@@ -1,0 +1,33 @@
+animal,subclass_clean,cell_class,n_MOp,n_VISp,reason
+Zhuang-ABCA-1,Astro-CB NN,Other,1,0,subclass absent in one region
+Zhuang-ABCA-1,Astro-NT NN,Other,11,10,fewer than 50 cells
+Zhuang-ABCA-1,Astro-OLF NN,Other,6,2,fewer than 50 cells
+Zhuang-ABCA-1,Astroependymal NN,Other,2,2,fewer than 50 cells
+Zhuang-ABCA-1,CLA-EPd-CTX Car3 Glut,Glutamatergic,147,43,fewer than 50 cells
+Zhuang-ABCA-1,CT SUB Glut,Glutamatergic,5,8,fewer than 50 cells
+Zhuang-ABCA-1,DC NN,Other,8,7,fewer than 50 cells
+Zhuang-ABCA-1,DCO UBC Glut,Glutamatergic,1,0,subclass absent in one region
+Zhuang-ABCA-1,DG Glut,Glutamatergic,1,0,subclass absent in one region
+Zhuang-ABCA-1,HPF CR Glut,Glutamatergic,4,4,fewer than 50 cells
+Zhuang-ABCA-1,IT EP-CLA Glut,Glutamatergic,21,5,fewer than 50 cells
+Zhuang-ABCA-1,L2 IT PPP-APr Glut,Glutamatergic,0,1,subclass absent in one region
+Zhuang-ABCA-1,L2/3 IT PIR-ENTl Glut,Glutamatergic,3,3,fewer than 50 cells
+Zhuang-ABCA-1,L2/3 IT PPP Glut,Glutamatergic,1,0,subclass absent in one region
+Zhuang-ABCA-1,L2/3 IT RSP Glut,Glutamatergic,2,0,subclass absent in one region
+Zhuang-ABCA-1,L5 PPP Glut,Glutamatergic,1,2,fewer than 50 cells
+Zhuang-ABCA-1,Lamp5 Lhx6 Gaba,GABAergic,23,9,fewer than 50 cells
+Zhuang-ABCA-1,Lymphoid NN,Other,54,35,fewer than 50 cells
+Zhuang-ABCA-1,MEA Slc17a7 Glut,Glutamatergic,2,0,subclass absent in one region
+Zhuang-ABCA-1,MEA-BST Lhx6 Sp9 Gaba,GABAergic,1,0,subclass absent in one region
+Zhuang-ABCA-1,MEA-COA-BMA Ccdc42 Glut,Glutamatergic,3,4,fewer than 50 cells
+Zhuang-ABCA-1,Monocytes NN,Other,1,1,fewer than 50 cells
+Zhuang-ABCA-1,OB Dopa-Gaba,GABAergic,1,0,subclass absent in one region
+Zhuang-ABCA-1,OB-STR-CTX Inh IMN,GABAergic,0,1,subclass absent in one region
+Zhuang-ABCA-1,OB-mi Frmd7 Gaba,GABAergic,2,3,fewer than 50 cells
+Zhuang-ABCA-1,OB-out Frmd7 Gaba,GABAergic,2,0,subclass absent in one region
+Zhuang-ABCA-1,Pvalb chandelier Gaba,GABAergic,65,25,fewer than 50 cells
+Zhuang-ABCA-1,STR D1 Gaba,GABAergic,2,0,subclass absent in one region
+Zhuang-ABCA-1,STR Lhx8 Gaba,GABAergic,0,1,subclass absent in one region
+Zhuang-ABCA-1,STR-PAL Chst9 Gaba,GABAergic,2,0,subclass absent in one region
+Zhuang-ABCA-1,Sst Chodl Gaba,GABAergic,61,12,fewer than 50 cells
+Zhuang-ABCA-1,Tanycyte NN,Other,2,1,fewer than 50 cells

@@ -12,6 +12,8 @@
 
 [분석 파일과 재실행 방법](allen_mop_visp/README_ko.md), [실제 분석 보고서](allen_mop_visp/analysis_report_ko.md), [통합 비교 Excel](allen_mop_visp/results/MOp_VISp_Allen_comparison.xlsx)은 `allen_mop_visp/`에 있다. 공식 원본 다운로드에 성공해 B6J MERFISH의 MOp 83,976개·VISp 61,884개 세포 구성과 CTX-HPF RNA-seq 153,490개 세포의 62개 후보 발현을 계산했다. 단일 WT 동물의 구성 통계와 batch가 분리된 reporter RNA-seq의 기술 통계를 구분하며, 동물 수준 유의성 검정은 하지 않았다.
 
+B6N Zhuang-ABCA MERFISH(Zhang et al., Nature 2023, 1,122-gene panel) 중 Zhuang-ABCA-1과 -2로 subclass 내 MOp−VISp 발현 차이와 동물 간 부호 일치를 계산했다. Adora1은 IT와 CT 계열 Glut에서 MOp가 낮고 Pvalb에서 MOp가 높은 방향이 두 동물에서 일치했다. B6J 주 분석과 합산하지 않으며 PBM 반응을 측정한 것이 아니다. 데이터셋 설명, 수행 내용, 결과는 [Zhuang 보고서](allen_mop_visp/results/zhuang/zhuang_report_ko.md)에 있다.
+
 Allen Mouse Brain Connectivity Atlas의 실제 MOp·VISp 주입 실험에서 NREM 관련 영역으로의 투사도 계산했다. WT 실험 MOp 8개·VISp 33개의 개별 지표와 연령·주입 순도 민감도 결과는 [투사 보고서](allen_mop_visp/results/connectivity/NREM_projection_report_ko.md)와 [별도 Excel](allen_mop_visp/results/connectivity/MOp_VISp_NREM_projection.xlsx)에 있다. ZI는 후속 회로 검증 후보이며, 축삭 신호를 수면촉진 세포와의 연결이나 NREM 유발 효과로 해석하지 않는다. [표적 정의와 기능 문헌](allen_mop_visp/docs/NREM_projection_target_definition_ko.md), [투사·분자 경로 후속 방법](allen_mop_visp/docs/downstream_pathway_analysis_options_ko.md)을 함께 참고한다.
 
 ## GitHub 반영

@@ -24,6 +24,7 @@
 - RNA-seq은 공식 GEO GSE185862의 10x 원본(발현 행렬 5.72 GB 및 metadata)을 확보해 exact MOp 123,727개·VISp 29,763개 세포의 62개 후보 발현을 실제 계산했다. 원본 전체 31,053개 유전자의 세포별 count 합계를 정규화 분모로 보존했다. [실제 발현 보고서](results/rnaseq/RNAseq_results_ko.md), [RNA-seq 상태 파일](results/rnaseq/status.json), [재현 방법](docs/RNAseq_analysis_ko.md)에 결과와 조건이 있다.
 - 공식 SMART-seq v4 원본도 받아 MOp 6,588개·VISp 15,572개와 62개 후보를 별도로 분석했다. 조건을 맞춘 자체 비교 38개 strata를 표시하며 10x와 직접 대응되는 strata는 없다. 다른 reporter·연령의 보조 결과를 10x 방향 재현으로 해석하지 않는다. `results/rnaseq/smartseq/`에 별도 결과가 있다.
 - Allen Connectivity의 MOp·VISp primary injection 실험 168개를 실제 확보했다. WT MOp 8개·VISp 33개를 주 분석으로, Cre line MOp 23개·VISp 104개는 line별 별도 탐색으로 보존했다. NREM 관련 atlas label 7개의 좌·우·양측 3,528개 unionize 기록을 확인하고 연령·주입 순도 민감도를 계산했다. PZ는 ontology exact label이 없어 미평가로 남겼다. ZI에서 관찰된 차이는 후속 해부학 후보이며 Lhx6 세포 targeting·시냅스·NREM 효과는 미확인이다. `results/connectivity/`에 개별 실험·요약·상태·보고서·별도 Excel을 보관한다.
+- 2026-10-15 Zhuang-ABCA MERFISH(Zhang et al., Nature 2023, ABC Atlas release `20250531`) 중 Zhuang-ABCA-1과 -2를 분석했다. B6N(C57BL/6NCrl) 동물이고 1,122-gene panel이며 Allen WMB taxonomy와 CCF 2020 parcellation이 붙어 있다. 공개 MD5를 검증한 원본 약 4.2 GB로 MOp 69,594개와 VISp 53,885개 세포의 subclass 내 MOp−VISp log2 평균 차이, panel 전체 cell-class discordance, 동물 간 부호 일치를 계산했다. 후보 62개 중 12개가 측정된다. Adora1은 IT와 CT 계열 Glut에서 MOp가 낮고 Pvalb에서 MOp가 높은 방향이 두 동물에서 같았으며 Sst, Vip, Lamp5는 일관되지 않았다. 차이 크기는 0.07~0.14로 작다. ABCA-1 발현 행렬은 dense 약 18.7 GB여서 기존 로더가 메모리 초과로 종료됐고, `src/merfish/run_zhuang.py`의 `load_expression`을 행 블록 읽기로 고쳤다(값 동일). B6J 주 분석과 합산하지 않는다. [Zhuang 보고서](results/zhuang/zhuang_report_ko.md)에 데이터셋 설명, 수행 내용, 결과와 한계가 있다. ABCA-3과 -4는 미분석이다.
 - 공간 주 자료는 B6J 단일 동물 MERFISH이며 동물 간 통계 검정을 수행하지 않는다. RNA-seq의 세포 수를 조직 구성 비율이나 독립 동물 수로 사용하지 않는다.
 - WT B6J와 B6J 배경 transgenic은 분리한다. 정확한 MOp와 VISp가 있는 자료만 직접 비교하며 ALM이나 VIS 전체를 대신 사용하지 않는다.
 - 국소 자극 ROI는 V1 AP가 잠정값이고 bregma→CCF 등록을 수행하지 않아 보류했다. mm·bregma AP/ML 및 뇌 표면 DV, core 직경 400 µm는 사용자 확인을 받았다. M1은 (1.34, 2.46, 0), V1은 (약 −2.3, 2.46, 0)이다. 사용자 좌표는 [기록 파일](docs/stimulation_coordinates_user.json)에 있다. 400 µm만으로 광학적 ROI를 정하지 않는다.
@@ -63,6 +64,13 @@ B6J MERFISH의 공식 manifest와 체크섬으로 metadata를 받아 전체 영�
 .venv/bin/python src/merfish/run_merfish.py --download
 ```
 
+B6N Zhuang-ABCA MERFISH의 manifest를 확인하고 동물별 원본을 받아 subclass 내 MOp−VISp 비교를 계산한다. 원본은 `input/zhuang/cache/`에 저장되며 Git에서 제외된다. 메모리 7 GB 환경에서 실행을 확인했다.
+
+```bash
+.venv/bin/python src/merfish/run_zhuang.py --list
+.venv/bin/python src/merfish/run_zhuang.py --download --animals Zhuang-ABCA-1 Zhuang-ABCA-2
+```
+
 공식 GEO에서 10x 입력을 내려받아 후보 subset과 전체 유전자 정규화 분모를 다시 생성한다. 대형 원본을 받지 않아도 아래의 발현 계산은 이동용 묶음에 포함된 subset으로 재현할 수 있다:
 
 ```bash
@@ -97,7 +105,7 @@ NREM 관련 projection의 실제 공식 API 응답을 확보하고, 보존된 �
 
 현재 런타임에서 ABC S3, 공식 GEO HTTPS archive와 Allen Connectivity HTTPS API에 실제 접근·다운로드했다. 과거 Allen CTX-HPF S3 경로는 여전히 막혀 있어 동일 연구의 공식 GEO 원본을 사용한다. 네트워크 설정 초안 저장은 런타임 적용을 뜻하지 않는다. 주소·응답·검증 정보는 `input/merfish/`, `input/rnaseq/`, `input/connectivity/`, [네트워크 기록](docs/network_requirements.json)에 보존한다.
 
-대형 다운로드는 `input/merfish/cache/`와 `input/rnaseq/raw/`에 남기고 Git·이동용 ZIP에서 제외한다. 분석에 사용한 MOp/VISp metadata, 후보 raw-count subset, 전체 유전자 count 합계, 공식 출처·hash는 포함한다. 원본이 필요하면 같은 코드와 URL로 다시 받는다.
+대형 다운로드는 `input/merfish/cache/`, `input/zhuang/cache/`와 `input/rnaseq/raw/`에 남기고 Git·이동용 ZIP에서 제외한다. 분석에 사용한 MOp/VISp metadata, 후보 raw-count subset, 전체 유전자 count 합계, 공식 출처·hash는 포함한다. 원본이 필요하면 같은 코드와 URL로 다시 받는다.
 
 ## 이동용 묶음
 

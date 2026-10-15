@@ -9,3 +9,4 @@ input/rnaseq/raw/
 .env
 .env.*
 !.env.example
+input/zhuang/cache/

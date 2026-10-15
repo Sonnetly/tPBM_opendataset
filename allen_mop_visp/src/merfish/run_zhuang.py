@@ -284,12 +284,34 @@ def load_expression(manifest, animal, cell_labels, genes=None):
         keep = np.arange(len(symbols))
     index = pd.Index(adata.obs_names.astype(str))
     present = index.intersection(pd.Index(list(cell_labels)))
-    rows = index.get_indexer(present)
-    order = np.argsort(rows)
-    block = adata[rows[order], keep].to_memory().X
-    block = np.asarray(block.todense() if hasattr(block, "todense") else block, dtype=np.float32)
-    frame = pd.DataFrame(block, index=present[order], columns=symbols[keep])
+    rows = np.sort(index.get_indexer(present))
     adata.file.close()
+
+    # The Zhuang log2 matrices are dense, gzip-chunked float32 (ABCA-1 alone is about
+    # 18.7 GB uncompressed). Fancy indexing through anndata's backed view materialises far
+    # more than the selected rows and exhausts memory on a small machine, so the selected
+    # rows are pulled block by block along the stored row chunks instead. Values are
+    # identical; only peak memory changes.
+    import h5py
+
+    out = np.empty((len(rows), len(keep)), dtype=np.float32)
+    with h5py.File(path, "r") as handle:
+        matrix = handle["X"]
+        if not isinstance(matrix, h5py.Dataset):
+            raise TypeError(f"{path.name}: expected a dense X, found a group (sparse)")
+        step = matrix.chunks[0] * 8 if matrix.chunks else 131_072
+        filled = 0
+        for start in range(0, matrix.shape[0], step):
+            stop = min(start + step, matrix.shape[0])
+            lo, hi = np.searchsorted(rows, [start, stop])
+            if lo == hi:
+                continue
+            block = matrix[start:stop, :]
+            out[filled:filled + hi - lo] = block[rows[lo:hi] - start][:, keep]
+            filled += hi - lo
+        if filled != len(rows):
+            raise RuntimeError(f"{path.name}: filled {filled} of {len(rows)} rows")
+    frame = pd.DataFrame(out, index=index[rows], columns=symbols[keep])
     return frame, symbols
 
 
