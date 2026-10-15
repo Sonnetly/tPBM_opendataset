@@ -1,0 +1,9 @@
+{
+  "source": "GEO GSE185862 10x_v2",
+  "cells": 153490,
+  "genes": 31053,
+  "groups": 131,
+  "focus_genes": 183,
+  "check": "group sums equal stored full-library totals",
+  "seconds": 134
+}

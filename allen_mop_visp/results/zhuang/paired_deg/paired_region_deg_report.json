@@ -1,0 +1,13 @@
+{
+  "rule": {
+    "min_animals": 3,
+    "all_same_sign": true,
+    "min_abs_mean_difference": 0.1,
+    "max_q_BH_within_subclass": 0.1
+  },
+  "units": "difference of mean official log2 MERFISH expression; not log2 fold change",
+  "tested_rows": 12342,
+  "called_rows": 496,
+  "called_genes": 260,
+  "caution": "Four B6N animals, paired by animal. Panel of 1,122 genes chosen for cell typing, so absent genes are unmeasured. No PBM condition is present."
+}

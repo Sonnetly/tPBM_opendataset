@@ -1,0 +1,63 @@
+{
+  "design": "within-region subclass vs other neurons, paired by donor; replication across disjoint MOp and VISp donors and batches",
+  "rule": {
+    "log2FC_min": 1,
+    "all_donors_same_sign": true,
+    "pct_in_min": 0.25,
+    "q_max_MOp_discovery": 0.05,
+    "VISp_replication": "log2FC>=1, all 3 donors up, pct_in>=0.25, no q filter",
+    "min_cells_per_donor_subclass": 20
+  },
+  "regions": {
+    "MOp": {
+      "donors": [
+        "352353",
+        "352356",
+        "352357"
+      ],
+      "subclasses": [
+        "Car3",
+        "L2/3 IT CTX",
+        "L4/5 IT CTX",
+        "L5 IT CTX",
+        "L5 PT CTX",
+        "L5/6 NP CTX",
+        "L6 CT CTX",
+        "L6 IT CTX",
+        "L6b CTX",
+        "Lamp5",
+        "Pvalb",
+        "Sncg",
+        "Sst",
+        "Sst Chodl",
+        "Vip"
+      ]
+    },
+    "VISp": {
+      "donors": [
+        "355878",
+        "365616",
+        "365617"
+      ],
+      "subclasses": [
+        "Car3",
+        "L2/3 IT CTX",
+        "L4/5 IT CTX",
+        "L5 IT CTX",
+        "L5 PT CTX",
+        "L5/6 NP CTX",
+        "L6 CT CTX",
+        "L6 IT CTX",
+        "L6b CTX",
+        "Lamp5",
+        "Pvalb",
+        "Sncg",
+        "Sst",
+        "Vip"
+      ]
+    }
+  },
+  "markers_MOp": 4745,
+  "replicated_in_VISp": 3299,
+  "caution": "Snap25-IRES2-Cre;Ai14 RFP+ sorted neurons, male P57-P59. Not WT, no PBM condition. Region contrasts are not computed because region equals donor and batch."
+}

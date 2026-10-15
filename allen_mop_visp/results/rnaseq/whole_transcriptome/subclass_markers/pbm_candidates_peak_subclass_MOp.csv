@@ -1,0 +1,53 @@
+gene,direction,peak,order
+Arpp21,down,L4/5 IT CTX,1
+Chrm4,down,L4/5 IT CTX,1
+Gjb6,down,L5/6 NP CTX,5
+Gimap6,down,L6 CT CTX,6
+Ier5,down,L6 CT CTX,6
+Ifitm2,down,L6 CT CTX,6
+Tmem40,down,L6b CTX,7
+Nupr1,down,Pvalb,9
+Sorbs3,down,Pvalb,9
+Ecel1,down,Sst Chodl,11
+Mrps6,down,Sst Chodl,11
+S100a10,down,Sst Chodl,11
+Penk,down,Vip,12
+Arid5b,down,Lamp5,13
+Adipor2,down,Sncg,14
+Cdkn1c,down,Sncg,14
+Sap30,down,Sncg,14
+Slc10a4,down,Sncg,14
+Arsb,up,L2/3 IT CTX,0
+Btbd9,up,L2/3 IT CTX,0
+Ccbe1,up,L2/3 IT CTX,0
+Faah,up,L2/3 IT CTX,0
+Kcnj6,up,L2/3 IT CTX,0
+Map2k6,up,L2/3 IT CTX,0
+Shisa7,up,L2/3 IT CTX,0
+Sphkap,up,L2/3 IT CTX,0
+Epha4,up,L4/5 IT CTX,1
+Grm2,up,L4/5 IT CTX,1
+Wnt9a,up,L4/5 IT CTX,1
+Bcl7a,up,L5 IT CTX,2
+Cdk14,up,L5 IT CTX,2
+Samd12,up,L6 IT CTX,3
+Hsd11b1,up,L5 PT CTX,4
+Npnt,up,L5 PT CTX,4
+Ptpn3,up,L5 PT CTX,4
+Cd276,up,L5/6 NP CTX,5
+Ryr2,up,L5/6 NP CTX,5
+Stra6,up,L6b CTX,7
+Cacna1c,up,Car3,8
+Grid1,up,Car3,8
+Tnr,up,Car3,8
+Atp2b3,up,Pvalb,9
+Btbd3,up,Pvalb,9
+Dlgap1,up,Pvalb,9
+Slitrk3,up,Sst,10
+Stxbp6,up,Sst,10
+Proz,up,Vip,12
+Grin2a,up,Lamp5,13
+Irs1,up,Lamp5,13
+Trpc5,up,Lamp5,13
+Pcdh19,up,Sncg,14
+Zeb2,up,Sncg,14
