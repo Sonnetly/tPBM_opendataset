@@ -2,7 +2,7 @@
 
 작성일 2026-10-15. 목적은 PBM 다음 실험을 고르기 위해 어떤 뉴런 유형이 어떤 유전자를 더 발현하는지, 그리고 같은 뉴런 유형이 M1과 V1에서 어떻게 다른지를 정상 상태 공개 atlas로 정리하는 것이다. 이 보고서의 어떤 결과도 PBM 처리 효과를 측정한 것이 아니다.
 
-그림은 `figures/report_m1v1/`에 PNG(180 dpi)와 PDF로 있다. 본문 그림은 Fig1~Fig7(Fig2는 a, b, c 세 장), 보조 그림은 Fig S1~S6이다.
+그림은 `figures/report_m1v1/`에 PNG(180 dpi)와 PDF로 있다. 본문 그림은 Fig1~Fig7(Fig2는 a, b, c, Fig4는 a, b), 보조 그림은 Fig S1~S6이다.
 
 ## 1. 두 데이터셋과 각각이 답하는 질문
 
@@ -103,13 +103,20 @@ Adora1을 두 자료에서 직접 비교 (Fig2c)
 
 정리하면 MOp의 표층과 중층 IT 뉴런은 VISp보다 A1R 전사체가 적고 adenosine 제거 효소 전사체가 많다. 같은 adenosine 농도에서 MOp IT 뉴런이 덜 억제되는 쪽의 차이이다. 이 해석은 mRNA 수준이고 Adk의 지역 차이는 10x 단독 관찰이다.
 
-### 3.4 PBM 공통 DEG의 기저 발현 분포 (Fig4)
+### 3.4 PBM 공통 DEG의 기저 발현 분포 (Fig4a, Fig4b)
 
-![Fig4](../../figures/report_m1v1/fig4_10x_pbm_candidates_heatmap.png)
+![Fig4a](../../figures/report_m1v1/fig4a_10x_pbm_candidates_MOp_VISp.png)
 
-- 기존 PBM에서 해마와 피질 모두 같은 방향으로 변한 52개 중 10x에 있는 유전자를 MOp 뉴런 유형별 기저 발현으로 정렬했다.
-- PBM으로 증가한 34개 중 8개가 L2/3 IT에서 기저 발현이 가장 높았다. 나머지 유형은 각각 0~3개였다. tPBM의 빛은 표층에 더 많이 도달하므로 표층 IT 뉴런이 증가 유전자를 주로 담고 있을 가능성이 있다. 다만 기존 PBM DEG는 glia가 섞인 조직 bulk에서 나왔고 이 atlas는 뉴런만 담고 있어, 이 분포는 가설 생성용이다.
-- 표는 `results/rnaseq/whole_transcriptome/subclass_markers/pbm_candidates_peak_subclass_MOp.csv`이다.
+- 기존 PBM에서 해마와 피질 모두 같은 방향으로 변한 52개 중 10x에 있는 유전자를 뉴런 유형별 기저 발현으로 정렬했다. 행 순서는 PBM 방향과 MOp에서 발현이 가장 높은 유형 순이다.
+- Fig4a는 MOp와 VISp를 나란히 놓았다. 행 z-score를 두 영역 열 전체로 계산해 두 패널의 같은 색이 같은 log2(CPM+1)를 뜻한다. 두 영역의 뉴런 유형별 패턴은 대체로 같다. 예를 들어 Arpp21은 두 영역 모두 IT에서 높고 Pvalb·Sst에서 낮으며, Nupr1과 Sorbs3는 두 영역 모두 Pvalb·Sst에서 높다.
+- PBM으로 증가한 34개 중 8개가 MOp L2/3 IT에서 기저 발현이 가장 높았다. tPBM의 빛은 표층에 더 많이 도달하므로 표층 IT 뉴런이 증가 유전자를 주로 담고 있을 가능성이 있다. 다만 기존 PBM DEG는 glia가 섞인 조직 bulk에서 나왔고 이 atlas는 뉴런만 담고 있어 이 분포는 가설 생성용이다.
+
+![Fig4b](../../figures/report_m1v1/fig4b_10x_pbm_candidates_region_difference.png)
+
+- Fig4b는 같은 뉴런 유형 안의 MOp 빼기 VISp(donor 평균 log2(CPM+1))이다. Fig2b와 같은 규칙으로 subclass 이름 아래에 MERFISH 대조 부호 일치도를 붙였고, 85% 미만은 주황으로 표시했다. 칼표는 MOp donor 3마리가 모두 VISp donor 3마리 범위 밖에 있는 칸이며, 두 영역 모두 5 CPM 미만인 칸은 low로 가렸다.
+- 신뢰도가 확인된 Glut 유형에서 칼표가 붙고 차이가 큰 예로는 MOp 쪽 Tnr(L4/5 IT +1.06, L5 PT +1.16), Pcdh19(L4/5 IT +1.59, L6 CT +1.09), Zeb2(L4/5 IT +1.30), Ccbe1(L6 IT +2.34), Sphkap(L6 CT +1.79), Trpc5(L6 IT +1.05)가 있다. VISp 쪽으로는 Stxbp6(L5/6 NP −2.39, L5 PT −1.06), Hsd11b1(L5 IT −1.77), Npnt(L2/3 IT −1.07)가 있다. 유형마다 방향이 바뀌는 유전자(Stxbp6, Sphkap, Hsd11b1 등)가 많아, 한 유전자의 지역 차이를 조직 전체 방향으로 일반화할 수 없다.
+- 이 차이들은 PBM 반응이 아닌 정상 뇌의 기저 발현이며, 10x 지역 차이는 donor와 batch가 섞여 있다. MERFISH panel에 있는 후보(Penk, Trpc5, Zeb2 등)는 Zhuang 짝지은 DEG 표에서 따로 확인할 수 있다.
+- 표는 `results/rnaseq/whole_transcriptome/subclass_markers/pbm_candidates_peak_subclass_MOp.csv`와 `results/rnaseq/whole_transcriptome/pbm_candidates_region/`에 있다.
 
 ### 3.5 M1과 V1의 같은 뉴런 유형 비교는 주로 영역 정체성 유전자 차이이다 (Fig5, Fig6)
 
@@ -176,8 +183,11 @@ Adora1을 두 자료에서 직접 비교 (Fig2c)
 .venv/bin/python src/report_figures_m1v1.py
 .venv/bin/python src/rnaseq/energy_gene_detail.py
 .venv/bin/python src/rnaseq/adenosine_region_compare.py
+.venv/bin/python src/rnaseq/pbm_candidates_region.py
 ```
 
-`report_figures_m1v1.py`는 Fig1, Fig2a, Fig4~Fig7을, `energy_gene_detail.py`는 Fig3과 Fig S1~S5를, `adenosine_region_compare.py`는 Fig2b, Fig2c, Fig S6을 만든다.
+`pbm_candidates_region.py`는 Fig4a와 Fig4b를 만든다.
+
+`report_figures_m1v1.py`는 Fig1, Fig2a, Fig5~Fig7(그리고 이전 MOp 단독 Fig4)을, `energy_gene_detail.py`는 Fig3과 Fig S1~S5를, `adenosine_region_compare.py`는 Fig2b, Fig2c, Fig S6을 만든다.
 
 MERFISH 입력은 `src/merfish/run_zhuang.py`와 `src/merfish/zhuang_supertype_check.py` 실행 결과를 사용한다([Zhuang 보고서](../zhuang/zhuang_report_ko.md)).

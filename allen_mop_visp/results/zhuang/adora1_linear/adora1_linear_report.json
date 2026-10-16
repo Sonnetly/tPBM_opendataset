@@ -1,0 +1,10 @@
+{
+  "purpose": "Linear-scale MOp/VISp ratio of Adora1 per animal; checks whether log2(x+1) differences understate regional differences at low expression",
+  "min_cells_per_region": 50,
+  "animals": [
+    "Zhuang-ABCA-1",
+    "Zhuang-ABCA-2",
+    "Zhuang-ABCA-3",
+    "Zhuang-ABCA-4"
+  ]
+}
