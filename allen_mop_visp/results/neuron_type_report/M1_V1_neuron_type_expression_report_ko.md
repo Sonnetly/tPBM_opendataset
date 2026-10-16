@@ -2,7 +2,7 @@
 
 작성일 2026-10-15. 목적은 PBM 다음 실험을 고르기 위해 어떤 뉴런 유형이 어떤 유전자를 더 발현하는지, 그리고 같은 뉴런 유형이 M1과 V1에서 어떻게 다른지를 정상 상태 공개 atlas로 정리하는 것이다. 이 보고서의 어떤 결과도 PBM 처리 효과를 측정한 것이 아니다.
 
-그림은 `figures/report_m1v1/`에 PNG(180 dpi)와 PDF로 있다.
+그림은 `figures/report_m1v1/`에 PNG(180 dpi)와 PDF로 있다. 본문 그림은 Fig1~Fig7(Fig2는 a, b, c 세 장), 보조 그림은 Fig S1~S6이다.
 
 ## 1. 두 데이터셋과 각각이 답하는 질문
 
@@ -43,25 +43,65 @@
 - 상위 marker는 알려진 정체성 유전자와 일치한다. L4/5 IT의 Rorb, L5 PT의 Pou3f1, Npr3, Nefh, L6 CT의 Foxp2, Syt6, Pvalb의 Pvalb, Syt2, Vip의 Vip, Crh, Lamp5의 Ndnf 등이다. 분석 파이프라인의 타당성 근거로 사용한다.
 - 전체 표는 `results/rnaseq/whole_transcriptome/subclass_markers/MOp_subclass_markers.csv`이다.
 
-### 3.2 에너지 대사 유전자는 Pvalb와 L5 PT에 집중된다 (Fig3)
+### 3.2 에너지 대사 유전자는 Pvalb와 L5 PT에 집중된다 (Fig3, Fig S1~S5)
 
 ![Fig3](../../figures/report_m1v1/fig3_10x_energy_module_heatmap.png)
 
-- OXPHOS 복합체 I~V의 핵 유전자 세트가 전체 MOp 뉴런 대비 가장 높은 유형은 Pvalb(+0.62~+0.77 log2)와 L5 PT(+0.47~+0.78)이다. donor 3마리 모두 같은 방향이다.
-- 810 nm PBM의 1차 수용체로 거론되는 복합체 IV(cytochrome c oxidase)도 같은 순서이다. Pvalb의 marker인 Cox6a2 같은 조직 특이 isoform을 빼고 공통 서브유닛 11개만으로 계산해도 Pvalb +0.57, L5 PT +0.47로 유지된다.
-- 미토콘드리아 생합성 조절자 Ppargc1a(PGC-1α)는 Pvalb(log2FC +2.82, 검출 98%), L5 PT(+1.62), Sst(+1.37)에서 높고 VISp donor에서도 같은 방향이다. Ppargc1a는 기존 PBM 22개 가설 panel에 포함된 유전자이다.
-- L5 PT는 creatine 완충(Ckmt1 +1.71)과 해당 및 젖산 수송(Slc16a1, Pkm)도 함께 높다.
+세트 점수의 정의. 각 행은 기능 세트 하나이다. 세트에 속한 유전자 count의 합이 subclass library에서 차지하는 비율을, 같은 donor의 같은 영역 전체 뉴런에서의 비율로 나눈 log2 값을 donor 3마리에서 평균했다. 0은 그 영역 평균 뉴런과 같다는 뜻이다. OXPHOS 행은 핵 유전자 서브유닛만 쓰고, mtDNA가 만드는 13개 서브유닛은 mtDNA 복제 수와 세포 상태를 함께 반영하므로 한 행으로 따로 두었다. 각 영역은 자기 영역 뉴런을 기준으로 따로 계산했기 때문에 MOp와 VISp 패널은 같은 패턴의 독립 재현으로 읽고, 패널 사이 칸끼리의 크기 비교는 하지 않는다.
+
+- OXPHOS 복합체 I~V가 가장 높은 유형은 Pvalb와 L5 PT이다. MOp에서 Pvalb +0.62~+0.77, L5 PT +0.47~+0.78이고, 다른 donor와 batch인 VISp에서도 Pvalb +0.69~+0.81, L5 PT +0.35~+0.53이다. 두 영역 세트 점수의 Pearson r은 0.92이다.
+- 810 nm PBM의 1차 수용체로 거론되는 복합체 IV(cytochrome c oxidase)도 같은 순서이다.
+- 미토콘드리아 생합성 세트는 Pvalb(MOp +1.56, VISp +1.28)와 L5 PT(+0.80, +0.64)에서 높다. Ppargc1a(PGC-1α)는 기존 PBM 22개 가설 panel에 포함된 유전자이다.
+- L5 PT는 creatine 완충(MOp +1.11)과 해당 및 젖산 세트(+0.77)도 함께 높다. creatine 차이는 VISp에서 +0.39로 작아진다.
 - Car3과 IT 계열은 OXPHOS가 평균 이하이다.
 
-### 3.3 adenosine 경로는 뉴런 유형별로 나뉜다 (Fig2)
+특정 유전자 하나에 끌려간 점수인지 확인 (Fig S1~S5, leave-one-out)
 
-![Fig2](../../figures/report_m1v1/fig2_10x_adenosine_dotplot.png)
+![Fig S3](../../figures/report_m1v1/figS3_energy_genes_complexIV_cycs.png)
+
+- 보조 그림은 세트마다 굵은 세트 점수 행과 그 아래 구성 유전자의 값(유전자 CPM의 전체 뉴런 대비 log2 비)을 MOp와 VISp에 나란히 보이고, 오른쪽 막대와 숫자로 각 유전자가 세트 count에서 차지하는 비율을 보인다. 유전자 이름은 각 행 바로 왼쪽에 있고 세트 안에서 기여 비율 순으로 정렬했다.
+- OXPHOS 복합체 I~V와 mtDNA 행에서 Pvalb와 L5 PT의 높은 점수는 대부분의 구성 유전자가 같은 방향으로 올라간 결과이다. 유전자를 하나씩 빼고 다시 계산해도 Pvalb는 복합체 I 0.69~0.73, 복합체 IV 0.57~0.82, 복합체 V 0.74~0.79 범위에 머물고 L5 PT도 0.45~0.83 범위에서 유지된다.
+- 복합체 IV에서 Cox6a2는 Pvalb와 Lamp5에 특이적인 isoform이라 다른 유형에서는 강한 음의 값으로 보인다. 세트 count의 0.4%라 점수에는 거의 기여하지 않는다.
+- 반대로 몇 개 유전자에 의존하는 세트가 있다. 생합성 세트는 Ppargc1a를 빼면 Pvalb가 MOp +1.56에서 +0.71로, L5 PT가 +0.80에서 +0.15로 떨어진다. 따라서 이 행은 사실상 Ppargc1a 한 유전자의 신호로 읽어야 한다. creatine 세트는 Ckb가 count의 76%를 차지해서 GABA 유형의 음의 값(Sst, Vip, Lamp5)은 Ckb를 빼면 0 근처로 바뀐다.
+- 구성 유전자가 둘 이상인 261칸 중 유전자 하나를 빼서 부호가 바뀌는 칸은 16칸이다. 15칸이 생합성(Ppargc1a)과 creatine(Ckb), 해당(Pkm) 행이고, OXPHOS 행에서는 0 근처 값인 MOp L6b 복합체 II(+0.12, Sdha를 빼면 −0.04) 1칸뿐이다.
+- Cox4i1과 Ndufa13은 이 GEO release에서 모든 세포의 count가 0이다. 생물학적 부재가 아니라 주석상 인접 유전자와 겹쳐 read가 집계되지 않은 것으로 보인다. 세트 count 기여가 0이라 점수에는 영향이 없다.
+- 표는 `results/rnaseq/whole_transcriptome/energy_detail/`에 있다(`energy_set_summary.csv`에 세트 점수와 leave-one-out 범위, `energy_gene_contribution.csv`에 유전자별 기여 비율).
+
+### 3.3 adenosine 경로의 뉴런 유형별 발현과 MOp 대 VISp 차이 (Fig2a~2c, Fig S6)
+
+![Fig2a](../../figures/report_m1v1/fig2a_10x_adenosine_dotplot.png)
+
+발현 수준 (Fig2a)
 
 - Adora1은 Glut 뉴런에서 59~98% 세포에 검출되고 GABA 뉴런에서는 낮다(Lamp5, Vip, Sncg 검출 7~13%). Pvalb와 Sst는 중간이다(검출 41~49%).
-- Glut 안에서 Adora1이 가장 높은 유형은 L6b(log2FC +1.13), L6 CT(+1.03), L5/6 NP(+0.96)이다. L6 CT와 L6b는 marker 기준을 통과했고 VISp donor에서도 같은 방향이다. 가장 낮은 Glut는 L2/3 IT(−1.17)와 L6 IT(−0.69)이다.
+- Glut 안에서 Adora1이 가장 높은 유형은 L6b(log2FC +1.13), L6 CT(+1.03), L5/6 NP(+0.96)이다. 가장 낮은 Glut는 L2/3 IT(−1.17)와 L6 IT(−0.69)이다.
 - Adora2a, Adora2b, Adora3는 뉴런에서 거의 검출되지 않는다.
-- adenosine 제거 효소 Adk는 L4/5 IT, L6b, L5/6 NP에서 상대적으로 높다. 생성 효소 Nt5e(CD73)는 Lamp5와 Sst Chodl에서 높다. 수송체 Slc29a1(ENT1)은 Sst, Pvalb, L6b, Sst Chodl에서 높다.
-- 그림에는 MOp와 VISp를 나란히 보였지만 10x 지역 비교는 donor와 batch에 혼입되어 해석하지 않는다.
+
+10x 지역 차이를 믿을 수 있는가 (Fig S6)
+
+10x에서 MOp와 VISp는 donor와 library batch가 다르다. 그래서 MOp 빼기 VISp 값에는 지역 차이와 batch 차이가 섞인다. 이를 점검하기 위해 두 자료에 모두 있는 유전자(subclass마다 576~697개)에서 10x 지역 차이와 MERFISH 네 동물 짝지은 차이를 비교했다.
+
+![Fig S6](../../figures/report_m1v1/figS6_10x_vs_merfish_region_concordance.png)
+
+- Glut 7개 subclass에서는 MERFISH 차이가 0.10 이상인 유전자의 86~93%가 10x에서도 같은 부호였고, MERFISH 기준을 통과한 지역 DEG로 좁히면 92~100%였다. Glut 뉴런의 10x 지역 차이는 batch가 섞였어도 대부분 실제 지역 차이를 반영한다.
+- GABA 4개 subclass는 일치도가 69~84%로 낮고 상관도 r 0.20~0.31로 약하다. MERFISH의 GABA 지역 차이 자체가 작아서 비교할 유전자도 적다(46~75개).
+
+MOp 대 VISp 차이 (Fig2b)
+
+![Fig2b](../../figures/report_m1v1/fig2b_adenosine_region_difference.png)
+
+- 색은 subclass 안 MOp 빼기 VISp(10x, donor 평균 log2(CPM+1))이고 빨강이 MOp 쪽이다. 각 subclass 이름 아래 숫자는 위의 MERFISH 일치도이며, 85% 미만이거나 검증할 수 없는 subclass는 주황 글씨로 표시했다. 칼표는 MOp donor 3마리가 모두 VISp donor 3마리보다 높거나 낮은 칸이다.
+- 검증 일치도가 높은 Glut IT 계열에서 두 가지 방향이 함께 보인다. MOp에서 Adora1은 낮고(L2/3 IT −0.47, L4/5 IT −0.32, L5 IT −0.34) adenosine 제거 효소 Adk는 높다(L2/3 IT +0.57, L4/5 IT +1.00, L5 IT +0.36). 모두 donor 범위가 겹치지 않는다. 생성 효소 Nt5e(CD73)도 Glut 다수에서 MOp가 높다(+0.59~+1.01). 다만 Adk와 Nt5e는 MERFISH panel에 없어 유전자 단위의 직접 검증은 없다.
+- 수송체(Slc29a1, Slc29a2)와 ATP 방출(Panx1, Calhm2)은 subclass마다 방향이 다르고 크기가 작다.
+
+Adora1을 두 자료에서 직접 비교 (Fig2c)
+
+![Fig2c](../../figures/report_m1v1/fig2c_adora1_10x_vs_merfish.png)
+
+- Glut에서는 두 자료가 같은 방향이다. L2/3 IT, L4/5 IT, L5 IT에서 MOp가 낮고 크기는 10x가 더 크다(두 자료는 단위가 달라 크기를 직접 비교하지 않는다).
+- GABA에서는 10x가 MOp +0.7~+1.75로 크게 높지만 MERFISH 네 동물은 Pvalb +0.07, 나머지는 0 근처이다. 10x GABA의 Adora1 지역 차이는 batch 차이일 가능성이 높아 해석하지 않는다.
+
+정리하면 MOp의 표층과 중층 IT 뉴런은 VISp보다 A1R 전사체가 적고 adenosine 제거 효소 전사체가 많다. 같은 adenosine 농도에서 MOp IT 뉴런이 덜 억제되는 쪽의 차이이다. 이 해석은 mRNA 수준이고 Adk의 지역 차이는 10x 단독 관찰이다.
 
 ### 3.4 PBM 공통 DEG의 기저 발현 분포 (Fig4)
 
@@ -104,16 +144,16 @@
 
 1. 뉴런 고유 수준에서 PBM의 1차 표적(복합체 IV)과 미토콘드리아 생합성 능력이 가장 큰 유형은 Pvalb와 L5 PT(ET)이다.
 2. Adora1은 심층 Glut(L6 CT, L6b, L5/6 NP)에 가장 많고 표층 L2/3 IT와 GABA 뉴런에 적다. L6 CT는 시상으로 투사하므로 피질 adenosine이 시상피질 수면 진동에 관여하는 경로 후보가 된다.
-3. 같은 뉴런 유형의 M1 대 V1 차이는 주로 영역 정체성 유전자이고, 측정 가능한 adenosine 관련 차이는 L2/3 IT의 Adora1 감소와 Penk 증가 정도로 작다. 따라서 M1과 V1의 PBM 반응이 다르다면 뉴런 고유 발현보다 구성 차이(MOp의 Pvalb 비율이 높고 L4/5 IT 비율이 낮음), 깊이에 따른 빛 도달, glia와 혈관 같은 비뉴런 요인이 먼저 고려 대상이다.
-4. 미토콘드리아와 adenosine 경로 대부분은 MERFISH panel에 없어 지역 비교를 할 수 없었다. 이 공백은 공개 atlas로 채울 수 없고 실험으로 확인해야 한다.
+3. 같은 뉴런 유형의 M1 대 V1 차이는 주로 영역 정체성 유전자이다. adenosine 쪽에서는 MOp IT 뉴런이 VISp보다 Adora1이 적고 Adk가 많은 방향이 보인다. Adora1은 두 자료에서 확인됐고 Adk는 MERFISH 검증 일치도가 높은 Glut에서의 10x 단독 관찰이다. 크기는 log2 단위 0.3~1.0 수준이다. M1과 V1의 PBM 반응이 다르다면 이 adenosine 감수성 차이와 함께 구성 차이(MOp의 Pvalb 비율이 높고 L4/5 IT 비율이 낮음), 깊이에 따른 빛 도달, glia와 혈관 같은 비뉴런 요인을 같이 고려해야 한다.
+4. 미토콘드리아와 adenosine 경로 대부분은 MERFISH panel에 없다. 이 유전자들의 지역 차이는 10x로만 볼 수 있고, 10x 지역 차이는 Glut에서만 MERFISH로 신뢰도가 확인됐다. GABA 뉴런의 지역 차이는 공개 atlas로 판단할 수 없어 실험으로 확인해야 한다.
 
 ## 5. 다음 실험 후보
 
 | 우선순위 | 질문 | 실험 | 이 보고서의 근거 |
 |---|---|---|---|
 | 1 | PBM에 먼저 반응하는 세포는 Pvalb와 L5 PT인가 | tPBM 후 M1에서 c-Fos 또는 즉시 초기 유전자와 세포 유형 marker의 동시 FISH(RNAscope). Pvalb, Pou3f1 또는 Fezf2(L5 PT), Cux2(L2/3 IT), Foxp2(L6 CT) | Fig3에서 OXPHOS와 Ppargc1a가 가장 높은 유형. Fig1 marker가 probe 선택 근거 |
-| 2 | PBM의 수면 효과는 A1R을 거치는가 | tPBM 전 A1R 길항제(DPCPX) 투여 후 NREM과 SWA 변화가 사라지는지 확인 | Adora1만 뉴런에 높게 발현되고 Adora2a, 2b, 3은 거의 없음(Fig2) |
-| 3 | 심층 L6 CT의 A1R이 경로인가 | 1번 FISH에 Adora1 probe를 더해 PBM 후 L6 CT 반응 확인. 이후 L6 CT 선택적 조작(Ntsr1-Cre 등) 고려 | Adora1이 L6 CT와 L6b에서 가장 높음(Fig2) |
+| 2 | PBM의 수면 효과는 A1R을 거치는가 | tPBM 전 A1R 길항제(DPCPX) 투여 후 NREM과 SWA 변화가 사라지는지 확인 | Adora1만 뉴런에 높게 발현되고 Adora2a, 2b, 3은 거의 없음(Fig2a) |
+| 3 | 심층 L6 CT의 A1R이 경로인가 | 1번 FISH에 Adora1 probe를 더해 PBM 후 L6 CT 반응 확인. 이후 L6 CT 선택적 조작(Ntsr1-Cre 등) 고려 | Adora1이 L6 CT와 L6b에서 가장 높음(Fig2a) |
 | 4 | M1 대 V1 차이가 Pvalb 구성 때문인가 | 같은 자극 조건에서 M1과 V1의 Pvalb c-Fos 비율 비교 | Pvalb 비율이 MOp에서 네 동물 모두 높음(3.7) |
 | 5 | 표층 IT가 PBM 유전자 변화를 주도하는가 | 기존 PBM 조직의 표층과 심층 분리 qPCR 또는 공간 전사체 | PBM 증가 유전자가 L2/3 IT 기저 발현에 몰림(Fig4) |
 
@@ -134,6 +174,10 @@
 .venv/bin/python src/rnaseq/subclass_markers_10x.py
 .venv/bin/python src/merfish/zhuang_paired_deg.py
 .venv/bin/python src/report_figures_m1v1.py
+.venv/bin/python src/rnaseq/energy_gene_detail.py
+.venv/bin/python src/rnaseq/adenosine_region_compare.py
 ```
+
+`report_figures_m1v1.py`는 Fig1, Fig2a, Fig4~Fig7을, `energy_gene_detail.py`는 Fig3과 Fig S1~S5를, `adenosine_region_compare.py`는 Fig2b, Fig2c, Fig S6을 만든다.
 
 MERFISH 입력은 `src/merfish/run_zhuang.py`와 `src/merfish/zhuang_supertype_check.py` 실행 결과를 사용한다([Zhuang 보고서](../zhuang/zhuang_report_ko.md)).

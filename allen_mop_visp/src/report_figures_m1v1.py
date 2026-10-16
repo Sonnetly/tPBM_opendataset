@@ -3,8 +3,8 @@
 
 10x (whole transcriptome, within-region contrasts)
   fig1_10x_subclass_markers_heatmap        top replicated markers per MOp subclass
-  fig2_10x_adenosine_dotplot               adenosine pathway genes by subclass, MOp and VISp
-  fig3_10x_energy_module_heatmap           OXPHOS complexes and energy sets by subclass
+  fig2a_10x_adenosine_dotplot              adenosine pathway expression level by subclass, MOp and VISp
+  (fig2b, fig2c, fig3 and fig S1-S6 are drawn by energy_gene_detail.py and adenosine_region_compare.py)
   fig4_10x_pbm_candidates_heatmap          PBM same-direction DEG candidates by MOp subclass
 MERFISH Zhuang-ABCA (four animals, MOp versus VISp paired by animal)
   fig5_merfish_paired_deg_counts           called regional DEG per subclass
@@ -135,7 +135,7 @@ def fig2(sums, det, genes, groups):
     axes[1].legend(loc="upper left", bbox_to_anchor=(1.18, 1), frameon=False, title="detected")
     fig.suptitle("Adenosine pathway genes by neuron subclass. Regions are shown side by side only; "
                  "10x region contrasts are confounded with donor and batch", fontsize=8)
-    save(fig, "fig2_10x_adenosine_dotplot")
+    save(fig, "fig2a_10x_adenosine_dotplot")
 
 
 def fig3():
@@ -273,7 +273,8 @@ def main():
     sums, det, genes, groups = load_pseudobulk()
     fig1(sums, genes, groups)
     fig2(sums, det, genes, groups)
-    fig3()
+    # Fig3 and Fig S1-S5 come from src/rnaseq/energy_gene_detail.py; Fig2b, Fig2c and Fig S6 from
+    # src/rnaseq/adenosine_region_compare.py. They are not redrawn here.
     fig4(sums, genes, groups)
     fig5()
     fig6()
