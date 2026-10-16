@@ -2,6 +2,8 @@
 
 작성일: 2026-10-11. **공식 원본 다운로드에 성공했고, MOp–VISp 세포 구성 및 22개 핵심·62개 탐색 후보 발현의 실제 계산을 완료했다. NREM 관련 영역으로의 해부학적 투사도 실제 Connectivity 자료로 계산했다.** MERFISH의 공간 구성, RNA-seq의 세포 유형별 기저 발현, tracer 실험의 축삭 신호는 서로 다른 표본에서 얻은 기술 통계로 제시한다.
 
+2026-10-15~16에 B6N Zhuang MERFISH 네 동물의 지역 비교와 10x 전사체 전체 분석을 추가했다. 결과는 아래 「추가 분석」 절에 요약했고, 앞선 절의 Adora1 interneuron 해석은 그 결과에 따라 수정한다.
+
 ## 자료와 분석 범위
 
 | 목적 | 실제 사용 자료 | 분석 표본 | 해석 범위 |
@@ -10,6 +12,8 @@
 | 후보 발현 | GEO GSE185862 CTX-HPF 10x v2 | MOp 123,727 · VISp 29,763개; 지역별 donor 3개 | B6J 배경 Snap25-IRES2-Cre;Ai14 수컷 reporter, RFP-positive 선별; WT 공간 자료와 분리 |
 | 별도 발현 보조 자료 | GEO GSE185862 SMART-seq v4 | MOp 6,588 · VISp 15,572개 | reporter·sex·age·FACS를 맞춘 자체 strata에서 비교; 10x와 합산하지 않음 |
 | NREM 관련 영역으로의 투사 | Allen Mouse Brain Connectivity Atlas 공식 API | WT MOp 8 · VISp 33개 tracer 실험; Cre line 127개 별도 | 영역별 축삭 신호·연령·주입 순도 민감도; 기능 연결·NREM 유발 효과 아님 |
+| 같은 세포 유형의 지역 차이 (추가) | ABC Zhuang-ABCA-1~4 MERFISH, release 20250531 | MOp 98,334 · VISp 80,373개; B6N 네 동물, 1,122-gene panel | 동물 짝지은 기술 통계와 검정; B6J와 합산하지 않음 |
+| 뉴런 유형별 전장 발현 (추가) | GEO GSE185862 10x 원본 전체 31,053개 유전자 | 영역×donor×subclass pseudobulk 131개 group | 영역 안 뉴런 유형 비교; 지역 비교는 MERFISH로 대조한 범위에서만 |
 | 기존 PBM 연결 | 저장소의 원본 DEG·ORA | 공통 DEG 52개, 핵심 패널 22개; 합집합 62개 | 저산소 PFC·5xFAD 해마 처리 효과와 정상 atlas 기저 차이를 구분 |
 
 ABC 공식 manifest에서 필요한 metadata 5개 **1,571,075,446 bytes**를 받아 크기·공개 MD5를 검증했다. RNA-seq은 기존 Allen S3 링크가 계속 차단되어 [같은 연구의 공식 GEO archive](https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185862/suppl/)에서 10x 발현 행렬 **5,716,426,072 bytes** 및 metadata·원본 설명·donor 기록을 받았다. GEO 파일은 TLS·공식 응답 크기를 확인하고 로컬 SHA256을 기록했다. 공개 비교 checksum이 없는 GEO 파일의 로컬 SHA256을 publisher checksum으로 표현하지 않는다.
@@ -54,7 +58,7 @@ P58의 실제 예시는 다음과 같다. 모두 같은 subclass 안의 평균�
 | Nt5e / Pvalb | 0.0655 (10.47) | 0.1112 (19.67) | 1,576 / 422 |
 | Penk / Vip | 0.6840 (46.67) | 0.8661 (59.41) | 2,025 / 882 |
 
-Adora1은 Pvalb에서 MOp가 높고, 위 IT·CT 그룹에서는 VISp가 높았다. 양쪽에 공유되는 cluster를 같은 가중치로 비교해도 이 예시의 방향은 유지됐다. 따라서 adenosine 수용체 발현의 지역 차이를 뉴런 전체에 하나의 방향으로 요약하는 것은 적절하지 않다.
+Adora1은 Pvalb에서 MOp가 높고, 위 IT·CT 그룹에서는 VISp가 높았다. 양쪽에 공유되는 cluster를 같은 가중치로 비교해도 이 예시의 방향은 유지됐다. 따라서 adenosine 수용체 발현의 지역 차이를 뉴런 전체에 하나의 방향으로 요약하는 것은 적절하지 않다. 이후 MERFISH 네 동물에서 IT의 VISp 방향은 재현됐지만 Pvalb의 MOp 방향은 +0.07로 작았고, L6 CT의 차이는 supertype 구성 효과였다(아래 「추가 분석」).
 
 반면 **subclass 평균과 공유 cluster 표준화 결과가 다를 수 있다.** 예를 들어 Nt5e/Lamp5의 MOp−VISp 차이는 일반 평균 −0.0139에서 공유 cluster 동일 가중치 +0.0298로, Penk/L2/3 IT는 +0.0230에서 −0.0358로 바뀐다. 비교에 포함되는 cluster와 구성비가 달라지므로 이 결과만으로 순수한 지역 발현 차이를 확정하지 않는다. 동일 가중치 표에는 작은 cluster도 포함되며 희소 표본의 과도한 해석을 피한다.
 
@@ -88,7 +92,33 @@ MOp WT 실험은 모두 P56이고 VISp는 P49–80이다. 전체 injection signa
 
 연령 제한과 signal-volume 정규화만으로 tracer 주입 부피·주변 영역 확산·프로토콜·실험 배치의 차이가 제거되는 것은 아니다. P value/FDR를 계산하지 않았으며, **MOp가 더 강한 NREM을 유발한다는 결론은 없다.** Segmented signal의 0은 이 실험 조건의 관측값이며 축삭이나 기능의 완전한 부재가 아니다. PZ 미평가는 0으로 바꾸지 않았다.
 
-우선 회로 검증 후보는 **MOp→ZI**다. Tracing에서 ventral ZI·Lhx6 세포 targeting을 확인하고, 시냅스/생리 및 projection별 개입과 EEG/EMG로 NREM·REM·wake를 측정해야 한다. 사용자 자극 좌표와 atlas injection의 위치 대응은 아직 등록하지 않았다. 새 분자 pathway 점수는 실행하지 않았으며, 전장 유전자/경로 구성 유전자 추출과 아데노신 하위 신호 분석 방법은 [후속 분석 제안](docs/downstream_pathway_analysis_options_ko.md)에 있다. [투사 보고서](results/connectivity/NREM_projection_report_ko.md)와 [별도 Excel](results/connectivity/MOp_VISp_NREM_projection.xlsx)에 개별 실험·민감도·해석을 정리했으며 그림은 `figures/connectivity/`에 있다.
+우선 회로 검증 후보는 **MOp→ZI**다. Tracing에서 ventral ZI·Lhx6 세포 targeting을 확인하고, 시냅스/생리 및 projection별 개입과 EEG/EMG로 NREM·REM·wake를 측정해야 한다. 사용자 자극 좌표와 atlas injection의 위치 대응은 아직 등록하지 않았다. 분자 경로 가운데 OXPHOS와 adenosine 경로 세트 점수는 이후 10x 전사체 전체로 계산했다(아래 「추가 분석」). A1 하위 신호, Ca²⁺ 모듈, preranked GSEA 방법은 [후속 분석 제안](docs/downstream_pathway_analysis_options_ko.md)에 있다. [투사 보고서](results/connectivity/NREM_projection_report_ko.md)와 [별도 Excel](results/connectivity/MOp_VISp_NREM_projection.xlsx)에 개별 실험·민감도·해석을 정리했으며 그림은 `figures/connectivity/`에 있다.
+
+## 추가 분석 (2026-10-15~16)
+
+### B6N Zhuang MERFISH 네 동물
+
+Zhuang-ABCA-1, -2(coronal)와 -3, -4(sagittal)에서 subclass 안의 MOp 평균 빼기 VISp 평균(공식 log2 단위)을 동물마다 계산했다. 두 영역이 같은 동물의 같은 절편에 있으므로 동물이 반복 단위이다. 모든 동물이 같은 부호, 차이 0.10 이상, subclass 안 BH q 0.10 미만을 기준으로 subclass×gene 496개(유전자 260개)가 통과했고 거의 모두 Glut 뉴런이었다. 반복된 유전자는 MOp의 Adgrl2, Scn4b, Nefh와 VISp의 Nr2f1, Adcy8 같은 영역 정체성 유전자였다.
+
+| Adora1 subclass | 네 동물 평균 MOp−VISp | 판정 |
+|---|---:|---|
+| L2/3 IT | −0.16 | 기준 통과, supertype 표준화 후 유지 |
+| L4/5 IT | −0.22 | 네 동물 같은 부호, q 0.16, 표준화 후 유지 |
+| L6 CT | −0.13 | 대부분 supertype 구성 효과 |
+| Pvalb | +0.07 | 네 동물 같은 부호, 크기 작음 |
+| Sst, Vip, Lamp5 | 0 근처 | 일관성 없음 |
+
+Zhuang 네 동물에서 Pvalb는 뉴런 중 비율이 MOp 5.2~6.4%, VISp 3.7~4.3%이다. [Zhuang 보고서](results/zhuang/zhuang_report_ko.md)에 세부 결과가 있다.
+
+### 10x 전사체 전체의 뉴런 유형별 발현
+
+GEO 원본 행렬 전체에서 영역×donor×subclass pseudobulk를 만들었다(group count 합이 저장된 전체 library 합과 일치함을 확인). 영역 안에서 subclass와 나머지 뉴런을 donor별로 짝지어 비교했고, MOp donor에서 찾은 marker를 별도 batch인 VISp donor에서 재현 여부로 확인했다. OXPHOS 복합체 I~V와 adenosine 경로 세트는 결과를 보기 전에 고정했다.
+
+- OXPHOS 복합체 I~V와 Ppargc1a는 Pvalb와 L5 PT에서 가장 높다. MOp와 VISp에서 같은 패턴이다(세트 점수 r 0.92). 유전자를 하나씩 빼도 OXPHOS 점수는 유지된다.
+- Adora1은 뉴런에서 실질적으로 발현되는 유일한 adenosine 수용체이고 L6 CT, L6b, L5/6 NP에서 가장 높다.
+- 10x 지역 차이를 MERFISH 짝지은 차이와 공통 유전자로 대조하면 Glut subclass에서 부호가 86~93% 일치하고 GABA subclass는 69~84%이다. 이 범위 안에서 MOp IT 뉴런은 Adora1이 낮고 Adk가 높다(L4/5 IT Adk log2(CPM+1) +1.00). Adk는 MERFISH panel에 없어 10x 단독 관찰이다.
+
+[뉴런 유형별 발현 보고서](results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)에 본문 그림 9장, 보조 그림 6장과 다음 실험 후보를 정리했다.
 
 ## PBM 연결과 미완료 범위
 
@@ -96,7 +126,7 @@ MOp WT 실험은 모두 P56이고 VISp는 P49–80이다. 전체 injection signa
 
 Nt5e의 피질 PBM log2FC는 −0.5367(FDR 0.00744556), Adora2a는 −1.2929(FDR 0.00932146)였다. 이는 **저산소 PFC의 처리 효과**이고 정상 MOp–VISp의 기저 차이·정상 B6 PBM 반응 방향과 같은 값이 아니다. 현재 atlas 결과로 adenosine 농도·효소 flux·단백질 기능·수면 threshold를 산출하지 않는다.
 
-B6J MERFISH 500-gene 패널에서는 핵심 22개 중 Penk만 측정하며 탐색 62개 중 7개를 측정한다. 미측정 유전자는 0 발현이 아니다. 이번 MERFISH는 metadata 구성 분석을 완료했고 별도 대형 raw matrix의 Penk 공간 발현은 아직 계산하지 않았다. B6N Zhuang-1 패널의 12개 탐색 후보를 B6J 동물 반복으로 합치지 않았다.
+B6J MERFISH 500-gene 패널에서는 핵심 22개 중 Penk만 측정하며 탐색 62개 중 7개를 측정한다. 미측정 유전자는 0 발현이 아니다. 이번 MERFISH는 metadata 구성 분석을 완료했고 별도 대형 raw matrix의 Penk 공간 발현은 아직 계산하지 않았다. B6N Zhuang 패널에서 측정되는 12개 탐색 후보는 네 동물로 따로 분석했으며(「추가 분석」) B6J 동물 반복으로 합치지 않았다.
 
 국소 자극 ROI는 여전히 보류했다. 사용자가 확인한 mm·bregma AP/ML, 뇌 표면 DV, core 직경 400 µm는 [기록 파일](docs/stimulation_coordinates_user.json)에 있다. M1은 `(1.34, 2.46, 0)`, V1은 `(약 −2.3, 2.46, 0)`이며 V1 AP가 잠정값이다. bregma→CCF 등록과 광학적 범위를 확정하기 전에는 해당 좌표를 CCF에 직접 대입하지 않는다. 최종 qPCR 3–5개 패널은 이번 기술 통계·측정 가능성과 실제 실험 조건을 함께 평가해 좁혀야 한다.
 

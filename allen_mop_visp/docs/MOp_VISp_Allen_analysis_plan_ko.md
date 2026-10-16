@@ -28,7 +28,7 @@
 
 ‘B6 기준’은 우선 C57BL/6J를 주 분석으로 설정한다. B6J 배경의 reporter/Cre line과 WT는 별도 표시한다. WT-only 조건에서 세포 유형별 RNA-seq 비교가 성립하지 않으면 그 제약을 명시하고, B6J 배경 자료를 보조 분석으로 표시한다.
 
-현재 확인된 B6J 500-gene 패널에는 adenosine 후보 8개가 모두 없고, 아래 22개 중 Penk만 직접 측정된다. Zhuang-ABCA-1의 1122-gene 패널에는 Adora1, Adora2a, Trpc5, Penk가 있다. 따라서 세포 구성은 MERFISH, 후보의 폭넓은 발현 비교는 RNA-seq를 사용한다. **패널에 없는 유전자는 미측정이며 0 발현이 아니다.** Imputed expression은 예측값으로 별도 표시하고 실제 지역 차이 검증의 주 결과로 사용하지 않는다.
+현재 확인된 B6J 500-gene 패널에는 adenosine 후보 8개가 모두 없고, 아래 22개 중 Penk만 직접 측정된다. Zhuang-ABCA-1의 1122-gene 패널에는 Adora1, Adora2a, Trpc5, Penk가 있다. 따라서 세포 구성은 MERFISH, 후보의 폭넓은 발현 비교는 RNA-seq를 사용한다. (2026-10-16 진행) Zhuang-ABCA-1~4 네 동물의 subclass 안 MOp 대 VISp 비교와 10x 전사체 전체의 뉴런 유형별 분석을 수행했다. [Zhuang 보고서](../results/zhuang/zhuang_report_ko.md), [뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md). **패널에 없는 유전자는 미측정이며 0 발현이 아니다.** Imputed expression은 예측값으로 별도 표시하고 실제 지역 차이 검증의 주 결과로 사용하지 않는다.
 
 ## 기억하는 Nature 논문과 연결
 

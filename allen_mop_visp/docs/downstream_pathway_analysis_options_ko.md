@@ -14,6 +14,9 @@ Allen Mouse Brain Connectivity Atlas의 anterograde tracer 자료에서 MOp와 V
 
 ## 현재 자료로 가능한 범위
 
+**2026-10-16 진행 상황.** 아래 권장 순서 가운데 1단계(사전 정의 세트 고정)와 2단계(유전자 단위 결과와 세트 점수, 유전자별 기여 확인)를 OXPHOS 복합체 I~V, cytochrome c, 미토콘드리아 생합성, creatine, 해당 및 젖산, adenosine 생성·제거·수송·수용체·ATP 방출 세트에 대해 수행했다. 10x 원본 전체에서 영역×donor×subclass pseudobulk를 새로 만들었기 때문에 아래의 62개 후보 제한은 이 세트들에는 해당하지 않는다. 지역 비교는 10x가 아닌 B6N MERFISH 네 동물의 짝지은 차이로 했고, 10x 지역 차이는 공통 유전자로 MERFISH와 대조했다. A1 및 A2A 하위 신호, Ca²⁺ 모듈, preranked GSEA, TF 분석은 아직 수행하지 않았다. 결과는 [뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)에 있다.
+
+
 10x 원본에는 31,053개 유전자, SMART-seq 원본에는 45,768개 exon-count feature가 있다. 그러나 보관한 두 H5AD는 **선택된 후보 62개만 포함**한다. 전체 유전자 library 합계를 알고 있어도 발현 행렬이 전장 자료가 되는 것은 아니다. 이 62개를 배경으로 GO·GSEA·GSVA·TF 분석을 하면 후보 선별에 따른 편향이 생긴다.
 
 원본 캐시에서 필요한 세포의 전체 유전자 요약 또는 사전에 정한 경로의 **모든 구성 유전자**를 추가 추출해야 한다. 대형 행렬을 메모리에 한꺼번에 펼치기보다 chunk 단위로 정규화·집계한다. 정규화 분모는 기존처럼 전체 원본 유전자 합계를 유지한다. 10x UMI와 SMART-seq read counts는 별도로 분석한다.

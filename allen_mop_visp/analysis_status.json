@@ -59,8 +59,11 @@
     "independent_review": "results/validation/actual_atlas_scientific_review.json"
   },
   "pseudobulk_animal_tests": {
-    "status": "not_run",
-    "reason": "region completely confounded with library-preparation date; same-ROI pooling independence unestablished; matched-age P58 does not remove batch confounding"
+    "status": "10x_not_run_MERFISH_B6N_paired_completed",
+    "tenx": "region completely confounded with library-preparation date; not tested",
+    "merfish_b6n": "Zhuang-ABCA-1..4 animal-paired MOp-VISp test within subclass; 496 subclass x gene rows called",
+    "tenx_vs_merfish_concordance": "sign agreement 86-93% in glutamatergic, 69-84% in GABAergic subclasses",
+    "report": "results/zhuang/zhuang_report_ko.md; results/zhuang/paired_deg/"
   },
   "local_ROI": {
     "status": "deferred",
@@ -88,7 +91,7 @@
   "windows_destination_written": false,
   "original_cloud_work_folder": "/workspace/Allen Dataset_M1_V1",
   "git_workflow": "Analysis files are maintained in the repository and included in user-requested commits/pushes. Exact commit and remote state are recorded by Git history and remote verification, not this analytical snapshot.",
-  "updated_at_UTC": "2026-10-12T07:20:14.845292+00:00",
+  "updated_at_UTC": "2026-10-16T08:42:45.360255+00:00",
   "MERFISH_Penk_spatial_expression": {
     "status": "not_run_optional_matrix_not_downloaded",
     "reason": "metadata composition completed; broad candidate expression computed with RNA-seq; MERFISH measurement coverage is not actual spatial expression"
@@ -145,8 +148,20 @@
     "actual_data_validation_checks_passed": 1101
   },
   "molecular_downstream_pathway": {
-    "status": "methods_proposed_not_calculated",
-    "reason": "preserved expression subsets contain 62 selected genes; full gene universe or complete prespecified modules required",
+    "status": "prespecified_energy_and_adenosine_sets_completed_gsea_not_run",
+    "data": "10x GSE185862 whole transcriptome pseudobulk, region x donor x subclass",
+    "sets": "src/rnaseq/focus_gene_sets.py",
+    "outputs": [
+      "results/rnaseq/whole_transcriptome/subclass_markers/",
+      "results/rnaseq/whole_transcriptome/energy_detail/",
+      "results/rnaseq/whole_transcriptome/adenosine_region/"
+    ],
+    "not_run": [
+      "A1/A2A downstream signalling modules",
+      "Ca2+ modules",
+      "preranked GSEA",
+      "TF/regulon"
+    ],
     "plan": "docs/downstream_pathway_analysis_options_ko.md"
   },
   "M1_PBM_sleep_hypothesis": {
@@ -190,5 +205,26 @@
     "scope": "Descriptive selection and shared-cluster sensitivity; not regional DE, animal inference or definitive qPCR rank",
     "report": "results/rnaseq/paired_dotplots/gene_observation_review_ko.md",
     "provenance": "results/rnaseq/paired_dotplots/candidate_review_provenance.json"
+  },
+  "zhuang_b6n_merfish": {
+    "status": "completed",
+    "animals": [
+      "Zhuang-ABCA-1",
+      "Zhuang-ABCA-2",
+      "Zhuang-ABCA-3",
+      "Zhuang-ABCA-4"
+    ],
+    "cells": {
+      "MOp": 98334,
+      "VISp": 80373
+    },
+    "release": "20250531",
+    "report": "results/zhuang/zhuang_report_ko.md"
+  },
+  "neuron_type_expression_report": {
+    "status": "completed",
+    "report": "results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md",
+    "figures": "figures/report_m1v1/ (Fig1-Fig7 with Fig2a-c, Fig S1-S6)",
+    "note": "Cox4i1 and Ndufa13 have zero counts in every cell of this GEO release"
   }
 }

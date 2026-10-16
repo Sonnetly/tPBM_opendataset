@@ -4,6 +4,23 @@
 
 **현재 자료는 M1–V1의 기저 세포 구성·후보 발현·해부학적 투사 차이로 후속 실험을 좁히는 데 사용할 수 있다. 현재 PBM에서 M1만 수면이 늘어나는 원인을 확정하거나 수면 유도 역치를 계산할 단계는 아니다.**
 
+## 0. 2026-10-16 갱신 요약
+
+이 안내서는 2026-10-12에 작성됐고, 이후 두 가지 분석을 추가했다. 아래 내용이 본문의 이전 서술과 다르면 이 절을 우선한다.
+
+추가한 분석
+- B6N Zhuang-ABCA MERFISH 네 동물(MOp 98,334개, VISp 80,373개 세포, 1,122-gene panel)에서 같은 subclass 안의 MOp 대 VISp 차이를 동물 단위로 짝지어 계산했다. 이 자료는 한 동물의 같은 절편에 두 영역이 함께 있어 10x의 지역과 batch 혼입이 없다. supertype 구성 표준화도 함께 확인했다. [Zhuang 보고서](../results/zhuang/zhuang_report_ko.md)
+- 10x 원본 전체(31,053개 유전자)에서 영역×donor×subclass pseudobulk를 만들고, 영역 안 뉴런 유형 marker와 사전에 고정한 OXPHOS 및 adenosine 경로 세트를 계산했다. 10x 지역 차이는 두 자료에 공통인 유전자로 MERFISH 짝지은 차이와 대조해 신뢰도를 점검했다. [뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)
+
+해석이 바뀐 점
+- **Interneuron Adora1의 MOp 우세는 대부분 지지되지 않는다.** 아래 2.2의 P58 10x 관찰과 달리, MERFISH 네 동물에서 Sst, Vip, Lamp5의 MOp 대 VISp 차이는 0 근처이고 Pvalb만 +0.07(네 동물 모두 양)로 작게 남는다. 10x의 GABA 지역 차이는 MERFISH와의 부호 일치가 69~84%로 낮아 batch 영향이 큰 것으로 본다.
+- **MOp의 표층과 중층 IT 뉴런은 VISp보다 Adora1이 적고 Adk가 많다.** Adora1 감소는 MERFISH 네 동물에서 같은 방향이고(L2/3 IT −0.16, 짝지은 검정 q 0.098, supertype 표준화 후에도 유지), 10x에서도 같다. Adk 증가(L4/5 IT log2(CPM+1) +1.00)는 MERFISH panel에 없어 10x 단독 관찰이지만, 10x 지역 차이는 Glut 뉴런에서 MERFISH와 부호가 86~93% 일치했다. 같은 adenosine에서 MOp IT 뉴런이 덜 억제되는 방향의 차이이다.
+- **L6 CT의 Adora1 지역 차이는 대부분 supertype 구성 효과이다.**
+- **에너지 대사 유전자는 Pvalb와 L5 PT에 집중된다.** OXPHOS 복합체 I~V와 Ppargc1a가 가장 높고 별도 donor와 batch인 VISp에서도 같은 패턴이다(세트 점수 r 0.92). 유전자를 하나씩 빼도 OXPHOS 점수는 유지된다. 생합성 세트는 사실상 Ppargc1a 한 유전자의 신호이다.
+- **Pvalb는 뉴런 중 비율이 MOp에서 더 높다.** Zhuang 네 동물에서 5.2~6.4% 대 3.7~4.3%이다. 아래 2.1의 GABA 내부 Pvalb 비율(VISp가 높음)과 분모가 다르며, B6J 한 동물도 뉴런 분모로 환산하면 4.9% 대 4.4%로 MOp가 높다.
+
+이 결과로 아래 1절의 미수행 항목 가운데 독립 동물 단위의 지역 비교(B6N MERFISH)와 OXPHOS 및 adenosine 경로의 전장 유전자 점수는 수행됐다. preranked GSEA, TF 분석, 실제 자극 ROI 분석, M1과 V1의 PBM 처리 효과는 여전히 수행되지 않았다.
+
 랩미팅에서 정리한 질문은 다음처럼 유지하는 편이 좋다.
 
 > **왜 현재 PBM 조건에서 M1 자극의 수면증진 반응이 관찰되고 V1에서는 검출되지 않는가? 그 차이는 국소 adenosine 순축적, 같은 adenosine에 대한 반응, 또는 국소 변화가 수면 회로로 전달되는 과정 중 어디에서 발생하는가?**
@@ -20,13 +37,15 @@ Markdown은 계획·해석·방법을 기록하는 문서다. 실제 계산 근�
 | B6J MERFISH | 정확한 MOp 83,976 / VISp 61,884 QC annotated cells의 영역·층·세포 유형별 count와 비율 | 어떤 세포가 어느 영역·층에서 상대적으로 더 많이 표집되는가? | [구성 보고서](../results/merfish/composition_report_ko.md), [영역 비율 CSV](../results/merfish/composition_region_major.csv) |
 | 10x RNA-seq | MOp 123,727 / VISp 29,763 cells, 62개 후보의 평균 log1p(CP10k)·검출률. P58 및 공유 cluster 가중치 민감도 | 같은 세포 유형에서 후보의 기저 발현이 어떻게 다른가? | [발현 보고서](../results/rnaseq/RNAseq_results_ko.md), [P58 후보 민감도 CSV](../results/rnaseq/panel22_P58_cohort_cluster_sensitivity.csv) |
 | SMART-seq v4 | MOp 6,588 / VISp 15,572 cells, 62개 후보의 별도 기술통계; 자료 내부에서 조건을 맞춘 38개 표시 strata | 다른 reporter·연령 조건에서 어떤 발현 패턴이 보이는가? | [별도 분석 설명](SMARTseq_analysis_ko.md), [상태 JSON](../results/rnaseq/smartseq/status.json) |
+| B6N Zhuang MERFISH (2026-10-15 추가) | 네 동물 MOp 98,334 / VISp 80,373 cells, 1,122-gene panel. subclass 안 MOp−VISp 차이의 동물 짝지은 검정과 supertype 표준화 | 같은 세포 유형의 지역 차이가 동물마다 재현되는가? | [Zhuang 보고서](../results/zhuang/zhuang_report_ko.md), [짝지은 DEG](../results/zhuang/paired_deg/paired_region_deg_called.csv) |
+| 10x 전사체 전체 (2026-10-16 추가) | 31,053개 유전자의 영역×donor×subclass pseudobulk, 영역 안 뉴런 유형 marker, OXPHOS·adenosine 세트, MERFISH와의 지역 차이 대조 | 어떤 뉴런 유형이 어떤 유전자를 더 발현하는가? 10x 지역 차이를 어디까지 믿을 수 있는가? | [뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md) |
 | Allen Connectivity | 168개 주입 실험의 7개 표적·3개 반구 신호. WT MOp8/VISp33 주 분석, Cre line 별도, 주입 순도·P56 민감도 | 후속 tracing·기능 검증을 어느 표적부터 할 것인가? | [투사 보고서](../results/connectivity/NREM_projection_report_ko.md), [별도 Excel](../results/connectivity/MOp_VISp_NREM_projection.xlsx) |
 
 기존 PBM 두 비교는 제공 metadata 기준 **808 nm·5xFAD 해마**와 **1064 nm·저산소 PFC**다. 같은 방향 DEG는 **52개(up34/down18)**, 두 up ORA의 공통 유의 GO는 **38개**, 그 항목의 실제 공통 hit 유전자는 **19개**다. 이것은 38개의 독립적인 기전이 검증됐다는 뜻은 아니다. 항목 간 유전자 중첩이 많다. 기존 수치 51개와 최신 52개의 차이는 전체 DEG에서 확인한 Tmem40 common-down 추가 때문이다.
 
 GO 주제는 시냅스 신호·구조, 이온채널·칼슘 수송·막전위 등에 집중된다. 미토콘드리아 관련 개별 후보가 있다는 사실과 OXPHOS gene set이 유의하게 활성화됐다는 주장은 다르다. 기존 cortex OXPHOS ORA는 유의하지 않다.
 
-**아직 수행되지 않은 것:** 정상 MOp–VISp의 전장 pathway/module score·GSEA·GSVA·TF 분석, 독립 동물 pseudobulk DE 검정, 실제 자극 ROI 분석, MERFISH Penk 공간 발현, M1–V1 PBM 처리효과·adenosine 측정. B6N MERFISH는 실측 gene coverage 확인이며 새 공간 발현·구성 비교가 아니다.
+**아직 수행되지 않은 것 (2026-10-16 기준):** 전장 preranked GSEA·GSVA·TF 분석, 실제 자극 ROI 분석, B6J MERFISH Penk 공간 발현, M1–V1 PBM 처리효과·adenosine 측정. 10x 자체의 지역 대 batch 분리는 여전히 불가능하다. 다음은 이후 수행했다. B6N MERFISH 네 동물의 동물 짝지은 지역 비교와 supertype 표준화, 10x 전사체 전체 pseudobulk와 OXPHOS·adenosine 경로 세트 점수, 10x 지역 차이의 MERFISH 대조(0절).
 
 중복 경로의 `onboarding_validation/`, `input/pbm/repository/`는 검증 산출물·원본 복사본이다. 새 독립 연구나 추가 biological replicate로 세지 않는다. 최초 ZIP·기존 루트 ORA 보고서보다 위 최신 DEG 보고서와 `allen_mop_visp/results/`를 먼저 읽는다.
 
@@ -65,7 +84,7 @@ P58 10x Adora1의 예는 다음과 같다. 평균 단위는 **log1p(CP10k)**이�
 | L2/3 IT | 0.4410 | 0.5779 | 55.51%/72.29% | −0.0890 |
 | L4/5 IT | 0.8984 | 1.0006 | 78.91%/86.78% | −0.1700 |
 
-**일부 interneuron의 Adora1은 MOp 쪽, 일부 흥분성 세포는 VISp 쪽이다.** 「M1의 A1 receptor가 전체적으로 높다」는 설명은 성립하지 않는다. 수용체 mRNA가 높다는 사실도 같은 adenosine에서의 전류·firing·수면 반응 크기를 직접 알려주지 않는다.
+**일부 interneuron의 Adora1은 MOp 쪽, 일부 흥분성 세포는 VISp 쪽이다.** 「M1의 A1 receptor가 전체적으로 높다」는 설명은 성립하지 않는다. (2026-10-16 갱신) 흥분성 IT 쪽의 VISp 방향은 MERFISH 네 동물에서 재현됐지만 interneuron 쪽의 MOp 방향은 Pvalb +0.07만 작게 남고 Sst는 0 근처이다. 위 표의 Pvalb, Sst 차이는 10x batch 영향이 섞인 값으로 본다. 수용체 mRNA가 높다는 사실도 같은 adenosine에서의 전류·firing·수면 반응 크기를 직접 알려주지 않는다.
 
 Entpd1/CD39–Nt5e/CD73, Slc29a1/2/ENT1/2, Adk, Ada의 발현도 일관된 MOp 우세가 아니다. ADK는 제거·대사에 관련되므로 발현 증가를 순축적 증가로 읽으면 안 된다. ENT는 농도 구배 등의 영향을 받는 수송체이므로 mRNA로 순방향을 정할 수 없다.
 
@@ -102,8 +121,8 @@ RT는 전체에서 **0.1025/0.0963**으로 비슷한 수준이다. VLPO·MEPO는
 | 단계 | 가설 | 현재 자료의 기여 | 실제로 판별할 측정 |
 |---|---|---|---|
 | 유효 광입력 | 두 영역에 도달하는 빛·조사 부피·온도가 다름 | ROI와 조직 dose 미검증이라는 제한 확인 | 위치 검증, 광학 보정, 깊이·온도, 조건을 맞춘 용량–반응 |
-| 국소 순축적 | M1에서 PBM 후 extracellular adenosine 상승·유지가 큼 | 구성·대사/수송 후보를 제안; 일관된 생성 우세는 미확인 | M1/V1×sham/PBM에서 상승, AUC, 감쇠·회복 비교 |
-| 같은 입력의 반응 | 비슷한 adenosine에도 세포·국소 회로 반응이 다름 | 일부 interneuron Adora1 차이, 흥분성 세포의 반대 방향 | 동일 국소 adenosine 또는 A1 agonist 입력의 농도–반응, 세포별 전기생리·LFP |
+| 국소 순축적 | M1에서 PBM 후 extracellular adenosine 상승·유지가 큼 | 구성·대사/수송 후보를 제안; 일관된 생성 우세는 미확인. MOp IT에서 Adk(제거 효소)가 높은 10x 관찰은 순축적이 오히려 작을 가능성도 제시 | M1/V1×sham/PBM에서 상승, AUC, 감쇠·회복 비교 |
+| 같은 입력의 반응 | 비슷한 adenosine에도 세포·국소 회로 반응이 다름 | MOp IT의 Adora1이 VISp보다 낮음(MERFISH 네 동물 재현). Interneuron 차이는 Pvalb에서만 작게 남음 | 동일 국소 adenosine 또는 A1 agonist 입력의 농도–반응, 세포별 전기생리·LFP |
 | 국소→전신 전달 | 국소 변화가 M1에서 수면 관련 downstream 회로에 더 잘 연결됨 | MOp→ZI 해부학적 신호를 후보로 제안 | 표적 세포·시냅스·부호 확인, ZI 활동, PBM×projection별 개입, EEG/EMG |
 
 GRAB-Ado를 쓴다면 sham 대비 시간 변화를 비교하되 영역 사이의 ΔF/F가 동일한 절대 농도라고 가정하지 않는다. 센서 발현·광학 수집·artifact·control을 확인한다. AUC는 생성만이 아니라 수송·제거까지 반영하는 순축적 지표다.
@@ -122,8 +141,8 @@ Interneuron A1이 활성화되면 해당 interneuron의 firing 감소와 pyramid
 |---|---|---|---|
 | 높음 | 지금 결과를 전체→공유 층→subclass→공유 cluster 순서로 좁힘 | 기존 MERFISH/RNA CSV | 어떤 차이가 분모·세부 구성에 민감한지 파악; 후보 선정 |
 | 높음 | 실제 자극 ROI의 깊이별 구성 | 확정 좌표, bregma–CCF 등록, 검증된 광학 footprint | 전체 영역 관찰이 실제 자극 조직에도 적용되는지 |
-| 중간 | Adenosine, A1 하위 신호, Ca²⁺, OXPHOS 등의 완전한 모듈·전장 gene-set 탐색 | 원본에서 전장 또는 사전 정의 모듈의 모든 유전자 추가 추출 | 경로 내 유전자들의 일관성·기여·coverage. 독립 동물 유의성은 해결되지 않음 |
-| 중간 | B6N 공간 자료의 Adora1/Adora2a 및 B6J Penk 확인 | 실측 expression matrix와 별도 genotype/표집 audit | 공간 발현 보완. B6N을 B6J replicate로 합치지 않음 |
+| 완료(2026-10-16) | Adenosine, OXPHOS 등의 사전 정의 모듈 점수 | 10x 원본 전체 pseudobulk | 세트별 유전자 기여와 leave-one-out을 함께 제시. A1 하위 신호와 Ca²⁺ 모듈, preranked GSEA는 미수행 |
+| 완료(2026-10-15) | B6N 공간 자료의 Adora1/Adora2a | Zhuang MERFISH 네 동물 | 동물 짝지은 지역 비교와 supertype 표준화. B6N을 B6J replicate로 합치지 않음. B6J Penk 공간 발현은 미수행 |
 | 중간 | ROI에 가까운 tracing 실험·Cre line별 출력, 관련 시상 입력 조사 | 주입 중심·line·표적 정의; 필요시 추가 atlas 조회 | 지역 출력과 특정 집단을 좁힐 후보 |
 
 보관 H5AD는 62개 후보만 담고 있다. 전체 library 분모가 있다는 사실이 전장 발현 행렬을 의미하지 않는다. **62개를 전체 background로 GO/GSEA를 돌리면 후보 선택 편향이 생긴다.** 전체 경로 유전자 추출 및 동일 세포 유형 비교를 먼저 해야 한다. SMART-seq은 10x exact P58/reporter 조건을 재현하는 strata가 0개여서 직접 재현 확인에 사용할 수 없다.
@@ -151,8 +170,8 @@ V1 용량–반응은 중요하지만 M1도 함께 측정해야 지역의 민감
 | Ppargc1a | 여러 IT·CT 유형에서 VISp 방향이 남아 비교적 합리적인 조직 평균 탐색 후보. 실제 조직에서의 재현성·기여 비중은 미확인 |
 | Grid1 | 여러 neuronal subtype에서 VISp가 높지만 일부 유형·Astro에서 반대 방향. 전체 조직 방향은 미확정 |
 | Zeb2·Tnr | 여러 IT에서 MOp가 높지만 inhibitory/glial 기여와 채취 범위에 따라 상쇄·구성 효과가 나타날 수 있음 |
-| Adora1 | 일부 inhibitory group의 MOp 방향과 IT·CT의 VISp 방향이 섞임. Bulk 음성·VISp 우세는 Pvalb의 MOp 우세를 반박하지 않음 |
-| Adk | IT·CT·inhibitory group의 방향이 섞이고 실제 Astro 기여가 중요. 현재 reporter RNA의 희소 glia를 조직 기여로 간주하지 않음 |
+| Adora1 | IT의 VISp 방향은 MERFISH 네 동물에서 재현됨. Pvalb의 MOp 방향은 작음(+0.07). Glut 비중이 커서 bulk에서는 VISp 쪽이 나올 가능성이 있음 |
+| Adk | 10x 전사체 전체에서 MOp IT가 높음(L4/5 IT +1.00). 실제 Astro 기여가 중요하고 reporter RNA의 희소 glia를 조직 기여로 간주하지 않음 |
 | Sphkap·Stxbp6 | L6b·L5/6 NP 등의 subtype 차이가 whole-region sampling에서 희석될 수 있음 |
 
 가상의 혼합 예: 한 subtype이 조직의 **해당 유전자 전체 transcript 중 5%**를 제공하고, 그 subtype에서만 발현이 2배가 되며 구성·다른 subtype·reference가 그대로라면 전체 변화는 `1 + 0.05 × (2−1) = 1.05배`다. 100% PCR 효율 가정에서 약 `log2(1.05)=0.07 Ct` 크기의 대비다. 해당 transcript 기여가 20%이면 1.2배, 약0.26 Ct다. 이는 실제 atlas의 bulk 예측값이 아니며, 세포 비율과 해당 유전자의 transcript 기여율은 다르다.
@@ -165,13 +184,13 @@ RNA-seq 값은 `mean(log1p(CP10k))`이므로 두 평균을 나누거나 평균 �
 
 | 한계 | 현재 가능한 해석의 상한 |
 |---|---|
-| MERFISH 독립 WT 동물 1개 | 한 뇌의 공간 구성 기술. 세포·절편·반구를 동물 반복으로 바꾸지 않음 |
+| B6J MERFISH 독립 WT 동물 1개 | 한 뇌의 공간 구성 기술. 세포·절편·반구를 동물 반복으로 바꾸지 않음. 지역 발현 비교는 B6N 네 동물 자료로 보완(계통이 달라 합산하지 않음) |
 | 조직 면적/부피 mask·광학 ROI 미검증 | 비율이며 밀도가 아님. 전체 MOp/VISp는 실제 자극 부피와 다름 |
 | 10x reporter/FACS 표집 | WT 조직 구성으로 사용할 수 없음; 희소 glia에 주의 |
 | 10x 지역–prep date 완전 교란, P58 donor1/2, pool 독립성 미확인 | 독립 지역의 생물학적 DE/P/FDR·pseudobulk 검정 미실행. Batch correction으로 분리 가능한 설계가 아님 |
 | SMART-seq exact 10x 대응 strata0 | 별도 보조 자료; 10x 방향 재현 입증 아님 |
 | B6J MERFISH 핵심22 중 Penk만 실측; adenosine8 미측정 | 미측정은 0이 아님. Penk도 현재 공간 발현 미계산 |
-| RNA 후보62개만 보관 | 전장 pathway 해석은 추가 추출 필요; panel 평균은 실제 활성·flux가 아님 |
+| 10x 전장 pseudobulk는 donor 3마리씩 | 영역 안 뉴런 유형 비교와 사전 정의 세트 점수까지. 세트 점수는 실제 활성·flux가 아님. GABA의 10x 지역 차이는 MERFISH 대조에서 신뢰도가 낮음 |
 | PBM 모델·조직·파장 다름 | 후보 발견 근거이며 정상810nm M1–V1 처리효과의 증거가 아님 |
 | Tracing 주입/construct/연령/기간 차이·postsynaptic identity 미측정 | 지역 축삭 신호 기술이며 시냅스·부호·수면/PBM 인과성 미확인 |
 | 저장소에 현재 M1–V1 행동/국소 Ado 원자료 없음 | M1만 유의/무반응 전제를 이 분석에서 재검정하거나 역치를 추정할 수 없음 |
@@ -182,7 +201,7 @@ RNA-seq 값은 `mean(log1p(CP10k))`이므로 두 평균을 나누거나 평균 �
 
 ## 7. 파일을 보는 순서와 이번 산출물
 
-이 안내서→[구성 보고서](../results/merfish/composition_report_ko.md)→[발현 보고서](../results/rnaseq/RNAseq_results_ko.md)→[투사 보고서](../results/connectivity/NREM_projection_report_ko.md) 순서로 읽는다. 숫자는 해당 CSV로 확인한다. 통합 Excel은 [MOp_VISp_Allen_comparison.xlsx](../results/MOp_VISp_Allen_comparison.xlsx), projection은 [별도 Excel](../results/connectivity/MOp_VISp_NREM_projection.xlsx)을 사용한다. `docs/`의 계획·가설과 `results/`의 계산 결과를 구분한다.
+이 안내서→[뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)→[Zhuang 보고서](../results/zhuang/zhuang_report_ko.md)→[구성 보고서](../results/merfish/composition_report_ko.md)→[발현 보고서](../results/rnaseq/RNAseq_results_ko.md)→[투사 보고서](../results/connectivity/NREM_projection_report_ko.md) 순서로 읽는다. 숫자는 해당 CSV로 확인한다. 통합 Excel은 [MOp_VISp_Allen_comparison.xlsx](../results/MOp_VISp_Allen_comparison.xlsx), projection은 [별도 Excel](../results/connectivity/MOp_VISp_NREM_projection.xlsx)을 사용한다. `docs/`의 계획·가설과 `results/`의 계산 결과를 구분한다.
 
 이번에 만든 것은 기존 CSV를 재배치한 discussion 그림4개와 RNA-seq 인접 행 비교6개, 숫자판20페이지, 후보 검토표와 설명서다. 원래 atlas·DEG를 다시 계산하거나 PBM 효과 검정을 추가하지 않았다. 요약 그림은 PNG/PDF/SVG, 숫자판은 PDF로 저장해 발표·편집에 사용할 수 있다.
 

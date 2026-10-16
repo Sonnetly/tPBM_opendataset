@@ -2,7 +2,7 @@
 
 목적은 정상 상태 atlas에서 MOp와 VISp의 세포 구성과 대응 세포 유형 안의 후보 유전자 발현을 비교하고, 기존 PBM 결과와 연결하는 것이다. 후속 회로 분석은 NREM 관련 영역으로의 투사를 우선 확인한다. 정상 상태 발현과 atlas의 축삭 신호를 PBM 처리 효과 또는 수면 유발 효과로 해석하지 않는다.
 
-처음 읽을 문서: [M1–V1 데이터 해석 안내서](docs/M1_V1_data_analysis_guide_ko.md). 기존 결과 CSV의 구성·발현·개별 투사 요약 그림과, 완료/미완료 분석·가설·추가 실험·한계를 함께 정리했다.
+처음 읽을 문서: [M1–V1 데이터 해석 안내서](docs/M1_V1_data_analysis_guide_ko.md)(0절에 2026-10-16 갱신 요약). 뉴런 유형별 발현과 다음 실험 후보는 [M1·V1 뉴런 유형별 발현 보고서](results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)에 있다. 기존 결과 CSV의 구성·발현·개별 투사 요약 그림과, 완료/미완료 분석·가설·추가 실험·한계를 함께 정리했다.
 
 [RNA-seq 전체 6개 dotplot의 MOp–VISp 인접 행 비교](figures/rnaseq/paired/README_ko.md): 공통 색 범위의 요약 그림과 평균·검출률 숫자판을 제공한다. [전체 요약 PDF](figures/rnaseq/paired/all_six_paired_dotplots.pdf), [전체 숫자판 PDF](figures/rnaseq/paired/all_six_numeric_detail_pages.pdf). P57/P59의 미표집 영역은 N/A로 유지했다.
 
@@ -24,8 +24,12 @@
 - RNA-seq은 공식 GEO GSE185862의 10x 원본(발현 행렬 5.72 GB 및 metadata)을 확보해 exact MOp 123,727개·VISp 29,763개 세포의 62개 후보 발현을 실제 계산했다. 원본 전체 31,053개 유전자의 세포별 count 합계를 정규화 분모로 보존했다. [실제 발현 보고서](results/rnaseq/RNAseq_results_ko.md), [RNA-seq 상태 파일](results/rnaseq/status.json), [재현 방법](docs/RNAseq_analysis_ko.md)에 결과와 조건이 있다.
 - 공식 SMART-seq v4 원본도 받아 MOp 6,588개·VISp 15,572개와 62개 후보를 별도로 분석했다. 조건을 맞춘 자체 비교 38개 strata를 표시하며 10x와 직접 대응되는 strata는 없다. 다른 reporter·연령의 보조 결과를 10x 방향 재현으로 해석하지 않는다. `results/rnaseq/smartseq/`에 별도 결과가 있다.
 - Allen Connectivity의 MOp·VISp primary injection 실험 168개를 실제 확보했다. WT MOp 8개·VISp 33개를 주 분석으로, Cre line MOp 23개·VISp 104개는 line별 별도 탐색으로 보존했다. NREM 관련 atlas label 7개의 좌·우·양측 3,528개 unionize 기록을 확인하고 연령·주입 순도 민감도를 계산했다. PZ는 ontology exact label이 없어 미평가로 남겼다. ZI에서 관찰된 차이는 후속 해부학 후보이며 Lhx6 세포 targeting·시냅스·NREM 효과는 미확인이다. `results/connectivity/`에 개별 실험·요약·상태·보고서·별도 Excel을 보관한다.
-- 2026-10-15 Zhuang-ABCA MERFISH(Zhang et al., Nature 2023, ABC Atlas release `20250531`) 중 Zhuang-ABCA-1, -2(coronal)와 -3, -4(sagittal) 네 동물을 분석했다. B6N(C57BL/6NCrl) 동물이고 1,122-gene panel이며 Allen WMB taxonomy와 CCF 2020 parcellation이 붙어 있다. 공개 MD5를 검증한 원본 약 6.1 GB로 MOp 98,334개와 VISp 80,373개 세포의 subclass 내 MOp−VISp log2 평균 차이, panel 전체 cell-class discordance, 동물 간 부호 일치를 계산했다. 후보 62개 중 12개가 측정된다. 이어서 subclass 안의 supertype 구성 차이를 분리하는 표준화 점검(`src/merfish/zhuang_supertype_check.py`)을 추가했다. Adora1은 L2/3 IT와 L4/5 IT의 MOp 저발현, Pvalb의 MOp 고발현이 네 동물에서 같고 supertype 표준화 후에도 유지됐다. L6 CT의 음의 차이는 대부분 supertype 구성 효과였다. 차이 크기는 log2 단위 0.1~0.3으로 작고 sagittal 동물에서 2~3배 크다. ABCA-1 발현 행렬은 dense 약 18.7 GB여서 기존 로더가 메모리 초과로 종료됐고, `src/merfish/run_zhuang.py`의 `load_expression`을 행 블록 읽기로 고쳤다(값 동일). B6J 주 분석과 합산하지 않는다. [Zhuang 보고서](results/zhuang/zhuang_report_ko.md)에 데이터셋 설명, 수행 내용, 결과와 한계가 있다.
-- 2026-10-15 [M1·V1 뉴런 유형별 발현 보고서](results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)를 추가했다. GEO 10x 원본 전체에서 영역×donor×subclass pseudobulk(`src/rnaseq/pseudobulk_10x.py`)를 만들고, 영역 안 뉴런 유형 marker를 MOp donor에서 찾아 별도 batch의 VISp donor에서 재현 여부를 확인했다(`src/rnaseq/subclass_markers_10x.py`). OXPHOS와 adenosine 세트는 결과 확인 전에 `src/rnaseq/focus_gene_sets.py`에 고정했다. 10x 지역 비교는 donor와 batch에 혼입되어 하지 않았고, 지역 비교는 Zhuang MERFISH 네 동물의 짝지은 검정으로 했다(`src/merfish/zhuang_paired_deg.py`). OXPHOS와 Ppargc1a는 Pvalb와 L5 PT에서, Adora1은 L6 CT, L6b, L5/6 NP에서 가장 높았다. 그림은 `src/report_figures_m1v1.py`로 `figures/report_m1v1/`에 만든다.
+- 2026-10-15 Zhuang-ABCA MERFISH(Zhang et al., Nature 2023, ABC Atlas release `20250531`) 중 Zhuang-ABCA-1, -2(coronal)와 -3, -4(sagittal) 네 동물을 분석했다. B6N(C57BL/6NCrl) 동물이고 1,122-gene panel이며 Allen WMB taxonomy와 CCF 2020 parcellation이 붙어 있다. 공개 MD5를 검증한 원본 약 6.1 GB로 MOp 98,334개와 VISp 80,373개 세포의 subclass 내 MOp−VISp log2 평균 차이, panel 전체 cell-class discordance, 동물 간 부호 일치를 계산했다. 후보 62개 중 12개가 측정된다. 이어서 subclass 안의 supertype 구성 차이를 분리하는 표준화 점검(`src/merfish/zhuang_supertype_check.py`)을 추가했다. Adora1은 L2/3 IT와 L4/5 IT의 MOp 저발현, Pvalb의 MOp 고발현(+0.07로 작음)이 네 동물에서 같고 supertype 표준화 후에도 유지됐다. 네 동물 짝지은 지역 DEG는 `src/merfish/zhuang_paired_deg.py`로 계산했다(subclass×gene 496개 통과, 대부분 Glut의 영역 정체성 유전자). L6 CT의 음의 차이는 대부분 supertype 구성 효과였다. 차이 크기는 log2 단위 0.1~0.3으로 작고 sagittal 동물에서 2~3배 크다. ABCA-1 발현 행렬은 dense 약 18.7 GB여서 기존 로더가 메모리 초과로 종료됐고, `src/merfish/run_zhuang.py`의 `load_expression`을 행 블록 읽기로 고쳤다(값 동일). B6J 주 분석과 합산하지 않는다. [Zhuang 보고서](results/zhuang/zhuang_report_ko.md)에 데이터셋 설명, 수행 내용, 결과와 한계가 있다.
+- 2026-10-15~16 [M1·V1 뉴런 유형별 발현 보고서](results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md)를 추가했다. GEO 10x 원본 전체에서 영역×donor×subclass pseudobulk(`src/rnaseq/pseudobulk_10x.py`)를 만들고, 영역 안 뉴런 유형 marker를 MOp donor에서 찾아 별도 batch의 VISp donor에서 재현 여부를 확인했다(`src/rnaseq/subclass_markers_10x.py`). OXPHOS와 adenosine 세트는 결과 확인 전에 `src/rnaseq/focus_gene_sets.py`에 고정했다.
+  - 에너지 대사(`src/rnaseq/energy_gene_detail.py`). OXPHOS 복합체 I~V와 Ppargc1a는 Pvalb와 L5 PT에서 가장 높고 MOp와 VISp에서 같은 패턴이다(세트 점수 r 0.92). 세트마다 유전자별 값, count 기여 비율, leave-one-out 결과를 보조 그림 S1~S5와 `results/rnaseq/whole_transcriptome/energy_detail/`에 저장했다. 생합성 세트는 사실상 Ppargc1a, creatine 세트는 Ckb가 좌우한다.
+  - adenosine 경로(`src/rnaseq/adenosine_region_compare.py`). Adora1은 L6 CT, L6b, L5/6 NP에서 가장 높다. 10x 지역 차이는 donor와 batch에 혼입되므로 공통 유전자로 MERFISH 짝지은 차이와 대조했다. Glut는 부호 일치 86~93%, GABA는 69~84%였다. 이 범위 안에서 MOp IT 뉴런은 VISp보다 Adora1이 낮고 Adk가 높다. GABA의 10x Adora1 지역 차이(MOp +0.7 이상)는 MERFISH에서 재현되지 않아 해석하지 않는다. 결과는 `results/rnaseq/whole_transcriptome/adenosine_region/`에 있다.
+  - Cox4i1과 Ndufa13은 이 GEO release에서 모든 세포의 count가 0이며 주석 문제로 보인다.
+  - 그림은 `figures/report_m1v1/`의 본문 Fig1~Fig7(Fig2는 a, b, c)과 보조 Fig S1~S6이다.
 - 공간 주 자료는 B6J 단일 동물 MERFISH이며 동물 간 통계 검정을 수행하지 않는다. RNA-seq의 세포 수를 조직 구성 비율이나 독립 동물 수로 사용하지 않는다.
 - WT B6J와 B6J 배경 transgenic은 분리한다. 정확한 MOp와 VISp가 있는 자료만 직접 비교하며 ALM이나 VIS 전체를 대신 사용하지 않는다.
 - 국소 자극 ROI는 V1 AP가 잠정값이고 bregma→CCF 등록을 수행하지 않아 보류했다. mm·bregma AP/ML 및 뇌 표면 DV, core 직경 400 µm는 사용자 확인을 받았다. M1은 (1.34, 2.46, 0), V1은 (약 −2.3, 2.46, 0)이다. 사용자 좌표는 [기록 파일](docs/stimulation_coordinates_user.json)에 있다. 400 µm만으로 광학적 ROI를 정하지 않는다.
@@ -75,6 +79,18 @@ B6N Zhuang-ABCA MERFISH의 manifest를 확인하고 동물별 원본을 받아 s
 ```
 
 `--list`도 `results/zhuang/zhuang_report.json`을 manifest 확인 상태로 덮어쓰므로 `--download` 뒤에 따로 실행하지 않는다.
+
+뉴런 유형별 발현 보고서의 계산과 그림을 다시 만든다. GEO 10x 원본(5.72 GB)을 `input/rnaseq/raw/`에 받은 뒤 실행하며, pseudobulk 추출은 2개 worker로 약 2분 걸렸다.
+
+```bash
+.venv/bin/python src/rnaseq/download_geo.py GSE185862_expression_matrix_10x.hdf5
+.venv/bin/python src/rnaseq/pseudobulk_10x.py --workers 2
+.venv/bin/python src/rnaseq/subclass_markers_10x.py
+.venv/bin/python src/merfish/zhuang_paired_deg.py
+.venv/bin/python src/report_figures_m1v1.py
+.venv/bin/python src/rnaseq/energy_gene_detail.py
+.venv/bin/python src/rnaseq/adenosine_region_compare.py
+```
 
 공식 GEO에서 10x 입력을 내려받아 후보 subset과 전체 유전자 정규화 분모를 다시 생성한다. 대형 원본을 받지 않아도 아래의 발현 계산은 이동용 묶음에 포함된 subset으로 재현할 수 있다:
 

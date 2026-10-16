@@ -38,10 +38,23 @@ M1 좌표는 bregma AP +1.34, ML 2.46 mm, 뇌 표면 DV 0이며 V1 AP 약 −2.3
 
 NPV는 `표적 projection signal volume / 전체 injection signal volume`이다. 연결 확률·시냅스 수·Lhx6 세포에 대한 입력·PBM 전달 효율이 아니다. WT 내에서도 주입 spread·viral construct·관찰 기간 등의 차이가 남는다. Cre 실험은 별도 요약했다. 따라서 현재 가설의 우선 회로 후보는 ZI이지만, 이 표는 **MOp가 ZI의 수면촉진 세포를 더 강하게 구동한다는 증거가 아니다**.
 
+### 2026-10-16 추가 관측
+
+이후 B6N Zhuang MERFISH 네 동물과 10x 전사체 전체를 분석했다. [뉴런 유형별 발현 보고서](../results/neuron_type_report/M1_V1_neuron_type_expression_report_ko.md), [Zhuang 보고서](../results/zhuang/zhuang_report_ko.md)에 근거가 있다.
+
+| 관측 근거 | 실제 결과 | 가설에 기여하는 범위 |
+|---|---|---|
+| 흥분성 IT의 Adora1 | MERFISH 네 동물에서 MOp가 낮음(L2/3 IT −0.16, L4/5 IT −0.22, supertype 표준화 후 유지). 10x도 같은 방향 | 같은 adenosine에서 MOp IT 뉴런이 덜 억제될 가능성 |
+| 흥분성 IT의 Adk | 10x 전사체 전체에서 MOp가 높음(L4/5 IT log2(CPM+1) +1.00, L2/3 IT +0.57). MERFISH panel에는 없음 | MOp IT 주변의 adenosine 제거가 더 클 가능성. 순축적이 MOp에서 크다는 가정과 반대 방향일 수 있음 |
+| GABAergic Adora1 | MERFISH에서 Pvalb +0.07만 작게 남고 Sst, Vip, Lamp5는 0 근처. 10x의 큰 MOp 우세는 MERFISH와 불일치 | 위 표의 interneuron A1 차이 근거를 약화함 |
+| 에너지 대사 | OXPHOS 복합체 I~V와 Ppargc1a가 Pvalb와 L5 PT에서 가장 높음. Pvalb는 뉴런 중 비율이 MOp에서 높음(5.2~6.4% 대 3.7~4.3%) | PBM의 1차 표적(복합체 IV)이 많은 세포가 MOp에 상대적으로 많을 가능성 |
+
+이 관측은 모두 정상 뇌의 mRNA이며 PBM 처리 효과나 adenosine 농도를 측정한 것이 아니다.
+
 ## 가장 중요한 반대 근거와 미확인 연결
 
 1. **Astro가 많다고 adenosine이 더 축적되는 것은 아니다.** 생성뿐 아니라 수송·대사·제거도 영향을 준다. 표면 L1의 Astro 비율은 MOp 37.05%·VISp 37.14%로 거의 같고, L5·L6b GABA 비율은 전체 영역과 달리 VISp가 높다. 현재 표면 자극에 전체 영역 비율을 그대로 적용할 수 없다.
-2. **생성·수송 유전자가 일관되게 MOp 우세가 아니다.** Nt5e/Pvalb는 VISp가 높고, Nt5e·Entpd1·Slc29a1의 여러 subclass는 cluster 가중치에 따라 방향이 바뀐다. Adk/L4/5 IT는 MOp가 높지만 ADK는 adenosine 대사·제거와 연결되는 후보이므로 순축적 우세를 의미하지 않는다. B6J MERFISH에서는 adenosine 후보 8개가 모두 미측정이다.
+2. **생성·수송 유전자가 일관되게 MOp 우세가 아니다.** Nt5e/Pvalb는 VISp가 높고, Nt5e·Entpd1·Slc29a1의 여러 subclass는 cluster 가중치에 따라 방향이 바뀐다. Adk/L4/5 IT는 MOp가 높지만 ADK는 adenosine 대사·제거와 연결되는 후보이므로 순축적 우세를 의미하지 않는다. 이 Adk 차이는 이후 10x 전사체 전체에서도 확인됐다(+1.00). B6J MERFISH에서는 adenosine 후보 8개가 모두 미측정이고, B6N MERFISH에서는 Adora1과 Adora2a만 측정된다.
 3. **Astro RNA 결과는 희소 표집에 민감하다.** P58 Astro n=125/59이며 공유 cluster는 n=123/57과 n=2/2 두 개뿐이다. 동일 cluster 가중치에서는 n=2/2 집단도 절반을 차지하므로 큰 Nt5e·Entpd1·Adk 차이를 안정한 지역 기전으로 제시할 수 없다.
 4. **A1의 기능 방향은 세포 유형에 따라 다를 수 있다.** Interneuron의 A1 신호가 억제를 유발하면 pyramidal neuron의 disinhibition으로 이어질 수도 있다. 다른 세포의 A1은 흥분성 출력 감소와 연결될 수 있다. `GABA Adora1↑ → 피질 억제↑ → NREM↑`라는 일률적 화살표를 사용하지 않는다.
 5. **MOp→ZI의 postsynaptic identity와 부호가 미확인이다.** Tracer는 Lhx6 세포의 시냅스를 분리하지 않는다. PBM·adenosine이 MOp 출력을 억제한다면, 더 많은 ZI 축삭이 반드시 수면촉진 세포를 더 활성화하는 것도 아니다. ZI의 다른 집단, 국소 억제와 disinhibition, REM 중심 효과가 경쟁 설명이다. Lhx6 문헌도 양측 chemogenetic/ZT 조건과 단측 optogenetic 조건에서 수면 효과가 다르다 [5,6].
