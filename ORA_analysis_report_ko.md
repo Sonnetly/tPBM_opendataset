@@ -2,6 +2,8 @@
 
 > 이 보고서는 ORA hits에서 복원한 범위의 분석이다. 원본 DEG FDR·log2FC를 반영한 최신 overlap 및 qPCR 후보는 [최신 결과 안내](README.md)의 DEG 검증 보고서를 참고한다.
 
+> ROS/scavenger 후속 분석은 [별도 보고서](ora_analysis/ros_scavenger/ROS_scavenger_report_ko.md)에 있다. 기존 DEG 기준 ROS 관련 유전자는 해마 23개·전전두피질 46개이며, 공통 방향은 산화스트레스 반응 관련 Penk down 1개다. 원 GEO 보완 결과와 Arial 그림을 포함한다. 기존 전역 ORA 및 새 focused ORA는 ROS 항목 FDR<0.05가 없고, 탐색적 GSEA 신호는 있으나 표본 단위 경로 score 검정은 다중검정 후 유의하지 않다.
+
 **확인 가능한 같은 방향 overlap은 51개(공통 up 34개, 공통 down 17개)입니다.** 이전에 언급된 7개는 이온채널·칼슘 수송 기능군의 부분집합일 가능성이 있습니다. 기존 7개 목록 자체는 제공되지 않았습니다.
 
 이 결과는 첨부 ORA 표에서 복원되는 유전자 기준입니다. 완전한 DEG 표가 없어 전체 DEG 기준 최종 overlap을 확정할 수 없습니다. 두 데이터셋의 비교 방향은 파일의 up/down을 그대로 사용했습니다.

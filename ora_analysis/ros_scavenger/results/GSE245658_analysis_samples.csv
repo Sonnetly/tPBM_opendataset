@@ -1,0 +1,9 @@
+sample,condition
+5xFAD1_HP_count,control
+5xFAD2_HP_count,control
+5xFAD3_HP_count,control
+5xFAD4_HP_count,control
+5xFAD+L1_HP_count,PBM
+5xFAD+L2_HP_count,PBM
+5xFAD+L3_HP_count,PBM
+5xFAD+L4_HP_count,PBM

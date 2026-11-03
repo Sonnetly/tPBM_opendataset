@@ -1,0 +1,14 @@
+{
+  "sparse_GSEA_vs_dense_patterns": 156,
+  "Fisher_vs_hypergeom_tests": 60,
+  "exact_permutation_vs_scipy_tests": 20,
+  "source_files_verified": 26,
+  "figure_count": 8,
+  "figure_formats": [
+    "PNG",
+    "PDF",
+    "SVG"
+  ],
+  "font": "Arial",
+  "status": "passed"
+}

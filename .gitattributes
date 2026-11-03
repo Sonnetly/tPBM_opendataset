@@ -19,3 +19,7 @@ allen_mop_visp/input/rnaseq/official_10x_download_page.html -text whitespace=-bl
 # Matplotlib SVG path commands contain generated trailing spaces.
 allen_mop_visp/figures/**/*.svg -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.zip -text
+# Preserve public GEO/GO/KEGG snapshots and their checksummed source bytes.
+ora_analysis/input/ros_geo/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+# Matplotlib SVGs preserve generated path-command whitespace.
+ora_analysis/ros_scavenger/figures/*.svg -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

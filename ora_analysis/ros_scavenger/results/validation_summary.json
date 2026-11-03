@@ -1,0 +1,53 @@
+{
+  "branch": "ROS_scavenger",
+  "gene_set_count": 10,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "pydeseq2": "0.5.4",
+    "openpyxl": "3.1.5",
+    "libarchive-c": "5.3"
+  },
+  "broad_ROS_DEG": {
+    "GSE245658": 23,
+    "GSE325653": 46
+  },
+  "same_direction": 1,
+  "opposite_direction": 2,
+  "significant_new_ORA": 0,
+  "significant_GSEA_BH": 6,
+  "significant_sample_permutation_BH": 0,
+  "input_sha256": {
+    "ora_analysis/input/ros_geo/quickgo_hydrogen_peroxide_catabolism_term.json": "90f1d0cc1f526af20bb9010abf2409df318e584de07d814da4b1c3f42d9323fb",
+    "ora_analysis/input/ros_geo/quickgo_superoxide_removal.tsv": "fc54a0f61be5f6724b480bb205cfe76f43dd19e1d036ec60d439ff9b2ce494be",
+    "ora_analysis/input/ros_geo/quickgo_ros_metabolism_regulation.tsv": "97fe52c985412353bb237c76a7bf652284ea0026484eaa3f5087578f56e1ee80",
+    "ora_analysis/input/ros_geo/GSE325653_samples.txt": "6f2dddfc7944e2c1b6da46c539c19eae20cd9622d779822030c7afb58f02f994",
+    "ora_analysis/input/ros_geo/quickgo_glutathione_metabolism.tsv": "da00c2cc2a0c2d2353a8238d3b80200b652d8355358ccd33c95c7499cb266838",
+    "ora_analysis/input/ros_geo/kegg_glutathione_mouse.tsv": "7b6ebdd8585eb59b50e1424c00278e74fc12fc8cea3d5cbaa8a1374bae9a56b8",
+    "ora_analysis/input/ros_geo/quickgo_hydrogen_peroxide_catabolism.tsv": "2f071a5a9311e4b8638b0ea22a1d253af802381fde334fc1207c8bbb2d4b50cd",
+    "ora_analysis/input/ros_geo/quickgo_nadph_regeneration_term.json": "23524491f9aaec26a81e229e94f1a9a497713153fcd65b9136e4af5be07b4e06",
+    "ora_analysis/input/ros_geo/quickgo_antioxidant_activity_term.json": "d01f9a98093b7b6865a5b281f57f9e187f74fff69db5910d2c032b99845772bb",
+    "ora_analysis/input/ros_geo/quickgo_ros_metabolism_regulation_term.json": "f5b618484b4b0bbd944319183133db211ee14c6c7d4b28524ba9cabc7a8a6943",
+    "ora_analysis/input/ros_geo/quickgo_antioxidant_activity.tsv": "c8e44a78fae6bc72aec5a9cd92f507d9f2aaa79f211e178d483c6841800eb1a2",
+    "ora_analysis/input/ros_geo/quickgo_superoxide_removal_term.json": "3abc0fc193d4ff8f58221889fa56a0ecfea041115d85bc93fb0e64c3636d523f",
+    "ora_analysis/input/ros_geo/kegg_mouse_gene_names.tsv": "5faab57edd581f4585a5c06e31f64bebbff52391e9c5cf080f4dfabb3af07ee3",
+    "ora_analysis/input/ros_geo/quickgo_ros_metabolism_term.json": "741a42bf67011669d9c827bc978af0ed382876587f2caa4e33aebdbed41adadb",
+    "ora_analysis/input/ros_geo/quickgo_ros_biosynthesis.tsv": "d627e1c18c568f4ace3ec23df44de6f1dfbee4d81671d84b93db1401379e1dfa",
+    "ora_analysis/input/ros_geo/GSE245658_all.genes.expression.annot.LT.txt.gz": "b7d44f5226e9f1aecbe6174f767f2271b85f8e0c45ccc829c58e0d911aaa27bf",
+    "ora_analysis/input/ros_geo/source_manifest.json": "076fa192b9692209bcc2f17848afeef1aa421dde9b10703841e5706bf1b522dc",
+    "ora_analysis/input/ros_geo/GSE325653_raw_counts.xlsx": "8f573c38e361b50bf1fb84e69726a96f3ce2953bede5a57840bd5446db02ccfd",
+    "ora_analysis/input/ros_geo/quickgo_glutathione_metabolism_term.json": "820f23dbfea92bdd9dcfbdbc82fac4b8b1c771c46bd63353fbc44b0efdb1d96d",
+    "ora_analysis/input/ros_geo/quickgo_nadph_regeneration.tsv": "0428b765e90d483abc890c6bb4fea2a4f7487aa1dc75e9216f783776311ea444",
+    "ora_analysis/input/ros_geo/quickgo_oxidative_stress_response.tsv": "71e21a276012b6e81ea2953e23aaee3966911aea2248772a99f8c82ab1bb3976",
+    "ora_analysis/input/ros_geo/GSE245658_samples.txt": "221da9942faf8fd7b111f77d0e928a1805081b2600039c2d4c03c8218ced02af",
+    "ora_analysis/input/ros_geo/GSE325653_series.txt": "b00719308a82a0e4b6aa389dcef60fd83f8c57b2fba235fe44be6de1046be40c",
+    "ora_analysis/input/ros_geo/quickgo_oxidative_stress_response_term.json": "66062f6b4cc55a2ada06d820682d912674b6880974f003a2b3ea7552aef3e5ab",
+    "ora_analysis/input/ros_geo/quickgo_ros_metabolism.tsv": "50a5e6bc1758569bac96067ee0188020062671d35a068599278a4a3c582ef7df",
+    "ora_analysis/input/ros_geo/quickgo_ros_biosynthesis_term.json": "f825e54de220628686154afb1bb9dd0a26ba1ea61eecbd172f6ec8cd19c42397",
+    "ora_analysis/input/ros_geo/GSE245658_series.txt": "75524f561e3f89b2600ea7c6e6bf2df95bba3148a117062fefab878b9e3ef22d",
+    "ora_analysis/input/DEG_FDR05_GSE245658_GSE325653.csv": "919719f2ee940ed5f236f684a24eed688598600cd196921baaf24b53cc325759",
+    "ora_analysis/input/ORA_fullcatalog_KEGG_GO.csv": "31d894d4869e370312c78109349b740718b67a9ec65c6f413846d90742efb184"
+  }
+}

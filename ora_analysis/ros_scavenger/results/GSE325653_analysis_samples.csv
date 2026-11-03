@@ -1,0 +1,11 @@
+sample,condition
+FPKM_Hypoxia01,control
+FPKM_Hypoxia02,control
+FPKM_Hypoxia03,control
+FPKM_Hypoxia04,control
+FPKM_Hypoxia05,control
+FPKM_Laser01,PBM
+FPKM_Laser02,PBM
+FPKM_Laser03,PBM
+FPKM_Laser04,PBM
+FPKM_Laser05,PBM

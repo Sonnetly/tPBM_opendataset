@@ -1,5 +1,7 @@
 # tPBM_opendataset
 
+**ROS scavenger 분석:** [한국어 보고서](ora_analysis/ros_scavenger/ROS_scavenger_report_ko.md), [Excel](ora_analysis/ros_scavenger/results/ROS_scavenger_analysis.xlsx), [Arial 그림·재실행 안내](ora_analysis/ros_scavenger/README.md). 기존 DEG 기준 ROS 관련 해마 23개·전전두피질 46개이며 공통 방향은 산화스트레스 반응 관련 Penk down이다. 원 GEO 전체 통계 보완 및 탐색적 GSEA와 표본 단위 검정을 별도로 제공한다. 공통 scavenger DEG나 확증된 경로 변화로 해석하지 않는다.
+
 [ORA 분석 보고서](ORA_analysis_report_ko.md)와 [전체 분석 파일·재실행 방법](ora_analysis/README.md)을 함께 보관한다. 코드, 기능 매핑, 원본 입력, CSV/Excel 결과는 `ora_analysis/`에 있다.
 
 **최신 DEG FDR·log2FC 반영 결과:** [cortex qPCR 후보 재평가](ora_analysis/deg_validation/DEG_aware_qPCR_report_ko.md). 기존 ORA에서 복원한 공통 51개에 원본 DEG의 Tmem40 공통 down이 추가되어, 제공된 두 PBM 비교의 같은 방향 overlap은 52개다.

@@ -1,0 +1,9 @@
+{
+  "family": "Arial",
+  "actual_font": "Arial.TTF",
+  "sha256": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+  "source_url": "https://downloads.sourceforge.net/corefonts/arial32.exe",
+  "PDF": "Embedded TrueType Arial",
+  "SVG": "Arial glyphs converted to paths to preserve appearance",
+  "PNG": "Rendered using Arial"
+}

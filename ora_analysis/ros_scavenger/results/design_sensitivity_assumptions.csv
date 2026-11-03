@@ -1,0 +1,5 @@
+n_per_group,alpha,d_for_80pct_power,assumed_test,note
+4,0.05,2.3807542132712,Two-sided equal-variance normal two-sample t-test on a single pathway score,"Design sensitivity only; not achieved power, not exact permutation power, not a gene-count effect"
+4,0.0025,4.397196323815653,Two-sided equal-variance normal two-sample t-test on a single pathway score,"Design sensitivity only; not achieved power, not exact permutation power, not a gene-count effect"
+5,0.05,2.0244393393845423,Two-sided equal-variance normal two-sample t-test on a single pathway score,"Design sensitivity only; not achieved power, not exact permutation power, not a gene-count effect"
+5,0.0025,3.430353168835522,Two-sided equal-variance normal two-sample t-test on a single pathway score,"Design sensitivity only; not achieved power, not exact permutation power, not a gene-count effect"

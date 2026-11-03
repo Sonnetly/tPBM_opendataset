@@ -1,0 +1,712 @@
+gene_symbol,ros_metabolism,antioxidant_activity,oxidative_stress_response,glutathione_metabolism,ros_biosynthesis,hydrogen_peroxide_catabolism,superoxide_removal,ros_metabolism_regulation,nadph_regeneration,kegg_glutathione,canonical_scavenger_enzyme,set_memberships,display_group
+1600014C10Rik,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aaas,False,False,True,True,False,False,False,False,False,False,False,oxidative_stress_response;glutathione_metabolism,Glutathione / NADPH support
+Abcb7,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Abcc1,True,False,True,True,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;glutathione_metabolism;ros_biosynthesis,ROS biosynthesis
+Abcc2,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Abcc9,True,False,True,False,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;ros_biosynthesis,ROS biosynthesis
+Abcd1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Abcd2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Abcg2,True,False,True,False,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;ros_biosynthesis,ROS biosynthesis
+Abl1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Abl2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Acacb,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Aco1,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Acod1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Acox1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Acp5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Adam9,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Adcy10,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Adgrb1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Adprs,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Agap3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ager,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Agt,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Agtr1a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ahr,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Aif1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aifm1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Akt1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Alad,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aldh1a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aldh1l1,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Aldh1l2,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Aldh2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Aldh3a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aldh3b1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Alox12,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Alox5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Alox5ap,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Als2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ambp,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Ankzf1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Anpep,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Anxa1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Aox3,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Apex1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Apoa4,True,True,True,False,False,True,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;superoxide_removal,Other antioxidant / removal
+Apod,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Apoe,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Apom,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+App,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Aqp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Areg,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Arf4,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Arg2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Arl6ip5,False,False,True,True,False,False,False,False,False,False,False,oxidative_stress_response;glutathione_metabolism,Glutathione / NADPH support
+Arnt,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ate1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atf2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atf4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atg5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Atg7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atm,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atox1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Atp13a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atp2a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Atp5if1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Atp7a,True,False,True,False,False,False,True,True,False,False,False,ros_metabolism;oxidative_stress_response;superoxide_removal;ros_metabolism_regulation,Other antioxidant / removal
+Atrn,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Axl,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Bak1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Banf1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Bcl2,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Bco2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Bcr,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Becn1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Birc2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Birc3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Bloc1s6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Blvra,True,False,True,False,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;ros_biosynthesis,ROS biosynthesis
+Blvrb,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Bmal1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Bmp4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Bnip3,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Brca1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Brf2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Btg1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Btk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ca3,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Camk2g,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Capn1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Capn2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Casp3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Casp6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cat,True,True,True,False,False,True,False,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Canonical scavenger enzyme
+Cbr1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cbr1b,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cbs,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Cbx8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ccn1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Ccn2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Ccn6,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ccs,True,True,True,False,False,False,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Cd177,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cd2ap,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cd36,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Cd38,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cdk1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cdkn1a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cdkn2a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cfl1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cflar,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Chac1,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Chac2,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Chchd2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Chchd4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Chek2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Chrna4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Chuk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Clcn3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cldn17,True,False,True,False,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;ros_biosynthesis,ROS biosynthesis
+Clec7a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Clic1,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Cndp2,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Coa8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Col1a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Col6a1,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Comt,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Coq7,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Coxfa4l2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cp,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Cpe,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Crk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Crp,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cryaa,False,False,True,True,False,False,False,False,False,False,False,oxidative_stress_response;glutathione_metabolism,Glutathione / NADPH support
+Cryab,False,False,True,True,False,False,False,True,False,False,False,oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation,Glutathione / NADPH support
+Crygd,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cryge,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Crygf,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cst3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cth,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Ctns,False,False,False,True,False,False,False,True,False,False,False,glutathione_metabolism;ros_metabolism_regulation,Glutathione / NADPH support
+Cuedc2,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Cul1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cul3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cxcl1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Cyb5r4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Cyba,True,False,False,False,True,False,False,True,False,False,False,ros_metabolism;ros_biosynthesis;ros_metabolism_regulation,ROS biosynthesis
+Cybb,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Cycs,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Cyct,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Cygb,True,True,True,False,False,False,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Cyp11a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Cyp1a1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Cyp1a2,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Cyp1b1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Cysltr1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Dapk1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Dcaf11,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Dcxr,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ddias,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ddit4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Dgkk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Dhfr,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Dhrs2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Dmd,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Dpep1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Dram1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Drd5,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Duox1,True,False,True,False,True,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;ros_biosynthesis,ROS biosynthesis
+Duox2,True,True,True,False,True,False,False,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;ros_biosynthesis,Other antioxidant / removal
+Duoxa1,True,False,False,False,True,False,False,True,False,False,False,ros_metabolism;ros_biosynthesis;ros_metabolism_regulation,ROS biosynthesis
+Duoxa2,True,False,False,False,True,False,False,True,False,False,False,ros_metabolism;ros_biosynthesis;ros_metabolism_regulation,ROS biosynthesis
+Dusp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ect2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Edn1,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Ednra,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Eef2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Egfr,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Eif2ak3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Eif2s1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Eif5a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Eif6,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Elavl1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Endog,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Epas1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Epx,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Ercc1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ercc2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ercc3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ercc6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ercc6l2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ercc8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ermp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ern1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ero1a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Esr2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Esyt2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Esyt3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Etfdh,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ethe1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Etv5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ezh2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+F2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+F2rl1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Fabp1,False,True,True,True,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response;glutathione_metabolism,Other antioxidant / removal
+Fancc,True,False,True,False,False,False,True,False,False,False,False,ros_metabolism;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Fancd2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fas,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Fbln5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Fbn1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fbxo31,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fchsd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fer,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fgf8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fmo1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Fndc4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fos,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Foxm1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Foxo1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Foxo3,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Foxo4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Foxp3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fpr2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Fxn,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Fyn,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+G6pd2,False,False,True,True,False,False,False,True,True,True,False,oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation;nadph_regeneration;kegg_glutathione,Glutathione / NADPH support
+G6pdx,False,False,True,True,False,False,False,True,True,True,False,oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation;nadph_regeneration;kegg_glutathione,Glutathione / NADPH support
+Gab1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Gadd45a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Gbf1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Gch1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Gclc,False,False,True,True,False,False,False,False,False,True,False,oxidative_stress_response;glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gclm,False,False,True,True,False,False,False,False,False,True,False,oxidative_stress_response;glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Ggct,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Ggt1,False,False,True,True,False,False,False,False,False,True,False,oxidative_stress_response;glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Ggt5,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Ggt6,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Ggt7,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gja3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Glo1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Glrx2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Gls2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Gm20441,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Gnai2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Gnai3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Gpr37,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Gpr37l1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Gpx1,True,True,True,True,False,True,False,False,False,True,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;glutathione_metabolism;hydrogen_peroxide_catabolism;kegg_glutathione,Canonical scavenger enzyme
+Gpx2,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Gpx3,True,True,True,False,False,True,False,False,False,True,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;kegg_glutathione,Canonical scavenger enzyme
+Gpx4,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Gpx5,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Gpx6,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Gpx7,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Gpx8,False,True,True,False,False,False,False,False,False,True,True,antioxidant_activity;oxidative_stress_response;kegg_glutathione,Canonical scavenger enzyme
+Grb2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Grin1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Grk2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Gsr,False,True,True,True,False,False,False,False,False,True,False,antioxidant_activity;oxidative_stress_response;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gss,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gsta1,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gsta13,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Gsta2,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gsta3,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gsta4,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gsta5,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstk1,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstm1,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm2,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm3,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm4,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm5,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm6,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstm7,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gsto1,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gsto2,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstp-ps,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Gstp1,False,True,True,True,False,False,False,True,False,True,False,antioxidant_activity;oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation;kegg_glutathione,Other antioxidant / removal
+Gstp2,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstp3,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstt1,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstt2,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Gstt3,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstt4,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Gstz1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+H6pd,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Hagh,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Hao1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hba,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Hbb-b1,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Hbb-b2,False,True,False,True,False,False,False,False,False,False,False,antioxidant_activity;glutathione_metabolism,Other antioxidant / removal
+Hbb-bh2,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Hbp1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Hdac1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hdac2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hdac4,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Hdac6,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Hif1a,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Hk2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Hmgn5,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Hmox1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hmox2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hnf1a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hpgds,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Hsf1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hsp90aa1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hspa8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hspd1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Htra2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hvcn1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Hyal1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Hyal2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ide,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Idh1,False,False,True,True,False,False,False,False,True,True,False,oxidative_stress_response;glutathione_metabolism;nadph_regeneration;kegg_glutathione,Glutathione / NADPH support
+Idh2,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Ier3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Il18,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Il18rap,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Il19,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Il22,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Il4,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Il6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Immp2l,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Inava,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Ins1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ins2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Insr,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Itch,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Itgam,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Itgb2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Itgb2l,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Jak2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Jun,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Kat2b,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Kcmf1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Kcna5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Kdm6b,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Keap1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Klf2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Klf4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Kpna4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Lancl1,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Lap3,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Lck,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Lcn2,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Ldc1,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Lep,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Letmd1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Lias,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Lig1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Lipa,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Lonp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Lpo,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Lrrk2,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Ltc4s,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Lypd10,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Lypd11,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Map2k1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Map2k4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Map3k5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Map3k7,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Mapk13,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mapk14,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Mapk7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mapk8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mapk9,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mapt,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Mb,True,True,True,False,False,False,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Mdm2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Meak7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Met,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Mfn2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Mfsd8,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Mgat3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mgst1,False,True,True,True,False,False,False,False,False,True,False,antioxidant_activity;oxidative_stress_response;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Mgst2,False,True,False,True,False,False,False,False,False,True,False,antioxidant_activity;glutathione_metabolism;kegg_glutathione,Other antioxidant / removal
+Mgst3,False,True,False,False,False,False,False,False,False,True,False,antioxidant_activity;kegg_glutathione,Other antioxidant / removal
+Mims2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Mmachc,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Mmp14,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mmp2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mmp3,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Mmp9,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mpo,True,True,True,False,False,True,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;superoxide_removal,Other antioxidant / removal
+Mpv17,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Mpv17l,True,False,False,False,False,False,False,True,False,False,False,ros_metabolism;ros_metabolism_regulation,Other ROS metabolism
+Msra,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Msrb1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Msrb2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Msrb3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mt3,True,False,True,False,False,False,True,True,False,False,False,ros_metabolism;oxidative_stress_response;superoxide_removal;ros_metabolism_regulation,Other antioxidant / removal
+Mtco1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mtf1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mtnd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mtnd6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mutyh,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Myb,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Mycn,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Naglu,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Naprt,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nat8,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Nat8f1,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Nat8f2,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Nat8f3,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Nat8f5,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Nat8f6,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Nat8f7,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Ncf1,True,False,False,False,True,False,False,False,False,False,False,ros_metabolism;ros_biosynthesis,ROS biosynthesis
+Ncf2,True,False,False,False,False,False,False,True,False,False,False,ros_metabolism;ros_metabolism_regulation,Other ROS metabolism
+Ncf4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Ncoa7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ndp,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Ndufc2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ndufs3,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Ndufs4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Ndufs6,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Neil1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Net1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nfe2l1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Nfe2l2,True,False,True,False,False,False,False,True,False,False,False,ros_metabolism;oxidative_stress_response;ros_metabolism_regulation,Other ROS metabolism
+Nfkb1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ngb,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ngfr,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Nit1,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Nme5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nme8,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nnt,True,False,False,False,False,False,False,True,True,False,False,ros_metabolism;ros_metabolism_regulation;nadph_regeneration,Glutathione / NADPH support
+Nos2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Nos3,True,False,True,False,False,False,True,False,False,False,False,ros_metabolism;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Nox1,True,False,True,True,False,False,False,True,False,False,False,ros_metabolism;oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation,Glutathione / NADPH support
+Nox3,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Nox4,True,False,False,False,False,False,False,True,False,False,False,ros_metabolism;ros_metabolism_regulation,Other ROS metabolism
+Noxa1,True,False,False,False,False,False,False,True,False,False,False,ros_metabolism;ros_metabolism_regulation,Other ROS metabolism
+Noxo1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Nppa,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nqo1,True,True,True,False,False,False,True,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal,Other antioxidant / removal
+Nqo2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Nr4a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nr4a3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nrros,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Nudt15,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Nxn,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Nxnl1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Odc1,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Ogg1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ogt,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Oplah,False,False,False,True,False,False,False,False,False,True,False,glutathione_metabolism;kegg_glutathione,Glutathione / NADPH support
+Oser1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Oxr1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Oxsr1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+P2rx7,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Pam,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Park7,True,True,True,False,False,False,True,True,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal;ros_metabolism_regulation,Other antioxidant / removal
+Parl,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Parp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pax2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Pcgf2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pcna,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pdcd10,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pdgfb,True,False,False,False,False,False,False,True,False,False,False,ros_metabolism;ros_metabolism_regulation,Other ROS metabolism
+Pdgfd,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pdgfra,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pdgfrb,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Pdk2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pdk3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Pdk4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Penk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex10,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex12,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex13,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex14,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pex5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pgd,False,False,False,False,False,False,False,False,True,True,False,nadph_regeneration;kegg_glutathione,Glutathione / NADPH support
+Pgls,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Pid1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Pikfyve,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Pink1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Pjvk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pla2r1,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Plau,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Plcg2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Pld2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Plekha1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Plin5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Plk3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pmaip1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Pml,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pnkp,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pnpt1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pon3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ppara,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ppargc1a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppef2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppia,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppif,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppp1r15b,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppp2cb,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ppp5c,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prcp,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Prdx1,True,True,True,False,False,True,True,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;superoxide_removal,Canonical scavenger enzyme
+Prdx2,True,True,True,False,False,True,True,True,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;superoxide_removal;ros_metabolism_regulation,Canonical scavenger enzyme
+Prdx3,True,True,True,False,False,True,False,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Canonical scavenger enzyme
+Prdx4,True,True,True,False,False,True,False,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Canonical scavenger enzyme
+Prdx5,True,True,True,False,False,True,False,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Canonical scavenger enzyme
+Prdx6,True,True,True,False,False,True,False,False,False,True,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;kegg_glutathione,Canonical scavenger enzyme
+Prdx6b,True,True,True,False,False,True,False,False,False,True,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism;kegg_glutathione,Other antioxidant / removal
+Prex1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Prg3,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Prkaa1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prkaa2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prkca,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prkcd,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Prkd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prkn,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Prkra,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prnp,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prps1,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Prps1l3,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Prps2,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Prr5l,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Prxl2a,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Psap,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psen1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psip1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psma7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Psmb7,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ptges,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Ptgr1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ptgs1,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Ptgs2,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Ptk2b,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Ptprk,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ptprn,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pxdn,True,True,True,False,False,True,False,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Other antioxidant / removal
+Pycr1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pycr2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Pyroxd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Q8R436,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Q8WUR0,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rab27a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Rac1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Rac2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Rad52,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rbfox2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rbks,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Rbm11,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rbpms,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rbx1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rcan1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rcan2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rela,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rfk,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Rgs14,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rhoa,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Rhob,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ripk1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Ripk3,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Rlig1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rnf112,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rnf146,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rnf41,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Romo1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Rpe,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Rpia,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Rps3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Rrm1,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Rrm2,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Rrm2b,False,False,True,False,False,False,False,False,False,True,False,oxidative_stress_response;kegg_glutathione,Glutathione / NADPH support
+Scgb1a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Selenok,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Selenon,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Selenos,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Selenot,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Sesn1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Sesn2,True,True,True,False,False,False,False,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Setx,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Sh3pxd2a,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Sh3pxd2b,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Shc1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Shpk,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Sin3a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Sirpa,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Sirt1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Sirt2,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Sirt3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Sirt5,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Sirt6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc11a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc1a1,True,False,True,True,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response;glutathione_metabolism,Glutathione / NADPH support
+Slc1a2,False,False,False,True,False,False,False,False,False,False,False,glutathione_metabolism,Glutathione / NADPH support
+Slc23a2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc25a24,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc25a33,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Slc4a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc4a11,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Slc5a3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Slc7a11,False,False,True,True,False,False,False,False,False,False,False,oxidative_stress_response;glutathione_metabolism,Glutathione / NADPH support
+Slc8a1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Smarca4,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Smpd3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Sms,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Snca,False,False,True,True,False,False,False,True,False,False,False,oxidative_stress_response;glutathione_metabolism;ros_metabolism_regulation,Glutathione / NADPH support
+Sod1,True,True,True,True,True,False,True,True,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;glutathione_metabolism;ros_biosynthesis;superoxide_removal;ros_metabolism_regulation,Canonical scavenger enzyme
+Sod2,True,True,True,True,True,False,True,True,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;glutathione_metabolism;ros_biosynthesis;superoxide_removal;ros_metabolism_regulation,Canonical scavenger enzyme
+Sod3,True,True,True,False,False,False,True,False,False,False,True,ros_metabolism;antioxidant_activity;oxidative_stress_response;superoxide_removal,Canonical scavenger enzyme
+Sp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Sphk1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Sphk2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Src,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Srm,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Srxn1,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Star,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stat3,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Stat6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stau1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stau2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stc2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stk24,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stk25,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stk26,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stx2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Stx4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Syk,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tacr1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tafa4,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Taldo1,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Tat,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tbc1d24,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tet1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tfap2a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tgfb1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tgfbr2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Thbs1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Thg1l,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tigar,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tkt,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Tktl2,False,False,False,False,False,False,False,False,True,False,False,nadph_regeneration,Glutathione / NADPH support
+Tldc2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tlr4,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Tlr6,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tmem161a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tmigd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tnf,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tnfaip3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Top2b,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tor1a,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tp53,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Tpm1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tpo,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Trex1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Trim25,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Trim30a,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Trim32,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Trp53,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Trp53inp1,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Trpa1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Trpc6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Trpm2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Tspo,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Tusc2,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Txn,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Txndc12,False,False,False,False,False,False,False,False,False,True,False,kegg_glutathione,Glutathione / NADPH support
+Txndc17,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Txndc2,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Txnip,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Txnrd1,True,True,True,False,False,True,False,False,False,False,False,ros_metabolism;antioxidant_activity;oxidative_stress_response;hydrogen_peroxide_catabolism,Other antioxidant / removal
+Txnrd2,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Txnrd3,False,True,True,True,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response;glutathione_metabolism,Other antioxidant / removal
+Tyrobp,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Ubiad1,False,True,False,False,False,False,False,False,False,False,False,antioxidant_activity,Other antioxidant / removal
+Ubr4,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ubr5,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ucn,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Ucp1,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Ucp2,True,False,True,False,False,False,False,False,False,False,False,ros_metabolism;oxidative_stress_response,Other ROS metabolism
+Ucp3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Upk3bl,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Upk3bl1,False,True,True,False,False,False,False,False,False,False,False,antioxidant_activity;oxidative_stress_response,Other antioxidant / removal
+Usp25,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Vav1,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+Vdac1,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Vkorc1l1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Vrk2,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Wnt16,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Wrn,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Xbp1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Xpa,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Xrcc1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Zc3h12a,False,False,True,False,False,False,False,True,False,False,False,oxidative_stress_response;ros_metabolism_regulation,ROS regulation
+Zfp13,False,False,False,False,False,False,False,True,False,False,False,ros_metabolism_regulation,ROS regulation
+Zfp580,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Znf277,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+Znf580,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+mt-Co1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+mt-Nd1,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+mt-Nd2,True,False,False,False,False,False,False,False,False,False,False,ros_metabolism,Other ROS metabolism
+mt-Nd3,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response
+mt-Nd6,False,False,True,False,False,False,False,False,False,False,False,oxidative_stress_response,Oxidative stress response

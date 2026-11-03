@@ -1,0 +1,23 @@
+{
+  "hippocampus": {
+    "original_rows": 22337,
+    "prefilter_genes": 14615,
+    "control_n": 4,
+    "PBM_n": 4,
+    "design": "~condition; PBM vs control; WT excluded",
+    "prefilter": "rounded estimated count >=10 in >=4 of 8 samples",
+    "independent_filtering": true,
+    "fractional_count_fraction": 0.1267347898106281,
+    "count_handling": "Nearest-integer rounding (numpy/pandas half-to-even); no length offsets available; exploratory refit",
+    "note": "New PyDESeq2 fit, not the supplied FDR05 table; do not substitute in tasks 1/2"
+  },
+  "cortex": {
+    "original_rows": 15914,
+    "control_n": 5,
+    "PBM_n": 5,
+    "source": "Deposited full DESeq2 statistics; log2(Laser/Hypoxia)",
+    "expression_type": "FPKM, despite raw_counts.xlsx filename",
+    "fractional_FPKM_fraction": 0.9918750785471911,
+    "raw_counts_available_in_this_file": false
+  }
+}

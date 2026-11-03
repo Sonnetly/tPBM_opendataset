@@ -1,0 +1,34 @@
+[
+  {
+    "file": "fig01_hippocampus_ROS_DEG.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig02_cortex_ROS_DEG.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig03_shared_ROS_DEG.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig04_antioxidant_DEG.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig05_GEO_scavenger_panel.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig06_ROS_GSEA.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig07_existing_ORA_FDR.pdf",
+    "Arial_embedded": true
+  },
+  {
+    "file": "fig08_sample_level_pathway_scores.pdf",
+    "Arial_embedded": true
+  }
+]

@@ -1,0 +1,11 @@
+set_name,label,root_id,mouse_symbols
+ros_metabolism,ROS metabolism,GO:0072593,108
+antioxidant_activity,Antioxidant activity,GO:0016209,78
+oxidative_stress_response,Oxidative stress response,GO:0006979,436
+glutathione_metabolism,Glutathione metabolism (GO),GO:0006749,73
+ros_biosynthesis,ROS biosynthesis,GO:1903409,25
+hydrogen_peroxide_catabolism,Hydrogen peroxide removal,GO:0042744,14
+superoxide_removal,Superoxide removal,GO:0019430,16
+ros_metabolism_regulation,ROS metabolism regulation,GO:2000377,168
+nadph_regeneration,NADPH regeneration,GO:0006740,21
+kegg_glutathione,Glutathione metabolism (KEGG),mmu00480,73

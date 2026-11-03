@@ -1,0 +1,210 @@
+[
+  {
+    "file": "GSE245658_series.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245658&targ=self&form=text&view=full",
+    "retrieved_utc": "2026-11-02T03:45:53.453390+00:00",
+    "bytes": 4049,
+    "sha256": "75524f561e3f89b2600ea7c6e6bf2df95bba3148a117062fefab878b9e3ef22d",
+    "status": "ok"
+  },
+  {
+    "file": "GSE245658_samples.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245658&targ=gsm&form=text&view=full",
+    "retrieved_utc": "2026-11-02T03:45:53.453601+00:00",
+    "bytes": 77040,
+    "sha256": "221da9942faf8fd7b111f77d0e928a1805081b2600039c2d4c03c8218ced02af",
+    "status": "ok"
+  },
+  {
+    "file": "GSE325653_series.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325653&targ=self&form=text&view=full",
+    "retrieved_utc": "2026-11-02T03:45:53.453812+00:00",
+    "bytes": 2588,
+    "sha256": "b00719308a82a0e4b6aa389dcef60fd83f8c57b2fba235fe44be6de1046be40c",
+    "status": "ok"
+  },
+  {
+    "file": "GSE325653_samples.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325653&targ=gsm&form=text&view=full",
+    "retrieved_utc": "2026-11-02T03:45:53.453965+00:00",
+    "bytes": 23985,
+    "sha256": "6f2dddfc7944e2c1b6da46c539c19eae20cd9622d779822030c7afb58f02f994",
+    "status": "ok"
+  },
+  {
+    "file": "GSE245658_all.genes.expression.annot.LT.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245658/suppl/GSE245658_all.genes.expression.annot.LT.txt.gz",
+    "retrieved_utc": "2026-11-02T03:45:53.454198+00:00",
+    "bytes": 3322332,
+    "sha256": "b7d44f5226e9f1aecbe6174f767f2271b85f8e0c45ccc829c58e0d911aaa27bf",
+    "status": "ok"
+  },
+  {
+    "file": "GSE325653_raw_counts.xlsx",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325653/suppl/GSE325653_raw_counts.xlsx",
+    "retrieved_utc": "2026-11-02T03:45:53.454528+00:00",
+    "bytes": 7852565,
+    "sha256": "8f573c38e361b50bf1fb84e69726a96f3ce2953bede5a57840bd5446db02ccfd",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_metabolism.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0072593&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.454614+00:00",
+    "bytes": 62622,
+    "sha256": "50a5e6bc1758569bac96067ee0188020062671d35a068599278a4a3c582ef7df",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_metabolism_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0072593",
+    "retrieved_utc": "2026-11-02T03:45:53.454694+00:00",
+    "bytes": 923,
+    "sha256": "741a42bf67011669d9c827bc978af0ed382876587f2caa4e33aebdbed41adadb",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_antioxidant_activity.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0016209&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.454743+00:00",
+    "bytes": 74825,
+    "sha256": "c8e44a78fae6bc72aec5a9cd92f507d9f2aaa79f211e178d483c6841800eb1a2",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_antioxidant_activity_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0016209",
+    "retrieved_utc": "2026-11-02T03:45:53.454907+00:00",
+    "bytes": 862,
+    "sha256": "d01f9a98093b7b6865a5b281f57f9e187f74fff69db5910d2c032b99845772bb",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_oxidative_stress_response.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0006979&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.454975+00:00",
+    "bytes": 171198,
+    "sha256": "71e21a276012b6e81ea2953e23aaee3966911aea2248772a99f8c82ab1bb3976",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_oxidative_stress_response_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0006979",
+    "retrieved_utc": "2026-11-02T03:45:53.455266+00:00",
+    "bytes": 987,
+    "sha256": "66062f6b4cc55a2ada06d820682d912674b6880974f003a2b3ea7552aef3e5ab",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_glutathione_metabolism.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0006749&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455333+00:00",
+    "bytes": 40530,
+    "sha256": "da00c2cc2a0c2d2353a8238d3b80200b652d8355358ccd33c95c7499cb266838",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_glutathione_metabolism_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0006749",
+    "retrieved_utc": "2026-11-02T03:45:53.455428+00:00",
+    "bytes": 871,
+    "sha256": "820f23dbfea92bdd9dcfbdbc82fac4b8b1c771c46bd63353fbc44b0efdb1d96d",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_biosynthesis.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A1903409&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455474+00:00",
+    "bytes": 6886,
+    "sha256": "d627e1c18c568f4ace3ec23df44de6f1dfbee4d81671d84b93db1401379e1dfa",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_biosynthesis_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:1903409",
+    "retrieved_utc": "2026-11-02T03:45:53.455525+00:00",
+    "bytes": 1077,
+    "sha256": "f825e54de220628686154afb1bb9dd0a26ba1ea61eecbd172f6ec8cd19c42397",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_hydrogen_peroxide_catabolism.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0042744&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455565+00:00",
+    "bytes": 8051,
+    "sha256": "2f071a5a9311e4b8638b0ea22a1d253af802381fde334fc1207c8bbb2d4b50cd",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_hydrogen_peroxide_catabolism_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0042744",
+    "retrieved_utc": "2026-11-02T03:45:53.455609+00:00",
+    "bytes": 1050,
+    "sha256": "90f1d0cc1f526af20bb9010abf2409df318e584de07d814da4b1c3f42d9323fb",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_superoxide_removal.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0019430&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455648+00:00",
+    "bytes": 17780,
+    "sha256": "fc54a0f61be5f6724b480bb205cfe76f43dd19e1d036ec60d439ff9b2ce494be",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_superoxide_removal_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0019430",
+    "retrieved_utc": "2026-11-02T03:45:53.455698+00:00",
+    "bytes": 773,
+    "sha256": "3abc0fc193d4ff8f58221889fa56a0ecfea041115d85bc93fb0e64c3636d523f",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_metabolism_regulation.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A2000377&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455746+00:00",
+    "bytes": 43659,
+    "sha256": "97fe52c985412353bb237c76a7bf652284ea0026484eaa3f5087578f56e1ee80",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_ros_metabolism_regulation_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:2000377",
+    "retrieved_utc": "2026-11-02T03:45:53.455813+00:00",
+    "bytes": 683,
+    "sha256": "f5b618484b4b0bbd944319183133db211ee14c6c7d4b28524ba9cabc7a8a6943",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_nadph_regeneration.tsv",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch?taxonId=10090&taxonUsage=exact&goId=GO%3A0006740&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&geneProductType=protein",
+    "retrieved_utc": "2026-11-02T03:45:53.455855+00:00",
+    "bytes": 16943,
+    "sha256": "0428b765e90d483abc890c6bb4fea2a4f7487aa1dc75e9216f783776311ea444",
+    "status": "ok"
+  },
+  {
+    "file": "quickgo_nadph_regeneration_term.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0006740",
+    "retrieved_utc": "2026-11-02T03:45:53.460930+00:00",
+    "bytes": 1160,
+    "sha256": "23524491f9aaec26a81e229e94f1a9a497713153fcd65b9136e4af5be07b4e06",
+    "status": "ok"
+  },
+  {
+    "file": "kegg_glutathione_mouse.tsv",
+    "url": "https://rest.kegg.jp/link/mmu/mmu00480",
+    "retrieved_utc": "2026-11-02T03:45:53.461031+00:00",
+    "bytes": 1783,
+    "sha256": "7b6ebdd8585eb59b50e1424c00278e74fc12fc8cea3d5cbaa8a1374bae9a56b8",
+    "status": "ok"
+  },
+  {
+    "file": "kegg_mouse_gene_names.tsv",
+    "url": "https://rest.kegg.jp/list/mmu",
+    "retrieved_utc": "2026-11-02T03:45:53.469764+00:00",
+    "bytes": 2848898,
+    "sha256": "5faab57edd581f4585a5c06e31f64bebbff52391e9c5cf080f4dfabb3af07ee3",
+    "status": "ok"
+  }
+]
