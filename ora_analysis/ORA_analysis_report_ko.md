@@ -1,5 +1,7 @@
 # ORA 전체 catalog 기반 유전자 방향 일치 분석
 
+> 데이터셋별 전체 KEGG GSEA·ORA와 ROS 경로 비교는 [후속 분석](pathway_overview/Dataset_pathway_report_ko.md)에 있다. 기존 ROS 한정 검정과 전체 KEGG를 포함한 검정의 FDR를 구분한다. Antioxidant activity는 해마에서 감소 방향 FDR 0.0204, 전전두피질에서는 감소 방향 FDR 0.0790이며, glutathione metabolism은 두 데이터셋 모두 유의하지 않다. RNA enrichment를 항산화 기능의 실제 변화로 확정하지 않는다.
+
 > 이 보고서는 ORA hits에서 복원한 범위의 분석이다. 원본 DEG FDR·log2FC를 반영한 최신 overlap 및 qPCR 후보는 [최신 결과 안내](README.md)의 DEG 검증 보고서를 참고한다.
 
 > ROS/scavenger 후속 분석은 [별도 보고서](ros_scavenger/ROS_scavenger_report_ko.md)에 있다. 기존 DEG 기준 ROS 관련 유전자는 해마 23개·전전두피질 46개이며, 공통 방향은 산화스트레스 반응 관련 Penk down 1개다. 원 GEO 보완 결과와 Arial 그림을 포함한다. 기존 전역 ORA 및 새 focused ORA는 ROS 항목 FDR<0.05가 없고, 탐색적 GSEA 신호는 있으나 표본 단위 경로 score 검정은 다중검정 후 유의하지 않다.

@@ -1,0 +1,15 @@
+{
+  "dataset": "GSE245658",
+  "ranked_genes": 13784,
+  "eligible_KEGG": 327,
+  "eligible_ROS_GO": 9,
+  "GSEA_family_size": 336,
+  "GSEA_significant": 79,
+  "GSEA_KEGG_significant": 76,
+  "sample_significant": 0,
+  "ORA_family_size": 1008,
+  "ORA_significant": 31,
+  "random_seed": "20261104 + crc32(dataset:K)",
+  "null_cache": "Recomputable cache excluded from version control",
+  "interpretation": "Exploratory competitive gene-label GSEA; sample-score exact test is a different self-contained null"
+}

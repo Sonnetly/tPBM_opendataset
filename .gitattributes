@@ -23,3 +23,5 @@ allen_mop_visp/figures/**/*.svg -text whitespace=-blank-at-eol,blank-at-eof,spac
 ora_analysis/input/ros_geo/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 # Matplotlib SVGs preserve generated path-command whitespace.
 ora_analysis/ros_scavenger/figures/*.svg -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+ora_analysis/input/pathway_overview/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+ora_analysis/pathway_overview/figures/*.svg -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

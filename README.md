@@ -1,5 +1,7 @@
 # tPBM_opendataset
 
+**데이터셋별 전체 KEGG·GSEA 후속 분석:** [보고서](ora_analysis/pathway_overview/Dataset_pathway_report_ko.md), [Excel](ora_analysis/pathway_overview/results/Dataset_pathway_GSEA_KEGG.xlsx), [Arial 그림 10종](ora_analysis/pathway_overview/README.md). 해마 327개·전전두피질 338개 KEGG와 사전 정의 ROS GO 9개를 데이터셋별로 검정했다. 전체 경로 보정에서 antioxidant activity는 해마 감소 방향 FDR 0.0204, 전전두피질 감소 방향 FDR 0.0790이며, KEGG glutathione metabolism은 두 연구 모두 유의하지 않다. 기존 ROS 한정 FDR와 구분한다.
+
 **ROS scavenger 분석:** [한국어 보고서](ora_analysis/ros_scavenger/ROS_scavenger_report_ko.md), [Excel](ora_analysis/ros_scavenger/results/ROS_scavenger_analysis.xlsx), [Arial 그림·재실행 안내](ora_analysis/ros_scavenger/README.md). 기존 DEG 기준 ROS 관련 해마 23개·전전두피질 46개이며 공통 방향은 산화스트레스 반응 관련 Penk down이다. 원 GEO 전체 통계 보완 및 탐색적 GSEA와 표본 단위 검정을 별도로 제공한다. 공통 scavenger DEG나 확증된 경로 변화로 해석하지 않는다.
 
 [ORA 분석 보고서](ORA_analysis_report_ko.md)와 [전체 분석 파일·재실행 방법](ora_analysis/README.md)을 함께 보관한다. 코드, 기능 매핑, 원본 입력, CSV/Excel 결과는 `ora_analysis/`에 있다.

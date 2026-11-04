@@ -1,5 +1,7 @@
 # ROS scavenger 분석
 
+**전체 KEGG와 비교하는 데이터셋별 후속 결과:** [보고서](../pathway_overview/Dataset_pathway_report_ko.md), [그림 10종](../pathway_overview/README.md). 이 폴더의 GSEA FDR는 ROS 한정 20검정의 값이며, 새 분석의 전체 경로 FDR와 다르다.
+
 [한국어 분석 보고서](ROS_scavenger_report_ko.md) · [통합 Excel](results/ROS_scavenger_analysis.xlsx)
 
 기존 제공 DEG 표를 이용한 ROS 유전자·공통 방향 분석과 원 GEO 전체 통계를 이용한 경로 검정을 구분한다. 분석은 `ROS_scavenger`에서 수행했고, GitHub 게시 브랜치는 `ROS_scavenger_20261103`이다.

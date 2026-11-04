@@ -1,5 +1,7 @@
 # ORA 유전자 방향 비교 분석
 
+**데이터셋별 전체 KEGG·GSEA:** [새 보고서](pathway_overview/Dataset_pathway_report_ko.md), [Excel](pathway_overview/results/Dataset_pathway_GSEA_KEGG.xlsx), [Arial 그림](pathway_overview/README.md). 전체 경로에서 항산화/scavenger 기능군의 위치·NES·FDR를 비교하며 기존 ROS 한정 분석과 보정 범위를 구분한다.
+
 **ROS 생성·제거/scavenger 후속 분석:** [보고서](ros_scavenger/ROS_scavenger_report_ko.md), [Excel](ros_scavenger/results/ROS_scavenger_analysis.xlsx), [Arial 그림과 실행 안내](ros_scavenger/README.md). 기존 DEG 분석과 원 GEO 전체 통계 기반 보완 결과를 구분하며, 기존 ORA/qPCR 결과는 보존한다.
 
 **최신 결과는 [DEG FDR·log2FC 반영 보고서](deg_validation/DEG_aware_qPCR_report_ko.md)를 먼저 참고한다.** 아래 ORA-only 결과의 51개는 hits에서 복원한 범위이며, 제공된 원본 DEG 표에서는 같은 방향 overlap이 52개(up34/down18)로 확인된다. 이전 qPCR 제안에 gene-level 수치를 연결한 최신 우선 패널도 해당 보고서에 있다.

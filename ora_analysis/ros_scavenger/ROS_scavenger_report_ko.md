@@ -1,5 +1,7 @@
 # ROS 생성·제거 및 scavenger 분석
 
+> 전체 KEGG와 비교하는 데이터셋별 후속 결과는 [새 보고서](../pathway_overview/Dataset_pathway_report_ko.md)와 [그림 목록](../pathway_overview/README.md)에 있다. 이 보고서의 GSEA는 ROS 한정 20검정이며, 전체 경로 보정 결과와 구분한다. Antioxidant activity는 전체 경로 범위에서 해마 FDR 0.0204, 전전두피질 FDR 0.0790이다.
+
 분석 브랜치: `ROS_scavenger`. 모든 그림은 실제 **Arial**을 사용해 PNG·PDF·SVG로 저장했다. PDF에는 Arial을 임베딩하고 SVG는 글리프를 path로 변환했다.
 
 ## 핵심 결과
